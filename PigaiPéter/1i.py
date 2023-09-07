@@ -1,2 +1,2 @@
-ido = input('Kérlek add meg az időpontot: ')
-print(ido.split(':'))
+ido = input("Add meg az időpontot: ")
+ora, perc = ido.split(":")
