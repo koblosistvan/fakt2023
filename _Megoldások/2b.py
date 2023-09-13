@@ -5,5 +5,7 @@ b = 4
 
 if összeg == a + b:
     print('Ügyes vagy!')
+elif abs(összeg - (a+b)) < 10:
+    print('Közel vagy')
 else:
     print('Jaj, már megint nem tanultál!!!')
