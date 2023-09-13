@@ -16,7 +16,9 @@ while a < 1000000:
     a += 2
     Pí -= (1 / a)
     a += 2
-print(Pí)
+
+print(Pí, end="\n\n")
+print(f"A Pí: {Pí * 4}")
 
 
 
