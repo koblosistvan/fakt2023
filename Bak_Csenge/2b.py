@@ -10,7 +10,7 @@ while True:
     elif abs(b_összeg - (a + b) < 10):
         print("Közel.")
     else:
-        print("A k*urva *nyádat, hogy a f*ba képzelted hogy rosszul tippelj?!")
+        print("Nop")
         
 
 

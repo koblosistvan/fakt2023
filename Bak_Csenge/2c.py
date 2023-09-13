@@ -2,11 +2,11 @@ a = 5
 b = 8
 
 if a*b > 30:
-    print(f"Ez egy {a*b} m2-es nagy szoba.")
+    print(f"Ez egy {a*b} m{chr(178)}-es nagy szoba.")
 elif a*b > 10:
-    print(f"Ez egy {a*b} m2-es közepes szoba.")
+    print(f"Ez egy {a*b} m{chr(178)}-es közepes szoba.")
 else:
-    print(f"Ez egy {a*b} m2-es kicsi szoba.")
+    print(f"Ez egy {a*b} m{chr(178)}-es kicsi szoba.")
 
 cs_a = 0.2
 cs_b = 0.4
