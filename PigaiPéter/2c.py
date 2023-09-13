@@ -18,6 +18,7 @@ cs1a = a / cs1
 cs1b = b / cs1
 cs2a = a / cs2
 cs2b = b / cs2
+
 if cs1a.is_integer() == True and cs2b.is_integer() == True or cs1b.is_integer() == True and cs2a.is_integer() == True:
     print(f'{int(cs1a + cs2b)}db csempére lesz szükség')
     csveszt = (cs1a * cs2b) + (cs1a * cs2b) / 100 * 10

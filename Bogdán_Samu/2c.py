@@ -4,7 +4,7 @@ sz_y = int(input("Adja meg a szoba hosszát (m): "))
 terulet = sz_x * sz_y
 if terulet > 30:
     print(f"Ez egy {terulet} m^2-es nagy szoba.")
-elif 10 <= terulet <= 30:
+elif 10 <= terulet:
     print(f"Ez egy {terulet} m^2-es közepes szoba.")
 else:
     print(f"Ez egy {terulet} m^2-es kis szoba.")
