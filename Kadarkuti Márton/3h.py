@@ -2,10 +2,11 @@ futás = True
 motor_jár = False
 speed = 0
 
+print("\nParancsok:")
+print("  *indul\n  *leáll\n  *gyorsít\n  *lassít\n  *elég\n")
+
 while futás:
     parancs = input("> ")
-    if speed != 0:
-        print(f"Sebesség: {speed}km/h")
 
     if parancs == "indul":                  #INDUL
         if motor_jár:
@@ -13,7 +14,6 @@ while futás:
         else:
             print("A motor elindult.")
             motor_jár = True
-            print("Sebesség: 1km/h")
             speed = 1
 
     elif parancs == "leáll":
@@ -46,6 +46,7 @@ while futás:
                 print("A motor elérte a 0km/h sebességet,")
                 print("A motor leállt.")
 
+
     elif parancs == "elég":                     #ELÉG
         print("Viszlát!")
         speed = 0
@@ -54,3 +55,6 @@ while futás:
         print("")
     else:
         print("Nem értem.")
+
+    if speed != 0:
+        print(f"\nSebesség: {speed}km/h")
