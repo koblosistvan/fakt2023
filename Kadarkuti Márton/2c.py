@@ -2,7 +2,7 @@
 import math
 
 print("-A program kiszámolja egy adott téglalap alakú szoba területét négyzetméterben.-")
-a = float(input("\n▶ Add meg a szoba vízszintes hosszát (m): "))        # todo: code review
+a = float(input("\n▶ Add meg a szoba vízszintes hosszát (m): "))
 b = float(input("▶ Add meg a szoba függőleges hosszát (m): "))
 l = [a,b]
 
@@ -38,7 +38,7 @@ if terulet == int(terulet):
 
 if terulet < 10:
     subst = "kis"
-if terulet >= 10 and terulet < 30:      # todo: code review
+if terulet >= 10 and terulet < 30:
     subst = "közepes"
 if terulet >= 30:
     subst = "nagy"
