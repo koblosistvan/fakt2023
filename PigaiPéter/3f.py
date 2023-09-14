@@ -1,6 +1,7 @@
 futás = True
 motorjár = False
 sebesség = 0
+sebkorlat = 50
 
 while True:
     parancs = input('>')
@@ -22,18 +23,23 @@ while True:
     elif parancs == 'elég':
         futás = False
         print('>viszlát')
-    if parancs == 'gyorsít':
-        if sebesség > 0:
-            sebesség = sebesség + 1
+    elif parancs == 'gyorsít':
+        if sebkorlat > sebesség >= 0 and motorjár:
+            sebesség = sebesség + 10
             print(f'>A sebességed{sebesség}')
-    if parancs == 'lassít':
-        if sebesség == 0:
+        else:
+            if motorjár:
+                print('>Elérted a sebességkorlátot')
+            else:
+                print('>Nem jár a motor')
+    elif parancs == 'lassít':
+        if sebesség == 0 and motorjár:
             print('Nem tudok 0 km/h-nál kevesebbel menni')
         else:
-            sebesség = sebesség - 1
-            print(f'>A sebességed{sebesség}')
-        sebesség = sebesség-1
-
-
+            if motorjár:
+                sebesség = sebesség - 10
+                print(f'>A sebességed{sebesség}')
+            else:
+                print('>A motor nem jár')
     else:
         print('>Nem értem, adj értelmes utasítást')
