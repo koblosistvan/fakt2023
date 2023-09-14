@@ -46,6 +46,9 @@ while futás:
                 print("A motor elérte a 0km/h sebességet,")
                 print("A motor leállt.")
 
+    elif parancs == "csandor":
+        print(0/0)
+
 
     elif parancs == "elég":                     #ELÉG
         print("Viszlát!")
