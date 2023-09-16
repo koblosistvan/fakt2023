@@ -1,15 +1,35 @@
-#kő papír olló
-
 import random
 
-játékos = input('Ird ide: kő(1), papír(2), olló(3)')
+geppont = 0
+jatekospont = 0
 
-gép = random.randint(1,4)
+for i in range(1, 4):
+    jatekos = input(f'({i}. kör) Írd ide: kő, papír, olló\n> ')
 
-if gép == 1 and játékos == 3 or gép == 2 and játékos == 1 or gép == 3 and játékos == 2:
-    print('A gép nyert')
-elif gép == 1 and játékos == 1 or gép == 2 and játékos == 2 or gép == 3 and játékos == 3:
-    print('Döntetlen')
+    gep = random.randint(1, 4)
+
+    if gep == 1:
+        gep = "kő"
+    elif gep == 2:
+        gep = "papír"
+    else:
+        gep = "olló"
+
+    if gep == "kő" and jatekos == "olló" or gep == "papír" and jatekos == "kő" or gep == "olló" and jatekos == "papír":
+        print('A gép nyert')
+        geppont += 1
+    elif gep == jatekos:
+        print('Döntetlen')
+    else:
+        print('Te nyertél!')
+        jatekospont += 1
+    print("A gép választása: " + gep)
+    print(f"Állás: {jatekospont}-{geppont}\n")
+
+print("---------------------------")
+if geppont > jatekospont:
+    print("Sajnos összesítve nem nyertél :(")
+elif geppont < jatekospont:
+    print("Nyertél :)")
 else:
-    print('Te nyertél!')
-
+    print("Döntetlen!")
