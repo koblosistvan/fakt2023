@@ -2,6 +2,7 @@ import random
 
 
 adat = dict(kő = "olló", papír ="kő", olló = "papír") # nyer = "veszt"
+# todo: okos ötlet, azt tárolja el, hogy mi mit győz le, dict majd később lesz téma
 
 player = ""
 

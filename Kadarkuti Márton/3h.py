@@ -9,7 +9,7 @@ print(f"\n-A program gondolt egy számra {A} és {B} között-")
 x = B+1
 m = 1
 
-while x != n:
+while x != n: # todo: != operátor
     if not elso:
         x = int(input("\nPróbáld újra: "))
     else:

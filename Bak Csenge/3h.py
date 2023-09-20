@@ -1,7 +1,7 @@
 import random
 
 veletlen = random.randint(0, 1000)
-tipp = -1
+tipp = -1  # todo: itt addig megyünk, amíg el nem talál, ezért kell kezdőérték (vö: A.Milán megoldásával)
 
 while veletlen != tipp:
     tipp = int(input("A tippelt szám: "))
