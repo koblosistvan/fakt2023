@@ -1,63 +1,38 @@
-futás = True
-motor_jár = False
-speed = 0
+import random
+A = 1
+B = 100
+n = random.randint(A, B)
+elso = True
 
-print("\nParancsok:")
-print("  *indul\n  *leáll\n  *gyorsít\n  *lassít\n  *elég\n")
+print(f"\n-A program gondolt egy számra {A} és {B} között-")
 
-while futás:
-    parancs = input("> ")
+x = B+1
+m = 1
 
-    if parancs == "indul":                  #INDUL
-        if motor_jár:
-            print("A motor már jár.")
-        else:
-            print("A motor elindult.")
-            motor_jár = True
-            speed = 1
-
-    elif parancs == "leáll":
-        speed = 0                       #LEÁLL
-        if not motor_jár:
-            print("A motor le van állítva.")
-        else:
-            print("A motor leállt.")
-            motor_jár = False
-
-
-    elif parancs == "gyorsít":                  #GYORSÍT
-        if not motor_jár:
-            print("Nem lehet gyorsítani,")
-            print("a motor jelenleg le van állítva.")
-        else:
-            speed += 1
-            print(f"A sebesség növekedett. ({speed}km/h)")
-
-    elif parancs == "lassít":                   #LASSÍT
-        if not motor_jár:
-            print("Nem lehet lassítani,")
-            print("a motor jelenleg le van állítva.")
-        else:
-            if speed > 0:
-                speed -= 1
-                print(f"A sebesség csökkent. ({speed}km/h)")
-            else:
-                motor_jár = False
-                print("A motor elérte a 0km/h sebességet,")
-                print("A motor leállt.")
-
-    elif parancs == "csandor":
-        print(0/0)
-
-
-    elif parancs == "elég":                     #ELÉG
-        print("Viszlát!")
-        speed = 0
-        futás = False
-    elif parancs == "":
-        print("")
+while x != n:
+    if not elso:
+        x = int(input("\nPróbáld újra: "))
     else:
-        print("Nem értem.")
+        x = int(input("\nTippelj: "))
+        elso = False
 
-    if speed != 0:
-        print(f"\nSebesség: {speed}km/h")
+    if x == n:
+        break
+
+    if x < A or x > B:
+        print("<nagyon hideg>")
+    elif abs(x-n) > 20:
+        print("<hideg>")
+    elif 10 <= abs(x-n) <= 20:
+        print("<langyos>")
+    elif abs(x-n) < 10:
+        print("<meleg>")
+    m += 1
+
+print("")
+
+if m < 10:
+    print("Nagyon ügyes!")
+else:
+    print("Ügyes!")
+print(f"(<{m}.> próbálkozás.)")
