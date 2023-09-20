@@ -1,13 +1,13 @@
 import random
 
-k_p_o = ["kő", "papír", "olló"]   # todo: listák használata, változó nevek beszédesek
+k_p_o = ["kő", "papír", "olló"]
 
 én = 0
 gép = 0
 én_k = 0
 gép_k = 0
 
-kő = ["olló", "kő"]     # todo: győztes kombók megadása
+kő = ["olló", "kő"]
 papír = ["papír", "kő"]
 olló = ["papír", "olló"]
 számolás = 0

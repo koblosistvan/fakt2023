@@ -2,7 +2,7 @@ import random
 
 A = random.randint(0, 10)
 print(A)
-for i in range(21): # todo: három független if-fel
+for i in range(21):
     a = int(input('Az A szám értéke: '))
     if A == a:
         print('Eltaláltad')
@@ -11,6 +11,7 @@ for i in range(21): # todo: három független if-fel
         print('Az A szám nagyobb ennél.')
     elif A < a:
         print('Az A szám kisebb ennél.')
+
     if abs(a - A) <= 2:
         print('Közel.')
     elif abs(a - A) < 5:

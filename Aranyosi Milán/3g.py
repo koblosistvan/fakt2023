@@ -3,7 +3,7 @@ import random
 geppont = 0
 jatekospont = 0
 
-for i in range(1, 4):   # todo: több körös, összesít, értelmes kiírások :)
+for i in range(1, 4):
     jatekos = input(f'({i}. kör) Írd ide: kő, papír, olló\n> ')
 
     gep = random.randint(1, 4)
