@@ -9,7 +9,7 @@ opt = [kő, papír, olló]
 
 print("Első forduló.")
 jatekos = str(input("Kő, papír vagy olló: "))
-gep = random.choice(opt)   # todo: random.choice
+gep = random.choice(opt)
 if jatekos == gep:
     print("Döntetlen.")
 elif jatekos == kő and gep == papír:
@@ -33,7 +33,7 @@ elif jatekos == olló and gep == papír:
 else:
     str(input("Nem értem. Kő, papír vagy olló: "))
 
-print("Második forduló.") # todo: ezt ciklussal kell
+print("Második forduló.")
 jatekos = str(input("Kő, papír vagy olló: "))
 gep = random.choice(opt)
 if jatekos == gep:
