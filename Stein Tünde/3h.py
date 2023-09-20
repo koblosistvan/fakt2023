@@ -2,7 +2,7 @@ import random
 
 A = random.randint(0, 10)
 print(A)
-for i in range(21):
+for i in range(21): # todo: három független if-fel
     a = int(input('Az A szám értéke: '))
     if A == a:
         print('Eltaláltad')

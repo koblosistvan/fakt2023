@@ -1,7 +1,7 @@
 import random
 a = 1
 b = 999
-intervallum = (a, b)
+intervallum = (a, b)  # todo: lista típusok
 andor = random.randint(a, b)
 kitalalva = False
 while not kitalalva:

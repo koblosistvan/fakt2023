@@ -11,7 +11,7 @@ for i in range(3):
         print('A gép követ választott, a játékos követ választott: döntetlen')
         playerstatus = playerstatus + 0
         computerstatus = computerstatus + 0
-        print(f'Az állás {playerstatus}:{computerstatus}')
+        print(f'Az állás {playerstatus}:{computerstatus}') # todo: amit minden esetben megteszünk, azt if-en kívülre
     elif computerchoice == 2 and playerchoice == 'papír':
         print('A gép papírt választott, a játékos papírt választott: döntetlen')
         playerstatus = playerstatus + 0
