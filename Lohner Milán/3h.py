@@ -1,6 +1,6 @@
 import random
 
-# Konstansok az intervallumhoz  # todo: konstansok használata
+# Konstansok az intervallumhoz
 INTERVALLUM_ALJA = 1
 INTERVALLUM_FELSO = 100
 MAX_PROBALKOZASOK = 10
@@ -11,7 +11,7 @@ gondolt_szam = random.randint(INTERVALLUM_ALJA, INTERVALLUM_FELSO)
 
 print(f"Üdvözöllek a játékban! A szám {INTERVALLUM_ALJA} és {INTERVALLUM_FELSO} között van.")
 
-probalkozasok = 0 # todo: ilyenek a beszédes változó nevek :)
+probalkozasok = 0
 
 while probalkozasok < MAX_PROBALKOZASOK:
     probalkozasok += 1

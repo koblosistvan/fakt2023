@@ -2,11 +2,11 @@ import random
 
 mettol = 0
 meddig = 1000
-a = random.randint(mettol + 1, meddig + 1) # todo: randint használata
+a = random.randint(mettol + 1, meddig + 1)
 print(f'A szám: {mettol} - {meddig} intervallumban van.')
 
 probak = 0
-while probak < meddig+1: # todo: nagyon profi
+while probak < meddig+1:
     tipp = int(input('Tippelj egy számot: '))
     if tipp == a:
         print('Forró, eltaláltad a számot!')
