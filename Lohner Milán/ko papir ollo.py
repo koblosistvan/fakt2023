@@ -30,11 +30,7 @@ elif b == 3 and gep == 1:
 elif b == 3 and gep == 2:
         print('Nyertél ellenfélnek papírja volt')
 
-a=input('Mégegyszer?: ')
 
-print(a)
-
- if a == 'igen':
 
 
 
