@@ -14,6 +14,8 @@ while True:
         if álllapot and sebesség == 0:
             álllapot = False
             print("A motor leállt.")
+        elif sebesség != 0:
+            print("Menet közben nem állíthatod le, előbb lassúlj le 0-ra.")
         else:
             print("A motor nem megy")
     elif parancs == "gyorsít":
