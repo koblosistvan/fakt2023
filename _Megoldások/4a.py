@@ -36,6 +36,7 @@ print(f'{növekvő} növekvő hármas sorozat volt.')
 számláló = [0, 0, 0, 0, 0, 0]
 for i in range(len(dobások)):
     számláló[dobások[i] - 1] += 1
+
     if dobások[i] == 1:
         számláló[0] += 1
     elif dobások[i] == 2:
