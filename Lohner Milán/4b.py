@@ -1,4 +1,5 @@
 import random
+import math
 
 PONTHATAR = 96
 
@@ -35,4 +36,8 @@ for i, szazalek_szelet in enumerate(szazalek_szeletek):
     if dolgozatok_szama_szeletekben[i] > 0:
         print(f"{szazalek_szelet} sáv: {dolgozatok_szama_szeletekben[i]} dolgozat")
 
+atlag = sum(pontok) / len(pontok)
+
 print(f'Ebbol {jeles} db lett jeles es {haromnal_kevesebb} olyan osztalyzat volt ahol csak 3 pontnal kevesebb hianyzott, {tokeletes}db tokeletes erettsegi szuletett')
+
+print(atlag,'volt az atlag')
