@@ -38,6 +38,6 @@ for i, szazalek_szelet in enumerate(szazalek_szeletek):
 
 atlag = sum(pontok) / len(pontok)
 
-print(f'Ebbol {jeles} db lett jeles es {haromnal_kevesebb} olyan osztalyzat volt ahol csak 3 pontnal kevesebb hianyzott, {tokeletes}db tokeletes erettsegi szuletett')
+print(f'Ebbol {jeles} db lett jeles es {haromnal_kevesebb} olyan osztalyzat volt ahol csak 3 pontnal kevesebb hianyzott, {tokeletes} db tokeletes erettsegi szuletett')
 
 print(atlag,'volt az atlag')
