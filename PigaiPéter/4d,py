@@ -1,0 +1,12 @@
+pontok = open('4d-pontok.txt', mode='r', encoding='utf-8')
+
+r = 5
+xkord = []
+ykord = []
+for i in pontok:
+    pontxy = i.strip().split()
+    xkord.append(int(pontxy[0]))
+    ykord.append(int(pontxy[1]))
+print(xkord)
+print(ykord)
+
