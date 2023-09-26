@@ -11,6 +11,7 @@ for i in range(21):
         print('Az A szám nagyobb ennél.')
     elif A < a:
         print('Az A szám kisebb ennél.')
+
     if abs(a - A) <= 2:
         print('Közel.')
     elif abs(a - A) < 5:
