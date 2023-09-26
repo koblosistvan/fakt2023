@@ -1,4 +1,4 @@
-pontok = open('4d-pontok.txt', mode='r', encoding='utf-8')
+pontok = open('pontok.txt', mode='r', encoding='utf-8')
 
 r = 5
 xkord = []
