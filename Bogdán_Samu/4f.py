@@ -4,7 +4,7 @@ if szam <= 1:
     print(f'{szam} nem egy prímszám.')
 elif szam > 1:
     for i in range(2, szam):
-        if szam % i == 0:
+        if (szam % i == 0) or (szam / i <= 2):
             a = False
             break
 if a is False:
