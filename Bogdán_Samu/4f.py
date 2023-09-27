@@ -9,9 +9,8 @@ def prim(szam):
         szam = x
         szam += 1
     for i in range(2, szam):
-        if (szam % i == 0) or (szam / i <= 2):
+        if (szam % i == 0):
             a = False
-            break
     return a
 primek = 0
 if a and (x <= szam <= y):
