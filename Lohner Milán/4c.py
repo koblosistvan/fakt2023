@@ -30,8 +30,5 @@ for i in range(len(bevétel)):
 
 print(f'{veszteség} napon történt veszteség')
 
-profit=0
 
-for i in range(len(bevétel)):
-    if bevétel[i] > kiadás[i]:  #folytatni
 
