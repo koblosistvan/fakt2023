@@ -1,3 +1,5 @@
+# HF 0928: 5b
+
 adat = open("5a-magasugras2.txt", mode="r", encoding="utf-8")
 
 tavaly = []
