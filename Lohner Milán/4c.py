@@ -30,8 +30,17 @@ for i in range(len(bevétel)):
 
 print(f'{veszteség} napon történt veszteség')
 
-profit=0
+profitossz=0
 
 for i in range(len(bevétel)):
-    if bevétel[i] > kiadás[i]:  #folytatni
+    profitossz += bevétel[i] - kiadás[i]
 
+print(f'A teljes profit {profitossz:,} volt')
+
+hetvegiprofitossz=0
+
+for i in range(len(bevétel)):
+    if i % 7 in (5,6):
+        hetvegiprofitossz += bevétel[i] - kiadás[i]
+
+print(f'A hétvégi profit: {hetvegiprofitossz:,}')

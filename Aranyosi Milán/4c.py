@@ -20,7 +20,14 @@ for i in range(len(bevétel)):
         sokbevetel += 1
 print(f'{sokbevetel} napon volt több.')
 
-profit_nov =
+osszeg = 0
 for i in range(len(bevétel)):
-    if bevétel[i] > kiadás[i]:
+    osszeg += bevétel[i] - kiadás[i]
+print(f'Teljes profit: {osszeg : ,}')
+
+hetv_osszeg = 0
+for i in range(len(bevétel)):
+    if i % 7 in (5 , 6):
+        hetv_osszeg += bevétel[i] - kiadás[i]
+        print(f'Hétvégi profit: {hetv_osszeg}')
 
