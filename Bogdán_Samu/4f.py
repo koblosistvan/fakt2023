@@ -1,13 +1,18 @@
-szam = int(input('Szám: '))
+intervallum = input('Intervallum: ')
+xy = intervallum.split(':')
+x = int(xy[0])
+y = int(xy[1])
 a = True
-if szam <= 1:
-    print(f'{szam} nem egy prímszám.')
-elif szam > 1:
+szam = 0
+def prim(szam):
+    for i in range(y - x):
+        szam = x
+        szam += 1
     for i in range(2, szam):
-        if szam % i == 0:
+        if (szam % i == 0):
             a = False
-            break
-if a is False:
-    print(f'{szam} nem egy prímszám.')
-else:
-    print(f'{szam} prímszám.')
+    return a
+primek = 0
+if a and (x <= szam <= y):
+    primek += 1
+print(f'{primek} darab prímszám van a megadott intervallumban.')
