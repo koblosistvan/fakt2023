@@ -21,7 +21,20 @@ for i in range(len(bevétel)):
         veszteséges_napok += 1
 print(f'{sok_bevétel} napon volt több a bevétel a kiadásnál.')
 print(f'{veszteséges_napok} veszteséges nap volt.')
-for i in range(len(bevétel-1)):
+for i in range(len(bevétel)-1):
      if bevétel[i] < bevétel[i+1]:
          nagyobb_profit +=1
 print(f'{nagyobb_profit} napon volt több profit az előző naphoz képest.')
+
+profit_összeg = 0
+for i in range(len(bevétel)):
+    profit_összeg += bevétel[i]
+    profit_összeg -= kiadás[i]
+print(f'{profit_összeg:,}')
+
+hétvégi_profit_összeg = 0
+for i in range(len(bevétel)):
+    if i % 7 in (5, 6):
+        hétvégi_profit_összeg += bevétel[i]
+        hétvégi_profit_összeg -= kiadás[i]
+print(f'{hétvégi_profit_összeg:,}')
