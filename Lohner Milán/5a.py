@@ -1,67 +1,45 @@
 forras = open('5a-magasugras2.txt', mode='r', encoding='utf-8')
 
-
-magassag = []
-idei = []
 tavalyi = []
+iden = []
 
 for sor in forras:
-    adat = sor.strip().split(';')
-    magassag.append(int(adat[0]))
-    idei.append(int(adat[1]))
+    adat = sor. strip().split(';')
+    tavalyi.append(int(adat[0]))
+    iden.append(int(adat[1]))
 
-print(magassag)
-print(idei)
-
-
+print(iden)
+print(tavalyi)
 
 forras.close()
 
-
-
-
 idei_max_id = 0
-idei_max_magassag = idei[0]
-
-
-for i in range(1, len(idei)):
-    if idei[i] > idei_max_magassag:
-        idei_max_magassag = idei[i]
-        idei_max_id = i
-
-
-print(f'A legnagyobb idén {idei_max_id} ugrotta {idei_max_magassag}m-t')
-
+idei_max_magassag = iden[0]
 
 idei_min_id = 0
-idei_min_hossz = idei[0]
+idei_min_magassag = iden[0]
 
-
-for i in range(1, len(idei)):
-    if idei[i] < idei_min_hossz:
-        idei_min_hossz = idei[i]
+for i in range(1, len(iden)):
+    if iden[i] > idei_max_magassag:
+        idei_max_magassag = iden[i]
+        idei_max_id = i
+    if iden[i] < idei_min_magassag:
+        idei_min_magassag = iden[i]
         idei_min_id = i
 
-print(f'A legkisebb idén {idei_min_id} ugrotta {idei_min_hossz}m-t')
-
-
 tavaly_min_id = 0
-tavaly_min_hossz = tavalyi[0]
+tavaly_min_magassag = tavalyi[0]
 
 tavaly_max_id = 0
-tavaly_max_hossz = 0
+tavaly_max_magassag = 0
 
-
-
-
-
-for i in range(1, len(tavalyi)):
-    if tavalyi[i] > tavaly_min_hossz:
-        tavaly_min_hossz = tavalyi[i]
+for i in range(len(tavalyi)):
+    if tavalyi[i] > tavaly_max_magassag:
+        tavaly_max_magassag = tavalyi[i]
+        tavaly_max_id = i
+    if tavalyi[i] < tavaly_min_magassag:
+        tavaly_min_magassag = tavalyi[i]
         tavaly_min_id = i
 
-
-print(tavaly_min_hossz,tavaly_min_id)
-
-
-
+print(f"Az idei legnagyobbat {idei_max_id} ugrotta {idei_max_magassag} legkisebbet {idei_min_id} ugrotta {idei_min_magassag}")
+print(f"A tavalyi legnagyobbat {tavaly_max_id} ugrotta {tavaly_max_id} a legkisebbet {tavaly_min_id} ugrotta {tavaly_min_magassag}")
