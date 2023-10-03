@@ -6,7 +6,7 @@ for sor in forras:
     adat = sor.strip().split(',')
     bevétel.append(int(adat[0]))
     kiadás.append(int(adat[1]))
-forras.close
+forras.close()
 bevetelkeves = 0
 bevételsok = 0
 for i in range(len(bevétel)):
@@ -24,3 +24,13 @@ for i in range(len(bevétel)):
         andor += 1
 print(f'{andor} napon volt nagyobb a profit mint az előző nap')
 
+profitosszeg = 0
+for i in range(len(bevétel)):
+    profitosszeg = bevétel[i] - kiadás[i]
+print(f'{profitosszeg:,}')
+
+hetvegiprofitossz = 0
+for i in range(len(bevétel)):
+    if i % 7 in (5,6):
+        hetvegiprofitossz = bevétel[i] - kiadás[i]
+print(f'{hetvegiprofitossz:,}')
