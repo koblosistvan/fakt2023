@@ -8,3 +8,5 @@ def prime(szam):
             a = False
     return a
 
+def megnyit(a):
+    open(a, mode= 'r', encoding= 'utf8')
