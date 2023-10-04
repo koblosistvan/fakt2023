@@ -7,8 +7,7 @@ for sor in forras:
     adat = sor.strip().split('\t')
     ido.append(adat[0])
     hom.append(float(adat[1]))
-print(ido)
-print(hom)
+
 forras.close()
 
 harmincfelett = 0
@@ -47,7 +46,7 @@ for i in range(len(hom)):
             legnagyobb_emel = jelenlegi_emel
             ido[i] = legnagyobb_emel_ido
     hom_osszeg == sum(hom)
-    hom_atlag = hom_osszeg / 46
+    hom_atlag = hom_osszeg / len(hom)
 print(f' {harmincfelett} alkalommal volt 30 foknal nagyobb ')
 print(f' átlag hőmérséklet {hom_atlag} fok.')
 print(f'{no} alkalommal nőtt és {csokken} alkalommal csökkent')
