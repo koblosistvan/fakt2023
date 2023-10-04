@@ -44,4 +44,4 @@ print(f'A legnagyobb ugrás: {idei_max_magassag} és {idei_max_id} ugrotta')
 print(f'A legkisebb ugrás: {ideiminmagassag} és {ideiminid} ugrotta')
 print(f'A legnagyobb ugrás: {tavalymaxmagassag} és {tavaly_max_id} ugrotta')
 print(f'A legkisebb ugrás: {tavalyminmagassag} és {tavalyminid} ugrotta')
-
+#
