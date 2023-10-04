@@ -32,7 +32,6 @@ for i in range(1, len(magasság_idén)):
     elif magasság_tavaly[i] < tavalyi_min_magasság:
         tavalyi_min_magasság = magasság_tavaly[i]
         tavalyi_min_id = i
-    if magasság_tavaly[i] > magasság_idén[i]:
 
 
 print(f'{idei_max_id}: {idei_max_magasság}')
