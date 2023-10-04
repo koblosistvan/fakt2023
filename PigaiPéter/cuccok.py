@@ -10,4 +10,4 @@ def prime(szam):
 
 def megnyit(forras):
     open(forras, mode= 'r', encoding= 'utf8')
-    return forras
+    return megnyit()
