@@ -69,8 +69,8 @@ def órává_alakít(y):
     return y
 
 vonal()
-print(f"A <legmagasabb> mért hőmérséklet {max}°C, {órává_alakít(max)} időpontban,")
-print(f"A <legalacsonyabb> mért hőmérséklet {min}°C, {órává_alakít(min)} időpontban.")
+print(f"A <legmagasabb> mért hőmérséklet {mérések[max]}°C, {órává_alakít(max)} időpontban,")
+print(f"A <legalacsonyabb> mért hőmérséklet {mérések[min]}°C, {órává_alakít(min)} időpontban.")
 
 #+5 legnagyobb két mérés között
 c = 0
