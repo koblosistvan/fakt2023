@@ -1,5 +1,5 @@
 import cuccok
-import datetime
+import datetime as dt
 import locale
 locale.setlocale(locale.LC_ALL, 'hu_HU')
 
