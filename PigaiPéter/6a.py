@@ -3,7 +3,7 @@ import datetime
 import locale
 locale.setlocale(locale.LC_ALL, 'hu_HU')
 
-forras = megnyit('6a-hallgatok.txt')
+forras = cuccok.megnyit('6a-hallgatok.txt')
 szuletesnapok = []
 kezdesek = []
 vegzesek = []
