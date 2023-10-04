@@ -1,2 +1,2 @@
-import cuccok
-forras = megy
+import cuccok.py
+forras = megnyit('6a-hallgatok.exe')

@@ -8,5 +8,6 @@ def prime(szam):
             a = False
     return a
 
-def megnyit(a):
-    open(a, mode= 'r', encoding= 'utf8')
+def megnyit(forras):
+    open(forras, mode= 'r', encoding= 'utf8')
+    return forras
