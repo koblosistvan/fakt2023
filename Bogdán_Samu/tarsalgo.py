@@ -25,8 +25,10 @@ print(az[index_be], az[index_ki])
 athaladas = open('athaladas.txt', mode='w', encoding='utf-8')
 azonosító = list(dict.fromkeys(az))
 azonosító.sort()
-
+az_db = []
 for i in azonosító:
+    az_db.append(az.count(i))
+for i in range(len(azonosító)):
     pass
 
 forrás.close()
