@@ -39,10 +39,16 @@ for i in range(len(hely)):
         print('Volt olyan időpont, amikor két mérés volt.')
         break
 
+stat = open('6b-statisztika.txt', mode='w', encoding='utf-8')
 hely.sort()
 helyek = list(set(hely))
-állomás = []
 for i in range(hely_db):
+    pass
+
+stat.close()
+
+állomás = []
+for i in range(1, hely_db):
     állomás.append(hely.count(i))
 index = állomás.index(max(állomás))
 print(állomás)
