@@ -1,7 +1,7 @@
 forrás = open('6b-forgalom.txt', mode='r')
 a = forrás.readline().strip().split(' ')
-hely_db = a[0]
-adatok = a[1]
+hely_db = int(a[0])
+adatok = int(a[1])
 hely = []
 időpont = []
 for i in forrás:
@@ -28,8 +28,22 @@ print(hatelott50)
 óraperc = str(input('Adjon meg egy időpontot "óra:perc" formátumban! '))
 óra = int(óraperc.split(':')[0])
 perc = int(óraperc.split(':')[1])
-
-if (óra * 60 + perc) in időpont:
+ip = óra * 60 + perc
+if ip in időpont:
     print('Volt mérési eredmény ebben az időpontban.')
 else:
     print('Nem volt mérési eredmény ebben az időpontban.')
+
+for i in range(len(hely)):
+    if időpont.count(i) >= 2:
+        print('Volt olyan időpont, amikor két mérés volt.')
+        break
+
+hely.sort()
+helyek = list(set(hely))
+állomás = []
+for i in range(hely_db):
+    állomás.append(hely.count(i))
+index = állomás.index(max(állomás))
+print(állomás)
+print(helyek[index])
