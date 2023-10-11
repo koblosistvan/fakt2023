@@ -1,4 +1,4 @@
-forrás = open('6b-forgalom.txt', mode='r')
+forrás = open('6b-forgalom.txt', mode='r', encoding='utf_8')
 
 a = forrás.readline().strip().split(' ')
 
@@ -35,16 +35,21 @@ for i in range(len(hely)):
 
 print(hatelott50)
 
-beker = input('Add meg az időpontot: ')
-beker.split(':')
-van_olyan = False
+beker = input('Add meg az időpontot: ').split(':')
+bekérté = int(beker[0]) * 60 + int(beker[1])
 
 for i in range(len(időpont)):
-    if időpont[i] == beker:
-        van_olyan = True
-    else: van_olyan = False
+    if bekérté == időpont[i]:
+        print('Van olyan idő')
+        break
 
-print(f'{van_olyan}')
+else:
+    print('Nincs ilyen')
+
+
+for i in range(len(időpont)):
+    sum(1, if bekérté==időpont[i]):
+
 
 
 
