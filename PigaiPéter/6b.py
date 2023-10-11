@@ -2,8 +2,6 @@ import cuccok
 forrás = open('6b.txt', mode='r', encoding='utf8')
 cuccok.vonal()
 
-forrás = open('6b-forgalom.txt', mode='r', encoding='utf-8')
-
 hely = []
 időpont = []
 
@@ -37,13 +35,13 @@ print('Vége.')
 otvenes = 0
 
 for i in range(len(hely)):
-    if i == 50:
+    if hely[i] == 50:
         otvenes += 1
 print(f'{otvenes}szer van otvenes helyen meres')
 
 bekert = int(input('adj meg egy idopontot'))
 van = False
-for i in range(len(idopont)):
+for i in range(len(időpont)):
     if i == bekert:
         van = True
 if van:
@@ -52,13 +50,27 @@ else:
     print('nincs ilyen idopont')
 
 volt = False
-for i in range(len(idopont)-1):
-    if idopont[i] == idopont[i+1]:
+for i in range(len(időpont)-1):
+    if időpont[i] == időpont[i+1]:
         volt = True
 if volt:
     print('volt azonos idopontban tobb meres')
 else:
     print('nem volt azonos idopontban meres')
+
+állomások_db = []
+állomásoknyers = []
+for i in range(0,100):
+    a = hely.count(i + 1)
+    állomásoknyers.append(a)
+    b = i + 1
+    a = f'{b}. hely:' + str(a)
+    állomások_db.append(a)
+    print(állomások_db[i])
+    b += 1
+print(f'{állomásoknyers.index(min(állomásoknyers))}. helyen van a legkevesebb mérés')
+print(f'{állomásoknyers.index(max(állomásoknyers))}. helyen van a legtöbb mérés')
+
     
 
 
