@@ -1,5 +1,5 @@
 def vonal():
-    print('-' * 30)
+    print('> ' * 15, '.', '< '*15)
 
 def prime(szam):
     a = True
@@ -8,5 +8,3 @@ def prime(szam):
             a = False
     return a
 
-def megnyit(forras):
-    open(forras, mode= 'r', encoding= 'utf8')
