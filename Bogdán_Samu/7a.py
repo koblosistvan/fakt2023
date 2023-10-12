@@ -27,3 +27,31 @@ for i in range(lakás_db):
     if ár[i] <= 20:
         husz += 1
 print(f'{husz} darab 20 millió Ft alatti ingatlan van.')
+
+árak = open('árak.txt', mode='w', encoding='utf-8')
+for i in range(lakás_db):
+    if 50 <= terület[i] <= 60:
+        árak.write(f'terület: {terület[i]} m^2, ár: {ár[i]} millió Ft')
+        árak.write('\n')
+
+tart = str(input('Adjon meg egy ártartományt milliókban, "min-max" formátumban: '))
+minimum = int(tart.strip().split('-')[0])
+maximum = int(tart.strip().split('-')[1])
+
+for i in range(lakás_db):
+    if minimum <= ár[i] <= maximum:
+        print(f'Ingatlan száma: {ár.index(ár[i])}, alapterület: {terület[i]}, ár: {ár[i]}.')
+else:
+    print('Ebben az ártartományban nincsen ingatlan.')
+
+ter_ar = str(input('Adjon meg egy alapterületet m^2-ben és egy árat milliókban, "terület-ár" formátumban: '))
+ter = int(ter_ar.strip().split('-')[0])
+ar = int(ter_ar.strip().split('-')[1])
+ingatlan = []
+for i in range(lakás_db):
+    if terület[i] == ter and ár[i] == ar:
+        ingatlan.append(int(ár.index(ár[i])) + 1)
+if len(ingatlan) > 0:
+    print(f'Ingatlan(ok) sorszáma: {ingatlan}')
+else:
+    print('Nincs a megadott adatoknak megfelelő ingatlan.')
