@@ -33,6 +33,7 @@ for i in range(lakás_db):
     if 50 <= terület[i] <= 60:
         árak.write(f'terület: {terület[i]} m^2, ár: {ár[i]} millió Ft')
         árak.write('\n')
+árak.close()
 
 tart = str(input('Adjon meg egy ártartományt milliókban, "min-max" formátumban: '))
 minimum = int(tart.strip().split('-')[0])
