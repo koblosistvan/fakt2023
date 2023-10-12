@@ -35,10 +35,13 @@ else:
     print('Nincs a megadott időpontban mérés.')
 
 
-adott_időpont = időpont[i]
 for i in range(len(hely)):
     if időpont[i] == len(időpont) - időpont[i]:
         print('Volt olyan időpont.')
         break
 else:
     print('Nem volt olyan időpont.')
+
+allomas_db = [0] * 100
+for i in range(len(hely)):
+    allomas_db[hely[i]-1] += 1 
