@@ -12,7 +12,8 @@ def andor(x):
     a = '' + 'I'
     for i in range(1, x + 1):
         a += 'I'
-        print(f'{a} + 1')
+        cucc = 'print(f', '"', '{', f'{a}', 'hely', '}', '"', ')'
+        print(f'{cucc.strip()}')
 def soos(b):
     a = '' + 'I'
     for i in range(1, b + 1):
