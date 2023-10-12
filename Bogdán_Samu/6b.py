@@ -43,13 +43,12 @@ stat = open('6b-statisztika.txt', mode='w', encoding='utf-8')
 hely.sort()
 helyek = list(set(hely))
 for i in range(hely_db):
-    pass
-
+    stat.write(f'Állomás: {helyek[i]}, mérések: {hely.count(i+1)}')
+    stat.write('\n')
 stat.close()
 
 állomás = []
 for i in range(1, hely_db):
     állomás.append(hely.count(i))
 index = állomás.index(max(állomás))
-print(állomás)
 print(helyek[index])
