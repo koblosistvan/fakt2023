@@ -47,7 +47,7 @@ for i in range(len(homerseklet)):
             legnagyobb_emelkedes = jelenlegi_emelkedes
             ido[i] = legnagyobb_emelkedes_ido
     homerseklet_osszeg == sum(homerseklet)
-    hom_atlag = homerseklet_osszeg / 46
+    hom_atlag = homerseklet_osszeg / len(homerseklet)
 print(f'A nap folyamán {harmincfelett} alkalommal mértünk 30 Celsius foknál nagyobb hőmérsékletet.')
 print(f'A napi átlag hőmérséklet {hom_atlag} Celsius fok.')
 print(f'{nott} alkalommal nőtt és {csokkent} alkalommal cskkent a hőmérséklet az előzőhöz képest')

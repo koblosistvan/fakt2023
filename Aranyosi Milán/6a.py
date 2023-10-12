@@ -1,0 +1,13 @@
+import datetime as dt
+import locale
+locale.setlocale(locale.LC_ALL, 'hu_HU')
+
+forras = open('6a-hallgatok.txt', mode='r', encoding='utf-8')
+szuletesnapok = []
+kezdesek = []
+vegzesek = []
+
+forras.readline()
+for sor in forras:
+    adat = sor.strip().split(' ')
+    szuletesnapok = dt.datetime(int(adat[0])), (int(adat[1])), (int(adat[2]))
