@@ -34,8 +34,8 @@ for i in range(len(adat)):
 # minta: Idén 3 diák futott legalább 3000 m-t.
 
 for sor in range(len(iden)):
-	haromnagy= sum(1, if iden[i] >= 3000):
-		print('Idén {haromnagy} diák futott legalább 3000 m-t.')
+	haromnagy = sum(1, if iden[i] >= 3000):
+	print(f'Idén {haromnagy} diák futott legalább 3000 m-t.')
 # --------------------------------------------------------------------------------------------------------
 # 4. feladat: mennyi volt a legjobb futó eredménye idén?
 # minta: Az idei legjobb eredmény 3450 m volt.
@@ -44,8 +44,8 @@ legjobb = iden[0]
 
 for sor in range(len(iden)):
 	if iden[0] > legjobb:
-		legjobb = idei[i]
-Az idei legjobb eredmény {legjobb} volt.
+		legjobb = iden[i]
+print(f'Az idei legjobb eredmény {legjobb} volt.')
 	
 # --------------------------------------------------------------------------------------------------------
 # 5. feladat: mennyi volt a legnagyobb javítás (azaz az idei-tavalyi eredmény maximális értéke)?
@@ -58,7 +58,7 @@ for i in range(len(iden)):
 	if kulonbseg > legnagyobb_jav:
 		legnagyobb_jav == kulonbseg
 
-print('A legnagyobb javítás {legnagyobb_jav}m volt.')
+print(f'A legnagyobb javítás {legnagyobb_jav}m volt.')
 	
 	
 # --------------------------------------------------------------------------------------------------------
@@ -73,5 +73,6 @@ print('A legnagyobb javítás {legnagyobb_jav}m volt.')
 # Kő Pál       3423
 # ...
 
-for i in range(len(iden))
+
+
 
