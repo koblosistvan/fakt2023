@@ -9,57 +9,51 @@
 
 # --------------------------------------------------------------------------------------------------------
 # 1. feladat: adatok beolvasása és tárolása
-
-forrás = open('cooper-extra.txt', mode='r', encoding='utf-8')
-forrás.readline()
-név = []
+forras = open('cooper.txt', mode = 'r', encoding='utf8')
+iden = []
 tavaly = []
-idén = []
-for i in forrás:
-	sor = i.strip().split('	')
-	név.append(str(sor[0]))
-	tavaly.append(int(sor[1]))
-	idén.append(int(sor[2]))
-forrás.close()
-
+for sor in range(forras):
+	adat = sor.strip().split('\t')
+	iden.append(int(adat[1]))
+	tavaly.append(int(adat[0]))
+forras.close()
 # --------------------------------------------------------------------------------------------------------
 # 2. feladat: hány diák vett részt a teszten
 # minta: A teszten 12 diák vett részt.
-
-print(f'A teszten {len(név)} diák vett részt.')
-
+diakok = 0
+for i in range(len(tavaly)):
+	if tavaly[i] > 0:
+		diakok += 1
+print(f'A teszten {diakok} diák vett részt.')
 # --------------------------------------------------------------------------------------------------------
 # 3. feladat: hány diák futott legalább 3000 m-t idén?
 # minta: Idén 3 diák futott legalább 3000 m-t.
-
-háromezer = 0
-for i in range(len(név)):
-	if idén[i] >= 3000:
-		háromezer += 1
-if háromezer > 0:
-	print(f'Idén {háromezer} diák futott legalább 3000 m-t.')
-else:
-	print('Idén egy diák sem futott legalább 3000 m-t.')
-
+haromezer_vagy_felett = 0
+for i in range(len(iden)):
+	if iden[i] > 3000
+		haromezer_felett += 1
+	if iden[i] = 3000
+		haromezer_felett += 1
+print(f'Idén {haromezer_felett} diák futott legalább 3000 m-t.')
 # --------------------------------------------------------------------------------------------------------
 # 4. feladat: mennyi volt a legjobb futó eredménye idén?
 # minta: Az idei legjobb eredmény 3450 m volt.
 # minta-extra: Az idei legjobb eredményt Mák Áron érte el 3450 m-es távval.
-
-idx = idén.index(max(idén))
-print(f'Az idei legjobb eredményt {név[idx]} érte el {idén[idx]} m-es távval.')
-
+legjobb = iden[0]
+for i in range(len(iden)):
+	if iden[i] > legnagyobb
+		legnagyobb == iden[i]
+print(f'Az idei legjobb eredmény {lejobb} m volt.')
 # --------------------------------------------------------------------------------------------------------
 # 5. feladat: mennyi volt a legnagyobb javítás (azaz az idei-tavalyi eredmény maximális értéke)?
 # minta: A legnagyobb javítás 231 m volt.
 # minta-extra: A legtöbbet Gáz Áron javított, ő 265 m-rel futott többet idén, mint tavaly.
-
-id = 0
-for i in range(1, len(név)):
-	if idén[i] - tavaly[i] > idén[id] - tavaly[id]:
-		id = i
-print(f'A legtöbbet {név[id]} javított, ő {idén[id] - tavaly[id]} m-rel futott többet idén, mint tavaly.')
-
+legnagyobb_javitas = iden[0] - tavaly[0]
+for i in range(len(iden)):
+	kulonbseg = iden[i] - tavaly[i] 
+	if kulonbseg > legnagyobb_javitas:
+			lenagyobb_javitas == kulonbseg
+print(f'A legnagyobb javítás {legnagyobb_javitas} m volt.')
 # --------------------------------------------------------------------------------------------------------
 # 6. feladat: listázd ki az idei 3000 m felett teljesítőket
 # minta: 
@@ -71,7 +65,9 @@ print(f'A legtöbbet {név[id]} javított, ő {idén[id] - tavaly[id]} m-rel fut
 # Kis Miska    3251
 # Kő Pál       3423
 # ...
-
-for i in range(len(név)):
-	if idén[i] >= 3000:
-		print(név[i], idén[i])
+haromezerfelett = []
+for i in range(len(iden)):
+	if iden[i] > 3000
+		haromezerfelett.append(iden[i])
+for i in range(len(haromezerfelett)):
+	print(haromezereflett[i] \n haromezerfelett[i+1])
