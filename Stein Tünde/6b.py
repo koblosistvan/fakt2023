@@ -34,20 +34,29 @@ print(f'{_50es_meresi_pontok} mérés történt az 50-es mérési pontnál.')
 
 #4.feladat
 bekert_idopont = input('Adj meg egy időpontot: ')
-van_idopont = False
+van_idopont = "Nincs"
 for i in range(len(idopont)):
     if bekert_idopont == ora_perc(i):
-        van_idopont = True
-print(van_idopont)
+        van_idopont = "Van"
+print(f'{van_idopont} a megadott időpontban mérési eredmény.')
 
 #5. feladat
-
+_2_meres = "Nincs"
+for i in range(len(idopont)):
+    for index in range(len(idopont)):
+        if idopont[i] == idopont[index]:
+            _2_meres = "Van"
+print(f'{_2_meres} olyan időpont, amikor két mérés történt.')
 
 #6-7. feladat
 allomasok_db = [0] * 100
 for i in range(len(hely)):
     allomasok_db[ hely[i]-1 ] += 1
-
-
+legnagyobb_meres = 0
+for i in range(len(allomasok_db)):
+    if allomasok_db[i] > legnagyobb_meres:
+        legnagyobb_meres = allomasok_db[i]
+        legnagyobb_sorszam = i
+print(f'A legtöbb mérés a {legnagyobb_sorszam + 1}. állomáson történt.')
 
 print('End.')
