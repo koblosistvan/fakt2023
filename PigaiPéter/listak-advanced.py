@@ -5,14 +5,14 @@ l2 = [53, 99, 15, 74, 84, 71, 80, 85, 36, 71, 61, 2, 60, 10, 62, 42, 25]
 print(l1+l2)
 
 # összeg meghatározása
-összeg = [l1[i] + l2[i] for i in range(6)]
+összeg = [l1[i] + l2[i] for i in range(len(l1))]
 print(összeg)
 
 # különbség meghatározása
-különbség = [] # írd át
+különbség = [l1[i] - l2[i] for i in range(len(l1))]
 
 # növekmény meghatározása
-növekmény = [] # írd át
+növekmény = [l1[i+1] - l2[i] for i in range(len(l1-1))]
 
 # index meghatározása
 hatos_id = l1.index(45)
@@ -21,8 +21,8 @@ legnagyobb_id = l1.index(max(l1))
 print(legnagyobb_id)
 
 # legnagyobb különbség
-legnagyobb_különbség = [] # írd át
-legnagyobb_különbség_id = 0 # írd át
+legnagyobb_különbség = max([l1[i] - l2[i] for i in range(len(l1))])
+legnagyobb_különbség_id = különbség.index(max([l1[i] - l2[i] for i in range(len(l1))]))
 
 # növekmény
 növekmény_érték = [l1[i+1]-l1[i] for i in range(len(l1)-1)]
@@ -42,8 +42,10 @@ print(ötven_fölött)
 ötven_fölötti_átlag = sum(ötven_fölött) / len(ötven_fölött)
 ötven_alatti_összeg = sum([a for a in l1 if a < 50])
 
-párosok_összege = 0 # írd át
-harmincasok_átlaga = 0 # írd át
+parosok = [a for a in l1 if (a % 2) == 0]
+párosok_összege = sum(parosok)
+harmincasok = [a for a in l1 if a == 30 or 31 or 32 or 33 or 34 or 35 or 36 or 37 or 38 or 39]
+harmincasok_átlaga = sum(harmincasok) / len(harmincasok)
 
 # szűrt min/max
 legnagyobb_harminc_alatti = max([a for a in l1 if a < 30])
