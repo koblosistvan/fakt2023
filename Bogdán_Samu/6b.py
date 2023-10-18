@@ -10,20 +10,14 @@ for i in forrás:
     időpont.append(int(adat[1])*60 + int(adat[2]))
 forrás.close()
 
-leghosszabb_id = 0
-leghosszabb_idő = időpont[1] - időpont[0]
+leghosszabb_idő = max([időpont[i+1] - időpont[i] for i in range(len(időpont) - 1)])
 
-for i in range(len(hely)-1):
-    if időpont[i+1] - időpont[i] > leghosszabb_idő:
-        leghosszabb_id = i
-        leghosszabb_idő = időpont[i+1] - időpont[i]
+print(leghosszabb_idő)
 print(hely.count(50))
 
-hatelott50 = 0
-for i in range(len(hely)):
-    if hely[i] == 50 and (időpont[i] // 60 < 6):
-        hatelott50 += 1
+hatelott50 = len([i for i in range(len(hely)) if hely[i] == 50 and időpont[i] // 60 < 6])
 print(hatelott50)
+
 
 óraperc = str(input('Adjon meg egy időpontot "óra:perc" formátumban! '))
 óra = int(óraperc.split(':')[0])
