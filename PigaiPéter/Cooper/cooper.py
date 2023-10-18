@@ -18,9 +18,9 @@ iden = []
 for i in forras:
 	sor = i.strip().split('\t')
 	nevek.append(sor[0])
-	tavaly.append(sor[1])
-	iden.appen(sor[2])
-forras.close
+	tavaly.append(int(sor[1]))
+	iden.append(int(sor[2]))
+forras.close()
 # --------------------------------------------------------------------------------------------------------
 # 2. feladat: hány diák vett részt a teszten
 # minta: A teszten 12 diák vett részt.
@@ -44,7 +44,7 @@ print(f'Idén {minhe} diák futott legalább 3000 m-t.')
 # minta: Az idei legjobb eredmény 3450 m volt.
 # minta-extra: Az idei legjobb eredményt Mák Áron érte el 3450 m-es távval.
 legjobbember = ''
-legjobb = 999999999
+legjobb = 0
 for i in range(len(iden)):
 	if iden[i] > legjobb:
 		legjobb = iden[i]
