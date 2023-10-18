@@ -17,9 +17,9 @@ iden = []
 forras.readline()
 for sor in forras:
 	adat = sor.strip().split('\t')
-	nevek.append('{adat[0]} {adat[1]}')
-	tavaly.append(int(adat[2]))
-	iden.append(int(adat[3]))
+	nevek.append(adat[0])
+	tavaly.append(int(adat[1]))
+	iden.append(int(adat[2]))
 forras.close()
 
 
@@ -37,7 +37,7 @@ print(f'A teszten {len(nevek)} diák vett részt.')
 legalabb_3000 = []
 for i in range(len(iden)):
 	if iden[i] >= 3000:
-	legalabb_3000.append(iden[i])
+		legalabb_3000.append(iden[i])
 print(f'Idén {len(legalabb_3000)} diák futott legalább 3000m-t.')
 
 
@@ -62,7 +62,7 @@ print(f'Az idei legjobb eredményt {nevek[i_ertek]} érte el {legjobb_iden} m-es
 legnagyobb_javitas = 0
 for i in range(len(iden)):
 	if iden[i] - tavaly[i] > legnagyobb_javitas:
-		legnagyobb_javitas = iden[i] - tavaly[i]:
+		legnagyobb_javitas = iden[i] - tavaly[i]
 		i_5 = i
 print(f'A legtöbbet {nevek[i_5]} javított, ő {legnagyobb_javitas} m-rel futott többet idén, mint tavaly.')
 
@@ -80,6 +80,6 @@ print(f'A legtöbbet {nevek[i_5]} javított, ő {legnagyobb_javitas} m-rel futot
 # ...
 
 for i in range(len(legalabb_3000)):
-	segedvaltozo = nevek.index(legalabb_3000[i]) + 1
+	segedvaltozo = iden.index(legalabb_3000[i])
 	print(f'{nevek[segedvaltozo]}	{legalabb_3000[i]}')
 
