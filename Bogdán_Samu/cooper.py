@@ -47,7 +47,7 @@ else:
 # minta-extra: Az idei legjobb eredményt Mák Áron érte el 3450 m-es távval.
 
 index = idén.index(max(idén))
-print('Az idei legjobb eredményt {név[index]} érte el {idén[index]} m-es távval.')
+print(f'Az idei legjobb eredményt {név[index]} érte el {idén[index]} m-es távval.')
 
 # --------------------------------------------------------------------------------------------------------
 # 5. feladat: mennyi volt a legnagyobb javítás (azaz az idei-tavalyi eredmény maximális értéke)?
