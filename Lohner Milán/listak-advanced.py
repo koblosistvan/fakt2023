@@ -12,7 +12,7 @@ print(összeg)
 különbség = [l1[i] - l2[i] for i in range(len(l1))]  # írd át
 
 # növekmény meghatározása
-növekmény = [l1[i+1] - l1[i] for i in range(len(l1))]  # írd át
+növekmény = [l1[i+1] - l1[i] for i in range(len(l1)-1)]  # írd át
 
 # index meghatározása
 hatos_id = l1.index(45)
@@ -21,7 +21,7 @@ legnagyobb_id = l1.index(max(l1))
 print(legnagyobb_id)
 
 # legnagyobb különbség
-legnagyobb_különbség = l1.index(max(különbség)) # írd át
+legnagyobb_különbség = különbség.index(max(különbség)) # írd át
 print(f'a legnagyobb különbség {legnagyobb_különbség}')
 legnagyobb_különbség_id = 0 # írd át
 
