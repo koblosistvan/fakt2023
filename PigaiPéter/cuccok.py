@@ -8,3 +8,14 @@ def prime(szam):
             a = False
     return a
 
+def andor(x):
+    a = '' + 'I'
+    for i in range(1, x + 1):
+        a += 'I'
+        cucc = 'print(f', '"', '{', f'{a}', 'hely', '}', '"', ')'
+        print(f'{cucc.strip()}')
+def soos(b):
+    a = '' + 'I'
+    for i in range(1, b + 1):
+        print(f'elif {a} == i:\n\t\t {a} += 1')
+        a += 'I'
