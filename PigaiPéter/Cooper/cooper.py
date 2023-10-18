@@ -36,7 +36,7 @@ print(f'A teszten {diakszam} diák vett részt.')
 
 minhe = 0
 for i in range(len(iden)):
-	if iden[i] > 3000:
+	if iden[i] >= 3000:
 		minhe += 1
 print(f'Idén {minhe} diák futott legalább 3000 m-t.')
 # --------------------------------------------------------------------------------------------------------
@@ -76,5 +76,5 @@ print(f'A legtöbbet {javitasember} javított, ő {javitas} m-rel futott többet
 # ...
 
 for i in range(len(iden)):
-	if iden[i] > 3000:
+	if iden[i] >= 3000:
 		print(f'{nevek[i]} \t {iden[i]}')

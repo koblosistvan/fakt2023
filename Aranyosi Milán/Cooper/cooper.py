@@ -9,7 +9,7 @@
 
 # --------------------------------------------------------------------------------------------------------
 # 1. feladat: adatok beolvasása és tárolása
-forras = open('cooper.txt', mode = 'r', encoding='utf8')
+forras = open('cooper.txt', mode = 'r', encoding='utf-8')
 iden = []
 tavaly = []
 for sor in range(forras):
@@ -30,20 +30,20 @@ print(f'A teszten {diakok} diák vett részt.')
 # minta: Idén 3 diák futott legalább 3000 m-t.
 haromezer_vagy_felett = 0
 for i in range(len(iden)):
-	if iden[i] > 3000
-		haromezer_felett += 1
-	if iden[i] = 3000
-		haromezer_felett += 1
-print(f'Idén {haromezer_felett} diák futott legalább 3000 m-t.')
+	if iden[i] > 3000:
+		haromezer_vagy_felett += 1
+	if iden[i] == 3000:
+		haromezer_vagy_felett += 1
+print(f'Idén {haromezer_vagy_felett} diák futott legalább 3000 m-t.')
 # --------------------------------------------------------------------------------------------------------
 # 4. feladat: mennyi volt a legjobb futó eredménye idén?
 # minta: Az idei legjobb eredmény 3450 m volt.
 # minta-extra: Az idei legjobb eredményt Mák Áron érte el 3450 m-es távval.
 legjobb = iden[0]
 for i in range(len(iden)):
-	if iden[i] > legnagyobb
-		legnagyobb == iden[i]
-print(f'Az idei legjobb eredmény {lejobb} m volt.')
+	if iden[i] > legjobb:
+		legjobb = iden[i]
+print(f'Az idei legjobb eredmény {legjobb} m volt.')
 # --------------------------------------------------------------------------------------------------------
 # 5. feladat: mennyi volt a legnagyobb javítás (azaz az idei-tavalyi eredmény maximális értéke)?
 # minta: A legnagyobb javítás 231 m volt.
@@ -52,7 +52,7 @@ legnagyobb_javitas = iden[0] - tavaly[0]
 for i in range(len(iden)):
 	kulonbseg = iden[i] - tavaly[i] 
 	if kulonbseg > legnagyobb_javitas:
-			lenagyobb_javitas == kulonbseg
+			legnagyobb_javitas = kulonbseg
 print(f'A legnagyobb javítás {legnagyobb_javitas} m volt.')
 # --------------------------------------------------------------------------------------------------------
 # 6. feladat: listázd ki az idei 3000 m felett teljesítőket
@@ -67,7 +67,7 @@ print(f'A legnagyobb javítás {legnagyobb_javitas} m volt.')
 # ...
 haromezerfelett = []
 for i in range(len(iden)):
-	if iden[i] > 3000
+	if iden[i] > 3000:
 		haromezerfelett.append(iden[i])
 for i in range(len(haromezerfelett)):
-	print(haromezereflett[i] \n haromezerfelett[i+1])
+	print(f'{haromezerfelett[i]},\n, {haromezerfelett[i+1]}')
