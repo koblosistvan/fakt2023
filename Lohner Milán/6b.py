@@ -46,9 +46,11 @@ for i in range(len(időpont)):
 else:
     print('Nincs ilyen')
 
+allomasdb = [0]*100
+for i in range(len(hely)):
+    allomasdb[hely[i]-1] +=1
 
-for i in range(len(időpont)):
-    sum(1, if bekérté==időpont[i]):
+
 
 
 

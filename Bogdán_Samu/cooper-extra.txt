@@ -1,0 +1,34 @@
+név	tavaly	idén
+Acél Vértes Levente	2210	3000
+Álmos Előd Ond	3070	2330
+Apró Alma	2380	2510
+Arany Áron	2030	1700
+Asztalos Rátold	2060	2550
+Bab Szemere	3170	2600
+Bagó Áron	1880	2190
+Balatoni Szirén	1980	2550
+Bandi Tamás	2120	3050
+Bátor Robin	3030	2640
+Békés Csaba	2170	1760
+Bika Erős	2970	2960
+Bodó Bács	2200	1590
+Bor Ivó	2300	3160
+Brokk Kolin	3200	3000
+Buj Tas	2980	2480
+Cink Elek	1090	3140
+Csák Ányos	2640	2190
+Dári Dóra	3700	3260
+Ék Előd	2470	1820
+Fa Kíra	3230	3680
+Fi Alett	1780	3310
+Föld Elek	3100	2980
+Főző Győző	2740	2030
+Gede Ond	2680	2770
+Haja Donát	2910	3090
+Hara Kira	2170	3140
+Hor Zsolt	2710	2520
+Kala Pál	2200	2080
+Kapp Pál	2140	1880
+Keres Ede	3320	2580
+Kéz Benő	2250	3350
+Kukor Ica	2220	2060
