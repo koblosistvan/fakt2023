@@ -46,6 +46,6 @@ párosok_összege = 0 # írd át
 harmincasok_átlaga = 0 # írd át
 
 # szűrt min/max
-legnagyobb_harmin_alatti = max([a for a in l1 if a < 30])
+legnagyobb_harminc_alatti = max([a for a in l1 if a < 30])
 
 legnagyobb_páros = 0 # írd át
