@@ -54,13 +54,11 @@ print(f'Az idei legjobb eredményt {név[index]} érte el {idén[index]} m-es t�
 # minta: A legnagyobb javítás 231 m volt.
 # minta-extra: A legtöbbet Gáz Áron javított, ő 265 m-rel futott többet idén, mint tavaly.
 
-javítás = idén[0] - tavaly[0]
 index = 0
-for i in range(len(név)-1):
-	if idén[i+1] - tavaly[i+1] > idén[i] - tavaly[i]:
-		javítás = idén[i+1] - tavaly[i+1]
-		index = i + 1
-print(f'A legtöbbet {név[index]} javított, ő {javítás} m-rel futott többet idén, mint tavaly.')
+for i in range(1, len(név)):
+	if idén[i] - tavaly[i] > idén[index] - tavaly[index]:
+		index = i
+print(f'A legtöbbet {név[index]} javított, ő {idén[index] - tavaly[index]} m-rel futott többet idén, mint tavaly.')
 
 # --------------------------------------------------------------------------------------------------------
 # 6. feladat: listázd ki az idei 3000 m felett teljesítőket
