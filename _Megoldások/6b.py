@@ -32,3 +32,8 @@ for i in range(len(hely)-1):
 
 print(f'A leghosszabb szünet {leghosszabb_idő} perc volt {óra_perc(leghosszabb_id)} és {óra_perc(leghosszabb_id+1)} között.')
 print('Vége.')
+
+# darabszámok
+állomás_db = [0] * 100
+for i in range(len(hely)):
+    állomás_db[hely[i]-1] += 1
