@@ -81,3 +81,8 @@ kimenet.close()
 
 #7.feladat
 
+#8.b feladat
+for i in range(len(meret)):
+    for j in range(i-1):
+
+
