@@ -8,7 +8,7 @@ forras.readline()
 lakasok_alapterulet = []
 lakasok_ar = []
 for sor in forras:
-    adat = sor.strip().split( )
+    adat = sor.strip().split(' ')
     lakasok_alapterulet.append(int(adat[0]))
     lakasok_ar.append(int(adat[1]))
 
