@@ -19,3 +19,29 @@ def soos(b):
     for i in range(1, b + 1):
         print(f'elif {a} == i:\n\t\t {a} += 1')
         a += 'I'
+
+def on_closing(r):
+    r.destroy()
+
+    for i in range(2):
+        window()
+
+
+def window():
+    root = tk.Toplevel()
+    root.title("Hydra")
+
+    # Position the window
+    w = 450
+    h = 250
+    sw = root.winfo_screenwidth()
+    sh = root.winfo_screenheight()
+    x = random() * sw
+    y = random() * sh
+    root.geometry('%dx%d+%d+%d' % (w, h, x, y))
+
+    path = "h.png"
+    message = "I mean its alright like"
+    tk.Label(root, text=message, width=120, height=20).pack()
+
+    root.protocol("WM_DELETE_WINDOW", lambda arg=root: on_closing(arg))
