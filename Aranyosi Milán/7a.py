@@ -65,14 +65,14 @@ for i in range(len(meret)):
         otven_hatvan_kozotti_ar.append(ar[i])
 kimenet = open('arak.txt', mode='w', encoding='utf-8')
 print(f'Az 50 négyzetméter és a 60 négyzetméteres házak listája: {otven_hatvan_kozotti} (négyzetméter) \nárainak listája: {otven_hatvan_kozotti_ar} (millió Ft)', file=kimenet)
-kimenet.close()
+
 
 #6.feladat
 print('Figyelj arra, hogy ne ugyanazt az értéket add meg és az egyes helyekre csak egy számot adj meg.')
 ar_tartomanymin = input('Add meg aza also hatart:')
 ar_tartomanymax = input('Add meg a felső határt:')
 keresett_hazak_id = []
-kimenet = open('arak.txt', mode='w', encoding='utf-8')
+
 for i in range(len(ar)):
     if int(ar_tartomanymin) < ar[i] < int(ar_tartomanymax):
         keresett_hazak_id.append(i)
@@ -80,4 +80,9 @@ print(f'\n\n\n\nSzámodra a {keresett_hazak_id} sorszámú házak lesznek a megf
 kimenet.close()
 
 #7.feladat
+
+#8.b feladat
+for i in range(len(meret)):
+    for j in range(i-1):
+
 
