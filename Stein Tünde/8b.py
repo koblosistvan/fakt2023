@@ -15,4 +15,3 @@ for i in range(len(lakasok_alapterulet)):
 for i in range(len(lakasok_alapterulet)):
     print(f'1. alapterület: {lakasok_alapterulet[i]} m², ár: {lakasok_ar[i]} MFt')
 
-
