@@ -39,6 +39,20 @@ else: print('Nincs olyan lakas')
 aroszto = []
 
 
-for i in range(len(darab))
+for i in range(darab):
+    aroszto.append(ar[i]/terulet[i])
 
+
+print(f'A legmagasabb ara a {aroszto.index(max(aroszto)) + 1}. lakasnak van')
+
+nagyobbhusz = 0
+
+for i in range(len(ar)):
+    if ar[i] <= 20:
+        nagyobbhusz += 1
+
+
+
+
+print(nagyobbhusz)
 
