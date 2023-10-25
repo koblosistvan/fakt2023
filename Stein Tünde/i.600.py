@@ -26,4 +26,3 @@ for i in range(oszlopok_szama):
                 szabad_korongok.append(b[i])
 print(f'Szabad korongok: {szabad_korongok}')
 
-
