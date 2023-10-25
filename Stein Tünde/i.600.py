@@ -25,3 +25,5 @@ for i in range(oszlopok_szama):
             if b[i] == korongok[k]:
                 szabad_korongok.append(b[i])
 print(f'Szabad korongok: {szabad_korongok}')
+
+
