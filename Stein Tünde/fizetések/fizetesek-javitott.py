@@ -56,6 +56,7 @@ for i in range(len(munkatapasztalat) - 1):
 print(f'{munkatapasztalat[i_5]} -> {munkatapasztalat[i_5 + 1]}, év: {eves_atlagkereset[i_5]} -> {eves_atlagkereset[i_5 + 1]} ({eves_atlagkereset[i_5 + 1] - eves_atlagkereset[i_5]})')
 
 
+
 # 6. feladat: a megoldást commitold és pushold
 # fizetesek.txt.py néven nyersen, ahogy megírtad jegyzettömbben
 # fizetesek.txt-javitott.py néven miután PyCharm-ban kijavítottad
