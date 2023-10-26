@@ -8,7 +8,7 @@ forras.readline()
 lakasok_alapterulet = []
 lakasok_ar = []
 for sor in forras:
-    adat = sor.strip().split(' ')
+    adat = sor.strip().split( )
     lakasok_alapterulet.append(int(adat[0]))
     lakasok_ar.append(int(adat[1]))
 
@@ -29,7 +29,7 @@ legmagasabb_arany = 0
 for i in range(len(lakasok_ar)):
     if lakasok_ar[i]/lakasok_alapterulet[i] > legmagasabb_arany:
         legmagasabb_arany = lakasok_ar[i]/lakasok_alapterulet[i]
-        i_ertek = i
+        i_ertek =i
 print(f'A {i_ertek + 1}. lakásnak a legnagyobb az ár/terület aránya: {legmagasabb_arany}.')
 
 #4. feladat
