@@ -453,7 +453,7 @@ print(f"{IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 
 válasz = input('igen/nem:')
 
-if válasz == 'igen':
+
     from random import random
     import tkinter as tk
 
