@@ -56,6 +56,8 @@ print(f"a legmagasabb fizetést {év[kereset.index(max([kereset[i] for i in rang
 
 fel(5)
 
+print()
+
 for i in range(1, len(év)):
 	if év[i-1] < év[i] and kereset[i-1] > kereset[i]:
 		print(f"{év[i-1]} -> {év[i]} év: ${kereset[i-1]} -> ${kereset[i]} ({kereset[i]-kereset[i-1]})")
