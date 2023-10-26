@@ -34,9 +34,10 @@ print(f'{id} esetben csökkent az átlagfizetés.')
 
 fiz_id = fizetés.index(max(fizetés))
 tapaszt1 = round(tapasztalat[fiz_id], 0)
-tapaszt2 = tapaszt1 + 1
-print(f'A legmagasabb fizetést {int(tapaszt1)},{int(tapaszt2)} év munkatapasztalattal lehet kapni.')
-
+if tapaszt1 > tapasztalat[fiz_id]:
+	print(f'A legmagasabb fizetést {int(tapaszt1)},{int(tapaszt1) + 1} év munkatapasztalattal lehet kapni.')
+else:
+	print(f'A legmagasabb fizetést {int(tapaszt1) - 1},{int(tapaszt1)} év munkatapasztalattal lehet kapni.')
 # 5. feladat: listázd ki, hogy mely sorok jelentenek visszaeseést a fizetésben!
 # minta: "4,2 év: $56 547"
 # minta extra: "4,1 -> 4,2 év: $57 247 -> $56 547 (-1 300)"
