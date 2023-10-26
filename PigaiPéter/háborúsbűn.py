@@ -1,5 +1,5 @@
 import cuccok
-forrás = open('6b.txt', mode='r', encoding='utf-8')
+forrás = open('fölös/6b.txt', mode='r', encoding='utf-8')
 hernyo = open('cucc.py', mode='r', encoding='utf-8')
 cuccok.vonal()
 hely = []
