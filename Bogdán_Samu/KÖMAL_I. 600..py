@@ -42,4 +42,7 @@ for i in range(len(stóc)):
         id1 = 0
         id2 = 0
 
+if len(nem_korong) == 0:
+    nem_korong.append('-')
+
 print(f'Nem hozzátehető korongok: {" ".join(map(str, nem_korong))}')
