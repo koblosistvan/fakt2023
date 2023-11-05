@@ -13,4 +13,4 @@ for i in range(len(lakasok_alapterulet)):
             lakasok_alapterulet[i], lakasok_alapterulet[i+1] = lakasok_alapterulet[i+1], lakasok_alapterulet[i]
             lakasok_ar[i], lakasok_ar[i+1] = lakasok_ar[i+1], lakasok_ar[i]
 for i in range(len(lakasok_alapterulet)):
-    print(f'1. alapterület: {lakasok_alapterulet[i]} m², ár: {lakasok_ar[i]} MFt')
+    print(f'{i+1}. alapterület: {lakasok_alapterulet[i]} m², ár: {lakasok_ar[i]} MFt')
