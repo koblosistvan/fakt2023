@@ -35,9 +35,8 @@ def valami(a, b, c, d):
     for i in rage(len(a) - 1):
         a.append(b)
         a = sorted(a)
-        if not a[i] % a[i - 1] == 0:
+        if not a[i+1] % a[i] == 0:
             a.remove(b)
-
     if b in a:
         c.append(b)
         a.remove(b)
