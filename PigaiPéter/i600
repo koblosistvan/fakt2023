@@ -1,0 +1,14 @@
+korong = []
+for i in range(1,26):
+    korong.append(i)
+
+meglevooszlop = int(input('Au oszlopok száma: '))
+for i in range(meglevooszlop):
+    a = 1
+    hasznalt = input((f'{a}. oszlop: '))
+    hasznalt = hasznalt.strip().split(' ')
+    for j in range(len(hasznalt)):
+        korong.remove(int(hasznalt[j]))
+    a += 1
+
+összoszlop = int(input('Hány oszlopő legyen összesen>'))
