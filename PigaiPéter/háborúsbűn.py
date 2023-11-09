@@ -454,41 +454,41 @@ print(f"{IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 válasz = input('igen/nem:')
 
 
-    from random import random
-    import tkinter as tk
+from random import random
+import tkinter as tk
 
 
-    def on_closing(r):
-        r.destroy()
+def on_closing(r):
+    r.destroy()
 
-        for i in range(2):
-            window()
-
-
-    def window():
-        root = tk.Toplevel()
-        root.title("Hydra")
-
-        # Position the window
-        w = 450
-        h = 250
-        sw = root.winfo_screenwidth()
-        sh = root.winfo_screenheight()
-        x = random() * sw
-        y = random() * sh
-        root.geometry('%dx%d+%d+%d' % (w, h, x, y))
-
-        path = "h.png"
-        message = "I mean its alright like"
-        tk.Label(root, text=message, width=120, height=20).pack()
-
-        root.protocol("WM_DELETE_WINDOW", lambda arg=root: on_closing(arg))
+    for i in range(2):
+        window()
 
 
-    root = tk.Tk()
-    root.title("Csandor")
-    message = "I mean it's alright like"
-    tk.Label(root, text=message).pack()
-    root.geometry("450x250")
+def window():
+    root = tk.Toplevel()
+    root.title("Hydra")
+
+    # Position the window
+    w = 450
+    h = 250
+    sw = root.winfo_screenwidth()
+    sh = root.winfo_screenheight()
+    x = random() * sw
+    y = random() * sh
+    root.geometry('%dx%d+%d+%d' % (w, h, x, y))
+
+    path = "h.png"
+    message = "I mean its alright like"
+    tk.Label(root, text=message, width=120, height=20).pack()
+
     root.protocol("WM_DELETE_WINDOW", lambda arg=root: on_closing(arg))
-    root.mainloop()
+
+
+root = tk.Tk()
+root.title("Csandor")
+message = "I mean it's alright like"
+tk.Label(root, text=message).pack()
+root.geometry("450x250")
+root.protocol("WM_DELETE_WINDOW", lambda arg=root: on_closing(arg))
+root.mainloop()
