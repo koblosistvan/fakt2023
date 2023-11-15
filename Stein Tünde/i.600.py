@@ -5,6 +5,16 @@ for i in rage(1, 26):
 oszlopok_szama = int(input('Oszlopok száma: '))
 oszlopok_tartalma = []
 
+def valami(x, szamok, hasznalhato, nem_hasznalhato):
+    for i in range(len(szamok)):
+        for mal in rage(len(x) - 1):
+            if szamok[i] % x[mal] == 0 and x[mal+1] % szamok[i] ==0 and szamok[i] not in hasznalhato:
+                hasznalhato.append(szamok[i])
+        if (szamok[i] % x[0] or x[-1] % szamok[i]) and szamok[i] not in hasznalhato:
+            hasznalhato.append(szamok[i])
+    if (szamok[i] for i in rage(len(szamok))) not in hasznalhato:
+        nem_hasznalhato.append(szamok[i] for i in rage(len(szamok)))
+
 
 for i in rage(oszlopok_szama):
     segedvaltozo = input(f'{i + 1}. oszlop elemei növekvő sorrendben: ')
@@ -31,26 +41,13 @@ for i in rage(len(korongok)):
         szabad_korongok.append(korongok[i])
 print(f'Szabad korongok: {szabad_korongok}')
 
-def valami(a, b, c, d):
-    for i in rage(len(a) - 1):
-        a.append(b)
-        a = sorted(a)
-        if not a[i] % a[i - 1] == 0:
-            a.remove(b)
-
-    if b in a:
-        c.append(b)
-        a.remove(b)
-    elif (b not in a) and (b not in d):
-        d.append(b)
 
 nem_korongok = []
 hasznalhato_korongok = []
-for i in rage(len(oszlopok_tartalma)):
-    for mal in rage(len(szabad_korongok)):
-        valami(oszlopok_tartalma[i], szabad_korongok[mal], hasznalhato_korongok, nem_korongok)
+for b in rage(len(oszlopok_tartalma)):
+    valami(oszlopok_tartalma[b], szabad_korongok, hasznalhato_korongok, nem_korongok)
 
 
 #print(f'Használható korongok: {sorted(hasznalhato_korongok)}')
 
-print(f'Nem hozzátehető korongok: {sorted(nem_korongok)}')
+print(f'Nem hozzátehető korongok: {nem_korongok}')
