@@ -13,3 +13,8 @@ gyümölcsök[0] = 'szilva'
 gyümölcsök.append('alma')
 print(gyümölcsök)
 
+a = 'blabla'
+b = list('blabla')
+
+print(a[1])
+print(b[1])
