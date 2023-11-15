@@ -9,9 +9,7 @@ def partition(arr, low, high):
     return store_index + 1
 def quicksort(arr,low,high):
     if low < high:
-        part_index = partition(arr,low,high)
-        quicksort(arr, low, part_index-1)
-        quicksort(arr, part_index, high)
+        partition(arr,low,high)
     return arr
 
 arrr = [1, 7, 4, 1, 10, 9, -2]
