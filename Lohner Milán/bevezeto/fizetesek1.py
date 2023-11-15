@@ -5,7 +5,7 @@
 # 1. feladat: adatok beolvasása és tárolása
 # figyelj, hogy az adatokat milyen típusra konvertálod
 
-forras = open('fizetesek.txt', mode='r', encoding='utf-8' )
+forras = open('fizetesek.txt', mode='r', encoding='utf-8')
 
 munkatap = []
 
