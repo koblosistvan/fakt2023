@@ -1,4 +1,4 @@
-forrás = open('4c-bolt.txt',mode='r',encoding='utf-8')
+forrás = open('4c-bolt.txt', mode='r', encoding='utf-8')
 
 bevétel=[]
 kiadás=[]

@@ -7,14 +7,13 @@ városok = []
 for i in forrás:
     városok.append(i.strip())
 városok_id = list(set(városok))
-kimenet = []
+városok_db = []
 for i in range(len(városok_id)):
-    if városok.count(városok_id[i]) % konténer_per_hajó != 0:
-        csatolt = []
-        csatolt.append(városok_id[i])
-        csatolt.append(városok.count(városok_id[i]))
-        kimenet.append(csatolt)
-        csatolt = []
+    városok_db.append(városok.count(városok_id[i]))
+városok_db1 = városok_db
+index = []
 for i in range(3):
-    if kimenet[i][1] / konténer_per_hajó == math.ceil(kimenet[i][1] / konténer_per_hajó):
-        print(kimenet[i][0], kimenet[i][1] / konténer_per_hajó)
+    index.append(városok_db.index(max(városok_db1)))
+    városok_db[városok_db1.index(max(városok_db1))] = 0
+for i in range(3):
+    print(városok_id[index[i]])
