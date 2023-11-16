@@ -1,4 +1,4 @@
-kimenet = open('arak.txt', mode='w', encoding='utf8')
+kimenet = open('../arak.txt', mode='w', encoding='utf8')
 
 print(f'Eddig is írtunk ilyet.', file=kimenet)
 
@@ -63,7 +63,7 @@ for i in range(len(meret)):
     if 50 < meret[i] < 60:
         otven_hatvan_kozotti.append(meret[i])
         otven_hatvan_kozotti_ar.append(ar[i])
-kimenet = open('arak.txt', mode='w', encoding='utf-8')
+kimenet = open('../arak.txt', mode='w', encoding='utf-8')
 print(f'Az 50 négyzetméter és a 60 négyzetméteres házak listája: {otven_hatvan_kozotti} (négyzetméter) \nárainak listája: {otven_hatvan_kozotti_ar} (millió Ft)', file=kimenet)
 
 

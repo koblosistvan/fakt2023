@@ -26,9 +26,9 @@ print(f'A fájl {len(munkatapasztalat)} sort tartalmaz.')
 # minta: "5 esetben csökkent az átlagfizetés."
 
 csokkenes = 0
-for i in range(len(m) - 1):
+for i in range(len(munkatapasztalat) - 1):
 	if munkatapasztalat[i] / eves_atlagkereset[i] > munkatapasztalat[i+1] /eves_atlagkereset[i+1]:
-	csokkenes += 1
+		csokkenes += 1
 print(f'{csokkenes} esetben csökkent az átlagfizetés.')
 
 
@@ -41,7 +41,7 @@ for i in range(len(munkatapasztalat)):
 	if eves_atlagkereset[i] > legmagasabb:
 		legmagasabb = eves_atlagkereset[i]
 		i_4 = i
-legmagasabb = string(munkatapasztalat[i_4])
+legmagasabb = str(munkatapasztalat[i_4])
 legmagasabb = legmagasabb.strip().spli('.')
 print(f'A legmagasabb fizetést {legmagasabb[0]},{legmagasabb[1]} év munkatapasztalattal lehet kapni.')
 
