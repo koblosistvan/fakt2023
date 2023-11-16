@@ -9,12 +9,14 @@ forras = open('fizetesek.txt', mode='r', encoding='utf-8')
 munkatapasztalat = []
 fizetes = []
 
-for sor in range(forras):
+forras.readline()
+
+for sor in forras:
     adat = sor.strip().split(';')
     munkatapasztalat.append(float(adat[0]))
     fizetes.append(int(adat[1]))
 
-forras.readline()
+
 
 forras.close()
 
@@ -28,7 +30,7 @@ print(f'A fájl {len(fizetes)} sort tartalmaz.')
 
 csokkent_a_fizetes = 0
 
-for i in range(len(munkatapasztalat)):
+for i in range(len(munkatapasztalat)-1):
     if munkatapasztalat[i] < munkatapasztalat[i+1] and fizetes[i] > fizetes[i+1]:
         csokkent_a_fizetes += 1
 
@@ -59,7 +61,7 @@ erre_az_evre = munkatapasztalat[i+1]
 errol_a_fiz = fizetes[i]
 erre_a_fiz = fizetes[i+1]
 
-for i in range(len(munkatapasztalat)):
+for i in range(len(munkatapasztalat)-1):
     if munkatapasztalat[i] < munkatapasztalat[i+1] and fizetes[i] > fizetes[i+1]:
         errol_az_evrol = munkatapasztalat[i]
         erre_az_evre = munkatapasztalat[i+1]
