@@ -1,9 +1,8 @@
 forrás = input('bumm(ettől,eddig,tiltott): ')
-ettől = int(forrás.split(',')[0])
-eddig = int(forrás.split(',')[1])
-tiltott = int(forrás.split(',')[2])
-for i in range(ettől, eddig+1):
-    if str(tiltott) in list(str(i)) or i % tiltott == 0:
-        print('!!')
-    else:
-        print(i)
+def bumm(ettől,eddig,tiltott):
+    for i in range(ettől, eddig+1):
+        if str(tiltott) in list(str(i)) or i % tiltott == 0:
+            print('!!')
+        else:
+            print(i)
+bumm(int(forrás.split(',')[0]),int(forrás.split(',')[1]),int(forrás.split(',')[2]))
