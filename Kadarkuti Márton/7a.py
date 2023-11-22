@@ -127,6 +127,11 @@ else:
     print(f"(Nincs találat)")
 vonal()
 
+#8b feladat
+
+
+
+
 #7+ feladat
 loop = True  #a program innentől határozott kereső, van lehetőség kilépni
 while loop:
