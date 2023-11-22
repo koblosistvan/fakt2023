@@ -62,7 +62,7 @@ vonal()
 # 5. feladat: mennyi volt a legnagyobb javítás (azaz az idei-tavalyi eredmény maximális értéke)?
 # minta: A legnagyobb javítás 231 m volt.
 # minta-extra: A legtöbbet Gáz Áron javított, ő 265 m-rel futott többet idén, mint tavaly.
-
+# NEM JÓ
 legnagyobb_javitas = 0  # indexet ment el
 d = 0  # különbség
 d_max = 0 # ideiglenes legnagyobb különbség
