@@ -1,10 +1,10 @@
 forras = open('kerekparverseny.txt', mode='r', encoding='utf-8')
 
-elsosor = forras.readline().strip().split(' ')
+elso_sor = forras.readline().strip().split()
 
-varosok = elsosor[0]
+varosok_szama = int(elso_sor[0])
 
-versenyhossz = elsosor[1]
+verseny_hossz = int(elso_sor[1])
 
 varosok_tavolsaga = []
 
@@ -13,9 +13,7 @@ for sor in forras:
     varosok_tavolsaga.append(int(adat[0]))
 
 otvenkm = 0
-utak =
+utak = []
 
 for i in range(len(varosok_tavolsaga)):
-
-
-
+    
