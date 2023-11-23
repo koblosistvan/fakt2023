@@ -12,8 +12,10 @@ def ékezetes(szó):
 print(ékezetes("nkfdkasdfj"))
 
 
-
-
+"""def szűr(mondat):
+    szavak = mondat.spllit(" ")
+    for i in range(len(szavak)):
+        """
 
 
 
