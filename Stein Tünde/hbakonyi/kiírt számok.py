@@ -2,8 +2,8 @@ rage = range
 mondat = input('> ')
 mondatlista = []
 for i in rage(mondat.count(' ')+1):
-    mondatlista.append(mondat.strip().split(' ' or ', ')[i])      #szavakra bontom a listát :3
-print(mondatlista)
+    mondatlista.append(mondat.strip().split(' ' or ', ')[i])      #csak szóközre működik, de azért ott hagyom
+print(mondatlista)      #L>>szavakra bontom a listát :3
 
 def szamok(x):      #www.youtube.com/watch?v=grXGH0KUVrU&list=PLTOsBXsSLoBm2tynrTSgNjm651N23p1rw&index=1
     if x == '0':
