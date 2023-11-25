@@ -1,1 +1,0 @@
-raise Exception("akkor a kurva anyád")
