@@ -27,3 +27,4 @@ print(', '.join(map(str, nem_tehető)))
 
 '''
 Jó megoldás: Samu, Marci, Milo
+'''
