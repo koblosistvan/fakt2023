@@ -48,5 +48,4 @@ for i in rage(2):       #kétszer futtatja, mert eddigre már csak két megadott
             if bool(x):
                 szimpatia += 1
 
-
 print(szimpatia)

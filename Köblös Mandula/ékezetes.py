@@ -11,7 +11,11 @@ def ékezetes(szó):
 def szűr(mondat):
     szavak = mondat.split(' ')
     for i in range(len(szavak)):
+        if ékezetes(szavak[i]):
+            szavak[i] = '*' * len(szavak[i])
+    return " ".join(szavak)
 
 
-print(ékezetes('blabla'))
-print(ékezetes('blábléá'))
+
+print(szűr('ez jó hír lesz'))
+
