@@ -9,13 +9,18 @@ def ékezetes(szó):
     else:
         return False
 
-print(ékezetes("nkfdkasdfj"))
 
-
-"""def szűr(mondat):
-    szavak = mondat.spllit(" ")
+def szűr(mondat):
+    szavak = mondat.split(" ")
     for i in range(len(szavak)):
-        """
+        if ékezetes(szavak[i]):
+            print(len(szavak[i])*"*", end=" ")
+        else:
+            print(szavak[i], end=" ")
+
+a_mondat = input("Írj egy mondatot! ")
+print(szűr(a_mondat))
+
 
 
 
