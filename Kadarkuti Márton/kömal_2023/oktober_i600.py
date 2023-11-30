@@ -174,9 +174,10 @@ for ciklus in range(oszlopSzam):
 
 
 #(1): első elem
+# todo: hatékonyabbá tehető, ha figyelembe vesszük azt, hogy ha szabad[i] > oszlopopk[ciklus][0], akkor már biztos egyik nála nagyobb korong sem lesz jó ide
 for ciklus in range(oszlopSzam):
     for i in range(len(szabad)):
-        if szabad[i] == None:
+        if szabad[i] == None: # todo: ez az első kör, itt még nem lehet None
             continue
         if oszlopok[ciklus][0]%szabad[i] == 0 and lista[szabad[i]-1].elerheto:
             lista[szabad[i]-1].elerheto = False

@@ -15,7 +15,7 @@ def szabad_korong(oszlopok):
     for oszlop in oszlopok:
         elfoglaltkorong.update(oszlop)
 
-    szabad_korong = sorted(list(osszeskorong - elfoglaltkorong))
+    szabad_korong = sorted(list(osszeskorong - elfoglaltkorong)) # todo: halmazok különbsége
     return szabad_korong
 
 def nemhozzatehetokor(oszlopok):
