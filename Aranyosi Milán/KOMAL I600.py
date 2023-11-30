@@ -20,5 +20,5 @@ for o in oszlopok:  # oszlopok [6, 12, 24]
                 joe = False
         if joe == True:
             korongok.remove(k)
-
+# todo: eldöntés algoritmusa fordítva lenne
 print('Nem hozzátehető korongok:' + korongok)
