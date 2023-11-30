@@ -30,3 +30,4 @@ print(szűr(a_mondat))
 
 
 
+
