@@ -1,6 +1,8 @@
 MAGYAR = "aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz"
 CYPHER = "öüóűqwertzuiopőúasdfghjkléáíyxcvbnm"
 
+
+
 def kodol_dekodol(szo, kodole):
     output = [i for i in szo]
 

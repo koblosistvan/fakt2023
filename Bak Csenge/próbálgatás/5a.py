@@ -10,9 +10,6 @@ for sor in forrás:
 
 forrás.close()
 
-
-
-
 idei_max = idén[0]
 idei_max_id = 0
 idei_min = idén[0]
@@ -33,12 +30,6 @@ for i in range(1, len(tavaly)):
     if idei_min > idén[i]:
         idei_min = idén[i]
         idei_min_id = i
-    if tavalyi_max < idén[i]:
-        tavalyi_max = idén[i]
-        tavalyi_max_id = i
-    if tavalyi_min > idén[i]:
-        tavalyi_min = idén[i]
-        tavalyi_min_id = i
     if abs(idén[i] - tavaly[i]) < legkisebb_válltozás:
         legkisebb_válltozás = abs(idén[i] - tavaly[i])
     if abs(idén[i] - tavaly[i]) > legnagyobb_válltozás:
