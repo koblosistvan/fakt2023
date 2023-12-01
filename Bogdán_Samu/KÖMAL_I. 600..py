@@ -19,7 +19,7 @@ for i in range(len(korongok)):
 
 szabad.sort()
 print(f'Szabad korongok: {" ".join(map(str, szabad))}')
-# todo: lista kiírása
+
 nem_korong = szabad
 id1 = 0
 id2 = 0
