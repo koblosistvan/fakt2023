@@ -12,7 +12,7 @@ while len(szamok) != 2:     #fut, amíg nem két megadott érték van szóközze
     print(szamok)
 szimpatia = 0
 
-def oszthato(x, y):     #egy bool-t ad vissza, aszerint hogy x és y osztható-e egymással
+def oszthato(x, y):
     oszthatoe = 0
     x = int(x)
     y = int(y)
