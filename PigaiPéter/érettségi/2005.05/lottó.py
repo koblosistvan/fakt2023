@@ -12,8 +12,26 @@ print(' '.join(map(str, hianyzo)))
 bekert = int(input('Adj meg egy számot 1-51 között:'))
 print(hetiszamok[bekert-1])
 nemhuzott = False
-for sor in forras:
-    for szám in sor:
+for j in hetiszamok:
+    for szám in j:
+        for i in range(100):
+            if i != szám:
+                nemhuzott = True
+if nemhuzott:
+    print('Van')
+else:
+    print('Nincs')
+páratlan = 0
+for j in hetiszamok:
+    for szám in j:
+        if int(szám) % 2 != 0:
+            páratlan += 1
+print(páratlan)
+hetiszamok.append(hianyzo)
 
-
-
+f = open('lotto52.ki', 'a')
+for i in range(len(hetiszamok)):
+    sor = hetiszamok[i]
+    sor = " ".join(sor)
+    f.write(sor)
+    f.write('\n')
