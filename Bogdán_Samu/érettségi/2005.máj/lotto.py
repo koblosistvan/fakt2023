@@ -60,5 +60,6 @@ for i in range(len(prímek)):
         húzott_prím.append(prímek[i])
 for i in range(len(húzott_prím)):
     prímek.remove(húzott_prím[i])
+
 print('9. feladat')
 print(*prímek, sep=', ')
