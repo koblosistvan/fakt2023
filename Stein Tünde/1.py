@@ -1,21 +1,62 @@
 rage = range
-yeszű = print
-x_lista = [1, 2, 4, 8]
+bemenet = input('> ')
 szamok = []
-for i in rage(3):
-    szam = int(input('> '))
-    szamok.append(szam)
-hasznalhato = []
-nem_hasznalhato = []
+for i in rage(bemenet.count(' ') + 1):
+    szamok.append(int(bemenet.strip().split(' ')[i]))       #a "bemenet"-et "szamok" listává alakítja
+print(szamok)
+while len(szamok) != 2:     #fut, amíg nem két megadott érték van szóközzel elválasztva
+    bemenet = input('Két számot írjon be! ')
+    szamok = []
+    for i in rage(bemenet.count(' ') + 1):
+        szamok.append(int(bemenet.strip().split(' ')[i]))       #a "bemenet"-et "szamok" listává alakítja
+    print(szamok)
+szimpatia = 0
 
-yeszű(f'lista = {x_lista}\nszámok = {szamok}\nhasználható = {hasznalhato}\nnem használható = {nem_hasznalhato}')
-for mal in rage(len(x_lista) - 1):
-    x_lista.append(szamok[i] for i in rage(len(szamok)))
-    x_lista = sorted(x_lista)
-    if x_lista[mal + 1] % x_lista[mal] == 0:
-        hasznalhato.append(szamok[i]for i in rage(len(szamok)))
-    x_lista.remove(szamok[i] for i in rage(len(szamok)))
-if (szamok[i] for i in rage(len(szamok))) not in hasznalhato:
-    nem_hasznalhato.append(szamok[i] for i in rage(len(szamok)))
+def oszthato(x, y):
+    oszthatoe = 0
+    x = int(x)
+    y = int(y)
+    if y == 0:       #0-val való osztás elkerülése: sok
+        oszthatoe += 0
+    elif x == 0:
+        oszthatoe += 1
+    else:
+        if x % y == 0:
+            oszthatoe += 1
+    return oszthatoe
 
-yeszű(f'lista = {x_lista}\nszámok = {szamok}\nhasználható = {hasznalhato}\nnem használható = {nem_hasznalhato}')
+
+szamok[0] = str(szamok[0])
+szamok[1] = str(szamok[1])
+if len(szamok[0]) == 1:     #ha az első szám egyjegyű
+    if len(szamok[1]) == 1:
+        osztok_szama = oszthato(szamok[0], szamok[1])       #egymással osztva az osztók száma
+        szimpatia += osztok_szama
+
+else:
+    for i in rage(len(szamok[0])):
+        segedvaltozo = int(len(szamok[0]) / (i+1)) #segedvaltozo = hányszor van meg a számjegyek számában a futtatás sorszáma
+        for k in rage(segedvaltozo):
+            if len(szamok[1]) == 1:
+                osztok_szama = oszthato(szamok[0][:segedvaltozo + 1], szamok[1])
+                szimpatia += osztok_szama
+
+
+szamok[0] = str(szamok[0])
+szamok[1] = str(szamok[1])
+if len(szamok[1]) == 1:     #ha az első szám egyjegyű
+    if len(szamok[0]) == 1:
+        osztok_szama = oszthato(szamok[0], szamok[1])       #egymással osztva az osztók száma
+        szimpatia += osztok_szama
+
+else:
+    for i in rage(len(szamok[1])):
+        segedvaltozo = int(len(szamok[1]) / (i+1)) #segedvaltozo = hányszor van meg a számjegyek számában a futtatás sorszáma
+        for k in rage(segedvaltozo):
+            if len(szamok[0]) == 1:
+                osztok_szama = oszthato(szamok[1][:segedvaltozo + 1], szamok[0])
+                szimpatia += osztok_szama
+
+
+
+print(szimpatia)
