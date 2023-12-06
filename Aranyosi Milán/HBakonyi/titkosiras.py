@@ -13,4 +13,4 @@ def kodol_dekodol(szo,kodole):
     return kodolt_szo
 
 print(kodol_dekodol('alma' , True))
-print(kodol_dekodol('whwk' , True))
+print(kodol_dekodol('whwk' , False))
