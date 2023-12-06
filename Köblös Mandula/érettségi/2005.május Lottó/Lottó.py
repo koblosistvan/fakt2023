@@ -19,6 +19,32 @@ hét = int(input('Adj meg egy számot 1 és 51 között. '))
 lotto_számok = számok[hét-1]
 print(f'A {hét}. heti nyerőszámok: {lotto_számok}')
 
+összes_szám = []
+for i in range(len(számok)):
+    összes_szám += számok[i]
 
+# 5. feladat
+for i in range(1, 91):
+    if i not in összes_szám:
+        print("Van olyan szám amit nem húztak ki.")
+        break
+else:
+    print("Nem volt olyan szám amit nem húztak ki.")
 
+# 6. feladat
+páratlan = 0
+for i in range(len(összes_szám)):
+    if összes_szám[i] % 2 != 0:
+        páratlan += 1
+print(f'{páratlan} db páratlan számot húztak ki.')
+
+# 7. feladat
+számok.append(utolsó_hét)
+
+kimenet = open("lotto52.ki", mode="w", encoding="utf-8")
+
+for i in range(len(számok)):
+    print(", ".join(map(str, számok[i])), file=kimenet)
+
+kimenet.close()
 
