@@ -1,27 +1,43 @@
-text = list(input('Szöveg: ').upper())
-karakterek = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+forrás = open('Vtabla.dat', mode='r', encoding='utf-8')
+kódtábla = []
+for sor in forrás:
+    kódtábla.append(sor.strip())
+forrás.close()
+
+
+szöveg = 'Ez a próba szöveg, amit kódolunk!'
+
+
+# 2. feladat
+print(f'Eredeti szöveg: \t{szöveg}')
 ékezetes = 'ÁÉÍÓÖŐÚÜŰ'
-ékezetlen = 'AEIOOOUUU'
-szöveg = []
-for i in range(len(text)):
-    if text[i] in ékezetes:
-        text[i] = ékezetlen[ékezetes.index(text[i])]
-    if text[i] in karakterek:
-        szöveg.append(text[i])
-print(''.join(szöveg))
+ékezetmentes = 'AEIOOOUUU'
+szöveg = szöveg.upper()
+for i in range(len(ékezetes)):
+    szöveg = szöveg.replace(ékezetes[i], ékezetmentes[i])
 
-kulcsszó = input('Kulcsszó: ').upper()
-kulcsszó = kulcsszó*((len(szöveg) // len(kulcsszó))+1)
-kulcsszó = kulcsszó[:len(szöveg)]
-print(kulcsszó)
-
-forrás = open('Vtabla.dat')
-sor = []
-kód = []
-for i in forrás:
-    sor.append(list(i.strip()))
+kódolandó = ''
 for i in range(len(szöveg)):
-    x = karakterek.index(szöveg[i])
-    y = karakterek.index(kulcsszó[i])
-    kód.append(sor[y][x])
-print(''.join(kód))
+    if szöveg[i] in kódtábla[0]:
+        kódolandó += szöveg[i]
+
+print(f'Kódolandó szöveg: \t{kódolandó}')
+
+# 4-5 feladat
+kulcs = 'auto'
+
+kulcs = kulcs.upper()
+kulcs = kulcs * (len(szöveg) // len(kulcs) + 1)
+kulcs = kulcs[:len(kódolandó)]
+print(f'Kulcs: \t\t\t\t{kulcs}')
+
+# 6. feladat
+kódolt = ''
+for i in range(len(kódolandó)):
+    oszlop = kódtábla[0].find(kódolandó[i])
+    sor = 0
+    while kódtábla[sor][0] != kulcs[i]:
+        sor += 1
+    kód_karakter = kódtábla[sor][oszlop]
+    kódolt += kód_karakter
+print(f'Kódolt: \t\t\t{kódolt}')
