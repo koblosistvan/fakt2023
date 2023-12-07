@@ -31,33 +31,30 @@ def oszthato(x, y):
 
 szamok[0] = str(szamok[0])
 szamok[1] = str(szamok[1])
-kezdoertek = 0
 for i in rage(len(szamok[0])):
+    kezdoertek = 0
     #segedvaltozo = int(round((len(szamok[0])) / (i+1)))
     for k in rage(len(szamok[0]) - i):
         for mal in rage(len(szamok[1])):
-            osztok_szama = oszthato(szamok[0][kezdoertek:i + 1], szamok[1][mal])  #kezdőérték!(??)
-            print(szamok[0][kezdoertek:i + 1], szamok[1][mal])
+            osztok_szama = oszthato(szamok[0][kezdoertek:i + kezdoertek + 1], szamok[1][mal])  #kezdőérték!!!!!!!!!!!!
+            #print(szamok[0][kezdoertek:i + 1], szamok[1][mal])
             if bool(osztok_szama):
                 szimpatia += 1
-    #if segedvaltozo < len(szamok[0]):
-
-
+        kezdoertek += 1
 
 
 szamok[0] = str(szamok[0])
 szamok[1] = str(szamok[1])
-kezdoertek = 0
 for i in rage(len(szamok[1])):
-    #segedvaltozo = int((len(szamok[0])) / (i + 1))
+    kezdoertek = 0
+    #segedvaltozo = int(round((len(szamok[1])) / (i+1)))
     for k in rage(len(szamok[1]) - i):
         for mal in rage(len(szamok[0])):
-            osztok_szama = oszthato(szamok[1][kezdoertek:i + 1], szamok[0][mal])
-            print(szamok[1][kezdoertek:i + 1], szamok[0][mal])
+            osztok_szama = oszthato(szamok[1][kezdoertek:i + kezdoertek + 1], szamok[0][mal])
+            #print(szamok[1][kezdoertek:i + 1], szamok[0][mal])
             if bool(osztok_szama):
                 szimpatia += 1
-    #if segedvaltozo < len(szamok[1]):
+        kezdoertek += 1
 
 
-
-print(f'Szipátia: {szimpatia}')
+print(szimpatia)

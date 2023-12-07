@@ -27,8 +27,8 @@ print(f'A {het_szamai},{hetek_int}')
 egyszersem = False
 
 nemvoltak = [range(1, 54)].remove(szamok)
-#for i in range(len(szamok)):
-    #if voltak
+for i in range(len(szamok)):
+    if voltak
 
 print(nemvoltak)
 
