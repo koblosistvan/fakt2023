@@ -37,4 +37,4 @@ i = len(idopont)
 while len(felso_fele) < 2:
     i += 1
     if irany[i] == 'A':
-        felso_fele.append(idopont[i])
+        felso_fele.append(idopont[i])  ###befejezni
