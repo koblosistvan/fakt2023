@@ -10,10 +10,11 @@ forras.close()
 
 szöveg = "Ez a szöveg"
 kulcs = "auto"
+kulcs.upper()
 
 ékezetes = "ÖÜÓŐÚÉÁŰÍ"
 ékezetmentes = "OUOOUEAUI"
-szöveg = szöveg.upper()
+szöveg.upper()
 
 for i in range(len(ékezetes)):
     szöveg = szöveg.replace(ékezetes[i], ékezetmentes[i])
