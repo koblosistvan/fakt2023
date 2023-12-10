@@ -1,0 +1,36 @@
+forrás = input('')
+számok = []
+szimpátia = 0
+for i in range(2):
+    számok.append(int(forrás.split(' ')[i]))
+számok.sort()
+számok[0] = str(számok[0])
+számok[1] = str(számok[1])
+id1 = 0
+id2 = 1
+for a in range(2):
+    if id1 == 0:
+        id2 = 1
+    elif id1 == 1:
+        id2 = 0
+    for i in range(len(számok[id1])):
+        q = 0
+        for j in range(len(számok[id1]) - i):
+            for k in range(len(számok[id2])):
+                x = int(számok[id1][q:i + q + 1])
+                y = int(számok[id2][k])
+                osztható = False
+                if x == y:
+                    osztható = True
+                elif y == 0:
+                    osztható = False
+                elif x == 0:
+                    osztható = True
+                elif x % y == 0:
+                    osztható = True
+                if osztható:
+                    szimpátia += 1
+            q += 1
+    id1 = 1
+
+print(szimpátia)
