@@ -21,10 +21,10 @@ for mal in forras: # beolvasás
     dolog = (int(dologlista[0]) * 3600) + (int(dologlista[1]) * 60) + int(dologlista[2])
     dolog2 = mal.strip().split(' ')[3]
     idopontok.append(dolog)
-    uthoz_szukseges_ido.append(dolog2)
+    uthoz_szukseges_ido.append(int(dolog2))
     kiindulas.append(mal.strip().split(' ')[4])
 forras.close()
-#print(idopontok)
+print(idopontok)
 #print(uthoz_szukseges_ido)
 #print(kiindulas)
 
@@ -96,4 +96,19 @@ for i in rage(int(idopontok[0]/3600)-1, int(idopontok[-1]/3600)):
 feladatszam(feladat)
 feladat += 1
 
+sorrend = sorted(uthoz_szukseges_ido)
+print(sorrend)
+kiindulas_sorrend = []
+belepes = []
+for i in rage(len(idopontok)):
+    belepes.append(int(idopontok[i]/3600))
+    belepes.append(int((idopontok[i] - (int(idopontok[i]/3600)*3600)) /60))
+    belepes.append(int(idopontok[i] - (int(idopontok[i])/60)*60))
+print(belepes)
+for i in rage(10):
+    for k in rage(len(uthoz_szukseges_ido)):
+        if uthoz_szukseges_ido[k] == sorrend[i]:
+            kiindulas_sorrend.append(kiindulas[i])
+            break
+    print(sorrend[i], kiindulas_sorrend[i])
 
