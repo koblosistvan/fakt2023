@@ -1,6 +1,7 @@
 időpont = []
 áthaladás = []
 irány = []
+óra = []
 
 def idő(ó, p, mp):
     return ó*3600 + p*60 + mp
@@ -14,6 +15,7 @@ for sor in forrás:
     időpont.append(idő(int(adat[0]), int(adat[1]), int(adat[2])))
     áthaladás.append(int(adat[3]))
     irány.append(adat[4])
+    óra.append(adat[0])
 
 forrás.close()
 
@@ -32,3 +34,49 @@ while len(felső_felé) < 2:
         felső_felé.append(időpont[i])
 
 print(abs(felső_felé[0]-felső_felé[1]))
+
+kiszámolt_Alsó = 0
+kiszámolt_Felső = 0
+
+
+for i in range(len(óra)-1):
+    if óra[i] == óra[i+1]:
+        if irány[i] == "A":
+            kiszámolt_Alsó += 1
+        if irány[i] == "F":
+            kiszámolt_Felső += 1
+
+    if óra[i] != óra[i+1] or i+2 == len(óra):
+        if irány[i] == "A":
+            kiszámolt_Alsó += 1
+        if irány[i] == "F":
+            kiszámolt_Felső += 1
+        print(óra[i - 1], kiszámolt_Alsó, kiszámolt_Felső)
+        kiszámolt_Alsó = 0
+        kiszámolt_Felső = 0
+        if óra[i+1] == óra[-1] and i+1 == len(óra):
+            if irány[i] == "A":
+                kiszámolt_Alsó += 1
+            if irány[i] == "F":
+                kiszámolt_Felső += 1
+            print(óra[i+1], kiszámolt_Alsó, kiszámolt_Felső)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
