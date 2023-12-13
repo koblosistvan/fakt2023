@@ -97,6 +97,7 @@ feladatszam(feladat)
 feladat += 1
 
 sorrend = sorted(uthoz_szukseges_ido)
+top10 = sorrend[:10]
 print(sorrend)
 kiindulas_sorrend = []
 belepes = []
@@ -105,10 +106,10 @@ for i in rage(len(idopontok)):
     belepes.append(int((idopontok[i] - (int(idopontok[i]/3600)*3600)) /60))
     belepes.append(int(idopontok[i] - (int(idopontok[i])/60)*60))
 print(belepes)
-for i in rage(10):
+for i in range(min(top10), max(top10)+1):
     for k in rage(len(uthoz_szukseges_ido)):
-        if uthoz_szukseges_ido[k] == sorrend[i]:
+        if uthoz_szukseges_ido[k] == i:
             kiindulas_sorrend.append(kiindulas[i])
-            break
+
     print(sorrend[i], kiindulas_sorrend[i])
 
