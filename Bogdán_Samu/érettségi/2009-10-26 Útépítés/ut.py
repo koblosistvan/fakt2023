@@ -26,3 +26,19 @@ while len(ind) < 2:
     else:
         x -= 1
 print(f'3. feladat {idő[ind[0]] - idő[ind[1]]} másodperc különbséggel érték el az útszakasz kezedetét.')
+
+set_óra = list(set(óra))
+irányok = []
+a = 0
+b = 0
+x = []
+while a <= len(set_óra) and b <= len(óra):
+    if set_óra[a] == óra[b]:
+        x.append(honnan[b])
+        b += 1
+    else:
+        irányok.append(x)
+        x = []
+        a += 1
+for i in range(len(set_óra)):
+    print(óra[i], irányok[i].count('A'), irányok[i].count('B'))
