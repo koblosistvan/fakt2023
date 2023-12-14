@@ -51,7 +51,7 @@ a = 2
 b = 3
 
 print(f"{csmunkaxp[0]} -> {csmunkaxp[1]} év: ${csfizetes[0]} -> ${csfizetes[1]} ({csfizetes[1]-csfizetes[0]})")
-for i in range(len(csmunkaxp)):
+for i in range(len(csmunkaxp)//2-1):
     print(f"{csmunkaxp[a]} -> {csmunkaxp[b]} év: ${csfizetes[a]} -> ${csfizetes[b]} ({csfizetes[b]-csfizetes[a]})")
     a += 2
     b += 2
