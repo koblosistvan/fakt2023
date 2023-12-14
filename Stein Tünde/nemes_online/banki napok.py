@@ -17,11 +17,9 @@ for i in dolgozok_s:
         print(f'A(z) {i} azonosítójú dolgozó {belepesek} alkalommal lépett a páncélterembe.\n{i} - > {belepesek}')
 
 print('\nb feladat')
-for i in list(set(napok)):
+for i in list(dolgozok_s):
     szamlalo = 0
-    for k in napok.count(i):
-        szamlalo +=
-        print('1. napon a(z) 1 azonosítójú dolgozó 3 alkalommal lépett be.')
+
 
 print('\nc feladat')
 for i in range(len(napok)-1):
