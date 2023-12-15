@@ -16,7 +16,7 @@ print(*lista, sep="; ")
 
 print("Igen, van nagyobb" if max(lista) > bemenet else "Nincs nagyobb")
 
-for i in range(1, 1000001):
+#for i in range(1, 1000001):
 
 
 
