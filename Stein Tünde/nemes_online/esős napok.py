@@ -31,21 +31,24 @@ for i in range(len(eso)-1):
 print(f'c feladat\nKét nap alatt {legtobb_cs} mm volt a legtöbb leesett csapadék.\n')
 
 d_lista = []
-for k in range(len(eso)):
-    elso_index = 0
-    utolso_index = 0
-    d_feladat_lista = []
-    for i in range(len(eso)):
-        if bool(eso[i]):
-            elso_index = eso[i]
-        if bool(eso[i]) and eso[i] == elso_index:
-            utolso_index = eso[i]
-    d_feladat_lista.append(eso[elso_index:utolso_index])
-    d_esos = 0
-    for i in d_feladat_lista:
-        if bool(i):
-            d_esos += 1
-    if d_esos >= len(d_feladat_lista):
-        d_lista = d_feladat_lista
-print(d_lista)
-print(f'd feladat\n{d_lista[0]}. és {d_lista[-1]}. nap közti intervallum.')
+elso_nap = 0
+utolso_nap = 0
+for k in range(len(eso)-1):
+    if bool(eso[k]):
+        elso_index = k
+        utolso_index = 0
+        d_feladat_lista = []
+        for i in range(elso_index + 1, len(eso)):
+            if bool(eso[i]):
+                utolso_index = i + 1
+                d_feladat_lista = eso[elso_index:utolso_index]
+                d_esos = 0
+                for mal in d_feladat_lista:
+                    if bool(mal):
+                        d_esos += 1
+                if d_esos >= len(d_feladat_lista)/2 and len(d_lista) < len(d_feladat_lista):
+                    d_lista = d_feladat_lista
+                    elso_nap = elso_index + 1
+                    utolso_nap = utolso_index + 1
+if bool(d_lista):
+    print(f'd feladat\n{elso_nap}. és {utolso_nap}. nap közti intervallum, ami {len(d_lista)} nap.')
