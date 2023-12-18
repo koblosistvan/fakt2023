@@ -1,6 +1,7 @@
 pontok = [2, 3, 7, 2, 10, 3, 4]
 játékosok = 'AABBABB'
 
+
 def kinyert(pakli, húzás):
     # pontszámítás
     pont_a = 0
@@ -24,5 +25,6 @@ def kinyert(pakli, húzás):
         return 'A nyert'
     else:
         return 'B nyert'
+
 
 print(kinyert(pontok, játékosok))
