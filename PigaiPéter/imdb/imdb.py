@@ -51,7 +51,4 @@ for i in range(rendezo):
     if rendezo == bekert:
         f.write(filmek[i])
 
-#7
-a = 1900
-for i in range(1900, 2030):
-    if datum[i] == a
+
