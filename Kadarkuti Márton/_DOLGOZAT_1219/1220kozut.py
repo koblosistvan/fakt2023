@@ -2,6 +2,8 @@ feladatCounter = 0
 def feladat():
     global feladatCounter
     feladatCounter += 1
+    if feladatCounter == 6:
+        print("Extra: ")
     print("\n" + "-" * 30 + f"\n{feladatCounter}. feladat:")
 #################################################
 
@@ -74,6 +76,7 @@ except:
 
 try:
     with open("kozut-kimenet.txt","a",encoding="utf-8") as ki:
+        ki.write("30 km/h sebesség alatt haladó autók adatai:\n")
         for i in harmincAlattIndex:
             sor = oraVissza(ido[i]) + " - "
             sor += rendszam[i] + " - "
@@ -85,3 +88,30 @@ except:
     print("Hiba történt a fájl generálásakor.")
 
 print("\n" + "="*45)
+
+# extra
+feladat()
+szabalytalanIndex = []
+for i in range(len(sebesseg)):
+    if sebesseg[i] > 50:
+        szabalytalanIndex.append(i)
+
+try:
+    ki = open("kozut-rendezett.txt","w",encoding="utf-8")
+    ki.write("")
+    ki.close()
+except:
+    pass
+
+try:
+    with open("kozut-rendezett.txt","a",encoding="utf-8") as ki:
+        ki.write("Az 50 km/h sebességkorlátot átlépő autók adatai:\n")
+        for i in szabalytalanIndex:
+            sor = oraVissza(ido[i]) + " - "
+            sor += rendszam[i] + " - "
+            sor += str(sebesseg[i]) + " km/h\n"
+            ki.write(sor)
+    print("kozut-rendezett.txt sikeresen legenerálva.")
+    print("A fájlban a megengedett 50 km/h sebességkorlátot átlépő autók adatai találhatók.")
+except:
+    print("Hiba történt a fájl generálásakor.")
