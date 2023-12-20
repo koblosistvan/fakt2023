@@ -51,8 +51,16 @@ sebesseg_formazott = []
 rendszam_formazott = []
 for i in range(len(sebesseg)):
     if sebesseg[i] > 50:
-        idopont_formazott.append(idopont[i])
+        idopont_formazott.append(':'.join(idopont[i]))
         sebesseg_formazott.append(sebesseg[i])
-        rendszam_formazott.append(rendszam[i])
-#for i in range(len(rendszam_formazott)):
-    #if rendszam[i]
+        rendszam_formazott.append(rendszam[i].strip('-'))
+abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'
+for i in range(len(rendszam_formazott)-1):
+    for k in range(7):
+        if rendszam_formazott[i] in abc and rendszam_formazott[i+1] in abc:
+            if abc.index(rendszam_formazott[i][k]) > abc.index(rendszam_formazott[i][k]):
+                rendszam_formazott[i], rendszam_formazott[i+1] = rendszam_formazott[i+1], rendszam_formazott[i]
+                idopont_formazott[i], idopont_formazott[i+1] = idopont_formazott[i+1], idopont_formazott[i]
+                sebesseg_formazott[i], sebesseg_formazott[i+1] = sebesseg_formazott[i+1], sebesseg_formazott[i]
+for i in range(len(rendszam_formazott)):
+    print(*(idopont_formazott[i], rendszam_formazott[i], sebesseg_formazott[i]), sep=' - ', file=kimenet_extra)
