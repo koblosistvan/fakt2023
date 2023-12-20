@@ -62,3 +62,5 @@ kimenet_extra = open("kozut-rendezett.txt", mode="w", encoding="utf-8")
 for i in range(len(időpont)):
     if sebesség[i] > 50:
         print(f"{időpont[i]} - {rendszám[i]} - {sebesség[i]}", file=kimenet_extra)
+
+kimenet_extra.close()
