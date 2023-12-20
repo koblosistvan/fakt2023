@@ -1,0 +1,4 @@
+30 km/h-nál lassabb járművek adatai
+12:34:54 - FHT273 - 28 km/h
+12:39:55 - YWB734 - 23 km/h
+13:22:51 - FHT273 - 7 km/h
