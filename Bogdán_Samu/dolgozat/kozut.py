@@ -9,11 +9,11 @@ for i in forrás:
     x = i.strip().split(' ')
     if int(x[0]) < 10:
         x[0] = '0' + x[0]
-    óra.append(x[0])
     if int(x[1]) < 10:
         x[1] = '0' + x[1]
     if int(x[2]) < 10:
         x[2] = '0' + x[2]
+    óra.append(x[0])
     perc.append(x[1])
     mp.append(x[2])
     sebesség.append(int(x[3]))
