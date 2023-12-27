@@ -53,7 +53,7 @@ print(f'A legmagasabb fizetést {legmagasabb[0]},{legmagasabb[1]} év munkatapas
 for i in range(len(munkatapasztalat) - 1):
     if eves_atlagkereset[i] > eves_atlagkereset[i+1]:
         i_5 = i
-print(f'{munkatapasztalat[i_5]} -> {munkatapasztalat[i_5 + 1]}, év: {eves_atlagkereset[i_5]} -> {eves_atlagkereset[i_5 + 1]} ({eves_atlagkereset[i_5 + 1] - eves_atlagkereset[i_5]})')
+        print(f'{munkatapasztalat[i_5]} -> {munkatapasztalat[i_5 + 1]}, év: {eves_atlagkereset[i_5]} -> {eves_atlagkereset[i_5 + 1]} ({eves_atlagkereset[i_5 + 1] - eves_atlagkereset[i_5]})')
 
 
 # 6. feladat: a megoldást commitold és pushold

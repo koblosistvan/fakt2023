@@ -1,0 +1,1001 @@
+év	időtartam	értékelés	rendező	bevétel	cím
+1994	142	9.3	Frank Darabont	28341469	The Shawshank Redemption
+1972	175	9.2	Francis Ford Coppola	134966411	The Godfather
+2008	152	9	Christopher Nolan	534858444	The Dark Knight
+1974	202	9	Francis Ford Coppola	57300000	The Godfather: Part II
+1957	96	9	Sidney Lumet	4360000	12 Angry Men
+1994	154	8.9	Quentin Tarantino	107928762	Pulp Fiction
+1993	195	8.9	Steven Spielberg	96898818	Schindler's List
+2003	201	8.9	Peter Jackson	377845905	The Lord of the Rings: The Return of the King
+2010	148	8.8	Christopher Nolan	292576195	Inception
+1994	142	8.8	Robert Zemeckis	330252182	Forrest Gump
+1999	139	8.8	David Fincher	37030102	Fight Club
+1966	161	8.8	Sergio Leone	6100000	Il buono, il brutto, il cattivo
+2001	178	8.8	Peter Jackson	315544750	The Lord of the Rings: The Fellowship of the Ring
+2002	179	8.7	Peter Jackson	342551365	The Lord of the Rings: The Two Towers
+1980	124	8.7	Irvin Kershner	290475067	Star Wars: Episode V - The Empire Strikes Back
+1999	136	8.7	Lana Wachowski	171479930	The Matrix
+1990	146	8.7	Martin Scorsese	46836394	Goodfellas
+1975	133	8.7	Milos Forman	112000000	One Flew Over the Cuckoo's Nest
+2020	153	8.6	Sudha Kongara	0	Soorarai Pottru
+2020	160	8.6	Thomas Kail	0	Hamilton
+1962	133	8.6	Masaki Kobayashi	0	Seppuku
+1946	130	8.6	Frank Capra	0	It's a Wonderful Life
+1998	169	8.6	Steven Spielberg	216540909	Saving Private Ryan
+2014	169	8.6	Christopher Nolan	188020017	Interstellar
+1977	121	8.6	George Lucas	322740140	Star Wars
+2019	132	8.6	Bong Joon Ho	53367844	Gisaengchung
+2002	130	8.6	Fernando Meirelles	7563397	Cidade de Deus
+1999	189	8.6	Frank Darabont	136801374	The Green Mile
+1995	127	8.6	David Fincher	100125643	Se7en
+1991	118	8.6	Jonathan Demme	130742922	The Silence of the Lambs
+2001	125	8.6	Hayao Miyazaki	10055859	Sen to Chihiro no kamikakushi
+1997	116	8.6	Roberto Benigni	57598247	La vita è bella
+1954	207	8.6	Akira Kurosawa	269061	Shichinin no samurai
+1988	89	8.5	Isao Takahata	0	Hotaru no haka
+1936	87	8.5	Charles Chaplin	163245	Modern Times
+1931	87	8.5	Charles Chaplin	19181	City Lights
+2002	150	8.5	Roman Polanski	32572577	The Pianist
+1998	119	8.5	Tony Kaye	6719864	American History X
+2011	112	8.5	Olivier Nakache	13182281	The Intouchables
+2000	155	8.5	Ridley Scott	187705427	Gladiator
+2019	122	8.5	Todd Phillips	335451311	Joker
+2014	106	8.5	Damien Chazelle	13092000	Whiplash
+2006	151	8.5	Martin Scorsese	132384315	The Departed
+1995	106	8.5	Bryan Singer	23341568	The Usual Suspects
+1994	110	8.5	Luc Besson	19501238	Léon
+1960	109	8.5	Alfred Hitchcock	32000000	Psycho
+2006	130	8.5	Christopher Nolan	53089891	The Prestige
+1994	88	8.5	Roger Allers	422783777	The Lion King
+1991	137	8.5	James Cameron	204843350	Terminator 2: Judgment Day
+1988	155	8.5	Giuseppe Tornatore	11990401	Nuovo Cinema Paradiso
+1985	116	8.5	Robert Zemeckis	210609762	Back to the Future
+1968	165	8.5	Sergio Leone	5321508	Once Upon a Time in the West
+1942	102	8.5	Michael Curtiz	1024560	Casablanca
+2017	125	8.4	Can Ulkay	0	Ayla: The Daughter of War
+2017	147	8.4	Gayatri	0	Vikram Vedha
+1971	122	8.4	Hrishikesh Mukherjee	0	Anand
+1963	143	8.4	Akira Kurosawa	0	Tengoku to jigoku
+1950	110	8.4	Billy Wilder	0	Sunset Blvd.
+1957	88	8.4	Stanley Kubrick	0	Paths of Glory
+1940	125	8.4	Charles Chaplin	288475	The Great Dictator
+1979	147	8.4	Francis Ford Coppola	83471511	Apocalypse Now
+1979	117	8.4	Ridley Scott	78900000	Alien
+2019	181	8.4	Anthony Russo	858373000	Avengers: Endgame
+2018	149	8.4	Anthony Russo	678815482	Avengers: Infinity War
+2012	164	8.4	Christopher Nolan	448139099	The Dark Knight Rises
+2009	170	8.4	Rajkumar Hirani	6532908	3 Idiots
+2000	113	8.4	Christopher Nolan	25544867	Memento
+2018	126	8.4	Nadine Labaki	1661096	Capharnaüm
+2012	165	8.4	Quentin Tarantino	162805434	Django Unchained
+2006	137	8.4	Florian Henckel von Donnersmarck	11286112	The Lives of Others
+2003	101	8.4	Chan-wook Park	707481	Oldeuboi
+1984	229	8.4	Sergio Leone	5321508	Once Upon a Time in America
+1981	115	8.4	Steven Spielberg	248159971	Raiders of the Lost Ark
+1980	146	8.4	Stanley Kubrick	44017374	The Shining
+1964	95	8.4	Stanley Kubrick	275902	Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
+2016	106	8.4	Makoto Shinkai	5017246	Kimi no na wa.
+2016	161	8.4	Nitesh Tiwari	12391761	Dangal
+2018	117	8.4	Bob Persichetti	190241310	Spider-Man: Into the Spider-Verse
+2017	105	8.4	Lee Unkrich	209726015	Coco
+2007	165	8.4	Aamir Khan	1223869	Taare Zameen Par
+2008	98	8.4	Andrew Stanton	223808164	WALL·E
+1997	134	8.4	Hayao Miyazaki	2375308	Mononoke-hime
+1957	116	8.4	Billy Wilder	8175000	Witness for the Prosecution
+1954	112	8.4	Alfred Hitchcock	36764313	Rear Window
+2018	104	8.3	Rahi Anil Barve	0	Tumbbad
+2013	160	8.3	Jeethu Joseph	0	Drishyam
+2019	132	8.3	Mehmet Ada Öztekin	0	Miracle in cell NO.7
+2005	112	8.3	Çagan Irmak	0	Babam ve Oglum
+1985	142	8.3	Elem Klimov	0	Idi i smotri
+2011	123	8.3	Asghar Farhadi	7098492	Jodaeiye Nader az Simin
+1997	89	8.3	Majid Majidi	933933	Bacheha-Ye aseman
+1952	103	8.3	Stanley Donen	8819028	Singin' in the Rain
+1952	143	8.3	Akira Kurosawa	55240	Ikiru
+1948	89	8.3	Vittorio De Sica	332930	Ladri di biciclette
+1944	107	8.3	Billy Wilder	5720000	Double Indemnity
+1931	117	8.3	Fritz Lang	28877	M - Eine Stadt sucht einen Mörder
+1927	153	8.3	Fritz Lang	1236166	Metropolis
+1921	68	8.3	Charles Chaplin	5450000	The Kid
+2019	119	8.3	Sam Mendes	159227644	1917
+2012	115	8.3	Thomas Vinterberg	687185	Jagten
+2010	131	8.3	Denis Villeneuve	6857096	Incendies
+1992	99	8.3	Quentin Tarantino	2832029	Reservoir Dogs
+1984	160	8.3	Milos Forman	51973029	Amadeus
+1981	149	8.3	Wolfgang Petersen	11487676	Das Boot
+2018	139	8.3	Sriram Raghavan	1373943	Andhadhun
+2004	108	8.3	Michel Gondry	34400301	Eternal Sunshine of the Spotless Mind
+2000	104	8.3	Guy Ritchie	30328156	Snatch
+1999	122	8.3	Sam Mendes	130096601	American Beauty
+1987	116	8.3	Stanley Kubrick	46357676	Full Metal Jacket
+1941	119	8.3	Orson Welles	1585634	Citizen Kane
+2009	153	8.3	Quentin Tarantino	120540719	Inglourious Basterds
+2000	102	8.3	Darren Aronofsky	3635482	Requiem for a Dream
+1995	178	8.3	Mel Gibson	75600000	Braveheart
+1983	170	8.3	Brian De Palma	45598982	Scarface
+1976	114	8.3	Martin Scorsese	28262574	Taxi Driver
+1971	136	8.3	Stanley Kubrick	6207725	A Clockwork Orange
+1958	128	8.3	Alfred Hitchcock	3200000	Vertigo
+2001	122	8.3	Jean-Pierre Jeunet	33225499	Amélie
+1997	126	8.3	Gus Van Sant	138433435	Good Will Hunting
+1995	81	8.3	John Lasseter	191796233	Toy Story
+1986	137	8.3	James Cameron	85160248	Aliens
+1983	131	8.3	Richard Marquand	309125409	Star Wars: Episode VI - Return of the Jedi
+1973	129	8.3	George Roy Hill	159600000	The Sting
+1968	149	8.3	Stanley Kubrick	56954992	2001: A Space Odyssey
+1965	132	8.3	Sergio Leone	15000000	Per qualche dollaro in più
+1962	228	8.3	David Lean	44824144	Lawrence of Arabia
+1960	125	8.3	Billy Wilder	18600000	The Apartment
+1959	136	8.3	Alfred Hitchcock	13275000	North by Northwest
+2018	156	8.2	Prashanth Neel	0	K.G.F: Chapter 1
+2000	156	8.2	Priyadarshan	0	Hera Pheri
+1996	128	8.2	Yavuz Turgul	0	Eskiya
+1994	160	8.2	Rajkumar Santoshi	0	Andaz Apna Apna
+1978	99	8.2	Ingmar Bergman	0	Höstsonaten
+1976	177	8.2	Moustapha Akkad	0	The Message
+1975	204	8.2	Ramesh Sippy	0	Sholay
+1961	110	8.2	Akira Kurosawa	0	Yôjinbô
+1953	136	8.2	Yasujirô Ozu	0	Tôkyô monogatari
+2019	96	8.2	Sergio Pablos	0	Klaus
+2012	321	8.2	Anurag Kashyap	0	Gangs of Wasseypur
+1962	129	8.2	Robert Mulligan	0	To Kill a Mockingbird
+1961	179	8.2	Stanley Kramer	0	Judgment at Nuremberg
+1957	91	8.2	Ingmar Bergman	0	Smultronstället
+1957	96	8.2	Ingmar Bergman	0	Det sjunde inseglet
+1942	99	8.2	Ernst Lubitsch	0	To Be or Not to Be
+2013	87	8.2	Zaza Urushadze	144501	Mandariinid
+1975	91	8.2	Terry Gilliam	1229197	Monty Python and the Holy Grail
+1955	118	8.2	Jules Dassin	57226	Du rififi chez les hommes
+1950	88	8.2	Akira Kurosawa	96568	Rashômon
+1950	138	8.2	Joseph L. Mankiewicz	10177	All About Eve
+1948	126	8.2	John Huston	5014000	The Treasure of the Sierra Madre
+1925	95	8.2	Charles Chaplin	5450000	The Gold Rush
+1924	45	8.2	Buster Keaton	977375	Sherlock Jr.
+2009	129	8.2	Juan José Campanella	6391436	El secreto de sus ojos
+2004	156	8.2	Oliver Hirschbiegel	5509040	Der Untergang
+1988	142	8.2	Emir Kusturica	280015	Dom za vesanje
+2019	143	8.2	Nitesh Tiwari	898575	Chhichhore
+2018	138	8.2	Aditya Dhar	4186168	Uri: The Surgical Strike
+2018	130	8.2	Peter Farrelly	85080171	Green Book
+2015	132	8.2	Meghna Gulzar	342370	Talvar
+2017	167	8.2	S.S. Rajamouli	20186659	Baahubali 2: The Conclusion
+2015	163	8.2	Nishikant Kamat	739478	Drishyam
+2013	146	8.2	Vikas Bahl	1429534	Queen
+2010	134	8.2	Vikramaditya Motwane	7461	Udaan
+2012	135	8.2	Tigmanshu Dhulia	39567	Paan Singh Tomar
+2011	140	8.2	Gavin O'Connor	13657115	Warrior
+2006	118	8.2	Guillermo del Toro	37634615	Pan's Labyrinth
+2006	167	8.2	Rakeysh Omprakash Mehra	2197331	Rang De Basanti
+2005	140	8.2	Christopher Nolan	206852432	Batman Begins
+2001	135	8.2	Ron Howard	170742341	A Beautiful Mind
+2017	115	8.2	Martin McDonagh	54513740	Three Billboards Outside Ebbing, Missouri
+2010	138	8.2	Martin Scorsese	128012934	Shutter Island
+2013	180	8.2	Martin Scorsese	116900694	The Wolf of Wall Street
+2007	158	8.2	Paul Thomas Anderson	40222514	There Will Be Blood
+2005	132	8.2	James McTeigue	70511035	V for Vendetta
+1998	107	8.2	Guy Ritchie	3897569	Lock, Stock and Two Smoking Barrels
+1997	138	8.2	Curtis Hanson	64616940	L.A. Confidential
+1995	170	8.2	Michael Mann	67436818	Heat
+1995	178	8.2	Martin Scorsese	42438300	Casino
+1992	130	8.2	Clint Eastwood	101157447	Unforgiven
+1988	132	8.2	John McTiernan	83008852	Die Hard
+1980	129	8.2	Martin Scorsese	23383987	Raging Bull
+1954	105	8.2	Alfred Hitchcock	12562	Dial M for Murder
+2013	186	8.2	Rakeysh Omprakash Mehra	1626289	Bhaag Milkha Bhaag
+2009	96	8.2	Pete Docter	293004164	Up
+2007	153	8.2	Shimit Amin	1113541	Chak De! India
+2010	103	8.2	Lee Unkrich	415004880	Toy Story 3
+2005	122	8.2	Sanjay Leela Bhansali	733094	Black
+2004	210	8.2	Ashutosh Gowariker	1223240	Swades: We, the People
+2004	119	8.2	Hayao Miyazaki	4711096	Hauru no ugoku shiro
+1989	127	8.2	Steven Spielberg	197171806	Indiana Jones and the Last Crusade
+1988	86	8.2	Hayao Miyazaki	1105564	Tonari no Totoro
+1985	162	8.2	Akira Kurosawa	4135750	Ran
+1979	162	8.2	Andrei Tarkovsky	234723	Stalker
+1963	172	8.2	John Sturges	12100000	The Great Escape
+1959	121	8.2	Billy Wilder	25000000	Some Like It Hot
+2016	106	8.1	Oriol Paulo	0	Contratiempo
+2008	104	8.1	Neeraj Pandey	0	A Wednesday
+2009	93	8.1	Lasse Hallström	0	Hachi: A Dog's Tale
+2009	92	8.1	Adam Elliot	0	Mary and Max
+2003	156	8.1	Rajkumar Hirani	0	Munna Bhai M.B.B.S.
+1997	87	8.1	Hideaki Anno	0	Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni
+1995	189	8.1	Aditya Chopra	0	Dilwale Dulhania Le Jayenge
+1982	158	8.1	Werner Herzog	0	Fitzcarraldo
+1962	95	8.1	Luis Buñuel	0	El ángel exterminador
+1962	96	8.1	Akira Kurosawa	0	Sanjuro
+1962	95	8.1	Andrei Tarkovsky	0	Ivanovo detstvo
+1959	99	8.1	François Truffaut	0	Les quatre cents coups
+1958	139	8.1	Akira Kurosawa	0	Kakushi-toride no san-akunin
+1957	110	8.1	Akira Kurosawa	0	Kumonosu-jô
+1949	114	8.1	Raoul Walsh	0	White Heat
+1920	76	8.1	Robert Wiene	0	Das Cabinet des Dr. Caligari
+2016	130	8.1	Naoko Yamada	0	Koe no katachi
+2020	100	8.1	Pete Docter	0	Soul
+2012	117	8.1	Mamoru Hosoda	0	Ôkami kodomo no Ame to Yuki
+1980	124	8.1	David Lynch	0	The Elephant Man
+1976	121	8.1	Sidney Lumet	0	Network
+1975	185	8.1	Stanley Kubrick	0	Barry Lyndon
+1972	167	8.1	Andrei Tarkovsky	0	Solaris
+1966	85	8.1	Ingmar Bergman	0	Persona
+1962	123	8.1	John Ford	0	The Man Who Shot Liberty Valance
+1960	128	8.1	Stanley Kramer	0	Inherit the Wind
+1953	131	8.1	Henri-Georges Clouzot	0	Le salaire de la peur
+1928	72	8.1	Charles Chaplin	0	The Circus
+2014	196	8.1	Nuri Bilge Ceylan	165520	Kis Uykusu
+2014	93	8.1	Tomm Moore	857524	Song of the Sea
+2008	130	8.1	Yôjirô Takita	1498210	Okuribito
+2004	121	8.1	Terry George	23530892	Hotel Rwanda
+2001	183	8.1	Farhan Akhtar	300000	Dil Chahta Hai
+1995	170	8.1	Emir Kusturica	171082	Underground
+1991	125	8.1	Yimou Zhang	2603061	Dà hóng denglong gaogao guà
+1975	107	8.1	Andrei Tarkovsky	177345	Zerkalo
+1967	105	8.1	Jean-Pierre Melville	39481	Le samouraï
+1966	121	8.1	Gillo Pontecorvo	55908	La battaglia di Algeri
+1962	134	8.1	Robert Aldrich	4050000	What Ever Happened to Baby Jane?
+1957	110	8.1	Federico Fellini	752045	Le notti di Cabiria
+1957	161	8.1	David Lean	44908000	The Bridge on the River Kwai
+1951	111	8.1	Billy Wilder	3969893	Ace in the Hole
+1949	104	8.1	Carol Reed	449191	The Third Man
+1948	135	8.1	Michael Powell	10900000	The Red Shoes
+1940	99	8.1	Ernst Lubitsch	203300	The Shop Around the Corner
+1940	130	8.1	Alfred Hitchcock	4360000	Rebecca
+1939	129	8.1	Frank Capra	9600000	Mr. Smith Goes to Washington
+1937	113	8.1	Jean Renoir	172885	La Grande Illusion
+1934	105	8.1	Frank Capra	4360000	It Happened One Night
+1928	110	8.1	Carl Theodor Dreyer	21877	La passion de Jeanne d'Arc
+1927	94	8.1	F.W. Murnau	539540	Sunrise: A Song of Two Humans
+1926	67	8.1	Clyde Bruckman	1033895	The General
+2019	122	8.1	Céline Sciamma	3759854	Portrait de la jeune fille en feu
+2014	139	8.1	Xavier Dolan	3492754	Mommy
+2015	118	8.1	Lenny Abrahamson	14677674	Room
+2014	122	8.1	Damián Szifron	3107072	Relatos salvajes
+2008	116	8.1	Clint Eastwood	148095302	Gran Torino
+2007	148	8.1	Sean Penn	18354356	Into the Wild
+2007	122	8.1	Ethan Coen	74283625	No Country for Old Men
+2004	140	8.1	Je-kyu Kang	1111061	Taegukgi hwinalrimyeo
+2004	80	8.1	Richard Linklater	5820649	Before Sunset
+2003	111	8.1	Quentin Tarantino	70099045	Kill Bill: Vol. 1
+1998	127	8.1	Emir Kusturica	348660	Crna macka, beli macor
+1998	117	8.1	Joel Coen	17498804	The Big Lebowski
+1995	101	8.1	Richard Linklater	5535405	Before Sunrise
+1993	171	8.1	Kaige Chen	5216888	Ba wang bie ji
+1979	94	8.1	Terry Jones	20045115	Life of Brian
+1966	205	8.1	Andrei Tarkovsky	102021	Andrei Rublev
+2016	136	8.1	Aniruddha Roy Chowdhury	1241223	Pink
+2014	160	8.1	Vishal Bhardwaj	901610	Haider
+2014	153	8.1	Rajkumar Hirani	10616104	PK
+2014	99	8.1	Wes Anderson	59100318	The Grand Budapest Hotel
+2013	123	8.1	Ron Howard	26947624	Rush
+2019	152	8.1	James Mangold	117624028	Ford v Ferrari
+2012	122	8.1	Sujoy Ghosh	1035953	Kahaani
+2015	120	8.1	George Miller	154058340	Mad Max: Fury Road
+2011	130	8.1	David Yates	381011219	Harry Potter and the Deathly Hallows: Part 2
+2004	132	8.1	Clint Eastwood	100492203	Million Dollar Baby
+2003	131	8.1	Bong Joon Ho	14131	Salinui chueok
+1995	98	8.1	Mathieu Kassovitz	309811	La haine
+1993	127	8.1	Steven Spielberg	402453882	Jurassic Park
+1993	133	8.1	Jim Sheridan	25010410	In the Name of the Father
+1982	95	8.1	Alan Parker	22244207	Pink Floyd: The Wall
+1982	117	8.1	Ridley Scott	32868943	Blade Runner
+1974	130	8.1	Roman Polanski	29000000	Chinatown
+2016	145	8.1	Chan-wook Park	2006788	Ah-ga-ssi
+2017	137	8.1	James Mangold	226277068	Logan
+2014	149	8.1	David Fincher	167767189	Gone Girl
+2016	139	8.1	Mel Gibson	67209615	Hacksaw Ridge
+2013	134	8.1	Steve McQueen	56671993	12 Years a Slave
+2015	129	8.1	Tom McCarthy	45055776	Spotlight
+2013	153	8.1	Denis Villeneuve	61002302	Prisoners
+2002	141	8.1	Steven Spielberg	164615351	Catch Me If You Can
+2000	154	8.1	Alejandro G. Iñárritu	5383834	Amores perros
+1999	107	8.1	M. Night Shyamalan	293506292	The Sixth Sense
+1996	93	8.1	Danny Boyle	16501785	Trainspotting
+1996	98	8.1	Joel Coen	24611975	Fargo
+1986	120	8.1	Oliver Stone	138530565	Platoon
+1982	109	8.1	John Carpenter	13782838	The Thing
+1982	188	8.1	Ingmar Bergman	4971340	Fanny och Alexander
+1978	183	8.1	Michael Cimino	48979328	The Deer Hunter
+1972	91	8.1	Ingmar Bergman	1742348	Viskningar och rop
+1967	127	8.1	Stuart Rosenberg	16217773	Cool Hand Luke
+1960	89	8.1	Ingmar Bergman	1526000	Jungfrukällan
+1954	108	8.1	Elia Kazan	9600000	On the Waterfront
+2012	125	8.1	Umesh Shukla	923221	OMG: Oh My God!
+2015	95	8.1	Pete Docter	356461711	Inside Out
+2012	151	8.1	Anurag Basu	2804874	Barfi!
+2011	155	8.1	Zoya Akhtar	3108485	Zindagi Na Milegi Dobara
+2010	98	8.1	Dean DeBlois	217581231	How to Train Your Dragon
+2006	144	8.1	Rajkumar Hirani	2217561	Lage Raho Munna Bhai
+2003	100	8.1	Andrew Stanton	380843261	Finding Nemo
+2001	92	8.1	Pete Docter	289916256	Monsters, Inc.
+2001	224	8.1	Ashutosh Gowariker	70147	Lagaan: Once Upon a Time in India
+1998	169	8.1	Giuseppe Tornatore	259127	La leggenda del pianista sull'oceano
+1998	103	8.1	Peter Weir	125618201	The Truman Show
+2000	98	8.1	Kar-Wai Wong	2734044	Fa yeung nin wah
+1994	99	8.1	Krzysztof Kieslowski	4043686	Trois couleurs: Rouge
+1994	102	8.1	Kar-Wai Wong	600200	Chung Hing sam lam
+1989	128	8.1	Peter Weir	95860116	Dead Poets Society
+1986	89	8.1	Rob Reiner	52287414	Stand by Me
+1984	145	8.1	Wim Wenders	2181987	Paris, Texas
+1984	117	8.1	Hayao Miyazaki	495770	Kaze no tani no Naushika
+1976	120	8.1	John G. Avildsen	117235247	Rocky
+1973	102	8.1	Peter Bogdanovich	30933743	Paper Moon
+1959	212	8.1	William Wyler	74700000	Ben-Hur
+1939	238	8.1	Victor Fleming	198676459	Gone with the Wind
+2018	124	8	Amit Ravindernath Sharma	0	Badhaai ho
+2016	130	8	Raja Menon	0	Airlift
+2015	159	8	Neeraj Pandey	0	Baby
+2009	128	8	Levent Semerci	0	Nefes: Vatan Sagolsun
+2004	127	8	Ömer Faruk Sorak	0	G.O.R.A.
+2001	137	8	Jae-young Kwak	0	Yeopgijeogin geunyeo
+2001	110	8	Yilmaz Erdogan	0	Vizontele
+1962	80	8	Jean-Luc Godard	0	Vivre sa vie: Film en douze tableaux
+1954	108	8	Federico Fellini	0	La Strada
+1955	117	8	Henri-Georges Clouzot	0	Les diaboliques
+1950	94	8	Nicholas Ray	0	In a Lonely Place
+1949	106	8	Robert Hamer	0	Kind Hearts and Coronets
+1947	97	8	Jacques Tourneur	0	Out of the Past
+1942	118	8	Frank Capra	0	Arsenic and Old Lace
+1939	110	8	Jean Renoir	0	La règle du jeu
+2019	113	8	Ericson Core	0	Togo
+2008	106	8	Wilson Yip	0	Yip Man
+1986	125	8	Hayao Miyazaki	0	Tenkû no shiro Rapyuta
+1980	180	8	Akira Kurosawa	0	Kagemusha
+1968	137	8	Roman Polanski	0	Rosemary's Baby
+1966	131	8	Mike Nichols	0	Who's Afraid of Virginia Woolf?
+1957	96	8	Alexander Mackendrick	0	Sweet Smell of Success
+1956	84	8	Stanley Kubrick	0	The Killing
+1953	120	8	Billy Wilder	0	Stalag 17
+1953	118	8	William Wyler	0	Roman Holiday
+1948	80	8	Alfred Hitchcock	0	Rope
+1945	86	8	David Lean	0	Brief Encounter
+1934	91	8	W.S. Van Dyke	0	The Thin Man
+2010	115	8	José Padilha	100119	Tropa de Elite 2: O Inimigo Agora é Outro
+2009	119	8	Asghar Farhadi	106662	Darbareye Elly
+2007	96	8	Vincent Paronnaud	4445756	Persepolis
+2007	112	8	Julian Schnabel	5990075	Le scaphandre et le papillon
+2006	144	8	Martin Campbell	167445960	Casino Royale
+2003	110	8	Andrey Zvyagintsev	502028	Vozvrashchenie
+1999	86	8	Brad Bird	23159305	The Iron Giant
+1997	87	8	Thomas Jahn	3296	Knockin' on Heaven's Door
+1991	84	8	Gary Trousdale	218967620	Beauty and the Beast
+1979	130	8	Hal Ashby	30177511	Being There
+1972	138	8	Joseph L. Mankiewicz	4081254	Sleuth
+1971	181	8	Norman Jewison	80500000	Fiddler on the Roof
+1969	110	8	George Roy Hill	102308889	Butch Cassidy and the Sundance Kid
+1963	138	8	Federico Fellini	50690	8½
+1959	141	8	Howard Hawks	12535000	Rio Bravo
+1959	161	8	Otto Preminger	11900000	Anatomy of a Murder
+1958	95	8	Orson Welles	2237659	Touch of Evil
+1955	92	8	Charles Laughton	654000	The Night of the Hunter
+1944	88	8	Otto Preminger	4360000	Laura
+1946	170	8	William Wyler	23650000	The Best Years of Our Lives
+1941	100	8	John Huston	2108060	The Maltese Falcon
+1940	129	8	John Ford	55000	The Grapes of Wrath
+1925	75	8	Sergei M. Eisenstein	50970	Bronenosets Potemkin
+2013	96	8	Destin Daniel Cretton	1010414	Short Term 12
+2016	108	8	Tim Miller	363070709	Deadpool
+2007	115	8	José Padilha	8060	Tropa de Elite
+2013	117	8	Jean-Marc Vallée	27298285	Dallas Buyers Club
+2003	103	8	Ki-duk Kim	2380788	Bom Yeoareum Gaeul Gyeoul Geurigo Bom
+2003	178	8	Lars von Trier	1530386	Dogville
+2001	113	8	Richard Kelly	1480006	Donnie Darko
+1999	188	8	Paul Thomas Anderson	22455976	Magnolia
+1998	105	8	Thomas Vinterberg	1647780	Festen
+1998	110	8	Walter Salles	5595428	Central do Brasil
+1996	135	8	Billy Bob Thornton	24475416	Sling Blade
+1993	180	8	Taylor Hackford	4496583	Bound by Honor
+1989	120	8	Spike Lee	27545445	Do the Right Thing
+1973	151	8	Franklin J. Schaffner	53267000	Papillon
+1971	118	8	Peter Bogdanovich	29133000	The Last Picture Show
+2015	163	8	Kabir Khan	8178001	Bajrangi Bhaijaan
+2015	144	8	Ridley Scott	228433663	The Martian
+2015	159	8	S.S. Rajamouli	6738000	Bãhubali: The Beginning
+2019	154	8	Zoya Akhtar	5566534	Gully Boy
+2013	144	8	Neeraj Pandey	1079369	Special Chabbis
+2014	114	8	Morten Tyldum	91125683	The Imitation Game
+2014	121	8	James Gunn	333176600	Guardians of the Galaxy
+2017	164	8	Denis Villeneuve	92054159	Blade Runner 2049
+2018	134	8	Bryan Singer	216428042	Bohemian Rhapsody
+2012	103	8	Stephen Chbosky	17738570	The Perks of Being a Wallflower
+2011	146	8	Tate Taylor	169708112	The Help
+2010	165	8	Karan Johar	4018695	My Name Is Khan
+2008	120	8	Danny Boyle	141319928	Slumdog Millionaire
+2012	143	8	Joss Whedon	623279547	The Avengers
+2007	115	8	Paul Greengrass	227471070	The Bourne Ultimatum
+2005	144	8	Ron Howard	61649911	Cinderella Man
+2002	101	8	Andrew Lau	169659	Mou gaan dou
+2003	143	8	Gore Verbinski	305413918	Pirates of the Caribbean: The Curse of the Black Pearl
+1995	83	8	Mamoru Oshii	515905	Kôkaku Kidôtai
+1992	156	8	Martin Brest	63895607	Scent of a Woman
+1991	189	8	Oliver Stone	70405498	JFK
+1988	124	8	Katsuhiro Ôtomo	553171	Akira
+1984	107	8	James Cameron	38400000	The Terminator
+1970	113	8	Bernardo Bertolucci	541940	Il conformista
+2016	128	8	Damien Chazelle	151101803	La La Land
+2014	150	8	Gareth Evans	2625803	Serbuan maut 2: Berandal
+2013	126	8	Spike Jonze	25568251	Her
+2015	156	8	Alejandro G. Iñárritu	183637894	The Revenant
+2009	144	8	Anurag Kashyap	10950	Dev.D
+2010	108	8	Darren Aronofsky	106954678	Black Swan
+2006	143	8	Edward Zwick	57366262	Blood Diamond
+2005	124	8	Frank Miller	74103820	Sin City
+2004	137	8	Quentin Tarantino	66208183	Kill Bill: Vol. 2
+1997	81	8	Satoshi Kon	776665	Pâfekuto burû
+1995	129	8	Terry Gilliam	57141459	Twelve Monkeys
+1977	93	8	Woody Allen	39200000	Annie Hall
+1975	124	8	Steven Spielberg	260000000	Jaws
+1974	106	8	Mel Brooks	86300000	Young Frankenstein
+1973	122	8	William Friedkin	232906145	The Exorcist
+1967	106	8	Mike Nichols	104945305	The Graduate
+1965	197	8	David Lean	111722000	Doctor Zhivago
+1964	99	8	Sergio Leone	14500000	Per un pugno di dollari
+1961	134	8	Robert Rossen	8284000	The Hustler
+1960	174	8	Federico Fellini	19516000	La dolce vita
+1958	108	8	Richard Brooks	17570324	Cat on a Hot Tin Roof
+1951	122	8	Elia Kazan	8000000	A Streetcar Named Desire
+2016	118	8	Garth Davis	51739495	Lion
+2016	108	8	Byron Howard	341268248	Zootopia
+2013	137	8	Isao Takahata	1506975	Kaguyahime no monogatari
+2017	113	8	Stephen Chbosky	132422809	Wonder
+2010	118	8	Tom Hooper	138797449	The King's Speech
+2006	117	8	Gabriele Muccino	163566459	The Pursuit of Happyness
+2004	88	8	Ki-duk Kim	238507	Bin-jip
+2007	111	8	Brad Bird	206445654	Ratatouille
+2014	126	8	Alejandro Amenábar	2086345	Mar adentro
+2003	186	8	Nikkhil Advani	1787378	Kal Ho Naa Ho
+2003	125	8	Tim Burton	66257002	Big Fish
+2004	115	8	Brad Bird	261441092	The Incredibles
+2000	140	8	Lars von Trier	4184036	Dancer in the Dark
+1999	112	8	David Lynch	6203044	The Straight Story
+1996	136	8	Mike Leigh	13417292	Secrets & Lies
+1993	76	8	Henry Selick	75082668	The Nightmare Before Christmas
+1993	101	8	Harold Ramis	70906973	Groundhog Day
+1992	90	8	Ron Clements	217350219	Aladdin
+1990	181	8	Kevin Costner	184208848	Dances with Wolves
+1988	133	8	Barry Levinson	178800000	Rain Man
+1987	98	8	Rob Reiner	30857814	The Princess Bride
+1987	128	8	Wim Wenders	3333969	Der Himmel über Berlin
+1987	104	8	Louis Malle	4542825	Au revoir les enfants
+1982	191	8	Richard Attenborough	52767889	Gandhi
+1975	125	8	Sidney Lumet	50000000	Dog Day Afternoon
+1968	112	8	Franklin J. Schaffner	33395426	Planet of the Apes
+1965	172	8	Robert Wise	163214286	The Sound of Music
+1939	102	8	Victor Fleming	2076020	The Wizard of Oz
+1930	152	8	Lewis Milestone	3270000	All Quiet on the Western Front
+2020	101	7.9	Mukesh Chhabra	0	Dil Bechara
+2007	87	7.9	Richard Schenkman	0	The Man from Earth
+1993	94	7.9	Yoshiaki Kawajiri	0	Jûbê ninpûchô
+1973	123	7.9	Federico Fellini	0	Amarcord
+1972	95	7.9	Werner Herzog	0	Aguirre, der Zorn Gottes
+1960	144	7.9	Michelangelo Antonioni	0	L'avventura
+1950	104	7.9	Henry Koster	0	Harvey
+1922	94	7.9	F.W. Murnau	0	Nosferatu
+2005	129	7.9	Jean-Marc Vallée	0	C.R.A.Z.Y.
+2004	121	7.9	Fatih Akin	0	Gegen die Wand
+1995	111	7.9	Yoshifumi Kondô	0	Mimi wo sumaseba
+1971	91	7.9	Hal Ashby	0	Harold and Maude
+1962	126	7.9	John Frankenheimer	0	The Manchurian Candidate
+1956	119	7.9	John Ford	0	The Searchers
+1955	118	7.9	Elia Kazan	0	East of Eden
+1940	112	7.9	George Cukor	0	The Philadelphia Story
+1932	64	7.9	Tod Browning	0	Freaks
+2016	106	7.9	John Carney	3237118	Sing Street
+2011	157	7.9	Nuri Bilge Ceylan	138730	Bir Zamanlar Anadolu'da
+2007	113	7.9	Cristian Mungiu	1185783	4 luni, 3 saptamâni si 2 zile
+2009	87	7.9	Wes Anderson	21002919	Fantastic Mr. Fox
+2004	97	7.9	Christophe Barratier	3635164	Les choristes
+2002	120	7.9	Yimou Zhang	53710019	Ying xiong
+1989	104	7.9	Woody Allen	18254702	Crimes and Misdemeanors
+1986	107	7.9	Woody Allen	40084041	Hannah and Her Sisters
+1972	102	7.9	Luis Buñuel	198809	Le charme discret de la bourgeoisie
+1968	96	7.9	George A. Romero	89029	Night of the Living Dead
+1968	134	7.9	Anthony Harvey	22276975	The Lion in Winter
+1959	90	7.9	Alain Resnais	88300	Hiroshima mon amour
+1952	85	7.9	Fred Zinnemann	9450000	High Noon
+1947	96	7.9	George Seaton	2650000	Miracle on 34th Street
+1946	114	7.9	Howard Hawks	6540000	The Big Sleep
+1945	101	7.9	Billy Wilder	9460000	The Lost Weekend
+1940	92	7.9	Howard Hawks	296000	His Girl Friday
+1938	102	7.9	Michael Curtiz	3981000	The Adventures of Robin Hood
+1935	96	7.9	Sam Wood	2537520	A Night at the Opera
+1933	100	7.9	Merian C. Cooper	10000000	King Kong
+2016	118	7.9	Matt Ross	5875006	Captain Fantastic
+2013	109	7.9	Richard Linklater	8114627	Before Midnight
+2019	209	7.9	Martin Scorsese	7000000	The Irishman
+2009	97	7.9	Duncan Jones	5009677	Moon
+2008	114	7.9	Tomas Alfredson	2122065	Låt den rätte komma in
+2008	107	7.9	Martin McDonagh	7757130	In Bruges
+2006	117	7.9	Tarsem Singh	2280348	The Fall
+2002	112	7.9	Pedro Almodóvar	9284265	Hable con ella
+2001	98	7.9	Danis Tanovic	1059830	No Man's Land
+2000	114	7.9	Fabián Bielinsky	1221261	Nueve reinas
+2001	147	7.9	David Lynch	7220243	Mulholland Dr.
+1997	155	7.9	Paul Thomas Anderson	26400640	Boogie Nights
+1993	119	7.9	Tony Scott	12281500	True Romance
+1984	82	7.9	Rob Reiner	188751	This Is Spinal Tap
+1979	96	7.9	Woody Allen	45700000	Manhattan
+1973	114	7.9	Alejandro Jodorowsky	61001	La montaña sagrada
+2019	130	7.9	Rian Johnson	165359751	Knives Out
+2017	132	7.9	Luca Guadagnino	18095701	Call Me by Your Name
+2016	100	7.9	Ken Loach	258168	I, Daniel Blake
+2016	101	7.9	Taika Waititi	5202582	Hunt for the Wilderpeople
+2017	130	7.9	Taika Waititi	315058289	Thor: Ragnarok
+2019	108	7.9	Taika Waititi	349555	Jojo Rabbit
+2016	116	7.9	Denis Villeneuve	100546139	Arrival
+2014	132	7.9	Bryan Singer	233921534	X-Men: Days of Future Past
+2014	113	7.9	Doug Liman	100206256	Edge of Tomorrow
+2012	127	7.9	Michael Haneke	6739492	Amour
+2008	109	7.9	Darren Aronofsky	26236603	The Wrestler
+2009	127	7.9	J.J. Abrams	257730019	Star Trek
+2006	141	7.9	Clint Eastwood	13756082	Letters from Iwo Jima
+2008	126	7.9	Jon Favreau	318412101	Iron Man
+2004	99	7.9	Edgar Wright	13542874	Shaun of the Dead
+2002	119	7.9	Doug Liman	121661683	The Bourne Identity
+2018	121	7.9	Hirokazu Koreeda	3313513	Manbiki kazoku
+2014	117	7.9	Dan Gilroy	32381218	Nightcrawler
+2009	155	7.9	Jacques Audiard	2084637	Un prophète
+2009	112	7.9	Neill Blomkamp	115646235	District 9
+2014	165	7.9	Richard Linklater	25379975	Boyhood
+2003	138	7.9	Clint Eastwood	90135191	Mystic River
+2006	109	7.9	Alfonso Cuarón	35552383	Children of Men
+2000	122	7.9	Cameron Crowe	32534850	Almost Famous
+1994	102	7.9	Lee Tamahori	2201126	Once Were Warriors
+1993	144	7.9	Brian De Palma	36948322	Carlito's Way
+1987	119	7.9	Brian De Palma	76270454	The Untouchables
+1979	123	7.9	Bob Fosse	37823676	All That Jazz
+1978	127	7.9	George A. Romero	5100000	Dawn of the Dead
+1969	145	7.9	Sam Peckinpah	12064472	The Wild Bunch
+1960	197	7.9	Stanley Kubrick	30000000	Spartacus
+1951	101	7.9	Alfred Hitchcock	7630000	Strangers on a Train
+2019	137	7.9	Noah Baumbach	2000000	Marriage Story
+2018	101	7.9	Wes Anderson	32015231	Isle of Dogs
+2015	138	7.9	J.J. Abrams	936662225	Star Wars: Episode VII - The Force Awakens
+2011	100	7.9	Michel Hazanavicius	44671682	The Artist
+2007	138	7.9	Imtiaz Ali	410800	Jab We Met
+2012	127	7.9	Ang Lee	124987023	Life of Pi
+2004	142	7.9	Alfonso Cuarón	249358727	Harry Potter and the Prisoner of Azkaban
+2001	115	7.9	Shin'ichirô Watanabe	1000045	Cowboy Bebop: Tengoku no tobira
+1999	92	7.9	John Lasseter	245852179	Toy Story 2
+1993	94	7.9	Krzysztof Kieslowski	1324974	Trois couleurs: Bleu
+1990	105	7.9	Tim Burton	56362352	Edward Scissorhands
+1989	103	7.9	Jim Sheridan	14743391	My Left Foot: The Story of Christy Brown
+1985	132	7.9	Terry Gilliam	9929135	Brazil
+1983	93	7.9	Bob Clark	20605209	A Christmas Story
+1980	133	7.9	John Landis	57229890	The Blues Brothers
+1976	138	7.9	Alan J. Pakula	70600000	All the President's Men
+1970	172	7.9	Franklin J. Schaffner	61700000	Patton
+1967	110	7.9	Norman Jewison	24379978	In the Heat of the Night
+1963	113	7.9	Stanley Donen	13474588	Charade
+1956	220	7.9	Cecil B. DeMille	93740000	The Ten Commandments
+1946	102	7.9	Alfred Hitchcock	10464000	Notorious
+2018	138	7.8	Meghna Gulzar	0	Raazi
+2016	96	7.8	Paolo Genovese	0	Perfetti sconosciuti
+2016	148	7.8	Abhishek Chaubey	0	Udta Punjab
+2010	106	7.8	Tetsuya Nakashima	0	Kokuhaku
+1992	128	7.8	John Woo	0	Lat sau san taam
+1948	133	7.8	Howard Hawks	0	Red River
+1948	100	7.8	John Huston	0	Key Largo
+1944	100	7.8	Howard Hawks	0	To Have and Have Not
+2019	113	7.8	Guy Ritchie	0	The Gentlemen
+2019	120	7.8	Darius Marder	0	Sound of Metal
+2014	119	7.8	Matthew Warchus	0	Pride
+2008	125	7.8	Hong-jin Na	0	Chugyeokja
+2020	129	7.8	Aaron Sorkin	0	The Trial of the Chicago 7
+2020	117	7.8	Thomas Vinterberg	0	Druk
+2000	110	7.8	Chan-wook Park	0	Gongdong gyeongbi guyeok JSA
+1989	103	7.8	Hayao Miyazaki	0	Majo no takkyûbin
+1989	111	7.8	John Woo	0	Dip huet seung hung
+1978	94	7.8	Terrence Malick	0	Days of Heaven
+1975	129	7.8	John Huston	0	The Man Who Would Be King
+1973	94	7.8	Terrence Malick	0	Badlands
+1967	111	7.8	Arthur Penn	0	Bonnie and Clyde
+1962	105	7.8	François Truffaut	0	Jules et Jim
+1943	108	7.8	Alfred Hitchcock	0	Shadow of a Doubt
+1939	96	7.8	John Ford	0	Stagecoach
+1938	96	7.8	Alfred Hitchcock	0	The Lady Vanishes
+1938	102	7.8	Howard Hawks	0	Bringing Up Baby
+1933	69	7.8	Leo McCarey	0	Duck Soup
+1932	93	7.8	Howard Hawks	0	Scarface: The Shame of the Nation
+1931	70	7.8	James Whale	0	Frankenstein
+2016	101	7.8	Travis Knight	48023088	Kubo and the Two Strings
+2013	130	7.8	Asghar Farhadi	1330596	Le passé
+2013	141	7.8	Paolo Sorrentino	2852400	La grande bellezza
+2013	126	7.8	Hayao Miyazaki	5209580	Kaze tachinu
+2010	144	7.8	Jee-woon Kim	128392	Ang-ma-reul bo-at-da
+2008	94	7.8	Mark Herman	9030581	The Boy in the Striped Pyjamas
+2007	122	7.8	Fatih Akin	741283	Auf der anderen Seite
+2005	129	7.8	Joe Wright	38405088	Pride & Prejudice
+2005	119	7.8	Joss Whedon	25514517	Serenity
+2005	136	7.8	James Mangold	119519402	Walk the Line
+2003	113	7.8	Mikael Håfström	15280	Ondskan
+2003	80	7.8	Sylvain Chomet	7002255	Les triplettes de Belleville
+2002	131	7.8	Kevin Reynolds	54234062	The Count of Monte Cristo
+1999	108	7.8	Joe Johnston	32481825	October Sky
+1997	103	7.8	Takeshi Kitano	233986	Hana-bi
+1993	132	7.8	Mike Leigh	1769305	Naked
+1993	76	7.8	Kevin Altieri	5617391	Batman: Mask of the Phantasm
+1983	193	7.8	Philip Kaufman	21500000	The Right Stuff
+1967	108	7.8	Terence Young	17550741	Wait Until Dark
+1967	108	7.8	Stanley Kramer	56700000	Guess Who's Coming to Dinner
+1962	178	7.8	Ken Annakin	39100000	The Longest Day
+1935	75	7.8	James Whale	4360000	Bride of Frankenstein
+2015	100	7.8	Martin Zandvliet	435266	Under sandet
+2013	123	7.8	Richard Curtis	15322921	About Time
+2013	131	7.8	Giuseppe Tornatore	85433	La migliore offerta
+2011	158	7.8	David Fincher	102515793	The Girl with the Dragon Tattoo
+2010	119	7.8	Jeong-beom Lee	6460	Ajeossi
+2015	147	7.8	F. Gary Gray	161197785	Straight Outta Compton
+2009	129	7.8	Bong Joon Ho	547292	Madeo
+2009	152	7.8	Niels Arden Oplev	10095170	Män som hatar kvinnor
+2007	86	7.8	John Carney	9439923	Once
+2007	123	7.8	Joe Wright	50927067	Atonement
+2009	141	7.8	Jaco Van Dormael	3600	Mr. Nobody
+2005	94	7.8	Anders Thomas Jensen	1305	Adams æbler
+2002	109	7.8	Lukas Moodysson	181655	Lilja 4-ever
+2001	99	7.8	Richard Linklater	2892011	Waking Life
+1999	101	7.8	Pedro Almodóvar	8264530	Todo sobre mi madre
+1999	108	7.8	Troy Duffy	25812	The Boondock Saints
+1996	159	7.8	Lars von Trier	4040691	Breaking the Waves
+1993	130	7.8	George P. Cosmatos	56505065	Tombstone
+1993	121	7.8	Robert De Niro	17266971	A Bronx Tale
+1991	129	7.8	Jim Jarmusch	2015810	Night on Earth
+1991	98	7.8	Krzysztof Kieslowski	1999955	La double vie de Véronique
+1990	107	7.8	Rob Reiner	61276872	Misery
+1989	122	7.8	Edward Zwick	26830000	Glory
+1986	107	7.8	Jim Jarmusch	1436000	Down by Law
+2016	124	7.8	Asghar Farhadi	2402067	Forushande
+2017	106	7.8	Christopher Nolan	188373161	Dunkirk
+2016	127	7.8	Theodore Melfi	169607287	Hidden Figures
+2016	137	7.8	Kenneth Lonergan	47695120	Manchester by the Sea
+2016	133	7.8	Gareth Edwards	532177324	Rogue One
+2016	147	7.8	Anthony Russo	408084349	Captain America: Civil War
+2017	94	7.8	Dorota Kobiela	6735118	Loving Vincent
+2012	126	7.8	Shoojit Sircar	169209	Vicky Donor
+2013	134	7.8	Paul Greengrass	107100855	Captain Phillips
+2013	161	7.8	Peter Jackson	258366855	The Hobbit: The Desolation of Smaug
+2009	144	7.8	Michael Haneke	2222647	Das weiße Band - Eine deutsche Kindergeschichte
+2010	116	7.8	David O. Russell	93617009	The Fighter
+2012	169	7.8	Peter Jackson	303003568	The Hobbit: An Unexpected Journey
+2009	162	7.8	James Cameron	760507625	Avatar
+2006	101	7.8	Jonathan Dayton	59891098	Little Miss Sunshine
+2007	121	7.8	Edgar Wright	23637265	Hot Fuzz
+2008	166	7.8	David Fincher	127509326	The Curious Case of Benjamin Button
+2003	90	7.8	Satoshi Kon	128985	Tôkyô goddofâzâzu
+2000	120	7.8	Ang Lee	128078872	Wo hu cang long
+2000	143	7.8	Robert Zemeckis	233632142	Cast Away
+1999	157	7.8	Michael Mann	28965197	The Insider
+1997	194	7.8	James Cameron	659325379	Titanic
+1997	106	7.8	Andrew Niccol	12339633	Gattaca
+1997	129	7.8	David Fincher	48323648	The Game
+1985	97	7.8	John Hughes	45875171	The Breakfast Club
+1984	141	7.8	Roland Joffé	34700291	The Killing Fields
+1984	105	7.8	Ivan Reitman	238632124	Ghostbusters
+2015	168	7.8	Quentin Tarantino	54117416	The Hateful Eight
+2012	94	7.8	Wes Anderson	45512466	Moonrise Kingdom
+2015	130	7.8	Adam McKay	70259870	The Big Short
+2008	90	7.8	Pierre Morel	145000989	Taken
+2011	100	7.8	Nicolas Winding Refn	35061555	Drive
+2007	157	7.8	Ridley Scott	130164645	American Gangster
+2006	139	7.8	Mel Gibson	50866635	Apocalypto
+2004	123	7.8	Nick Cassavetes	81001787	The Notebook
+1991	112	7.8	John Singleton	57504069	Boyz n the Hood
+1988	128	7.8	Alan Parker	34603943	Mississippi Burning
+1987	107	7.8	John McTiernan	59735548	Predator
+1987	84	7.8	Sam Raimi	5923044	Evil Dead II
+1979	105	7.8	Robert Benton	106260000	Kramer vs. Kramer
+1976	135	7.8	Clint Eastwood	31800000	The Outlaw Josey Wales
+1973	143	7.8	Fred Zinnemann	16056255	The Day of the Jackal
+1972	124	7.8	Bob Fosse	42765000	Cabaret
+1969	113	7.8	John Schlesinger	44785053	Midnight Cowboy
+1961	100	7.8	Jack Clayton	2616000	The Innocents
+2017	103	7.8	Paul King	40442052	Paddington 2
+2016	184	7.8	Neeraj Pandey	1782795	M.S. Dhoni: The Untold Story
+2019	135	7.8	Greta Gerwig	108101214	Little Women
+2013	104	7.8	Ritesh Batra	4231500	The Lunchbox
+2014	102	7.8	Don Hall	222527828	Big Hero 6
+2012	134	7.8	Gauri Shinde	1670773	English Vinglish
+2019	100	7.8	Josh Cooley	434038008	Toy Story 4
+2014	102	7.8	Dean DeBlois	177002924	How to Train Your Dragon 2
+2004	192	7.8	Yash Chopra	2921738	Veer-Zaara
+2005	127	7.8	Roger Donaldson	5128124	The World's Fastest Indian
+2004	126	7.8	Walter Salles	16756372	Diarios de motocicleta
+2000	113	7.8	Boaz Yakin	115654751	Remember the Titans
+2001	90	7.8	Andrew Adamson	267665011	Shrek
+1994	127	7.8	Tim Burton	5887457	Ed Wood
+1993	118	7.8	Lasse Hallström	9170214	What's Eating Gilbert Grape
+1993	101	7.8	David Mickey Evans	32416586	The Sandlot
+1993	134	7.8	James Ivory	22954968	The Remains of the Day
+1993	130	7.8	Andrew Davis	183875760	The Fugitive
+1990	121	7.8	Penny Marshall	52096475	Awakenings
+1989	108	7.8	Robert Zemeckis	118500000	Back to the Future Part II
+1986	103	7.8	John Hughes	70136369	Ferris Bueller's Day Off
+1985	114	7.8	Richard Donner	61503218	The Goonies
+1985	154	7.8	Steven Spielberg	98467863	The Color Purple
+1982	109	7.8	Martin Scorsese	2500000	The King of Comedy
+1982	115	7.8	Steven Spielberg	435110554	E.T. the Extra-Terrestrial
+1974	113	7.8	Francis Ford Coppola	4420000	The Conversation
+1973	72	7.8	René Laloux	193817	La planète sauvage
+1971	100	7.8	Mel Stuart	4000000	Willy Wonka & the Chocolate Factory
+1964	170	7.8	George Cukor	72000000	My Fair Lady
+1964	139	7.8	Robert Stevenson	102272727	Mary Poppins
+1960	90	7.8	Jean-Luc Godard	336705	À bout de souffle
+2006	98	7.7	Mamoru Hosoda	0	Toki o kakeru shôjo
+2006	126	7.7	Shûsuke Kaneko	0	Death Note: Desu nôto
+2002	116	7.7	Bob Gale	0	Interstate 60: Episodes of the Road
+1988	107	7.7	George Sluizer	0	Spoorloos
+1951	92	7.7	Robert Wise	0	The Day the Earth Stood Still
+1946	110	7.7	Charles Vidor	0	Gilda
+2018	135	7.7	Alfonso Cuarón	0	Roma
+1995	99	7.7	Kar-Wai Wong	0	Do lok tin si
+1992	94	7.7	Hayao Miyazaki	0	Kurenai no buta
+1979	100	7.7	Hayao Miyazaki	0	Rupan sansei: Kariosutoro no shiro
+1975	85	7.7	Woody Allen	0	Love and Death
+1974	104	7.7	Joseph Sargent	0	The Taking of Pelham One Two Three
+1968	158	7.7	Brian G. Hutton	0	Where Eagles Dare
+1965	105	7.7	Roman Polanski	0	Repulsion
+1964	138	7.7	Cy Endfield	0	Zulu
+1962	106	7.7	J. Lee Thompson	0	Cape Fear
+1956	80	7.7	Don Siegel	0	Invasion of the Body Snatchers
+1955	111	7.7	Nicholas Ray	0	Rebel Without a Cause
+1955	91	7.7	Alexander Mackendrick	0	The Ladykillers
+1954	113	7.7	Billy Wilder	0	Sabrina
+1933	71	7.7	James Whale	0	The Invisible Man
+2017	104	7.7	Francis Lee	335609	God's Own Country
+2015	116	7.7	Hannes Holm	3358518	En man som heter Ove
+2015	105	7.7	Alfonso Gomez-Rejon	6743776	Me and Earl and the Dying Girl
+2012	111	7.7	Felix van Groeningen	175058	The Broken Circle Breakdown
+2015	108	7.7	Mark Osborne	1339152	Le Petit Prince
+2011	98	7.7	Tony Kaye	71177	Detachment
+2011	96	7.7	Woody Allen	56816662	Midnight in Paris
+2015	137	7.7	Cary Joji Fukunaga	83861	Beasts of No Nation
+2010	90	7.7	Rob Reiner	1752214	Flipped
+2006	101	7.7	Shane Meadows	327919	This Is England
+2005	116	7.7	Christian Carion	1054361	Joyeux Noël
+2002	105	7.7	Jim Sheridan	15539266	In America
+2001	132	7.7	Jessie Nelson	40311852	I Am Sam
+1998	134	7.7	Todd Solondz	2807390	Happiness
+1998	80	7.7	Francis Veber	4065116	Le dîner de cons
+1996	242	7.7	Kenneth Branagh	4414535	Hamlet
+1992	85	7.7	Brian Henson	27281507	The Muppet Christmas Carol
+1991	130	7.7	Jon Avnet	82418501	Fried Green Tomatoes
+1983	79	7.7	Woody Allen	11798616	Zelig
+1968	105	7.7	Gene Saks	44527234	The Odd Couple
+1967	150	7.7	Robert Aldrich	45300000	The Dirty Dozen
+1960	101	7.7	Michael Powell	83957	Peeping Tom
+1960	128	7.7	John Sturges	4905000	The Magnificent Seven
+1960	90	7.7	Georges Franju	52709	Les yeux sans visage
+1952	129	7.7	John Ford	10550000	The Quiet Man
+1951	105	7.7	John Huston	536118	The African Queen
+1940	125	7.7	James Algar	76408097	Fantasia
+2018	119	7.7	David Leitch	324591735	Deadpool 2
+2017	107	7.7	Taylor Sheridan	33800859	Wind River
+2017	104	7.7	Jordan Peele	176040665	Get Out
+2014	86	7.7	Jemaine Clement	3333000	What We Do in the Shadows
+2008	122	7.7	Ron Howard	18593156	Frost/Nixon
+2008	141	7.7	Clint Eastwood	35739802	Changeling
+2006	120	7.7	Susanne Bier	412544	Efter brylluppet
+2006	123	7.7	Kevin Macdonald	17605861	The Last King of Scotland
+2006	110	7.7	Paul McGuigan	22494487	Lucky Number Slevin
+2007	122	7.7	Anton Corbijn	871577	Control
+2006	145	7.7	Paul Verhoeven	4398392	Zwartboek
+2004	101	7.7	Brad Anderson	1082715	The Machinist
+2002	114	7.7	Peter Mullan	4890878	The Magdalene Sisters
+2003	121	7.7	Wolfgang Becker	4064200	Good Bye Lenin!
+2002	115	7.7	Spike Jonze	22245861	Adaptation.
+2001	120	7.7	Oliver Hirschbiegel	141072	Das Experiment
+2000	110	7.7	Stephen Daldry	21995263	Billy Elliot
+2001	95	7.7	John Cameron Mitchell	3029081	Hedwig and the Angry Inch
+1999	89	7.7	Mike Judge	10824921	Office Space
+1999	113	7.7	Spike Jonze	22858926	Being John Malkovich
+1994	92	7.7	Kevin Smith	3151130	Clerks
+1993	188	7.7	Robert Altman	6110979	Short Cuts
+1992	100	7.7	James Foley	10725228	Glengarry Glen Ross
+1990	115	7.7	Joel Coen	5080409	Miller's Crossing
+1987	107	7.7	Bruce Robinson	1544889	Withnail & I
+1986	130	7.7	Jean-Jacques Annaud	7153487	Der Name der Rose
+1976	126	7.7	Roman Polanski	1924733	Le locataire
+2018	147	7.7	Christopher McQuarrie	220159104	Mission: Impossible - Fallout
+2014	126	7.7	Josh Boone	124872350	The Fault in Our Stars
+2014	136	7.7	Anthony Russo	259766572	Captain America: The Winter Soldier
+2011	159	7.7	Imtiaz Ali	985912	Rockstar
+2013	115	7.7	Alexander Payne	17654912	Nebraska
+2013	91	7.7	Alfonso Cuarón	274092705	Gravity
+2013	132	7.7	J.J. Abrams	228778661	Star Trek Into Darkness
+2010	120	7.7	David Fincher	96962694	The Social Network
+2011	131	7.7	Matthew Vaughn	146408305	X: First Class
+2009	100	7.7	Todd Phillips	277322503	The Hangover
+2012	143	7.7	Sam Mendes	304360277	Skyfall
+2009	95	7.7	Marc Webb	32391374	(500) Days of Summer
+2014	108	7.7	Alex Garland	25442958	Ex Machina
+2007	157	7.7	David Fincher	33080084	Zodiac
+2004	112	7.7	Paul Haggis	54580300	Crash
+2004	99	7.7	Stephen Chow	17108591	Kung fu
+2003	102	7.7	Sofia Coppola	44585453	Lost in Translation
+2005	157	7.7	Mike Newell	290013036	Harry Potter and the Goblet of Fire
+2004	146	7.7	Tony Scott	77911774	Man on Fire
+2003	154	7.7	Edward Zwick	111110575	The Last Samurai
+2001	116	7.7	Steven Soderbergh	183417150	Ocean's Eleven
+1998	93	7.7	Wes Anderson	17105219	Rushmore
+1997	126	7.7	Luc Besson	63540020	The Fifth Element
+1993	125	7.7	Jonathan Demme	77324422	Philadelphia
+1992	112	7.7	Michael Mann	75505856	The Last of the Mohicans
+1985	97	7.7	Martin Scorsese	10600000	After Hours
+2014	129	7.7	Matthew Vaughn	128261724	Kingsman: The Secret Service
+2014	119	7.7	Alejandro G. Iñárritu	42340598	Birdman or (The Unexpected Virtue of Ignorance)
+2013	180	7.7	Abdellatif Kechiche	2199675	La vie d'Adèle
+2012	122	7.7	David O. Russell	132092958	Silver Linings Playbook
+2012	120	7.7	Ben Affleck	136025503	Argo
+2010	146	7.7	David Yates	295983305	Harry Potter and the Deathly Hallows: Part 1
+2005	134	7.7	Ang Lee	83043761	Brokeback Mountain
+2007	122	7.7	James Mangold	53606916	3:10 to Yuma
+2004	108	7.7	Paul Greengrass	176241941	The Bourne Supremacy
+2004	152	7.7	Taylor Hackford	75331600	Ray
+2001	144	7.7	Ridley Scott	108638745	Black Hawk Down
+2002	117	7.7	Sam Mendes	104454762	Road to Perdition
+1999	81	7.7	Trey Parker	52037603	South Park: Bigger, Longer & Uncut
+2001	122	7.7	Antoine Fuqua	76631907	Training Day
+1997	139	7.7	James L. Brooks	148478011	As Good as It Gets
+1997	127	7.7	Mike Newell	41909762	Donnie Brasco
+1996	129	7.7	Gregory Hoblit	56116183	Primal Fear
+1986	120	7.7	David Lynch	8551228	Blue Velvet
+1982	93	7.7	Ted Kotcheff	47212904	First Blood
+1978	91	7.7	John Carpenter	47000000	Halloween
+1974	93	7.7	Mel Brooks	119500000	Blazing Saddles
+1973	130	7.7	Sidney Lumet	29800000	Serpico
+1973	102	7.7	Robert Clouse	25000000	Enter the Dragon
+1971	104	7.7	William Friedkin	15630710	The French Connection
+1971	102	7.7	Don Siegel	35900000	Dirty Harry
+1967	100	7.7	Luis Buñuel	26331	Belle de jour
+1964	110	7.7	Guy Hamilton	51081062	Goldfinger
+1963	119	7.7	Alfred Hitchcock	11403529	The Birds
+2014	103	7.7	James Simone	765127	Omoide no Mânî
+2014	123	7.7	James Marsh	35893537	The Theory of Everything
+2013	130	7.7	Abhishek Kapoor	1122527	Kai po che!
+2012	101	7.7	Rich Moore	189422889	Wreck-It Ralph
+2014	100	7.7	Christopher Miller	257760692	The Lego Movie
+2008	101	7.7	Hayao Miyazaki	15090400	Gake no ue no Ponyo
+2006	90	7.7	Satoshi Kon	881302	Papurika
+2010	100	7.7	Nathan Greno	200821936	Tangled
+2009	100	7.7	Henry Selick	75286229	Coraline
+2000	103	7.7	Yoshiaki Kawajiri	151086	Vampire Hunter D: Bloodlust
+2000	107	7.7	Joel Coen	45512588	O Brother, Where Art Thou?
+1997	119	7.7	Alejandro Amenábar	368234	Abre los ojos
+1996	105	7.7	Scott Hicks	35811509	Shine
+1995	97	7.7	Alfonso Cuarón	10019307	A Little Princess
+1994	108	7.7	Michael Radford	21848932	Il postino
+1992	202	7.7	Spike Lee	48169908	Malcolm X
+1992	138	7.7	Rob Reiner	141340178	A Few Good Men
+1991	116	7.7	Joel Coen	6153939	Barton Fink
+1988	104	7.7	Robert Zemeckis	156452370	Who Framed Roger Rabbit
+1987	163	7.7	Bernardo Bertolucci	43984230	The Last Emperor
+1987	153	7.7	Steven Spielberg	22238696	Empire of the Sun
+1985	82	7.7	Woody Allen	10631333	The Purple Rose of Cairo
+1982	129	7.7	Sidney Lumet	54000000	The Verdict
+1982	113	7.7	Nicholas Meyer	78912963	Star Trek II: The Wrath of Khan
+1980	124	7.7	Robert Redford	54800000	Ordinary People
+1980	88	7.7	Jim Abrahams	83400000	Airplane!
+1972	109	7.7	John Boorman	7056013	Deliverance
+1966	120	7.7	Fred Zinnemann	28350000	A Man for All Seasons
+2012	112	7.6	Oriol Paulo	0	El cuerpo
+2009	113	7.6	Daniel Monzón	0	Celda 211
+2008	107	7.6	Dennis Gansel	0	Die Welle
+2019	126	7.6	Todd Haynes	0	Dark Waters
+2019	137	7.6	Destin Daniel Cretton	0	Just Mercy
+2015	138	7.6	Sebastian Schipper	0	Victoria
+2000	114	7.6	Kinji Fukasaku	0	Batoru rowaiaru
+1997	108	7.6	Michael Haneke	0	Funny Games
+1978	91	7.6	Martin Rosen	0	Watership Down
+1966	111	7.6	Michelangelo Antonioni	0	Blowup
+1961	115	7.6	Blake Edwards	0	Breakfast at Tiffany's
+1956	201	7.6	George Stevens	0	Giant
+1944	97	7.6	Alfred Hitchcock	0	Lifeboat
+1935	86	7.6	Alfred Hitchcock	0	The 39 Steps
+2018	102	7.6	Aneesh Chaganty	26020957	Searching
+2017	101	7.6	Marc Webb	24801212	Gifted
+2019	97	7.6	Tyler Nilson	13122642	The Peanut Butter Falcon
+2015	97	7.6	Deniz Gamze Ergüven	845464	Mustang
+2013	98	7.6	Stephen Frears	37707719	Philomena
+2010	110	7.6	Ethan Coen	171243005	True Grit
+2011	133	7.6	Bennett Miller	75605492	Moneyball
+2009	128	7.6	Guy Ritchie	209028679	Sherlock Holmes
+2007	104	7.6	Tom McCarthy	9422422	The Visitor
+2009	71	7.6	Tomm Moore	686383	The Secret of Kells
+2007	140	7.6	Olivier Dahan	10301706	La Vie En Rose
+2006	104	7.6	Ronny Yu	24633730	Huo Yuan Jia
+2004	90	7.6	Shane Meadows	6013	Dead Man's Shoes
+2001	101	7.6	Alejandro Amenábar	96522687	The Others
+1971	157	7.6	Sergio Leone	696690	Giù la testa
+1970	144	7.6	Brian G. Hutton	1378435	Kelly's Heroes
+1953	118	7.6	Fred Zinnemann	30500000	From Here to Eternity
+2017	127	7.6	Andrey Zvyagintsev	566356	Nelyubov
+2014	140	7.6	Andrey Zvyagintsev	1092800	Leviafan
+2016	102	7.6	David Mackenzie	26862450	Hell or High Water
+2010	118	7.6	Susanne Bier	1008098	Hævnen
+2011	100	7.6	Jonathan Levine	35014192	50/50
+2011	120	7.6	Pedro Almodóvar	3185812	La piel que habito
+2007	100	7.6	David Cronenberg	17114882	Eastern Promises
+2006	129	7.6	Spike Lee	88513495	Inside Man
+2007	114	7.6	Ben Affleck	20300218	Gone Baby Gone
+2005	124	7.6	Woody Allen	23089926	Match Point
+2005	122	7.6	Andrew Niccol	24149632	Lord of War
+2008	124	7.6	Charlie Kaufman	3081925	Synecdoche, New York
+2004	105	7.6	Gregg Araki	697181	Mysterious Skin
+2003	93	7.6	Yann Samuell	548707	Jeux d'enfants
+2003	89	7.6	Tom McCarthy	5739376	The Station Agent
+2002	129	7.6	Chan-wook Park	45289	Boksuneun naui geot
+2002	135	7.6	Spike Lee	13060843	25th Hour
+2001	124	7.6	Ted Demme	52990775	Blow
+1999	146	7.6	Norman Jewison	50668906	The Hurricane
+1998	118	7.6	Terry Gilliam	10680275	Fear and Loathing in Las Vegas
+1995	121	7.6	Jim Jarmusch	1037847	Dead Man
+1993	113	7.6	Joel Schumacher	40903593	Falling Down
+1991	99	7.6	Marc Caro	1794187	Delicatessen
+2017	136	7.6	James Gunn	389813101	Guardians of the Galaxy Vol. 2
+2017	113	7.6	Edgar Wright	107825862	Baby Driver
+2017	134	7.6	Joseph Kosinski	18340051	Only the Brave
+2015	142	7.6	Steven Spielberg	72313754	Bridge of Spies
+2018	118	7.6	Brad Bird	608581744	Incredibles 2
+2014	130	7.6	Matt Reeves	208545589	Dawn of the Planet of the Apes
+2018	136	7.6	Bradley Cooper	215288866	A Star Is Born
+2010	117	7.6	Matthew Vaughn	48071303	Kick-Ass
+2009	129	7.6	John Lee Hancock	255959475	The Blind Side
+2008	123	7.6	Gabriele Muccino	69951824	Seven Pounds
+2009	153	7.6	David Yates	301959197	Harry Potter and the Half-Blood Prince
+2004	103	7.6	James Wan	56000369	Saw
+2003	124	7.6	Alejandro G. Iñárritu	16290476	21 Grams
+1998	81	7.6	Tom Tykwer	7267585	Lola rennt
+1996	147	7.6	Barry Levinson	49100000	Sleepers
+1992	120	7.6	Jonathan Lynn	52929168	My Cousin Vinny
+1989	95	7.6	Rob Reiner	92823600	When Harry Met Sally...
+1981	109	7.6	Mark Rydell	119285432	On Golden Pond
+1979	92	7.6	Walter Hill	22490039	The Warriors
+2019	161	7.6	Quentin Tarantino	142502728	Once Upon a Time... in Hollywood
+2017	111	7.6	Sean Baker	5904366	The Florida Project
+2015	121	7.6	Denis Villeneuve	46889293	Sicario
+2015	133	7.6	Ryan Coogler	109767581	Creed
+2011	101	7.6	Gareth Evans	4105123	Serbuan maut
+2012	109	7.6	David Ayer	41003371	End of Watch
+2009	88	7.6	Ruben Fleischer	75590286	Zombieland
+2006	117	7.6	Zack Snyder	210614939	300
+2009	162	7.6	Zack Snyder	107509799	Watchmen
+2002	113	7.6	Danny Boyle	45064915	28 Days Later...
+2001	110	7.6	Wes Anderson	52364010	The Royal Tenenbaums
+2001	106	7.6	Alfonso Cuarón	13622333	Y tu mamá también
+2001	131	7.6	Jean-Jacques Annaud	51401758	Enemy at the Gates
+2002	145	7.6	Steven Spielberg	132072926	Minority Report
+2000	101	7.6	Mary Harron	15070285	American Psycho
+1998	170	7.6	Terrence Malick	36400491	The Thin Red Line
+1998	100	7.6	Alex Proyas	14378331	Dark City
+1997	134	7.6	David Lynch	3796699	Lost Highway
+1995	128	7.6	John McTiernan	100012499	Die Hard: With a Vengeance
+1995	135	7.6	Clint Eastwood	71516617	The Bridges of Madison County
+1990	162	7.6	Francis Ford Coppola	66666062	The Godfather: Part III
+1987	109	7.6	Richard Donner	65207127	Lethal Weapon
+1984	99	7.6	Joel Coen	2150000	Blood Simple
+1981	96	7.6	George Miller	12465371	Mad Max 2
+1979	112	7.6	Don Siegel	43000000	Escape from Alcatraz
+1978	121	7.6	Alan Parker	35000000	Midnight Express
+1973	112	7.6	Robert Altman	959000	The Long Goodbye
+2016	107	7.6	Ron Clements	248757044	Moana
+2010	94	7.6	Hiromasa Yonebayashi	19202743	Kari-gurashi no Arietti
+2010	95	7.6	Pierre Coffin	251513985	Despicable Me
+2007	127	7.6	Matthew Vaughn	38634938	Stardust
+2006	110	7.6	Neil Burger	39868642	The Illusionist
+2004	133	7.6	Jean-Pierre Jeunet	6167817	Un long dimanche de fiançailles
+2004	106	7.6	Marc Forster	51680613	Finding Neverland
+2004	113	7.6	Eric Bress	57938693	The Butterfly Effect
+2001	152	7.6	Chris Columbus	317575550	Harry Potter and the Sorcerer's Stone
+1998	88	7.6	Tony Bancroft	120620254	Mulan
+1995	136	7.6	Ang Lee	43182776	Sense and Sensibility
+1995	140	7.6	Ron Howard	173837933	Apollo 13
+1994	92	7.6	Krzysztof Kieslowski	1464625	Trois couleurs: Blanc
+1993	102	7.6	Richard Linklater	7993039	Dazed and Confused
+1991	118	7.6	Isao Takahata	453243	Omohide poro poro
+1990	103	7.6	Chris Columbus	285761243	Home Alone
+1989	83	7.6	Ron Clements	111543479	The Little Mermaid
+1988	85	7.6	David Zucker	78756177	The Naked Gun: From the Files of Police Squad!
+1987	93	7.6	John Hughes	49530280	Planes, Trains & Automobiles
+1979	95	7.6	James Frawley	76657000	The Muppet Movie
+1977	138	7.6	Steven Spielberg	132088635	Close Encounters of the Third Kind
+1967	78	7.6	Wolfgang Reitherman	141843612	The Jungle Book
+1964	87	7.6	Richard Lester	13780024	A Hard Day's Night

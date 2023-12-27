@@ -1,0 +1,6 @@
+Napi első fuvarok:
+1. nap: 3 km
+3. nap: 7 km
+4. nap: 11 km
+5. nap: 2 km
+7. nap: 5 km
