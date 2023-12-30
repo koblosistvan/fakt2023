@@ -69,4 +69,4 @@ for i in range(len(sebesseg)):
         lassabbak_seb.append(sebesseg[i])
         lassabbak_rendsz.append(rendszam[i])
         lassabbak_ido.append(ido[i])
-
+#asd
