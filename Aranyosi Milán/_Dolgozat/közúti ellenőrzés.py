@@ -7,8 +7,7 @@ sebesseg = []
 
 for sor in forras:
     adat = sor.strip().split()
-    egyautideje = [adat[0], adat[1], adat[2]]
-    ido.append(egyautideje)
+    ido.append(adat[0] + ':' + adat[1] + ':' + adat[2])
     sebesseg.append(int(adat[3]))
     rendszam.append(adat[4])
 print(ido)
@@ -59,14 +58,7 @@ print('4.feladat')
 print(f'Az áthaladó autók átlagsebessége {atlag} km/h volt.')
 
 #5.feladat
-kimenet = open('kozut-kimenet', mode='w', encoding='utf-8')
-
-lassabbak_seb = []
-lassabbak_rendsz = []
-lassabbak_ido = []
-for i in range(len(sebesseg)):
-    if sebesseg[i] < 30:
-        lassabbak_seb.append(sebesseg[i])
-        lassabbak_rendsz.append(rendszam[i])
-        lassabbak_ido.append(ido[i])
-#asd
+with open('kozut-kimenet.txt', mode='w', encoding='utf-8') as kiment:
+    for i in range(len(sebesseg)):
+        if sebesseg[i] < 30:
+            kiment.write(ido[i]+' - '+rendszam[i]+' - '+str(sebesseg[i])+' km/h\n')
