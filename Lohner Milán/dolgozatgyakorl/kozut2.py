@@ -19,7 +19,7 @@ for sor in forras:
     adat = sor.strip().split(' ')
     sebessegek.append(adat[3])
     rendszamok.append(adat[4])
-    idok.append(' '.join(adat[:-2]))
+
     print(f'Időpont: {":".join(adat[:-2])}')
 
 forras.close()
