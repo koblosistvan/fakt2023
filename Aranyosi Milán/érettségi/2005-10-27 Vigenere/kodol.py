@@ -46,3 +46,5 @@ for i in range(len(uj_szoveg)):
     kod_karakter = tablazat[sor][oszlop]
     kodolt += kod_karakter
 print(kodolt)
+
+
