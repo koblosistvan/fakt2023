@@ -1,3 +1,4 @@
+import graphviz
 edges = [
     ["A", "B", 3],
     ["A", "C", 5],
@@ -14,14 +15,19 @@ edges = [
 distance = {}
 came_from = {}
 
+g = graphviz.Digraph()
+for edge in edges:
+    source, target, weight = edge
+    g.edge(source, target, label=str(weight))
+
 def calc_distance(start):
     # készítünk egy egyedi listát a csúcsokról
     nodes_to_check = []
     for edge in edges:
-        if edges[0] not in nodes_to_check:
-            nodes_to_check.append(edges[0])
-        if edges[1] not in nodes_to_check:
-            nodes_to_check.append(edges[1])
+        if edge[0] not in nodes_to_check:
+            nodes_to_check.append(edge[0])
+        if edge[1] not in nodes_to_check:
+            nodes_to_check.append(edge[1])
     # minden csúcsra beállítjuk a kezdőértéket: távolság=1000, honnan=None
     for node in nodes_to_check:
         distance[node] = 1000
@@ -45,7 +51,26 @@ def calc_distance(start):
                 came_from[target] = actual_node
                 # a távolság az aktuális távolsága + az él súlya
                 distance[target] = distance[actual_node] + weight
-
         # megkeressük a legkisebb távolságú csúcsot, ő lesz az új vizsgált
-
+        min_distance_node = nodes_to_check[0]
+        for node in nodes_to_check:
+            if distance[node] < distance[min_distance_node]:
+                min_distance_node = node
+        actual_node = min_distance_node
+        remaining_distance = {k: v for k, v in distance.items() if k in nodes_to_check}
         # őt is kivesszük a vizsgálandók közül
+        nodes_to_check.remove(actual_node)
+
+def print_route(target):
+    route = target
+
+    while came_from[target] != None:
+        g.edge(came_from[target], target, color='red')
+        route = came_from[target] + ' - ' + route
+        target = came_from[target]
+    print(route)
+
+calc_distance('A')
+print_route('F')
+
+print(g.source)
