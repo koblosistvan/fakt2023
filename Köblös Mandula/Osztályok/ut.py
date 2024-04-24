@@ -1,5 +1,5 @@
 class Meres:
-    def __init__(self, ora: int, perc: int, mp: int, sebesseg:int, honnan: str):
+    def __init__(self, ora: int, perc: int, mp: int, idotartam:int, honnan: str):
         self.ora = ora
         self.perc = perc
         self.mp = mp
@@ -16,7 +16,7 @@ forras = open('forgalom.txt', mode='r', encoding='utf-8')
 forras.readline()
 for sor in forras:
     adat = sor.strip().split(' ')
-    forgalom.append(Meres(ora=int(adat[0]), perc=int(adat[1]), mp=int(adat[2]), sebesseg=int(adat[3]), honnan=adat[4]))
+    forgalom.append(Meres(ora=int(adat[0]), perc=int(adat[1]), mp=int(adat[2]), idotartam=int(adat[3]), honnan=adat[4]))
 forras.close()
 
 print(forgalom[0].sebesseg)
