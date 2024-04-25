@@ -1,4 +1,4 @@
-forrás = open('6b-forgalom.txt', mode='r')
+forrás = open("Bogdán_Samu\órai\\6b-forgalom.txt", mode='r', encoding='utf-8')
 a = forrás.readline().strip().split(' ')
 hely_db = int(a[0])
 adatok = int(a[1])
