@@ -20,6 +20,15 @@ class Meres:
     def ido_str(self):
         return f'{self.ora:0>2d}:{self.perc:0>2d}:{self.masodperc:0>2d}'
 
+    def kilepes_mp(self):
+        return self.ido_mp() + self.idotartam
+
+    def kilep_str(self):
+        ora = self.kilepes_mp() // 3600
+        perc = self.kilepes_mp() % 3600 // 60
+        mp = self.kilepes_mp() % 60
+        return f'{self.ora:0>2d}:{self.perc:0>2d}:{self.masodperc:0>2d}'
+
 forgalom = [ ]
 
 forras = open('forgalom.txt', encoding='utf-8', mode='r')
@@ -50,3 +59,15 @@ for i in range(24):
 leggyorsabb = sorted(forgalom, reverse=True)
 for i in range(10):
     print(f'{leggyorsabb[i].ido_str()} {leggyorsabb[i].honnan_str} {leggyorsabb[i].sebesseg:.1f}')
+
+#6.feladat
+also_fele = [meres for meres in forgalom if meres.honnan == 'F']
+idopont_mp = 0
+idopont_str = 0
+for i in range(len(also_fele)):
+    if also_fele[i].kilepes_mp() > idopont_mp:
+        print(also_fele[i].kilep_str())
+        idopont_mp = also_fele[i].kilepes_mp()
+        idopont_str = also_fele[i].kilep_str()
+    else:
+        print(idopont_str)
