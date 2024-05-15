@@ -1,3 +1,5 @@
+from typing import Any
+
 class Meres:
     def __init__(self, ora, perc, mp, sebesseg, honnan):
         self.ora = ora
@@ -5,12 +7,21 @@ class Meres:
         self.mp = mp
         self.sebesseg = sebesseg
         self.honnan = honnan
-        self.hova = 'Felső város' if (honnan=='A') else 'Alsó város'
+        self.honnanf = 'Felső város' if (honnan=='A') else 'Alsó város'
+
     def ido(self):
         return self.ora*60*60 + self.perc*60 + self.mp
+    
+    def __gt__(self, other):
+        if self.sebesseg >= other.sebesseg:
+            return True
+        else:
+            return False
+    def idof(self):
+        return f'{self.ora}:{self.perc}:{self.mp}'
 
 forgalom = []
-forras = open('forgalom.txt','r',encoding='utf-8')
+forras = open('Kadarkuti Márton\\érettségi\\forgalom.txt','r',encoding='utf-8')
 forras.readline()
 
 for sor in forras:
@@ -19,7 +30,15 @@ for sor in forras:
 forras.close()
 
 n = int(input("Hányadik jármű? > "))
-print(f"A {n}. jármű {forgalom[n-1].hova} felé haladt.")
+print(f"A {n}. jármű {forgalom[n-1].honnanf3
+} felé haladt.")
 
 print(f'Az utolsó két jármű {abs( forgalom[-1].ido() - forgalom[-2].ido() )}s külömbséggel érte el az útszakaszt.')
+
+leggyorsabb = sorted(forgalom, reverse=True)
+for i in range(10):
+    print(f'{leggyorsabb[i].idof} {leggyorsabb[i].honnanf} {leggyorsabb[i].sebesseg:.1f}')
+
+
+also_fele = [meres for meres in forgalom if meres.honnan=='F']
 

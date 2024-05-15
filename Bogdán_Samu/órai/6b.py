@@ -18,7 +18,6 @@ print(hely.count(50))
 hatelott50 = len([i for i in range(len(hely)) if hely[i] == 50 and időpont[i] // 60 < 6])
 print(hatelott50)
 
-
 óraperc = str(input('Adjon meg egy időpontot "óra:perc" formátumban! '))
 óra = int(óraperc.split(':')[0])
 perc = int(óraperc.split(':')[1])
