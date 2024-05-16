@@ -21,6 +21,17 @@ class Meres:
         else:
             return False
 
+    def kilep_mp(self):
+        return self.ido_mp() + self.idő
+
+    def kilep_str(self):
+        ora = self.kilep_mp() // 3600
+        perc = self.kilep_mp() % 3600 // 60
+        masodperc = self.kilep_mp() % 60
+        return f"{ora:0>2d}:{perc:0>2d}:{masodperc:0>2d}"
+        return f"{ora:0>2d}:{perc:0>2d}:{masodperc:0>2d}"
+
+
 forgalom = []
 forras = open("forgalom.txt", mode="r", encoding="utf-8")
 forras.readline()
@@ -46,6 +57,17 @@ for i in range(24):
 leggyorsabb = sorted(forgalom, reverse=True)
 for i in range(10):
     print(f"{leggyorsabb[i].ido_str()} {leggyorsabb[i].honnan_str} {leggyorsabb[i].sebesseg}")
+
+also_fele = [meres for meres in forgalom if meres.honnan == "F"]
+idopont_mp = 0
+idopont_str = ""
+for i in range(len(also_fele)):
+    if also_fele[i].kilep_mp() > idopont_mp:
+        print(also_fele[i].kilep_str())
+        idopont_mp = also_fele[i].kilep_mp()
+        idopont_str = also_fele[i].kilep_str()
+    else:
+        print(idopont_str)
 
 
 
