@@ -1,5 +1,5 @@
 class imdb:
-    def __init__(self, ev: int, idotartam: int, ertekeles: str, rendezo: str, bevetel: int, cim: str):
+    def __init__(self, ev: int, idotartam: int, ertekeles: float, rendezo: str, bevetel: int, cim: str):
         self.ev = ev
         self.idotartam = idotartam
         self.ertekeles = ertekeles
@@ -13,7 +13,7 @@ forras = open('imdb.txt', mode='r', encoding='utf-8')
 forras.readline()
 for sor in forras:
     adat = sor.strip().split('\t')
-    filmek.append(imdb(ev=int(adat[0]), idotartam=int(adat[1]), ertekeles=adat[2], rendezo=adat[3], bevetel=int(adat[4]), cim=adat[5]))
+    filmek.append(imdb(ev=int(adat[0]), idotartam=int(adat[1]), ertekeles=float(adat[2]), rendezo=adat[3], bevetel=int(adat[4]), cim=adat[5]))
 forras.close()
 
 
@@ -38,12 +38,42 @@ else:
     print(f'Nincs két óránál hosszabb film.')
 
 #4. feladat
+for i in range(len(filmek)):
+    if filmek[i].ertekeles > 9:
+        print('Van olyan film ami 9-es értékelésnél magasabb pontszámot kapott.')
+        break
+    else:
+        print('Nincs olyan film ami 9-es értékelésnél magasabb pontszámot kapott.')
 
 #5. feladat
+legmagasabb = filmek[0].ertekeles
+legmagasabb_id = 0
+for i in range(len(filmek)):
+    if filmek[i].ertekeles > legmagasabb:
+        legmagasabb = filmek[i].ertekeles
+        legmagasabb_id = i
+print(f'A legmagasabb értékelés {legmagasabb}')
 
 #6.feladat
+def hany_darab(pont):
+    ennyi_pontos = 0
+    for i in range(len(filmek)):
+        if filmek[i].ertekeles == pont:
+            ennyi_pontos += 1
+    return ennyi_pontos
+
+ertekelesek = list(set([film.ertekeles for film in filmek]))
+ertekelesek.sort()
+
+for pont in ertekelesek:
+    print(f'{pont} pontot {hany_darab(pont)} film kapott.')
 
 #7. feladat
+hany_legmagasabb
+for i in range(len(filmek)):
+    if filmek[i].ertekeles == legmagasabb:
+
+print(f'{filmek[legmagasabb_id].rendezo} rendezte a lejobb értékelést kapott filmet.')
 
 #8. feladat
 rendezo = input("Melyik rendező filmei érdekelnek? ")
