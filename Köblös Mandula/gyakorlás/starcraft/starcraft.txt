@@ -1,0 +1,49 @@
+egység	faj	pajzs	hp	föld ellen	levegő ellen
+Battlecruiser	Terran	3	500	25	25
+Dropship	Terran	1	150	0	0
+Firebat	Terran	1	50	16	0
+Ghost	Terran	0	45	10	10
+Goliath	Terran	1	125	12	20
+Marine	Terran	0	40	6	6
+Missile Turret	Terran	0	200	0	20
+Science Vessel	Terran	1	200	0	0
+SCV	Terran	0	60	5	0
+Siege Tank (Siege)	Terran	1	150	70	0
+Siege Tank (Tank)	Terran	1	150	30	0
+Vulture	Terran	0	80	20	0
+Wraith	Terran	0	120	8	20
+Medic	Terran	1	60	0	0
+Valkyrie	Terran	2	200	0	6
+Arbiter	Protoss	1	200	10	10
+Archon	Protoss	0	10	30	30
+Carrier	Protoss	4	300	6	6
+Dragoon	Protoss	1	100	20	20
+High Templar	Protoss	0	40	0	0
+Observer	Protoss	0	40	0	0
+Photon Cannon	Protoss	0	100	20	20
+Probe	Protoss	0	20	5	0
+Reaver	Protoss	0	100	100	0
+Scout	Protoss	0	150	8	28
+Shuttle	Protoss	1	80	0	0
+Zealot	Protoss	1	100	16	0
+Corsair	Protoss	1	100	0	5
+Dark Archon	Protoss	1	25	0	0
+Dark Templar	Protoss	1	80	40	0
+Broodling	Zerg	0	30	4	0
+Defiler	Zerg	1	80	0	0
+Drone	Zerg	0	40	5	0
+Egg	Zerg	10	200	0	0
+Guardian	Zerg	2	150	20	0
+Hydralisk	Zerg	0	80	10	10
+Infested Terran	Zerg	0	60	500	0
+Larva	Zerg	10	25	0	0
+Mutalisk	Zerg	0	120	9	9
+Overlord	Zerg	0	200	0	0
+Queen	Zerg	0	120	0	0
+Scourge	Zerg	0	25	0	110
+Spore Colony	Zerg	0	400	0	15
+Sunken Colony	Zerg	2	300	40	0
+Ultralisk	Zerg	1	400	20	0
+Zergling	Zerg	0	35	5	0
+Devourer	Zerg	2	250	0	25
+Lurker	Zerg	1	125	20	0
