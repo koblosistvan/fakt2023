@@ -1,0 +1,13 @@
+Egység: Battlecruiser, faj: Terran, pajzs: 3, hp: 500, föld ellen: 25, levegő ellen: 25.
+Egység: Ghost, faj: Terran, pajzs: 0, hp: 45, föld ellen: 10, levegő ellen: 10.
+Egység: Goliath, faj: Terran, pajzs: 1, hp: 125, föld ellen: 12, levegő ellen: 20.
+Egység: Marine, faj: Terran, pajzs: 0, hp: 40, föld ellen: 6, levegő ellen: 6.
+Egység: Wraith, faj: Terran, pajzs: 0, hp: 120, föld ellen: 8, levegő ellen: 20.
+Egység: Arbiter, faj: Protoss, pajzs: 1, hp: 200, föld ellen: 10, levegő ellen: 10.
+Egység: Archon, faj: Protoss, pajzs: 0, hp: 10, föld ellen: 30, levegő ellen: 30.
+Egység: Carrier, faj: Protoss, pajzs: 4, hp: 300, föld ellen: 6, levegő ellen: 6.
+Egység: Dragoon, faj: Protoss, pajzs: 1, hp: 100, föld ellen: 20, levegő ellen: 20.
+Egység: Photon Cannon, faj: Protoss, pajzs: 0, hp: 100, föld ellen: 20, levegő ellen: 20.
+Egység: Scout, faj: Protoss, pajzs: 0, hp: 150, föld ellen: 8, levegő ellen: 28.
+Egység: Hydralisk, faj: Zerg, pajzs: 0, hp: 80, föld ellen: 10, levegő ellen: 10.
+Egység: Mutalisk, faj: Zerg, pajzs: 0, hp: 120, föld ellen: 9, levegő ellen: 9.
