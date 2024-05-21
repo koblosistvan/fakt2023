@@ -9,7 +9,7 @@ class Imdb:
 
 
 filmek = []
-forras = open('imdb', encoding='utf_8', mode='r')
+forras = open('imdb', encoding='utf-8', mode='r')
 forras.readline()
 for sor in forras:
     adat = sor.strip().split('\t')
