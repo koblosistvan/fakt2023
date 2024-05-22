@@ -1,0 +1,13 @@
+Battlecruiser Terran 3 500 25 25 
+Ghost Terran 0 45 10 10 
+Goliath Terran 1 125 12 20 
+Marine Terran 0 40 6 6 
+Wraith Terran 0 120 8 20 
+Arbiter Protoss 1 200 10 10 
+Archon Protoss 0 10 30 30 
+Carrier Protoss 4 300 6 6 
+Dragoon Protoss 1 100 20 20 
+Photon Cannon Protoss 0 100 20 20 
+Scout Protoss 0 150 8 28 
+Hydralisk Zerg 0 80 10 10 
+Mutalisk Zerg 0 120 9 9 
