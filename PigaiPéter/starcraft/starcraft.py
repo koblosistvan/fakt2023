@@ -6,6 +6,7 @@ class Starcraft:
         self.hp = hp
         self.fold = fold
         self.levego = levego
+        self.ero = (fold + levego)/hp
 
 #
 forras = open("PigaiPéter\\starcraft\starcraft.txt", "r", encoding="utf-8")
@@ -21,13 +22,18 @@ print(f'{len(data)} db egység van a listában')
 
 #
 legerosebb = data[0].fold + data[0].levego
-counter = 0
-for i in data:
-    if (i.fold + i.levego) > legerosebb:
-        legerosebb = i.fold + i.levego
-        eroindex = counter
-    counter += 1
+for i, egyseg in enumerate(data):
+    if (egyseg.fold + egyseg.levego) > legerosebb:
+        legerosebb = egyseg.fold + egyseg.levego
+        eroindex = i
 print(f"A legerősebb egység HP-ja {data[eroindex].hp}, {data[eroindex].faj}, {data[eroindex].egyseg}")
+
+legerosebb = data[0]
+for egyseg in data:
+    if (egyseg.fold + egyseg.levego) > legerosebb.fold + legerosebb.levego:
+        legerosebb = egyseg
+print(f"A legerősebb egység HP-ja {legerosebb.hp}, {legerosebb.faj}, {legerosebb.egyseg}")
+
 
 #
 protosskezdo = 0
@@ -59,6 +65,7 @@ van = False
 for i in range(protossvegzo + 1, len(adat)):
     if i.fold > 100 or i.levego > 100:
         van = True
+        break
 if van:
     print("Van olyan Zerg egység ami 100-nál többet sebez")
 else:
@@ -69,5 +76,9 @@ osszhp = 0
 for i in range(0, protosskezdo-1):
     osszhp += data[i].hp
 print(f"A Terran egységek átlag hp-ja {osszhp/i}")
+
+#
+goliath = 0
+
 
     
