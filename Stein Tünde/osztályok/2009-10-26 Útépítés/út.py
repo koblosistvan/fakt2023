@@ -20,6 +20,14 @@ class Meres:
             return False
     def ido_str(self):
         return f'{self.ora:0>2d}:{self.perc:0>2d}:{self.mp:0>2d}'
+    def kilep_mp(self):
+        return self.ido_mp() + self.idotartam
+    def kilep_str(self):
+        ora = self.kilep_mp() // 3600
+        perc = self.kilep_mp() % 3600 // 60
+        mp = self.kilep_mp() % 60
+        return f'{ora}:{perc}:{mp}'
+
 
 forgalom = []
 forras = open('forgalom.txt', mode='r', encoding='utf-8')
@@ -48,20 +56,33 @@ for i in range(24):
     also_felol = [meres for meres in forgalom if meres.honnan == 'A' and meres.ora == i]
     if len(felso_felol) > 0 or len(also_felol) > 0:
         print(f'{i} {len(also_felol)} {len(felso_felol)}')
-    #for k in range(len(forgalom)):
-        #if forgalom[k].honnan == "F" and forgalom[k].ora == i:
-            #felso_felol.append(forgalom[k].ora)
-        #elif forgalom[k]. honnan == 'A' and forgalom[k].ora == i:
-            #also_felol.append(forgalom[k].ora)
+    # for k in range(len(forgalom)):
+        # i f forgalom[k].honnan == "F" and forgalom[k].ora == i:
+            # felso_felol.append(forgalom[k].ora)
+        # elif forgalom[k]. honnan == 'A' and forgalom[k].ora == i:
+            # also_felol.append(forgalom[k].ora)
 
 # 5. feladat
 
-#leggyorsabb = sorted(forgalom)
-#for i in range(10):
-    #print(leggyorsabb[-1-i].idotartam)
+# leggyorsabb = sorted(forgalom)
+# for i in range(10):
+    # print(leggyorsabb[-1-i].idotartam)
 
 leggyorsabb = sorted(forgalom, reverse=True)
 for i in range(10):
     print(leggyorsabb[i].idotartam)
-    print(f'{leggyorsabb[i].ido_str()} {leggyorsabb[i].honnan_str()} {leggyorsabb[i].sebesseg()}')
+    print(f'{leggyorsabb[i].ido_str} {leggyorsabb[i].honnan_str} {leggyorsabb[i].sebesseg}')
+
+# 6. feladat
+
+also_fele = [meres for meres in forgalom if meres.honnan == 'F']
+idopont_mp = 0
+idopont_str = ''
+for i in range(len(also_fele)):
+    if also_fele[i].kilep_mp() > idopont_mp:
+        print(also_fele[i].kilep_str())
+        idopont_mp = also_fele[i].kilep_mp()
+        idopont_str = also_fele[i].kilep_str()
+    else:
+        print(idopont_str)
 
