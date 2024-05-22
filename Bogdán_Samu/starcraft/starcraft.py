@@ -22,7 +22,7 @@ print(f'Az állomány {len(egység)} egység adatait tartalmazza.')
 
 print('\n'+'2. feladat')
 id = hp.index(max(hp))
-print(f'A legerősebb egységnek {hp[id]} HP-je van. Ez a {faj[id]} faj {egység[id]} egysége.')
+print(f'A legerősebb egységnek {hp[id]} HP-ja van. Ez a {faj[id]} faj {egység[id]} egysége.')
 
 print('\n'+'3. feladat')
 x = 0
