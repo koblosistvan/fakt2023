@@ -65,5 +65,9 @@ else:
     print("Nincs olyan Zerg egység ami 100-nál többet sebez")
 
 #
+osszdamage = 0
+for i in range(0, protosskezdo-1):
+    osszdamage += data[i].fold + data[i].levego
+print(f"A Terran egységek átlag damage {osszdamage/i}")
 
     
