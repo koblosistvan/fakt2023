@@ -48,8 +48,8 @@ for i in range(len(egysegek)):
     if egysegek[i].faj == "Zerg" and (egysegek[i].fold_ellen > 100 or egysegek[i].levego_ellen > 100):
         print(f'Van olyan Zerg egység, amely 100-nál többet sebez.')
         break
-    else:
-        print(f'Nincs olyan Zerg egység, amely 100-nál többet sebez.')
+else:
+    print(f'Nincs olyan Zerg egység, amely 100-nál többet sebez.')
 
 # 6. feladat
 atlagos_hp = 0

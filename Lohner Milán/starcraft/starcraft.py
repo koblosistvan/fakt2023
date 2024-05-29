@@ -51,7 +51,7 @@ for i in range(len(mindenegyseg)):
     if mindenegyseg[i].foldellen > 0 and mindenegyseg[i].levegoellen > 0:
         print(f'{mindenegyseg[i].egyseg} {mindenegyseg[i].faj} {mindenegyseg[i].pajzs} {mindenegyseg[i].hp} {mindenegyseg[i].foldellen} {mindenegyseg[i].levegoellen}', file=txt)
 
-
+txt.close()
 #5. feladat
 
 szml2 = 0
@@ -70,3 +70,5 @@ for i in range(len(mindenegyseg)):
         osszhp += mindenegyseg[i].hp
         terranok += 1
 print(f'A Terranok atlagos hpja: {osszhp // terranok}.')
+
+
