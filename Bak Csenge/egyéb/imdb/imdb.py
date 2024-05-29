@@ -7,7 +7,7 @@ forrás = open("imdb.txt", mode="r", encoding="UTF-8")
 megjelenes = []
 idotartam = []
 értékelés = []
-szerző = []
+rendező = []
 bevétel = []
 cím = []
 
@@ -18,7 +18,7 @@ for sor in forrás:
     megjelenes.append(int(adat[0]))
     idotartam.append(int(adat[1]))
     értékelés.append(float(adat[2]))
-    szerző.append((adat[3]))
+    rendező.append((adat[3]))
     bevétel.append(int(adat[4]))
     cím.append((adat[5]))
 
@@ -26,7 +26,7 @@ forrás.close()
 
 #1. feladat
 fel(1)
-print(f"{len(megjelenes)+1} filma adatai vannak az állományban.")
+print(f"{len(megjelenes)} filma adatai vannak az állományban.")
 
 #2. feladat
 fel(2)
@@ -59,13 +59,37 @@ print(f"{max(értékelés)} a maximum értékelés")
 fel(6)
 
 tömb_értékelések = []
+counter = 1
 
-for i in range(len(értékelés)):
+for i in range(1, len(értékelés)):
     if értékelés[i] not in tömb_értékelések:
         tömb_értékelések.append(értékelés[i])
+    if értékelés[0] == értékelés[i-1] and értékelés[i-1] != értékelés[i]:
+        print(f"{értékelés[0]} : {counter}")
+    if értékelés[i-1] == értékelés[i]:
+        counter += 1
+    else:
+        print(f"{értékelés[i]} : {counter}")
+        counter = 1
 
+#7. feladat
+fel(7)
 
+for i in range(len(értékelés)):
+    if értékelés[i] == max(értékelés):
+        print(rendező[i])
 
+#8. feladat
+fel(8)
+
+#bekért = input("Adj meg egy rendezőt: ")
+bekért = "Peter Jackson"
+
+kimenet = open(bekért, mode="w", encoding="UTF-8")
+
+for i in range(len(rendező)):
+    if rendező[i] == bekért:
+        print(f"{cím[i]} ({megjelenes}) - {idotartam} perc", file=kimenet)
 
 
 
