@@ -36,4 +36,4 @@ print(f'{len(set(azon))} darab meres talalhato')
 
 legmagasabb=sorted(szovegertes, reverse=True, key=lambda a: a.ideielozeteskepessegpont)
 
-print(legmagasabb[0])
+print(f'{legmagasabb[0]}')
