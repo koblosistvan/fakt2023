@@ -65,6 +65,7 @@ txt = open(f'{input_rendezo.split(" ")[0]}.txt', "w", encoding='utf-8')
 for i in range(len(rendezo)):
     if rendezo[i] == input_rendezo:
         print(cim[i], file=txt)
+txt.close()
 
 # task 9
 ev2 = sorted(set(ev))
