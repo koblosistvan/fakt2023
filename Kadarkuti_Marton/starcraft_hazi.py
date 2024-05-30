@@ -1,16 +1,12 @@
 class Starcraft:
-    def __init__(self, name, cast, df, hp, melee, range):
-        self.name = name
-        self.cast = cast
-        self.hp = hp
-        self.df = df
-        self.melee = melee
-        self.range = range
+    def __init__(self, *args):
+        self.name, self.cast, self.df, self.hp, self.melee, self.range = args
+        
     def get(self):
         return list(map(str,[self.name, self.cast, self.df, self.hp, self.melee, self.range]))
 
 data = []
-with open("starcraft.txt","r",encoding="utf-8") as f:
+with open("Kadarkuti_Marton\\starcraft.txt","r",encoding="utf-8") as f:
     f.readline()
     for sor in f:
         temp = sor.strip().split("\t")
@@ -29,7 +25,7 @@ print(f'{len([i.melee for i in data if (i.melee >0)])} egység tud földi célpo
 
 print("4. feladat")
 fdata = [i for i in data if (i.melee>0 and i.range >0)]
-with open("starcraft-tamadok.txt","w",encoding="utf-8") as x:
+with open("Kadarkuti_Marton\\starcraft-tamadok.txt","w",encoding="utf-8") as x:
     for i in range(len(fdata)):
         x.write(" ".join(fdata[i].get()))
         x.write("\n")
