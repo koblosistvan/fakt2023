@@ -114,7 +114,7 @@ print(f"• Terjedelem: {max(nyolcasFeladat) - min(nyolcasFeladat)}")
 
 
 feladat()
-with open("javitottak.txt",'w',encoding="utf-8") as x:
+with open("Kadarkuti_Marton\\okm0530\\javitottak.txt",'w',encoding="utf-8") as x:
     for unit in units:
         if (unit.matek_javitott_pont > 100):
             x.write(f"{unit.id}\t{unit.matek_tavaly_pont}\t{unit.matek_eloz_pont}\n")
