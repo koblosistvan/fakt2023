@@ -1,4 +1,5 @@
 import math
+import statistics
 
 feladatCounter = 1
 def feladat():
@@ -16,6 +17,9 @@ def recordFilter(lst):
         if (lst[i].isdigit()):
             lst[i] = int(lst[i])
     return lst
+
+def rtized(n):
+    return round(n,1)
 
 class Unit:
     instanceIndex = -1
@@ -52,8 +56,11 @@ class Unit:
         # 7. feladat
         Unit.szintek[self.matek_eloz_szint] += 1
 
+        # 9. feladat
+        self.matek_javitott_pont = self.matek_eloz_pont - self.matek_tavaly_pont # ha negativ az is valid
+
 units = []
-with open("okm-2023-7.csv","r",encoding="utf-8") as f:
+with open("Kadarkuti_Marton\\okm0530\\okm-2023-7.csv","r",encoding="utf-8") as f:
     for _ in range(3):
         f.readline()
     for sor in f:
@@ -70,7 +77,7 @@ print(f'{[unit.szovegertes_valtozott for unit in units].count(True)} diáknak v�
 
 feladat()
 otosFeladat = [unit.id for unit in units if (unit.ellenkezo_irany)]
-with open('ellenkezo_iranyba_valtozott.txt','w',encoding="utf-8") as w:
+with open('Kadarkuti_Marton\\okm0530\\ellenkezo_iranyba_valtozott.txt','w',encoding="utf-8") as w:
     w.write(f'A következő {len(otosFeladat)} diák matematika és szövegértés pontszáma ellenkező irányban változott a tavalyihoz képest:\n')
     for line in range(len(otosFeladat)):
         w.write('\n' + otosFeladat[line])
@@ -94,3 +101,21 @@ for i in range(len(Unit.szintek)):
     temp = Unit.szintek[i]//hetesFeladatUnit
     print("")
     print(f'{i} {Unit.szintek[i]:>10}     { ("▓"* temp) + ("░"*(12-temp)) :<5}')
+
+feladat()
+nyolcasFeladat = sorted([unit.matek_eloz_pont for unit in units])
+print("2023/24 előzetes matematika pontok statisztikai jellemzői:")
+print(f"• Átlag: {rtized( sum(nyolcasFeladat)/len(nyolcasFeladat)) }")
+print(f"• Medián: {rtized( statistics.median(nyolcasFeladat) )}")
+print(f"• Alsó kvartilis: {rtized( statistics.quantiles(nyolcasFeladat)[0] )}")
+print(f"• Felső kvartilis: {rtized( statistics.quantiles(nyolcasFeladat)[2] )}")
+print(f"• Szórás: {rtized( statistics.stdev(nyolcasFeladat) )}")
+print(f"• Terjedelem: {max(nyolcasFeladat) - min(nyolcasFeladat)}")
+
+
+feladat()
+with open("javitottak.txt",'w',encoding="utf-8") as x:
+    for unit in units:
+        if (unit.matek_javitott_pont > 100):
+            x.write(f"{unit.id}\t{unit.matek_tavaly_pont}\t{unit.matek_eloz_pont}\n")
+print("A 'javitottak.txt' állomány sikeresen létrehozva.")
