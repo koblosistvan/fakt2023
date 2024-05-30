@@ -37,6 +37,6 @@ print(f'A legmagsabb pontszámot elérő diák azonosítója: {szovegertes[legma
 # 4. feladat
 valtozas = 0
 for i in range(len(szovegertes)):
-    if szovegertes[i].elozetes_kepessegpont == szovegertes[i].vegleges_kepessegpont:
+    if szovegertes[i].elozetes_kepessegpont and szovegertes[i].elozetes_kepessegpont != szovegertes[i].vegleges_kepessegpont:
         valtozas += 1
-print(f'{64 - valtozas} tanulonak váztozott az eredménye.')
+print(f'{valtozas} tanulonak váztozott az eredménye.')
