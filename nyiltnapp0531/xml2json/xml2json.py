@@ -3,6 +3,31 @@
 EXPORT_AS_JAVASCRIPT = False  # kiterjesztés beállítása:
 # false => .json , true => .js
 
+USE_DEFAULT_FILENAME = True
+
+
+# index szerint sorban vannak, az ARGS eleme lesz átalakítva a TABLE azonos indexű elemévé
+CONST_RENAME_ARGS = ["Biológia - egészségtan", # újranevezendo tantargyak
+                     "Informatika",
+                     "Egyházi Ének",
+                     "Ének-zene",
+                     "Technika és tervezés",
+                     "Testnevelés és sport",
+                     "Történelem, társadalmi és állampolgári ismeretek"]
+CONST_RENAME_TABLE = ["Biológia", # rendre ezekre nevezi at
+                      "Digitális Kultúra",
+                      "Ének",
+                      "Ének",
+                      "Technika",
+                      "Technika",
+                      "Testnevelés",
+                      "Testnevelés"]
+
+def renameSubject(sub):
+    if (sub in CONST_RENAME_ARGS): # ha újranevezendő tantárgy
+        return CONST_RENAME_TABLE[ CONST_RENAME_ARGS.index(sub) ] # return átnevezett
+    return sub
+
 def vonal():
     print("-"*40)
 vonal()
@@ -57,19 +82,20 @@ doFullRooms = False # a termek teljes neveit is kigyűjti (FELESLEGES)
 
 from bs4 import BeautifulSoup
 import json
-import requests
 
 
-filename = 'orarend_2022_23_2.xml'
-try:
-    prompt = input("Fájlnév: ").strip().split('.')[0]
-    if (prompt=="") or count_tobb(prompt,'.',';',':','/','\\','*','(',')','{','}','<','>','[',']','='):
-        raise Exception
-    else:
-        filename = prompt + ".xml"
-except:
-    print("Hibás fájlnév")
-    quit()
+filename = 'nyiltnapp0531\\xml2json\\orarend_2022_23_2.xml'
+
+if not(USE_DEFAULT_FILENAME):
+    try:
+        prompt = input("Fájlnév: ").strip().split('.')[0]
+        if (prompt=="") or count_tobb(prompt,'.',';',':','/','\\','*','(',')','{','}','<','>','[',']','='):
+            raise Exception
+        else:
+            filename = prompt + ".xml"
+    except:
+        print("Hibás fájlnév")
+        quit()
 
 #print(soup.prettify())
 
@@ -154,6 +180,7 @@ print("Tantárgyak...")
 for i in kinyert:
     temp = i["subject"]
     i["subject"] = xample.find("subject", {"id": temp})["name"]
+    i["subject"] = renameSubject( i["subject"] ) # rossz nevűeket egységesíti
 
 print("Napok...")
 for i in range(l):
@@ -235,7 +262,7 @@ print("JSON fájl enkódolása...")
 export = json.dumps(kinyert, ensure_ascii=False, indent=4).encode('utf8')
 
 # NINCS TRYCATCH
-exportFileName = 'orarend_export.json'
+exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
 if EXPORT_AS_JAVASCRIPT:
     exportFileName = 'orarend_export.js'
 

@@ -2,14 +2,13 @@
 # fájlkezelőben megnyitva van prompt,
 # alternatívan az xml_filter_SETTINGS.txt használható beállításhoz
 
+# ========================================================================================
+napok = [False, False, False, False, True] # True filterez, False nem (hetfotol pentekig)
+# ========================================================================================
 CONST_NAPOK = ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "? (y/n): "]
 CONST_VALIDATE = [("y","n","igen","nem"), ("y","igen")]
-
-# args-ból kiválasztja a table-t (egy sorba lesznek)
-CONST_RENAME_ARGS = ["Biológia - egészségtan","","","","","","",""]
-CONST_RENAME_TABLE = []
-
 EXPORT_AS_DATA_VAR = True
+GUI_PROMPT = False # deprekált konzol interface
 # az exportált fájl egy js, amiben egy 'data' nevű array van, abban minden elem json object
 # mivel a js nem nyithat meg fájlokat, ezért egy html dokumentum head tagjébe kell belinkelni egy 'link' taggel
 
@@ -27,7 +26,7 @@ print("log:")
 
 # lokálisan kell lennie ugyanabban a mappában
 # az "xml2json.py" készíti el, alapértelmezett nevén "orarend_export.json"
-filename = "orarend_export.json"
+filename = "nyiltnapp0531\\xml2json\\orarend_export.json"
 
 try:
     with open(filename, "r", encoding="utf-8") as f:
@@ -37,8 +36,8 @@ except:
     panic()
 
 # console filter settings
-napok = []
-while True:
+
+while (GUI_PROMPT):
     for i in range(5):
         while True:
             prompt = input(f"{CONST_NAPOK[i]} {CONST_NAPOK[-1]}").strip().lower()
@@ -57,6 +56,7 @@ while True:
         break
 
 # szűrés beállítása
+
 hetfo = napok[0]
 kedd = napok[1]
 szerda = napok[2]
@@ -128,7 +128,7 @@ print(f"{l - len(data)}/{l} elem került filterezésre.")
 # ugyanaz a kod ami az xml2jsonban van
 try:
     export = json.dumps(data, ensure_ascii=False, indent=4).encode('utf8')
-    exportFileName = 'orarend-export-filterezett.js'
+    exportFileName = 'nyiltnapp0531\\xml2json\\orarend-export-filterezett.js'
     if not EXPORT_AS_DATA_VAR:
         exportFileName += 'on'
     with open(exportFileName,'w',encoding='utf-8') as f:
