@@ -1,6 +1,6 @@
 data = [
     {
-        "room": "Z_3",
+        "room": "Z3",
         "period": "6",
         "starttime": "12:50",
         "endtime": "13:35",
@@ -30,7 +30,7 @@ data = [
         "id": 6
     },
     {
-        "room": "Z_3",
+        "room": "Z3",
         "period": "4",
         "starttime": "11:00",
         "endtime": "11:45",
@@ -45,7 +45,7 @@ data = [
         "id": 10
     },
     {
-        "room": "Z_4",
+        "room": "Z4",
         "period": "3",
         "starttime": "10:05",
         "endtime": "10:50",
@@ -68,7 +68,7 @@ data = [
         "id": 12
     },
     {
-        "room": "Z_4",
+        "room": "Z4",
         "period": "5",
         "starttime": "11:55",
         "endtime": "12:40",
@@ -129,7 +129,7 @@ data = [
         "id": 27
     },
     {
-        "room": "Z_4",
+        "room": "Z4",
         "period": "4",
         "starttime": "11:00",
         "endtime": "11:45",
@@ -439,7 +439,7 @@ data = [
         "id": 110
     },
     {
-        "room": "Z_3",
+        "room": "Z3",
         "period": "2",
         "starttime": "9:05",
         "endtime": "9:50",
@@ -590,7 +590,7 @@ data = [
         "id": 145
     },
     {
-        "room": "Z_3",
+        "room": "Z3",
         "period": "1",
         "starttime": "8:10",
         "endtime": "8:55",
@@ -1030,7 +1030,7 @@ data = [
         "id": 235
     },
     {
-        "room": "Z_5",
+        "room": "Z5",
         "period": "6",
         "starttime": "12:50",
         "endtime": "13:35",
@@ -1045,7 +1045,7 @@ data = [
         "id": 253
     },
     {
-        "room": "Z_5",
+        "room": "Z5",
         "period": "4",
         "starttime": "11:00",
         "endtime": "11:45",
@@ -1060,7 +1060,7 @@ data = [
         "id": 256
     },
     {
-        "room": "Z_5",
+        "room": "Z5",
         "period": "3",
         "starttime": "10:05",
         "endtime": "10:50",
@@ -1201,7 +1201,7 @@ data = [
         "id": 278
     },
     {
-        "room": "Z_5",
+        "room": "Z5",
         "period": "2",
         "starttime": "9:05",
         "endtime": "9:50",
@@ -1231,7 +1231,7 @@ data = [
         "id": 291
     },
     {
-        "room": "Z_5",
+        "room": "Z5",
         "period": "1",
         "starttime": "8:10",
         "endtime": "8:55",
@@ -2280,7 +2280,7 @@ data = [
         "id": 584
     },
     {
-        "room": "Z_3",
+        "room": "Z3",
         "period": "3",
         "starttime": "10:05",
         "endtime": "10:50",
@@ -2849,7 +2849,7 @@ data = [
         "id": 761
     },
     {
-        "room": "Z_5",
+        "room": "Z5",
         "period": "8",
         "starttime": "14:50",
         "endtime": "15:35",
