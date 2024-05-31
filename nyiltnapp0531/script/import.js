@@ -28,7 +28,7 @@ function loadCards() {
             
             if (currentPeriod > 4) {continue;} // elso 4 ora kell csak
 
-            append = '<div class="card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
+            append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
             append += 'id="card-' + currentId + '">'; // kell card id
 
             // ez a három lesz mutatva
@@ -64,7 +64,7 @@ function filterSubjects() { //tantárgy dropdown select keresés
         return;
     }
     var filter;
-    var cards = document.getElementsByClassName("card");
+    var cards = document.getElementsByClassName("lesson-card");
     //console.log(cards)
 
     for (i=0;i<cards.length;i++) {
@@ -75,6 +75,7 @@ function filterSubjects() { //tantárgy dropdown select keresés
             cards[i].style.display = "none";
         }
     }
+
 }
 
 function hideAllLessons() {
