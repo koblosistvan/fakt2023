@@ -60,7 +60,7 @@ function filterSubjects() { //tantárgy dropdown select keresés
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
     var filter;
     var cards = document.getElementsByClassName("card");
-    console.log(cards)
+    //console.log(cards)
 
     for (i=0;i<cards.length;i++) {
         filter = cards[i].outerHTML.toUpperCase();
