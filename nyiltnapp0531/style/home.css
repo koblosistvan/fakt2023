@@ -38,6 +38,7 @@ h1 {
 span.napp {
     color: white;
     background-color: var(--color-main);
+    border-radius: 3px;
 }
 
 #subjectSelect {
