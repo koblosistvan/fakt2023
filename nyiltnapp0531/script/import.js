@@ -1,3 +1,5 @@
+var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
+
 function getClassString(group) {
     if (typeof group == 'string') {
         return group;
@@ -41,9 +43,9 @@ function loadCards() {
             }
 
             //innentől elrejtve
-            append += '<div class="p-period hidden">' + temp.period + '.</div>';
-            append += '<div class="p-time hidden">' + temp.starttime + ' - ' + temp.endtime + '</div>';
-            append += '<div class="p-subject hidden">' + temp.subject + '</div>';
+            append += '<div class="p-period">' + temp.period + '.</div>';
+            append += '<div class="p-time">' + temp.starttime + ' - ' + temp.endtime + '</div>';
+            append += '<div class="p-subject">' + temp.subject + '</div>';
 
             //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
 
@@ -58,6 +60,9 @@ function loadCards() {
 function filterSubjects() { //tantárgy dropdown select keresés
     var searchSubjectMenu = document.getElementById("subjectSelect")
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
+    if (subjectSearchFor == document.querySelectorAll("#subjectSelect option")[0].value) { // ha visszamegy az alap opciora
+        return;
+    }
     var filter;
     var cards = document.getElementsByClassName("lesson-card");
     //console.log(cards)
@@ -71,4 +76,31 @@ function filterSubjects() { //tantárgy dropdown select keresés
         }
     }
 
+}
+
+function hideAllLessons() {
+    for (i=0;i<4;i++) {
+        document.getElementsByClassName("outerCardContainer")[i].classList.add("hidden");
+    }
+    console.log("hideall")
+}
+
+function lessonSelector(irany) {
+    console.log(irany)
+    console.log(currentLesson)
+    if (currentLesson == 0 && irany == -1) { // ha minimum ala akar menni
+        return;
+    }
+    if (currentLesson == 3 && irany == 1) { // ha maximum fele akar menni
+        return;
+    }
+
+    // arrow fekete feher formazas
+    if ((currentLesson+irany)==3) {
+        document.getElementById("")
+    }
+
+    hideAllLessons();
+    document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
+    currentLesson += irany;
 }
