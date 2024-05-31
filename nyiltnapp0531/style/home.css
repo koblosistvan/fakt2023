@@ -1,38 +1,51 @@
 :root{
     --color-1: #55d6beff;
-    --color-2: #acfcd9ff;
+    --color-background: #acfcd9ff;
     --color-main: #7d5ba6ff;
     --color-card: #ddddddff;
-    --color-background: #fc6471ff;
+    --color-2: #fc6471ff;
 }
 
 .cardContainer{
-    border: solid 1px var(--color-main);
+    border: solid 2px var(--color-main);
     padding: 10px;
     box-sizing: border-box;
+    background-color: white !important;
 }
 
 .card{
-    background-color: var(--color-card);
+    background-color: var(--color-card) !important;
     padding: 10px;
     box-sizing: border-box;
+    border: 5px solid white !important;
+    border-radius: 10px !important;
+    
 }
 
 .emelt{
     background-color: var(--color-main);
     border-radius: 3px;
+    padding: 0px 3px;
+    color: white;
+    max-width: 50%;
+
 }
 
 .outerCardContainer{
     padding: 10px;
 }
 
+body{
+    background-color: var(--color-background) !important;
+}
+
 h1 {
     color: var(--color-main) !important;
     font-size: medium !important;
     text-align: center !important;
-    border: 1px solid var(--color-main);
-    padding: 4px;;
+    border: 2px solid var(--color-main);
+    padding: 4px;
+    background-color: white ;
 }
 
 span.napp {
@@ -42,7 +55,7 @@ span.napp {
 }
 
 #subjectSelect {
-    border: 1px solid var(--color-main);
+    border: 2px solid var(--color-main);
     color: var(--color-main) !important;
     padding: 4px;;
 }
