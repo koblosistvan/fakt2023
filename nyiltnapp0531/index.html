@@ -16,6 +16,17 @@
     
 
 </head>
+
+<!--
+    <style>
+    .cardContainer {
+        max-height: 20%;
+        overflow: scroll;
+    }
+    </style>
+-->
+
+
 <body onload="loadCards()">
     <div class="container">
         <div class="row">
@@ -24,7 +35,7 @@
 
         <div class="row searchMenu" id="subjectSearch">
             <select id="subjectSelect" onchange="filterSubjects()">
-                <option selected disabled>Tantárgy...</option>
+                <option selected disabled></option>
                 <option class="subjectOption">Irodalom</option>
                 <option class="subjectOption">Magyar nyelv</option>
                 <option class="subjectOption">Matematika</option>
