@@ -11,12 +11,11 @@ function getClassString(group) {
     }
 }
 
-
 function loadCards() {
         let l = data.length;
         console.log(document.querySelectorAll("#cardList div"))
         //
-        //l = 10;
+        l = 10;
         //
         var cardContainers = document.querySelectorAll("#cardList div")
         var append;
@@ -31,16 +30,9 @@ function loadCards() {
             append += 'id="card-' + currentId + '">'; // kell card id
 
             // ez a három lesz mutatva
-            append += '<div class="p-time hidden">' + temp.starttime + ' - ' + temp.endtime + '</div>';
-            append += '<div class="p-subject">' + temp.subject + '</div>';
-            append += '<div class="p-room">' + temp.room + '</div>';
-
-            //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
-
-            //innentől elrejtve
-            append += '<div class="p-period hidden">' + temp.period + '.</div>';
-            append += '<div class="p-teacher">' + temp.teacher + '</div>';
             append += '<div class="p-class">' + getClassString(temp.class) + '</div>';
+            append += '<div class="p-teacher">' + temp.teacher + '</div>';
+            append += '<div class="p-room">' + temp.room + '</div>';
 
             if (temp.level == "emelt") {
                 append += '<div class="emelt">' + temp.level + '</div>';
@@ -48,11 +40,33 @@ function loadCards() {
                 append += '<div class="alap">' + temp.level + '</div>';
             }
 
-            
+            //innentől elrejtve
+            append += '<div class="p-period hidden">' + temp.period + '.</div>';
+            append += '<div class="p-time hidden">' + temp.starttime + ' - ' + temp.endtime + '</div>';
+            append += '<div class="p-subject hidden">' + temp.subject + '</div>';
+
+            //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
+
             append += '</div>';
             
             //document.getElementById('cardList').innerHTML += append;
             cardContainers[currentPeriod -1 ].innerHTML += append;
         }
 
+}
+
+function filterSubjects() { //tantárgy dropdown select keresés
+    var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
+    var filter;
+    var cards = document.getElementsByClassName("card");
+    console.log(cards)
+
+    for (i=0;i<cards.length;i++) {
+        filter = cards[i].outerHTML.toUpperCase();
+        if (filter.indexOf(subjectSearchFor.toUpperCase()) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
     }
+}
