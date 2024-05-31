@@ -18,11 +18,14 @@
 <body onload="loadCards()">
     <div class="container">
         <div class="row">
-            <h1>TRG - nyílt n<span class="napp">app</span></h1>
+            <div class="col-12">
+                <h1>TRG - nyílt n<span class="napp">app</span></h1>
+            </div>
         </div>
 
         <div class="row searchMenu" id="subjectSearch">
-            <select id="subjectSelect" onchange="filterSubjects()">
+            <div class="col-12">
+                <select id="subjectSelect" onchange="filterSubjects()">
                 <option selected disabled>Válasszon tantárgyat...</option>
                 <option class="subjectOption">Irodalom</option>
                 <option class="subjectOption">Magyar nyelv</option>
@@ -49,6 +52,7 @@
                 <option class="subjectOption">Testnevelés</option>
                 <option class="subjectOption">Vizuális kultúra</option>
             </select>
+            </div>
         </div>
         <!--
         <div class="row lessonSelector" id="lessonSelectorContainer">
