@@ -78,6 +78,7 @@ function filterSubjects() { //tantárgy dropdown select keresés
 
 }
 
+// REDUNDÁNS NYILAK SCRIPT
 function hideAllLessons() {
     for (i=0;i<4;i++) {
         document.getElementsByClassName("outerCardContainer")[i].classList.add("hidden");
@@ -107,3 +108,4 @@ function lessonSelector(irany) {
     document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
     currentLesson += irany;
 }
+// REDUNDÁNS NYILAK SCRIPT
