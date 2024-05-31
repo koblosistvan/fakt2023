@@ -83,8 +83,10 @@ span.napp {
     display: none;
 }
 
-img.lessonSelectorArrow {
-    width: 10%;
+a.lessonSelectorArrow {
+    color: var(--color-main);
+    font-size: larger;
+    text-decoration: none;
 }
 .disabledArrow {
     -webkit-filter: grayscale(100%);
