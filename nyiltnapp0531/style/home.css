@@ -83,11 +83,17 @@ span.napp {
     display: none;
 }
 
-.lessonSelectorArrow {
-    width: 20%;
+img.lessonSelectorArrow {
+    width: 10%;
 }
 .disabledArrow {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     pointer-events: none;
+}
+
+.cardContainerLabel {
+    text-align: center;
+    background-color: white;
+    border: 2px solid var(--color-main);
 }
