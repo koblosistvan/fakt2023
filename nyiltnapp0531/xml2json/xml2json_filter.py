@@ -5,6 +5,10 @@
 CONST_NAPOK = ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "? (y/n): "]
 CONST_VALIDATE = [("y","n","igen","nem"), ("y","igen")]
 
+# args-ból kiválasztja a table-t (egy sorba lesznek)
+CONST_RENAME_ARGS = ["Biológia - egészségtan","","","","","","",""]
+CONST_RENAME_TABLE = []
+
 EXPORT_AS_DATA_VAR = True
 # az exportált fájl egy js, amiben egy 'data' nevű array van, abban minden elem json object
 # mivel a js nem nyithat meg fájlokat, ezért egy html dokumentum head tagjébe kell belinkelni egy 'link' taggel
