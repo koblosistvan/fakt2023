@@ -1,19 +1,28 @@
 :root{
-    color-1: #55d6beff;
-    color-2: #acfcd9ff;
-    color-main: #7d5ba6ff;
-    color-card: #ddddddff;
-    color-background: #fc6471ff;
+    --color-1: #55d6beff;
+    --color-2: #acfcd9ff;
+    --color-main: #7d5ba6ff;
+    --color-card: #ddddddff;
+    --color-background: #fc6471ff;
 }
+
 .cardContainer{
-    border: solid 1px var(color-main);
+    border: solid 1px var(--color-main);
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .card{
-    background-color: var(color-card);
+    background-color: var(--color-card);
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .emelt{
-    background-color: var(color-main);
+    background-color: var(--color-main);
     border-radius: 3px;
+}
+
+.outerCardContainer{
+    padding: 10px;
 }
