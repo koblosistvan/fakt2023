@@ -11,15 +11,16 @@
     padding: 10px;
     box-sizing: border-box;
     background-color: white !important;
+    display: grid;
 }
 
-.card{
+.lesson-card{
     background-color: var(--color-card) !important;
     padding: 10px;
     box-sizing: border-box;
     border: 5px solid white !important;
     border-radius: 10px !important;
-    
+    display: block !important;
 }
 
 .emelt{
@@ -27,8 +28,6 @@
     border-radius: 3px;
     padding: 0px 3px;
     color: white;
-    max-width: 50%;
-
 }
 
 .outerCardContainer{
@@ -59,3 +58,10 @@ span.napp {
     color: var(--color-main) !important;
     padding: 4px;;
 }
+
+.p-class, .p-teacher, .p-room, .p-period, .p-time, .p-subject, .p-level {
+    float: left;
+    width: fit-content;
+    padding: 0px 3px;
+} 
+
