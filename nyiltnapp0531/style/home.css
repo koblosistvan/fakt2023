@@ -28,6 +28,7 @@
     border-radius: 3px;
     padding: 0px 3px;
     color: white;
+    float: right;
 }
 
 .outerCardContainer{
@@ -65,3 +66,14 @@ span.napp {
     padding: 0px 3px;
 } 
 
+.p-room{
+    clear: left;
+}
+
+.alap{
+    display: none;
+}
+
+.p-period, .p-time, .p-subject{
+    display: none;
+}

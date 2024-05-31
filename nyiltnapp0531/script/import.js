@@ -32,7 +32,7 @@ function loadCards() {
             // ez a három lesz mutatva
             append += '<div class="p-class">' + getClassString(temp.class) + '</div>';
             append += '<div class="p-teacher">' + temp.teacher + '</div>';
-            append += '<div class="p-room">' + temp.room + '</div>';
+            append += '<div class="p-room">' + temp.room + '. terem</div>';
 
             if (temp.level == "emelt") {
                 append += '<div class="emelt">' + temp.level + '</div>';
