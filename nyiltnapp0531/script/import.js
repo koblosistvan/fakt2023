@@ -15,9 +15,9 @@ function loadCards() {
         let l = data.length;
         console.log(document.querySelectorAll("#cardList div"))
         //
-        l = 10;
+        //l = 10;
         //
-        var cardContainers = document.querySelectorAll("#cardList div")
+        var cardContainers = [document.querySelectorAll("#cc1"), document.querySelectorAll("#cc2"), document.querySelectorAll("#cc3"), document.querySelectorAll("#cc4")]
         var append;
         for (let i=0; i<l; i++) {
             let temp = data[i];
@@ -56,6 +56,7 @@ function loadCards() {
 }
 
 function filterSubjects() { //tantárgy dropdown select keresés
+    var searchSubjectMenu = document.getElementById("subjectSelect")
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
     var filter;
     var cards = document.getElementsByClassName("card");
