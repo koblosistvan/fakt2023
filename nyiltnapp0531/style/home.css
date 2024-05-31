@@ -1,5 +1,19 @@
-$turquoise: #55d6beff;
-$aquamarine: #acfcd9ff;
-$royal-purple: #7d5ba6ff;
-$platinum: #ddddddff;
-$bright-pink-crayola: #fc6471ff;
+:root{
+    color-1: #55d6beff;
+    color-2: #acfcd9ff;
+    color-main: #7d5ba6ff;
+    color-card: #ddddddff;
+    color-background: #fc6471ff;
+}
+.cardContainer{
+    border: solid 1px var(color-main);
+}
+
+.card{
+    background-color: var(color-card);
+}
+
+.emelt{
+    background-color: var(color-main);
+    border-radius: 3px;
+}
