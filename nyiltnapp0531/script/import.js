@@ -15,7 +15,7 @@ function loadCards() {
         let l = data.length;
         console.log(document.querySelectorAll("#cardList div"))
         //
-        l = 10;
+        //l = 10;
         //
         var cardContainers = document.querySelectorAll("#cardList div")
         var append;
@@ -56,6 +56,7 @@ function loadCards() {
 }
 
 function filterSubjects() { //tantárgy dropdown select keresés
+    var searchSubjectMenu = document.getElementById("subjectSelect")
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
     var filter;
     var cards = document.getElementsByClassName("card");
