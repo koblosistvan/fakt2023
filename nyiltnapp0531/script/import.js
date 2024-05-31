@@ -82,12 +82,10 @@ function hideAllLessons() {
     for (i=0;i<4;i++) {
         document.getElementsByClassName("outerCardContainer")[i].classList.add("hidden");
     }
-    console.log("hideall")
+    
 }
 
 function lessonSelector(irany) {
-    console.log(irany)
-    console.log(currentLesson)
     if (currentLesson == 0 && irany == -1) { // ha minimum ala akar menni
         return;
     }
@@ -97,7 +95,12 @@ function lessonSelector(irany) {
 
     // arrow fekete feher formazas
     if ((currentLesson+irany)==3) {
-        document.getElementById("")
+        document.getElementById("next-arrow").classList.add("disabledArrow")
+    } else if ((currentLesson+irany)==0) {
+        document.getElementById("prev-arrow").classList.add("disabledArrow")
+    } else {
+        document.getElementById("next-arrow").classList.remove("disabledArrow")
+        document.getElementById("prev-arrow").classList.remove("disabledArrow")
     }
 
     hideAllLessons();

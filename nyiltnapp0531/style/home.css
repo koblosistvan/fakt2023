@@ -65,3 +65,16 @@ span.napp {
     padding: 0px 3px;
 } 
 
+/* NYILAK */
+.hidden {
+    display: none;
+}
+
+.lessonSelectorArrow {
+    width: 20%;
+}
+.disabledArrow {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    pointer-events: none;
+}
