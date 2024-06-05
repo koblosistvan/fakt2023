@@ -49,7 +49,8 @@ h1 {
 span.napp {
     color: white;
     background-color: var(--color-main);
-    border-radius: 3px;
+    border-radius: 15px;
+    padding: 5px;;
 }
 
 #subjectSelect {
@@ -96,6 +97,9 @@ a.lessonSelectorArrow {
     text-align: center;
     background-color: white;
     border: 2px solid var(--color-main);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 div.header {
