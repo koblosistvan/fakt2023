@@ -44,7 +44,7 @@ for i in range(len(kolcsonzes)):
     teljeselora=kolcsonzes[i].elvora, kolcsonzes[i].elvperc
     teljesvisszora=kolcsonzes[i].visszora, kolcsonzes[i].visszperc
 
-    if teljeselora and teljesvisszora ==idokeres:
+    if teljeselora and teljesvisszora == idokeres:
         print(f'{idokeres} óra és perckor {teljeselora} kölcsönzési idővel {kolcsonzes[i].nev} ')
 
 
