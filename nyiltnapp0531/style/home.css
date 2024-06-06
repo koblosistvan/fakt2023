@@ -1,0 +1,108 @@
+:root{
+    --color-1: #55d6beff;
+    --color-background: #acfcd9ff;
+    --color-main: #7d5ba6ff;
+    --color-card: #ddddddff;
+    --color-2: #fc6471ff;
+}
+
+.cardContainer{
+    border: solid 2px var(--color-main);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white !important;
+    display: grid;
+}
+
+.lesson-card{
+    background-color: var(--color-card) !important;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid white !important;
+    border-radius: 10px !important;
+    display: block;
+}
+
+.emelt{
+    background-color: var(--color-main);
+    border-radius: 3px;
+    padding: 0px 3px;
+    color: white;
+    float: right;
+}
+
+.outerCardContainer{
+    padding: 10px;
+}
+
+body{
+    background-color: var(--color-background) !important;
+}
+
+h1 {
+    color: var(--color-main) !important;
+    text-align: center !important;
+    padding: 4px;
+    margin-top: 10px !important;
+}
+
+span.napp {
+    color: white;
+    background-color: var(--color-main);
+    border-radius: 15px;
+    padding: 5px;;
+}
+
+#subjectSelect {
+    border: 2px solid var(--color-main);
+    color: var(--color-main) !important;
+    padding: 4px;
+}
+
+.p-class, .p-teacher, .p-room, .p-period, .p-time, .p-subject, .p-level {
+    float: left;
+    width: fit-content;
+    padding: 0px 3px;
+} 
+
+.p-room{
+    clear: left;
+}
+
+.alap{
+    display: none;
+}
+
+.p-period, .p-time, .p-subject{
+    display: none;
+}
+
+/* NYILAK */
+.hidden {
+    display: none;
+}
+
+a.lessonSelectorArrow {
+    color: var(--color-main);
+    font-size: larger;
+    text-decoration: none;
+}
+.disabledArrow {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    pointer-events: none;
+}
+
+.cardContainerLabel {
+    text-align: center;
+    background-color: white;
+    border: 2px solid var(--color-main);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+div.header {
+    font-size: large;
+    
+}
