@@ -32,3 +32,23 @@ legtobb=sorted(infok, reverse=True, key=lambda a: a.races)
 for i in range(len(infok)):
     print(legtobb[0].races)
     break
+
+#3. feladat
+
+
+hatvanszaml=0
+hetvenesszaml=0
+
+
+
+for i in range(len(infok)):
+   if infok[i].year>=1970:
+       hetvenesszaml+=infok[i].win
+   else:
+       hatvanszaml+=infok[i].win
+
+
+
+
+
+
