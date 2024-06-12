@@ -9,7 +9,7 @@ leggyorsabb_kor = []
 
 for sor in forras:
     adat = sor.strip().split('\t')
-    evek.append(int((adat[0]))
+    evek.append(int(adat[0]))
     versenyek.append(int(adat[1]))
     gyozelmek.append(int(adat[2]))
     dobogos.append(int(adat[3]))
@@ -18,7 +18,7 @@ for sor in forras:
 forras.close()
 
 #3. feladat
-print(f'3. feladat:{len(evek)}')
+print(f'3. feladat: {len(evek)}')
 
 #4. feladat
 legtobb_index = evek[0]
@@ -40,6 +40,9 @@ for i in range(len(evek)):
         hatvanas += gyozelmek[i]
 
 print(f'5. feladat \n\t 60-as évek: {hatvanas} \n\t 70-es évek: {hetvenes}')
+
+#6. feladat
+
 
 
 
