@@ -3,11 +3,11 @@
 	include_once("connection.php");
 
 	$sql = "select * from lessons";
-	if($_POST['time']) {
-		$sql += "where last_upd > ".$_POST['ts'];
+	if($_GET['time']) {
+		$sql = $sql." where last_upd > ".$_GET['time'];
 	}
-	
 	$result = mysqli_query($conn, $sql); 
+
 	if(!$result){
 		$res = array("status" => "database error");
 	} else {
@@ -18,9 +18,9 @@
 
 		$sql = "select max(last_upd) as update_time from lessons";
 		if($_POST['time']) {
-			$sql += "where last_upd > ".$_POST['ts'];
+			$sql = $sql."where last_upd > ".$_POST['time'];
 		}
-		var_dump($sql);
+		
 		$result = mysqli_query($conn, $sql); 
 		$update_time = mysqli_fetch_assoc($result);
 		$res = array("status" => "ok", "update_time" => $update_time["update_time"], "lessons" => $rows);
