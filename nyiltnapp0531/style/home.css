@@ -23,6 +23,10 @@
     display: block;
 }
 
+.lesson-card inactive{
+    background-color: lightpink;
+}
+
 .emelt{
     background-color: var(--color-main);
     border-radius: 3px;
