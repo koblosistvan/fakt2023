@@ -17,8 +17,8 @@
 		};
 
 		$sql = "select max(last_upd) as update_time from lessons";
-		if($_POST['time']) {
-			$sql = $sql."where last_upd > ".$_POST['time'];
+		if($_GET['time']) {
+			$sql = $sql."where last_upd > ".$_GET['time'];
 		}
 		
 		$result = mysqli_query($conn, $sql); 
