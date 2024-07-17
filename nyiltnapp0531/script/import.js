@@ -67,6 +67,10 @@ function loadCards() {
             append += '<div class="alap">' + temp.level + '</div>';
         }
 
+        if (window.location.href.includes("admin")) {
+            append += 'hide';
+        }
+
         //innentől elrejtve
         append += '<div class="p-period">' + temp.period + '.</div>';
         append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
