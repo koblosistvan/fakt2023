@@ -3,7 +3,7 @@
     --color-background: #acfcd9ff;
     --color-main: #7d5ba6ff;
     --color-card: #ddddddff;
-    --color-2: #fc6471ff;
+    --color-hidden: #fc6471ff;
 }
 
 .cardContainer{
@@ -23,8 +23,9 @@
     display: block;
 }
 
-.lesson-card inactive{
-    background-color: lightpink;
+.lesson-card invalid{
+    display: hidden;
+    background-color: var(--color-hidden);
 }
 
 .emelt{
