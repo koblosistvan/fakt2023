@@ -14,17 +14,17 @@ function getClassString(group) {
 }
 
 function loadCards() {
-        var data
+        var data;
 
         $.ajax({   
             type: "GET",  
             url: "api/get-lessons.php",  
             data: "time=0",
-            cache:false,  
-            success: function(response) {data = response}
+            cache:false,
+            success: function(response) {data = JSON.parse(response).lessons }
         });
-
-        alert(data)
+        
+        alert(typeof(data));
 
         let l = data.length;
         //console.log(document.querySelectorAll("#cardList div"))
