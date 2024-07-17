@@ -41,11 +41,19 @@ function loadCards() {
     for (let i=0; i<l; i++) {
         let temp = data[i];
         let currentId = temp.id.toString();
-        let currentPeriod = Number(temp.period)
+        let currentPeriod = Number(temp.period);
+
+        // valid
+        let valid = Boolean(Number(temp.valid));
+        if (valid) { // elso append sorban oda fog tenni egy 'invalid' classt ha invalid
+            valid = "";
+        } else {
+            valid = " invalid";
+        }
             
         if (currentPeriod > 4) {continue;} // elso 4 ora kell csak
 
-        append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
+        append = '<div class="lesson-card' + valid + '" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
         append += 'id="card-' + currentId + '">'; // kell card id
 
         // ez a három lesz mutatva
@@ -61,7 +69,7 @@ function loadCards() {
 
         //innentől elrejtve
         append += '<div class="p-period">' + temp.period + '.</div>';
-        append += '<div class="p-time">' + temp.starttime + ' - ' + temp.endtime + '</div>';
+        append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
         append += '<div class="p-subject">' + temp.subject + '</div>';
 
         //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
