@@ -13,7 +13,8 @@ function getClassString(group) {
     }
 }
 
-var data;
+var data; // json
+var ts; // timestamp
 
 // function loadCards() {}
 $(document).ready(function() {
@@ -22,12 +23,13 @@ $(document).ready(function() {
     url: "api/get-lessons.php",  
     data: "time=0",
     cache:false,
-    success: function(response) {data=response; loadCards();} // ajax hivas utan loadCards()
+    success: function(response) {data=JSON.parse(response); ts=data.update_time; loadCards();} // ajax hivas utan loadCards()
 }); })
 
 function loadCards() {
+    console.log(ts)
     //json parse
-    data = JSON.parse(data).lessons;
+    data = data.lessons
 
     let l = data.length;
     //console.log(document.querySelectorAll("#cardList div"))
