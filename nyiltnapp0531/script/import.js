@@ -13,7 +13,8 @@ function getClassString(group) {
     }
 }
 
-var data;
+var data; // json
+var ts; // timestamp
 
 // function loadCards() {}
 $(document).ready(function() {
@@ -22,12 +23,13 @@ $(document).ready(function() {
     url: "api/get-lessons.php",  
     data: "time=0",
     cache:false,
-    success: function(response) {data=response; loadCards();} // ajax hivas utan loadCards()
+    success: function(response) {data=JSON.parse(response); ts=data.update_time; loadCards();} // ajax hivas utan loadCards()
 }); })
 
 function loadCards() {
+    console.log(ts)
     //json parse
-    data = JSON.parse(data).lessons;
+    data = data.lessons
 
     let l = data.length;
     //console.log(document.querySelectorAll("#cardList div"))
@@ -39,11 +41,19 @@ function loadCards() {
     for (let i=0; i<l; i++) {
         let temp = data[i];
         let currentId = temp.id.toString();
-        let currentPeriod = Number(temp.period)
+        let currentPeriod = Number(temp.period);
+
+        // valid
+        let valid = Boolean(Number(temp.valid));
+        if (valid) { // elso append sorban oda fog tenni egy 'invalid' classt ha invalid
+            valid = "";
+        } else {
+            valid = " invalid";
+        }
             
         if (currentPeriod > 4) {continue;} // elso 4 ora kell csak
 
-        append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
+        append = '<div class="lesson-card' + valid + '" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
         append += 'id="card-' + currentId + '">'; // kell card id
 
         // ez a három lesz mutatva
@@ -59,7 +69,7 @@ function loadCards() {
 
         //innentől elrejtve
         append += '<div class="p-period">' + temp.period + '.</div>';
-        append += '<div class="p-time">' + temp.starttime + ' - ' + temp.endtime + '</div>';
+        append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
         append += '<div class="p-subject">' + temp.subject + '</div>';
 
         //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
