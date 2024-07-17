@@ -13,20 +13,21 @@ function getClassString(group) {
     }
 }
 
-var data;
+function initData() {
+    $.ajax({   
+        type: "GET",  
+        url: "api/get-lessons.php",  
+        data: "time=0",
+        cache: false,
+        success: function(response) { 
+            var lessons = JSON.parse(response).lessons; 
+            loadCards(lessons);
+        }
+    });
+}
 
-function loadCards() {
+function loadCards(data) {
 
-        $.ajax({   
-            type: "GET",  
-            url: "api/get-lessons.php",  
-            data: "time=0",
-            cache:false,
-            success: function(response) { JSON.parse(response) }
-
-        
-        //alert(typeof(data));
-    
         let l = data.length;
         //console.log(document.querySelectorAll("#cardList div"))
         //
