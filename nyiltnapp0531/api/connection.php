@@ -1,8 +1,8 @@
 <?php
 /* Database connection start */
 $servername = "localhost";
-$username = "tatarefi_nyilt_napp";
-$password = "E világon ha ütsz tanyát";
+$username = "root";
+$password = "";
 $dbname = "tatarefi_nyilt_napp";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
