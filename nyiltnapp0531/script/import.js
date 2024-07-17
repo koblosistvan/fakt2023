@@ -23,10 +23,10 @@ function loadCards() {
             data: "time=0",
             cache:false,
             success: function(response) { JSON.parse(response) }
-        });
+
         
         //alert(typeof(data));
-
+    
         let l = data.length;
         //console.log(document.querySelectorAll("#cardList div"))
         //
