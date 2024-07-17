@@ -13,63 +13,66 @@ function getClassString(group) {
     }
 }
 
-function initData() {
+var data;
+
+// function loadCards() {}
+$(document).ready(function() {
     $.ajax({   
-        type: "GET",  
-        url: "api/get-lessons.php",  
-        data: "time=0",
-        cache: false,
-        success: function(response) { 
-            var lessons = JSON.parse(response).lessons; 
-            loadCards(lessons);
-        }
-    });
-}
+    type: "GET",  
+    url: "api/get-lessons.php",  
+    data: "time=0",
+    cache:false,
+    success: function(response) {data=response; loadCards();} // ajax hivas utan loadCards()
+}); })
 
-function loadCards(data) {
+function loadCards() {
+    //json parse
+    data = JSON.parse(data).lessons;
 
-        let l = data.length;
-        //console.log(document.querySelectorAll("#cardList div"))
-        //
-        //l = 10;
-        //
-        var cardContainers = [document.querySelector("#cc1"), document.querySelector("#cc2"), document.querySelector("#cc3"), document.querySelector("#cc4")]
-        var append;
-        for (let i=0; i<l; i++) {
-            let temp = data[i];
-            let currentId = temp.id.toString();
-            let currentPeriod = Number(temp.period)
+    let l = data.length;
+    //console.log(document.querySelectorAll("#cardList div"))
+    //
+    //l = 10;
+    //
+    var cardContainers = [document.querySelector("#cc1"), document.querySelector("#cc2"), document.querySelector("#cc3"), document.querySelector("#cc4")]
+    var append;
+    for (let i=0; i<l; i++) {
+        let temp = data[i];
+        let currentId = temp.id.toString();
+        let currentPeriod = Number(temp.period)
             
-            if (currentPeriod > 4) {continue;} // elso 4 ora kell csak
+        if (currentPeriod > 4) {continue;} // elso 4 ora kell csak
 
-            append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
-            append += 'id="card-' + currentId + '">'; // kell card id
+        append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
+        append += 'id="card-' + currentId + '">'; // kell card id
 
-            // ez a három lesz mutatva
-            append += '<div class="p-class">' + getClassString(temp.class) + '</div>';
-            append += '<div class="p-teacher">' + temp.teacher + '</div>';
-            append += '<div class="p-room">' + temp.room + '. terem</div>';
+        // ez a három lesz mutatva
+        append += '<div class="p-class">' + getClassString(temp.class) + '</div>';
+        append += '<div class="p-teacher">' + temp.teacher + '</div>';
+        append += '<div class="p-room">' + temp.room + '. terem</div>';
 
-            if (temp.level == "emelt") {
-                append += '<div class="emelt">' + temp.level + '</div>';
-            } else {
-                append += '<div class="alap">' + temp.level + '</div>';
-            }
-
-            //innentől elrejtve
-            append += '<div class="p-period">' + temp.period + '.</div>';
-            append += '<div class="p-time">' + temp.starttime + ' - ' + temp.endtime + '</div>';
-            append += '<div class="p-subject">' + temp.subject + '</div>';
-
-            //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
-
-            append += '</div>';
-            
-            //document.getElementById('cardList').innerHTML += append;
-            cardContainers[currentPeriod -1 ].innerHTML += append;
+        if (temp.level == "emelt") {
+            append += '<div class="emelt">' + temp.level + '</div>';
+        } else {
+            append += '<div class="alap">' + temp.level + '</div>';
         }
 
+        //innentől elrejtve
+        append += '<div class="p-period">' + temp.period + '.</div>';
+        append += '<div class="p-time">' + temp.starttime + ' - ' + temp.endtime + '</div>';
+        append += '<div class="p-subject">' + temp.subject + '</div>';
+
+        //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
+
+        append += '</div>';
+            
+        //document.getElementById('cardList').innerHTML += append;
+        cardContainers[currentPeriod -1 ].innerHTML += append;
+    }
 }
+
+
+
 
 function filterSubjects() { //tantárgy dropdown select keresés
     var searchSubjectMenu = document.getElementById("subjectSelect")
