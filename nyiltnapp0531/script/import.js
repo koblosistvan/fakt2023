@@ -68,7 +68,11 @@ function loadCards() {
         }
 
         if (window.location.href.includes("admin")) {
-            append += 'hide';
+            if (temp.valid == 1) {
+                append += '<div class="admin-hide"></div>';
+            } else {
+                append += '<div class="admin-show"></div>';
+            }
         }
 
         //innentől elrejtve
