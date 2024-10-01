@@ -20,14 +20,26 @@
 <body>
     <div class="container">
         <div class="row header">
-            <div class="col-12"><h1>
-                TRG - nyílt n<span class="napp">app</span>
-                <span class="aktiv_nap" style="float:left;">11.02</span>
-                <span class="nap" style="float:right;">11.15</span>
+            <div class="col-12">
+                <div id="nagyNapValaszto">
+                <h1>TRG - nyílt n<span class="napp">app</span></h1>
+                <p>Először is válassza ki, hogy melyik nap beosztását szeretné látni:</p>
+                <p>
+                    <span class="nagy-nap" style="float:left;">11.02</span>
+                    <span class="nagy-nap" style="float:right;">11.15</span>
+                </p>
+                </div>
+                <div class="hidden" id="kisNapValaszto">
+                <h1>TRG - nyílt n<span class="napp">app</span></h1>
+                <p>
+                    <span class="nagy-nap" style="float:left;">11.02</span>
+                    <span class="nagy-nap" style="float:right;">11.15</span>
+                </p>
+                </div>
             </h1></div>
         </div>
 
-        <div class="row searchMenu" id="subjectSearch">
+        <div class="hidden searchMenu" id="subjectSearch">
             <div class="col-12">
                 <select id="subjectSelect" onchange="filterSubjects()">
                 <option selected disabled>Válasszon tantárgyat...</option>
@@ -66,7 +78,7 @@
         -->
 
 
-        <div class="row" id="cardList">
+        <div class="hidden" id="cardList">
             <div class="col-sm-12 col-md-6 col-lg-3 outerCardContainer" id="cc1-outer">
                 <div class="cardContainerLabel">1. óra <a class="lessonSelectorArrow" href="#cc2-outer"> <a class="lessonSelectorArrow" href="#cc2-outer"><i class="fa-solid fa-circle-right"></i></a>
                 </a></div>

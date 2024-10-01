@@ -58,6 +58,11 @@ span.napp {
     padding: 5px;;
 }
 
+span.nagy-nap {
+    color: var(--color-main);
+    font-size: large;
+}
+
 span.nap, span.aktiv_nap {
     color: var(--color-main);
     font-size: small;
@@ -65,7 +70,7 @@ span.nap, span.aktiv_nap {
 
 span.aktiv_nap {
     border: 2px solid var(--color-main);
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #subjectSelect {
