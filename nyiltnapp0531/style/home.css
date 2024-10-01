@@ -3,7 +3,7 @@
     --color-background: #acfcd9ff;
     --color-main: #7d5ba6ff;
     --color-card: #ddddddff;
-    --color-2: #fc6471ff;
+    --color-hidden: #fc6471ff;
 }
 
 .cardContainer{
@@ -21,6 +21,11 @@
     border: 5px solid white !important;
     border-radius: 10px !important;
     display: block;
+}
+
+.lesson-card invalid{
+    display: hidden;
+    background-color: var(--color-hidden);
 }
 
 .emelt{
@@ -49,7 +54,8 @@ h1 {
 span.napp {
     color: white;
     background-color: var(--color-main);
-    border-radius: 3px;
+    border-radius: 15px;
+    padding: 5px;;
 }
 
 span.nap, span.aktiv_nap {
@@ -109,6 +115,9 @@ a.lessonSelectorArrow {
     text-align: center;
     background-color: white;
     border: 2px solid var(--color-main);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 div.header {
