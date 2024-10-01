@@ -25,8 +25,8 @@
                 <h1>TRG - nyílt n<span class="napp">app</span></h1>
                 <p>Először is válassza ki, hogy melyik nap beosztását szeretné látni:</p>
                 <p>
-                    <span class="nagy-nap" style="float:left;">11.02</span>
-                    <span class="nagy-nap" style="float:right;">11.15</span>
+                    <span class="nagy-nap" style="float:left;" onclick="GetElementById('cardList-1').classList.add('hidden'); GetElementById('cardList-2').classList.remove('hidden')">11.21</span>
+                    <span class="nagy-nap" style="float:right;" onclick="GetElementById('cardList-1').classList.remove('hidden'); GetElementById('cardList-2').classList.add('hidden')">11.26</span>
                 </p>
                 </div>
                 <div class="hidden" id="kisNapValaszto">
@@ -78,23 +78,23 @@
         -->
 
 
-        <div class="hidden" id="cardList">
+        <div class="hidden" id="cardList-1">
             <div class="col-sm-12 col-md-6 col-lg-3 outerCardContainer" id="cc1-outer">
                 <div class="cardContainerLabel">1. óra <a class="lessonSelectorArrow" href="#cc2-outer"> <a class="lessonSelectorArrow" href="#cc2-outer"><i class="fa-solid fa-circle-right"></i></a>
                 </a></div>
-                <div class="cardContainer" id="cc1"></div>
+                <div class="cardContainer" id="cc3-1"></div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 outerCardContainer" id="cc2-outer">
                 <div class="cardContainerLabel"><a class="lessonSelectorArrow" href="#cc1-outer"><i class="fa-solid fa-circle-left"></i></a> 2. óra <a class="lessonSelectorArrow" href="#cc3-outer"><i class="fa-solid fa-circle-right"></i></a></div>
-                <div class="cardContainer" id="cc2"></div>
+                <div class="cardContainer" id="cc3-2"></div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 outerCardContainer" id="cc3-outer">
                 <div class="cardContainerLabel"><a class="lessonSelectorArrow" href="#cc2-outer"><i class="fa-solid fa-circle-left"></i></a> 3. óra<a class="lessonSelectorArrow" href="#cc4-outer"><i class="fa-solid fa-circle-right"></i></a></div>
-                <div class="cardContainer" id="cc3"></div>
+                <div class="cardContainer" id="cc3-3"></div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 outerCardContainer" id="cc4-outer">
                 <div class="cardContainerLabel"><a class="lessonSelectorArrow" href="#cc3-outer"><i class="fa-solid fa-circle-left"></i></a> 4. óra</div>
-                <div class="cardContainer" id="cc4"></div>
+                <div class="cardContainer" id="cc3-4"></div>
             </div>
         </div>
     </div>
