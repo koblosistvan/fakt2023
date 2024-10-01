@@ -28,10 +28,10 @@ $(document).ready(function() {
     data: "time=0",
     cache:false,
     success: function(response) {data=JSON.parse(response); ts=data.update_time; loadCards();}, // ajax hivas utan loadCards()
-    error: function(response) {loadCards();}
+    error: function(response) {loadCards(data);}
 }); })
 
-function loadCards() {
+function loadCards(data) {
     console.log(ts)
     //json parse
     data = data.lessons
