@@ -84,7 +84,7 @@ from bs4 import BeautifulSoup
 import json
 
 
-filename = 'nyiltnapp0531\\xml2json\\orarend_2022_23_2.xml'
+filename = 'nyiltnapp0531\\xml2json\\orarend_2024_25_2.xml'
 
 if not(USE_DEFAULT_FILENAME):
     try:
