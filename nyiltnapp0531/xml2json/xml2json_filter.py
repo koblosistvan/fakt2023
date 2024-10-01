@@ -3,7 +3,8 @@
 # alternatívan az xml_filter_SETTINGS.txt használható beállításhoz
 
 # ========================================================================================
-napok = [True, True, True, False, True] # True filterez, False nem (hetfotol pentekig)
+napok = [True, False, True, False, True] # True filterez, False nem (hetfotol pentekig)
+# kedden meg csutortokon lesz nyilt nap, ez alapjan van beallitva
 # ========================================================================================
 CONST_NAPOK = ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "? (y/n): "]
 CONST_VALIDATE = [("y","n","igen","nem"), ("y","igen")]

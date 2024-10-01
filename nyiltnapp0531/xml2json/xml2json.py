@@ -84,7 +84,7 @@ from bs4 import BeautifulSoup
 import json
 
 
-filename = 'nyiltnapp0531\\xml2json\\orarend_2024_25_2.xml'
+filename = 'nyiltnapp0531\\xml2json\\orarend_2022_23_2.xml'
 
 if not(USE_DEFAULT_FILENAME):
     try:
@@ -185,7 +185,7 @@ for i in kinyert:
 print("Napok...")
 for i in range(l):
     temp = cards[i]["day"]
-    kinyert[i]["day"] = xample.find("day", {"day": temp})["name"]
+    kinyert[i]["day"] = xample.find("day", {"day": temp})["day"]
 
 print("Osztályok...")
 for i in kinyert:

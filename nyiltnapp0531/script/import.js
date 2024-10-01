@@ -1,5 +1,7 @@
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
 
+
+
 function getClassString(group) {
     if (typeof group == 'string') {
         return group;

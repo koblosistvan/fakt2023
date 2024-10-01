@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="windows-1250"?>
+<?xml version="1.0" encoding="utf-8"?>
 <timetable ascttversion="2025.4.1" importtype="database" options="export:idprefix:%CHRID,import:idprefix:%TEMPID,groupstype1,decimalseparatordot,lessonsincludeclasseswithoutstudents,handlestudentsafterlessons" defaultexport="1" displayname="aSc Timetables 2012 XML" displaycountries="">
    <periods options="canadd,export:silent" columns="period,name,short,starttime,endtime">
       <period name="0" short="0" period="0" starttime="7:10" endtime="7:55"/>
