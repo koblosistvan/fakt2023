@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <timetable ascttversion="2025.4.1" importtype="database" options="groupstype1,decimalseparatordot" defaultexport="1" displayname="aSc Timetables 2008 XML" displaycountries="">
    <days options="canadd,export:silent" columns="day,name,short">
       <day name="Hétfő" short="Hé" day="0"/>
