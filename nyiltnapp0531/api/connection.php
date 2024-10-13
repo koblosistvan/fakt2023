@@ -1,8 +1,8 @@
 <?php
 /* Database connection start */
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "tatarefi_nyilt_napp";
+$password = "E világon ha ütsz tanyát";
 $dbname = "tatarefi_nyilt_napp";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
@@ -11,8 +11,6 @@ $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Conne
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
     exit();
-} else {
-	mysqli_set_charset($conn, 'utf8mb4');
 }
 
 ?>

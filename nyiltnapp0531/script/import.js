@@ -1,5 +1,7 @@
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
 
+
+
 function getClassString(group) {
     if (typeof group == 'string') {
         return group;
@@ -20,13 +22,16 @@ var ts; // timestamp
 $(document).ready(function() {
     $.ajax({   
     type: "GET",  
-    url: "api/get-lessons.php",  
+    url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
+    crossDomain: true,
+    dataType: 'jsonp',
     data: "time=0",
     cache:false,
-    success: function(response) {data=JSON.parse(response); ts=data.update_time; loadCards();} // ajax hivas utan loadCards()
+    success: function(response) {data=JSON.parse(response); ts=data.update_time; loadCards();}, // ajax hivas utan loadCards()
+    error: function(response) {loadCards(data);}
 }); })
 
-function loadCards() {
+function loadCards(data) {
     console.log(ts)
     //json parse
     data = data.lessons
@@ -68,7 +73,11 @@ function loadCards() {
         }
 
         if (window.location.href.includes("admin")) {
-            append += 'hide';
+            if (temp.valid == 1) {
+                append += '<div class="admin-hide"></div>';
+            } else {
+                append += '<div class="admin-show"></div>';
+            }
         }
 
         //innentől elrejtve
