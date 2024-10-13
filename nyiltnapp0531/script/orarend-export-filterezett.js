@@ -1,4 +1,4 @@
-data = {
+var data_offline = {
     "status": "ok",
     "update_time": "2024-10-12 18:59:05",
     "lessons": [{

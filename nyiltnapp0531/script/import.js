@@ -17,6 +17,20 @@ function getClassString(group) {
 
 var data; // json
 var ts; // timestamp
+var cardContainers = [
+    [ // cardList-1
+        document.querySelector("#cc1-0"), 
+        document.querySelector("#cc1-1"), 
+        document.querySelector("#cc1-2"), 
+        document.querySelector("#cc1-3"),
+    ],
+    [ // cardList-2
+        document.querySelector("#cc2-0"), 
+        document.querySelector("#cc2-1"), 
+        document.querySelector("#cc2-2"), 
+        document.querySelector("#cc2-3"),
+    ],
+]
 
 // function loadCards() {}
 $(document).ready(function() {
@@ -27,42 +41,50 @@ $(document).ready(function() {
     dataType: 'jsonp',
     data: "time=0",
     cache:false,
-    success: function(response) {data=JSON.parse(response); ts=data.update_time; loadCards();}, // ajax hivas utan loadCards()
-    error: function(response) {loadCards(data);}
+    success: function(response) {data=JSON.parse(response); data = data.lessons; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
+    error: function(response) {data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
 }); })
 
-function loadCards(data) {
-    console.log(ts)
+/*
+loadCards() parameterei:
+    dayid: melyik napot nezi (0-tol indexelt)
+    cardlistid: melyik cardList div-be tegye az orakat
+    
+    pelda: loadCards(3,1): a harmadik nap (csutortok) napjait tegye be az elso cardlist div-be (#cardList-1)
+*/
+
+function loadCards(dayid, cardlistid) {
+
+    dayid = dayid.toString();
     //json parse
-    data = data.lessons
 
     let l = data.length;
     //console.log(document.querySelectorAll("#cardList div"))
     //
     //l = 10;
     //
-    var cardContainers = [document.querySelector("#cc1"), document.querySelector("#cc2"), document.querySelector("#cc3"), document.querySelector("#cc4")]
+    let cardlist = cardContainers[cardlistid-1];
     var append;
     for (let i=0; i<l; i++) {
         let temp = data[i];
+        if (!Boolean(Number(temp.valid))) {continue;}
+        if (temp.day != dayid) {continue;}
+
         let currentId = temp.id.toString();
         let currentPeriod = Number(temp.period);
+        if (currentPeriod > 4 || !currentPeriod) {continue;} // elsotol negyedik oraig kell csak (0. sem)
 
-        // valid
-        let valid = Boolean(Number(temp.valid));
-        if (valid) { // elso append sorban oda fog tenni egy 'invalid' classt ha invalid
+        /* if (valid) { // elso append sorban oda fog tenni egy 'invalid' classt ha invalid
             valid = "";
         } else {
             valid = " invalid";
-        }
-            
-        if (currentPeriod > 4) {continue;} // elso 4 ora kell csak
+        } */
 
-        append = '<div class="lesson-card' + valid + '" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
+        append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
         append += 'id="card-' + currentId + '">'; // kell card id
 
         // ez a három lesz mutatva
-        append += '<div class="p-class">' + getClassString(temp.class) + '</div>';
+        append += '<div class="p-class">' + temp.class + '</div>'; //getClassString(temp.class)
         append += '<div class="p-teacher">' + temp.teacher + '</div>';
         append += '<div class="p-room">' + temp.room + '. terem</div>';
 
@@ -81,7 +103,7 @@ function loadCards(data) {
         }
 
         //innentől elrejtve
-        append += '<div class="p-period">' + temp.period + '.</div>';
+        //append += '<div class="p-period">' + temp.period + '.</div>';
         append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
         append += '<div class="p-subject">' + temp.subject + '</div>';
 
@@ -90,7 +112,7 @@ function loadCards(data) {
         append += '</div>';
             
         //document.getElementById('cardList').innerHTML += append;
-        cardContainers[currentPeriod -1 ].innerHTML += append;
+        cardlist[Number(temp.period)-1].innerHTML += append;
     }
 }
 
