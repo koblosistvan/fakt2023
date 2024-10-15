@@ -58,6 +58,19 @@ span.napp {
     padding: 5px;;
 }
 
+#napValaszto {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nagy-nap {
+    color: var(--color-main);
+    font-size: 2.5rem;
+    border: 2px solid var(--color-main);
+    padding: 5px;
+    border-radius: 15px;
+}
+
 span.nap, span.aktiv_nap {
     color: var(--color-main);
     font-size: small;
@@ -65,7 +78,7 @@ span.nap, span.aktiv_nap {
 
 span.aktiv_nap {
     border: 2px solid var(--color-main);
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #subjectSelect {
