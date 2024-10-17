@@ -6,10 +6,15 @@ for i in csucsok:
 for i in range(15):
     elek[random.randint(0, 9)].append(random.randint(0, 9))
 
-print(f'{csucsok=}')
-print(f'{elek=}')
+print(f'{csucsok = }')
+print(f'{elek = }')
 
-start = 0
-sor = [start]
-megvolt = [False] * len(csucsok)
-szulo = [None] * len(csucsok)
+s = [0]
+v = [False] * len(csucsok)
+while len(s):
+    q = s.pop()
+    if not v[q]:
+        v[q] = True
+        for i in elek[q]:
+            s.append(i)
+print(v)
