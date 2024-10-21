@@ -1,6 +1,6 @@
 forras = open('Bogdán_Samu\\órai\\labirintus.txt', 'r')
 csucsok = []
-elek = []
+elek = [0,0,0,0,0,0,0,0,0,0]
 for i in forras:
     el = []
     el.append(int(i.strip().split(' -- ')[0]))
@@ -14,7 +14,7 @@ csucsok.sort()
 print(f'{csucsok = }')
 print(f'{elek = }')
 
-start = 0
+start = 10
 sor = [start]
 megvolt = [False] * len(csucsok)
 szulo = [None] * len(csucsok)
