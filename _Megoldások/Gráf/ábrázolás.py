@@ -10,8 +10,4 @@ for i in range(10):
 for _ in range(30):
     net.add_edge(r.randint(0, 9), r.randint(0, 9))
 
-node = 0
-visited = [0]
-queue = [node for edge in net.edges if edge['from'] == ]
-while len(visited) < len(net.nodes) and
 net.show('graph.html', notebook=False)  # save visualization in 'graph.html'
