@@ -25,3 +25,4 @@ while len(sor) > 0:
         if not megvolt[csucs]:
             megvolt[csucs] = True
             sor.append(csucs)
+    sor.remove(start)
