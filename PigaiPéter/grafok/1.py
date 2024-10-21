@@ -2,11 +2,20 @@ forras = open("PigaiPéter\grafok\labirintus.txt", "r", encoding="utf-8")
 csucsok = set()
 elek = []
 for i in forras:
-    i = i.strip().split("--")
+    i = i.strip().split(" -- ")
     csucsok.add(i[0])
-    
 
 csucsok = sorted(list(csucsok))
+
+for i in csucsok:
+    elek.append([])
+
+for el in forras:
+    el.strip().split(" -- ")
+    print("gelbi")
+    elek[csucsok.index(el[0])].append(el[1])
+
+forras.close()
 print(f'{csucsok=}')
 print(f'{elek=}')
 
@@ -16,7 +25,7 @@ megvolt = [False] * len(csucsok)
 szulo = [None] * len(csucsok)
 while len(sor) > 0:
     start = sor[0]
-    print(start)
+    #print(start)
     for csucs in elek[start]:
         if not megvolt[csucs]:
             megvolt[csucs] = True
