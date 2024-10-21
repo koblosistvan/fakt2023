@@ -14,12 +14,14 @@ csucsok.sort()
 print(f'{csucsok = }')
 print(f'{elek = }')
 
-s = [0]
-v = [False] * len(csucsok)
-while len(s):
-    q = s.pop(s[0])
-    if not v[q]:
-        v[q] = True
-        for i in elek[q]:
-            s.append(i)
-print(v)
+start = 0
+sor = [start]
+megvolt = [False] * len(csucsok)
+szulo = [None] * len(csucsok)
+while len(sor) > 0:
+    start = sor[0]
+    print(start)
+    for csucs in elek[start]:
+        if not megvolt[csucs]:
+            megvolt[csucs] = True
+            sor.append(csucs)
