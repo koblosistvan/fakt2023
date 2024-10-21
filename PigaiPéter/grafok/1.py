@@ -12,6 +12,7 @@ for i in csucsok:
 
 for el in forras:
     el.strip().split(" -- ")
+    print("gelbi")
     elek[csucsok.index(el[0])].append(el[1])
 
 forras.close()
