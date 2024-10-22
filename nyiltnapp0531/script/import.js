@@ -38,11 +38,11 @@ $(document).ready(function() {
     type: "GET",  
     url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
     crossDomain: true,
-    dataType: 'jsonp',
+    dataType: 'json',
     data: "time=0",
     cache:false,
-    success: function(response) {data=JSON.parse(response); data = data.lessons; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
-    error: function(response) {data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
+    success: function(response) {console.log('server data'); data = response.lessons; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
+    error: function(response) {console.log('local data'); data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
 }); })
 
 /*
@@ -85,7 +85,8 @@ function loadCards(dayid, cardlistid) {
 
         // ez a három lesz mutatva
         append += '<div class="p-class">' + temp.class + '</div>'; //getClassString(temp.class)
-        append += '<div class="p-teacher">' + temp.teacher + '</div>';
+        append += '<div class="p-subject">' + temp.subject + '</div>';
+		append += '<div class="p-teacher">' + temp.teacher + '</div>';
         append += '<div class="p-room">' + temp.room + '. terem</div>';
 
         if (temp.level == "emelt") {
@@ -105,14 +106,13 @@ function loadCards(dayid, cardlistid) {
         //innentől elrejtve
         //append += '<div class="p-period">' + temp.period + '.</div>';
         append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
-        append += '<div class="p-subject">' + temp.subject + '</div>';
 
         //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
 
         append += '</div>';
             
         //document.getElementById('cardList').innerHTML += append;
-        cardlist[Number(temp.period)-1].innerHTML += append;
+        if(Number(temp.period) <= cardlist.length) {cardlist[Number(temp.period)-1].innerHTML += append;}
     }
 }
 
@@ -171,3 +171,24 @@ function lessonSelector(irany) {
     currentLesson += irany;
 }
 // REDUNDÁNS NYILAK SCRIPT
+
+function showPane(pane) {
+    if(pane == 'napValaszto') {
+        document.getElementById('napValaszto').classList.remove('hidden');
+        document.getElementById('subjectSearch').classList.add('hidden');
+        document.getElementById('cardList-1').classList.add('hidden');
+        document.getElementById('cardList-1').classList.remove('row');
+        document.getElementById('cardList-2').classList.add('hidden');
+        document.getElementById('cardList-2').classList.remove('row');
+    } else {
+        document.getElementById('napValaszto').classList.add('hidden');
+        if(pane == 'cardList-1') {
+            document.getElementById('aktiv-nap').innerHTML = '11.21'
+        } else {
+            document.getElementById('aktiv-nap').innerHTML = '11.26'
+        }
+        document.getElementById('subjectSearch').classList.remove('hidden');
+        document.getElementById(pane).classList.remove('hidden');
+        document.getElementById(pane).classList.add('row');
+    }
+}

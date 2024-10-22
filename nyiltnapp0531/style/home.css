@@ -40,6 +40,10 @@
     padding: 10px;
 }
 
+.dayContainer{
+    display: flex;
+}
+
 body{
     background-color: var(--color-background) !important;
 }
@@ -69,11 +73,16 @@ span.napp {
     border: 2px solid var(--color-main);
     padding: 5px;
     border-radius: 15px;
+	width: fit-content;
+	display: inline-grid;
 }
 
-span.nap, span.aktiv_nap {
-    color: var(--color-main);
-    font-size: small;
+#aktiv-nap {
+    background-color: var(--color-main);
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 span.aktiv_nap {
@@ -93,7 +102,12 @@ span.aktiv_nap {
     padding: 0px 3px;
 } 
 
-.p-room{
+.p-class, .p-subject {
+	color: var(--color-main);
+	font-weight: 600;
+}
+
+.p-room, .p-teacher {
     clear: left;
 }
 
@@ -101,7 +115,7 @@ span.aktiv_nap {
     display: none;
 }
 
-.p-period, .p-time, .p-subject{
+.p-period, .p-time{
     display: none;
 }
 
