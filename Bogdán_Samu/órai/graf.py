@@ -13,7 +13,6 @@ print(f'{elek = }')
 start = 10
 sor = [start]
 megvolt = [False] * 100
-szulo = [None] * 100
 while len(sor) > 0:
     start = sor[0]
     print(start)
