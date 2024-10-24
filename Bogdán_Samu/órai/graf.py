@@ -7,7 +7,6 @@ for i in forras:
 forras.close()
 print(f'{csucsok = }')
 print(f'{elek = }')
-
 start = 10
 sor = [start]
 megvolt = [False] * 100
