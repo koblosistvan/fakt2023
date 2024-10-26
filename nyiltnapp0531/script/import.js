@@ -1,5 +1,5 @@
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
-
+var sid = ''
 
 
 function getClassString(group) {
@@ -41,7 +41,7 @@ $(document).ready(function() {
     dataType: 'json',
     data: "time=0",
     cache:false,
-    success: function(response) {console.log('server data'); data = response.lessons; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
+    success: function(response) {console.log('server data'); data = response.lessons; sid = response.sid; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
     error: function(response) {console.log('local data'); data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
 }); })
 
@@ -122,6 +122,7 @@ function loadCards(dayid, cardlistid) {
 function filterSubjects() { //tantárgy dropdown select keresés
     var searchSubjectMenu = document.getElementById("subjectSelect")
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
+    logEvent("subject=" + subjectSearchFor);
     if (subjectSearchFor == document.querySelectorAll("#subjectSelect option")[0].value) { // ha visszamegy az alap opciora
         return;
     }
@@ -183,12 +184,25 @@ function showPane(pane) {
     } else {
         document.getElementById('napValaszto').classList.add('hidden');
         if(pane == 'cardList-1') {
-            document.getElementById('aktiv-nap').innerHTML = '11.21'
+
+            document.getElementById('aktiv-nap').innerHTML = '11.21';
+            logEvent("day=11.21");
         } else {
             document.getElementById('aktiv-nap').innerHTML = '11.26'
+            logEvent("day=11.26");
         }
         document.getElementById('subjectSearch').classList.remove('hidden');
         document.getElementById(pane).classList.remove('hidden');
         document.getElementById(pane).classList.add('row');
     }
+}
+
+function logEvent(event) {
+    $.ajax({   
+    type: "POST",  
+    url: "https://tata-refi.hu/nyilt-napp/api/log.php",
+    crossDomain: true,
+    data: "sid=" + sid + "&" + event,
+    cache: false
+    });
 }
