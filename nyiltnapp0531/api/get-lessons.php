@@ -2,6 +2,18 @@
 	//include connection file 
 	include_once("connection.php");
 
+	// session
+	if(isset($_GET['sid'])) {
+		$sid = $_GET["sid"];
+	} else {
+		$ip = $_SERVER["REMOTE_ADDR"];
+		$agent = $_SERVER["HTTP_USER_AGENT"];
+		$time = date("Y-m-d H:i:s", time());
+		$sid = md5($ip . $agent . $time);
+		$sql = "insert into log (sid, ip, agent, time) values ('$sid', '$ip', '$agent', '$time')";
+		$result = mysqli_query($conn, $sql);
+	}
+
 	$sql = "select * from lessons";
 	if($_GET['time']) {
 		$sql = $sql." where last_upd > ".$_GET['time'];
@@ -23,7 +35,6 @@
 		
 		$result = mysqli_query($conn, $sql); 
 		$update_time = mysqli_fetch_assoc($result);
-		$res = array("status" => "ok", "update_time" => $update_time["update_time"], "lessons" => $rows);
+		$res = array("status" => "ok", "sid" => $sid, "update_time" => $update_time["update_time"], "lessons" => $rows);
 	}
 	echo json_encode($res);
-?>

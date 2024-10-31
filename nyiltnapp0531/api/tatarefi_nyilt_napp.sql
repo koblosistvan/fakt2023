@@ -228,3 +228,15 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+CREATE TABLE `log` (
+  `sid` char(32) NOT NULL,
+  `ip` varchar(15) NOT NULL,
+  `agent` varchar(255) NOT NULL,
+  `time` varchar(255) NOT NULL,
+  `events` text NOT NULL DEFAULT '',
+  `event_count` int NOT NULL DEFAULT 1,
+  `session_start` timestamp NOT NULL DEFAULT current_timestamp(),
+  `session_end` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;

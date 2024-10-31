@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 var currentLesson = 0; //betöltéskor az első óra box van megjelenítve
+=======
+var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
+var sid = ''
+>>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 
 function getClassString(group) {
@@ -37,9 +42,10 @@ $(document).ready(function() {
     type: "GET",  
     url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
     crossDomain: true,
-    dataType: 'jsonp',
+    dataType: 'json',
     data: "time=0",
     cache:false,
+<<<<<<< HEAD
     success: (response)=> {
         console.log("onready ajax sikeres");
         data=JSON.parse(response);
@@ -62,6 +68,11 @@ $(document).ready(function() {
     },
 });
 });
+=======
+    success: function(response) {console.log('server data'); data = response.lessons; sid = response.sid; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
+    error: function(response) {console.log('local data'); data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
+}); })
+>>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 /*
 loadCards() parameterei:
@@ -145,7 +156,8 @@ function loadCards(dayid, cardlistid) {
 
         // ez a három lesz mutatva
         append += '<div class="p-class">' + temp.class + '</div>'; //getClassString(temp.class)
-        append += '<div class="p-teacher">' + temp.teacher + '</div>';
+        append += '<div class="p-subject">' + temp.subject + '</div>';
+		append += '<div class="p-teacher">' + temp.teacher + '</div>';
         append += '<div class="p-room">' + temp.room + '. terem</div>';
 
         if (temp.level == "emelt") {
@@ -165,13 +177,13 @@ function loadCards(dayid, cardlistid) {
         //innentől elrejtve
         //append += '<div class="p-period">' + temp.period + '.</div>';
         append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
-        append += '<div class="p-subject">' + temp.subject + '</div>';
 
         //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
 
         append += '</div>';
             
         //document.getElementById('cardList').innerHTML += append;
+<<<<<<< HEAD
         cardlist[Number(temp.period)-1].innerHTML += append;
     };
 };
@@ -187,6 +199,11 @@ function loadCardsAjax() {
         };
     };
 };
+=======
+        if(Number(temp.period) <= cardlist.length) {cardlist[Number(temp.period)-1].innerHTML += append;}
+    }
+}
+>>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 
 
@@ -194,6 +211,7 @@ function loadCardsAjax() {
 function filterSubjects() { //tantárgy dropdown select keresés
     var searchSubjectMenu = document.getElementById("subjectSelect");
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
+    logEvent("subject=" + subjectSearchFor);
     if (subjectSearchFor == document.querySelectorAll("#subjectSelect option")[0].value) { // ha visszamegy az alap opciora
         return;
     };
@@ -241,5 +259,44 @@ function lessonSelector(irany) {
     hideAllLessons();
     document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
     currentLesson += irany;
+<<<<<<< HEAD
 };
 // REDUNDÁNS NYILAK SCRIPT
+=======
+}
+// REDUNDÁNS NYILAK SCRIPT
+
+function showPane(pane) {
+    if(pane == 'napValaszto') {
+        document.getElementById('napValaszto').classList.remove('hidden');
+        document.getElementById('subjectSearch').classList.add('hidden');
+        document.getElementById('cardList-1').classList.add('hidden');
+        document.getElementById('cardList-1').classList.remove('row');
+        document.getElementById('cardList-2').classList.add('hidden');
+        document.getElementById('cardList-2').classList.remove('row');
+    } else {
+        document.getElementById('napValaszto').classList.add('hidden');
+        if(pane == 'cardList-1') {
+
+            document.getElementById('aktiv-nap').innerHTML = '11.21';
+            logEvent("day=11.21");
+        } else {
+            document.getElementById('aktiv-nap').innerHTML = '11.26'
+            logEvent("day=11.26");
+        }
+        document.getElementById('subjectSearch').classList.remove('hidden');
+        document.getElementById(pane).classList.remove('hidden');
+        document.getElementById(pane).classList.add('row');
+    }
+}
+
+function logEvent(event) {
+    $.ajax({   
+    type: "POST",  
+    url: "https://tata-refi.hu/nyilt-napp/api/log.php",
+    crossDomain: true,
+    data: "sid=" + sid + "&" + event,
+    cache: false
+    });
+}
+>>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
