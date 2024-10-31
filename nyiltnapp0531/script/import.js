@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-var currentLesson = 0; //betöltéskor az első óra box van megjelenítve
-=======
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
 var sid = ''
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 
 function getClassString(group) {
@@ -39,40 +35,34 @@ var cardContainers = [
 // function loadCards() {}
 $(document).ready(function() {
     $.ajax({   
-    type: "GET",  
-    url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
-    crossDomain: true,
-    dataType: 'json',
-    data: "time=0",
-    cache:false,
-<<<<<<< HEAD
-    success: (response)=> {
-        console.log("onready ajax sikeres");
-        data=JSON.parse(response);
-        data = data.lessons;
-        ts= new Date(data.update_time); // timestamp
-        // ajax hivas utan loadCards()
-        loadCards(3,1);
-        loadCards(1,2);
-    }, 
-    error: (response,error)=> {
-        console.log("onready ajax sikertelen");
-        console.log(error);
-        ts = new Date(data_offline.update_time);
-        data = data_offline.lessons;
-        loadCards(3,1);
-        loadCards(1,2);
-    },
-    complete: ()=>{
-        setInterval(()=>{periodicAjaxCall();},3000); // ajax hivas 30 masodpercenkent
-    },
+        type: "GET",  
+        url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
+        crossDomain: true,
+        dataType: 'json',
+        data: "time=0",
+        cache:false,
+        success: (response)=> {
+            console.log("onready ajax sikeres");
+            data=JSON.parse(response);
+            data = data.lessons;
+            ts= new Date(data.update_time); // timestamp
+            // ajax hivas utan loadCards()
+            loadCards(3,1);
+            loadCards(1,2);
+        }, 
+        error: (response,error)=> {
+            console.log("onready ajax sikertelen");
+            console.log(error);
+            ts = new Date(data_offline.update_time);
+            data = data_offline.lessons;
+            loadCards(3,1);
+            loadCards(1,2);
+        },
+        complete: ()=>{
+            setInterval(()=>{periodicAjaxCall();},3000); // ajax hivas 30 masodpercenkent
+        },
+    });
 });
-});
-=======
-    success: function(response) {console.log('server data'); data = response.lessons; sid = response.sid; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
-    error: function(response) {console.log('local data'); data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
-}); })
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 /*
 loadCards() parameterei:
@@ -183,7 +173,6 @@ function loadCards(dayid, cardlistid) {
         append += '</div>';
             
         //document.getElementById('cardList').innerHTML += append;
-<<<<<<< HEAD
         cardlist[Number(temp.period)-1].innerHTML += append;
     };
 };
@@ -199,11 +188,6 @@ function loadCardsAjax() {
         };
     };
 };
-=======
-        if(Number(temp.period) <= cardlist.length) {cardlist[Number(temp.period)-1].innerHTML += append;}
-    }
-}
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 
 
@@ -259,10 +243,6 @@ function lessonSelector(irany) {
     hideAllLessons();
     document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
     currentLesson += irany;
-<<<<<<< HEAD
-};
-// REDUNDÁNS NYILAK SCRIPT
-=======
 }
 // REDUNDÁNS NYILAK SCRIPT
 
@@ -299,4 +279,3 @@ function logEvent(event) {
     cache: false
     });
 }
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
