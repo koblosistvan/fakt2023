@@ -1,6 +1,6 @@
-var data_offline = {
+var debug_ajax_test_obj = {
     "status": "ok",
-    "update_time": "2024-10-12 18:59:05",
+    "update_time": "2024-10-12 19:00:00",
     "lessons": [{
             "id": "0",
             "room": "Z_3",
@@ -14,8 +14,8 @@ var data_offline = {
             "grade": "7",
             "student_group": "Eg\u00e9sz oszt\u00e1ly",
             "level": "alap",
-            "language": null,   
-            "valid": "1",
+            "language": null,
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "3",
@@ -95,7 +95,7 @@ var data_offline = {
             "student_group": "2. csoport",
             "level": "alap",
             "language": null,
-            "valid": "1",
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "14",
@@ -207,7 +207,7 @@ var data_offline = {
             "student_group": "Ref.",
             "level": "alap",
             "language": null,
-            "valid": "1",
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "26",
@@ -271,7 +271,7 @@ var data_offline = {
             "student_group": "Eg\u00e9sz oszt\u00e1ly",
             "level": "alap",
             "language": null,
-            "valid": "1",
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "35",
@@ -335,7 +335,7 @@ var data_offline = {
             "student_group": "Eg\u00e9sz oszt\u00e1ly",
             "level": "alap",
             "language": null,
-            "valid": "1",
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "44",
@@ -399,7 +399,7 @@ var data_offline = {
             "student_group": "Eg\u00e9sz oszt\u00e1ly",
             "level": "alap",
             "language": null,
-            "valid": "1",
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "60",
@@ -463,7 +463,7 @@ var data_offline = {
             "student_group": "Ref.",
             "level": "alap",
             "language": null,
-            "valid": "1",
+            "valid": "0",
             "last_upd": "2024-10-12 18:59:05"
         }, {
             "id": "65",
