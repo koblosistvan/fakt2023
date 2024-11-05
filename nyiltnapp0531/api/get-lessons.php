@@ -12,13 +12,13 @@
 		$sid = md5($ip . $agent . $time);
 		$sql = "insert into log (sid, ip, agent, time) values ('$sid', '$ip', '$agent', '$time')";
 		$result = mysqli_query($conn, $sql);
-	}
+	};
 
 	$sql = "select * from lessons";
 	if($_GET['time']) {
 		$sql = $sql." where last_upd > '".urldecode($_GET['time'])."'";
 		var_dump($sql);
-	}
+	};
 	$result = mysqli_query($conn, $sql); 
 
 	if(!$result){
@@ -34,7 +34,7 @@
 		$result = mysqli_query($conn, $sql); 
 		$update_time = mysqli_fetch_assoc($result);
 		$res = array("status" => "ok", "sid" => $sid, "update_time" => $update_time["update_time"], "lessons" => $rows);
-		var_dump($res);
+		//var_dump($res);
 
-	}
-	echo json_encode($res);
+	};
+	echo( json_encode($res));
