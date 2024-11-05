@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 var currentLesson = 0; //betöltéskor az első óra box van megjelenítve
-=======
-var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
-var sid = ''
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 
 function getClassString(group) {
@@ -45,7 +40,6 @@ $(document).ready(function() {
     dataType: 'json',
     data: "time=0",
     cache:false,
-<<<<<<< HEAD
     success: (response)=> {
         console.log("onready ajax sikeres");
         data=JSON.parse(response);
@@ -68,11 +62,6 @@ $(document).ready(function() {
     },
 });
 });
-=======
-    success: function(response) {console.log('server data'); data = response.lessons; sid = response.sid; ts=data.update_time; loadCards(3,1); loadCards(1,2)}, // ajax hivas utan loadCards()
-    error: function(response) {console.log('local data'); data = data_offline.lessons; loadCards(3,1); loadCards(1,2)}
-}); })
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 /*
 loadCards() parameterei:
@@ -106,7 +95,7 @@ function periodicAjaxCall() {
             console.log("ajax hivas sikertelen");
             console.log(error);
             
-            debugAjaxTest();
+            //debugAjaxTest();
         },
     });
 };
@@ -183,7 +172,6 @@ function loadCards(dayid, cardlistid) {
         append += '</div>';
             
         //document.getElementById('cardList').innerHTML += append;
-<<<<<<< HEAD
         cardlist[Number(temp.period)-1].innerHTML += append;
     };
 };
@@ -191,19 +179,17 @@ function loadCards(dayid, cardlistid) {
 // ajax hivas utan vegigfut a kartyakon, a timestamp es a valid alapjan kiszedi az elavultakat
 function loadCardsAjax() {
 
+
     for (let i=0;i<data.length;i++) {
         if (!Boolean(Number(data[i].valid))) {
             let temp = document.getElementById("card-" + data[i].id);
             console.log(temp);
             if (temp) { temp.classList.add("hidden");console.log(data[i].id + ". card eltuntetve"); };
+            if (temp) { temp.classList.add("hidden");console.log(data[i].id + ". card eltuntetve"); };
         };
     };
+    
 };
-=======
-        if(Number(temp.period) <= cardlist.length) {cardlist[Number(temp.period)-1].innerHTML += append;}
-    }
-}
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
 
 
 
@@ -259,44 +245,5 @@ function lessonSelector(irany) {
     hideAllLessons();
     document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
     currentLesson += irany;
-<<<<<<< HEAD
 };
 // REDUNDÁNS NYILAK SCRIPT
-=======
-}
-// REDUNDÁNS NYILAK SCRIPT
-
-function showPane(pane) {
-    if(pane == 'napValaszto') {
-        document.getElementById('napValaszto').classList.remove('hidden');
-        document.getElementById('subjectSearch').classList.add('hidden');
-        document.getElementById('cardList-1').classList.add('hidden');
-        document.getElementById('cardList-1').classList.remove('row');
-        document.getElementById('cardList-2').classList.add('hidden');
-        document.getElementById('cardList-2').classList.remove('row');
-    } else {
-        document.getElementById('napValaszto').classList.add('hidden');
-        if(pane == 'cardList-1') {
-
-            document.getElementById('aktiv-nap').innerHTML = '11.21';
-            logEvent("day=11.21");
-        } else {
-            document.getElementById('aktiv-nap').innerHTML = '11.26'
-            logEvent("day=11.26");
-        }
-        document.getElementById('subjectSearch').classList.remove('hidden');
-        document.getElementById(pane).classList.remove('hidden');
-        document.getElementById(pane).classList.add('row');
-    }
-}
-
-function logEvent(event) {
-    $.ajax({   
-    type: "POST",  
-    url: "https://tata-refi.hu/nyilt-napp/api/log.php",
-    crossDomain: true,
-    data: "sid=" + sid + "&" + event,
-    cache: false
-    });
-}
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
