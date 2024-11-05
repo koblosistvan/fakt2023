@@ -1,28 +1,25 @@
 forras = open("PigaiPéter\grafok\labirintus.txt", "r", encoding="utf-8")
 csucsok = set()
 elek = []
-for i in forras:
-    i = i.strip().split(" -- ")
-    csucsok.add(i[0])
-
+for i in range(100):
+    csucsok.add(i)
 csucsok = sorted(list(csucsok))
 
 for i in csucsok:
     elek.append([])
 
+forras = open("PigaiPéter\grafok\labirintus.txt", "r", encoding="utf-8")
+
 for el in forras:
-    el.strip().split(" -- ")
-    print("gelbi")
-    elek[csucsok.index(el[0])].append(el[1])
+    el = el.strip().split(" -- ")
+    elek[csucsok.index(int(el[0]))].append(int(el[1]))
 
 forras.close()
-print(f'{csucsok=}')
-print(f'{elek=}')
 
-start = 0
+start = 10
 sor = [start]
-megvolt = [False] * len(csucsok)
-szulo = [None] * len(csucsok)
+megvolt = [False] * 100
+szulo = [-1] * 100
 while len(sor) > 0:
     start = sor[0]
     #print(start)
@@ -32,3 +29,15 @@ while len(sor) > 0:
             sor.append(csucs)
             szulo[csucs] = start
     sor.remove(start)
+start = max(szulo)
+megvot = []
+utvonal = []
+while start not in megvot:
+    utvonal.append(str(start))
+    megvot.append((start))
+    start = szulo[start]
+utvonal = reversed(utvonal)
+print('-'.join(utvonal))
+
+
+    

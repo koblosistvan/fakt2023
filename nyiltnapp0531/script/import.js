@@ -1,4 +1,5 @@
-var currentLesson = 0; //betöltéskor az első óra box van megjelenítve
+var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
+var sid = ''
 
 
 function getClassString(group) {
@@ -34,33 +35,33 @@ var cardContainers = [
 // function loadCards() {}
 $(document).ready(function() {
     $.ajax({   
-    type: "GET",  
-    url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
-    crossDomain: true,
-    dataType: 'json',
-    data: "time=0",
-    cache:false,
-    success: (response)=> {
-        console.log("onready ajax sikeres");
-        data=JSON.parse(response);
-        data = data.lessons;
-        ts= new Date(data.update_time); // timestamp
-        // ajax hivas utan loadCards()
-        loadCards(3,1);
-        loadCards(1,2);
-    }, 
-    error: (response,error)=> {
-        console.log("onready ajax sikertelen");
-        console.log(error);
-        ts = new Date(data_offline.update_time);
-        data = data_offline.lessons;
-        loadCards(3,1);
-        loadCards(1,2);
-    },
-    complete: ()=>{
-        setInterval(()=>{periodicAjaxCall();},3000); // ajax hivas 30 masodpercenkent
-    },
-});
+        type: "GET",  
+        url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
+        crossDomain: true,
+        dataType: 'json',
+        data: "time=0",
+        cache:false,
+        success: (response)=> {
+            console.log("onready ajax sikeres");
+            data=JSON.parse(response);
+            data = data.lessons;
+            ts= new Date(data.update_time); // timestamp
+            // ajax hivas utan loadCards()
+            loadCards(3,1);
+            loadCards(1,2);
+        }, 
+        error: (response,error)=> {
+            console.log("onready ajax sikertelen");
+            console.log(error);
+            ts = new Date(data_offline.update_time);
+            data = data_offline.lessons;
+            loadCards(3,1);
+            loadCards(1,2);
+        },
+        complete: ()=>{
+            setInterval(()=>{periodicAjaxCall();},3000); // ajax hivas 30 masodpercenkent
+        },
+    });
 });
 
 /*
@@ -245,5 +246,44 @@ function lessonSelector(irany) {
     hideAllLessons();
     document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
     currentLesson += irany;
+<<<<<<< HEAD
 };
 // REDUNDÁNS NYILAK SCRIPT
+=======
+}
+// REDUNDÁNS NYILAK SCRIPT
+
+function showPane(pane) {
+    if(pane == 'napValaszto') {
+        document.getElementById('napValaszto').classList.remove('hidden');
+        document.getElementById('subjectSearch').classList.add('hidden');
+        document.getElementById('cardList-1').classList.add('hidden');
+        document.getElementById('cardList-1').classList.remove('row');
+        document.getElementById('cardList-2').classList.add('hidden');
+        document.getElementById('cardList-2').classList.remove('row');
+    } else {
+        document.getElementById('napValaszto').classList.add('hidden');
+        if(pane == 'cardList-1') {
+
+            document.getElementById('aktiv-nap').innerHTML = '11.21';
+            logEvent("day=11.21");
+        } else {
+            document.getElementById('aktiv-nap').innerHTML = '11.26'
+            logEvent("day=11.26");
+        }
+        document.getElementById('subjectSearch').classList.remove('hidden');
+        document.getElementById(pane).classList.remove('hidden');
+        document.getElementById(pane).classList.add('row');
+    }
+}
+
+function logEvent(event) {
+    $.ajax({   
+    type: "POST",  
+    url: "https://tata-refi.hu/nyilt-napp/api/log.php",
+    crossDomain: true,
+    data: "sid=" + sid + "&" + event,
+    cache: false
+    });
+}
+>>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f

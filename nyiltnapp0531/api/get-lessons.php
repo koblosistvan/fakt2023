@@ -16,7 +16,8 @@
 
 	$sql = "select * from lessons";
 	if($_GET['time']) {
-		$sql = $sql." where last_upd > ".$_GET['time'];
+		$sql = $sql." where last_upd > '".urldecode($_GET['time'])."'";
+		var_dump($sql);
 	}
 	$result = mysqli_query($conn, $sql); 
 
@@ -29,12 +30,11 @@
 		};
 
 		$sql = "select max(last_upd) as update_time from lessons";
-		if($_GET['time']) {
-			$sql = $sql."where last_upd > ".$_GET['time'];
-		}
-		
+				
 		$result = mysqli_query($conn, $sql); 
 		$update_time = mysqli_fetch_assoc($result);
 		$res = array("status" => "ok", "sid" => $sid, "update_time" => $update_time["update_time"], "lessons" => $rows);
+		var_dump($res);
+
 	}
 	echo json_encode($res);
