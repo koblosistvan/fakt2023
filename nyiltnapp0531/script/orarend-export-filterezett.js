@@ -1,6 +1,7 @@
 var data_offline = {
     "status": "ok",
-    "update_time": "2024-10-12 18:59:05",
+    "sid": "3fb2d49b8cf61b1731984ee3f480c6d7",
+    "update_time": "2024-10-13 16:04:05",
     "lessons": [{
             "id": "0",
             "room": "Z_3",
@@ -12,11 +13,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
-            "language": null,   
+            "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "3",
             "room": "Z_3",
@@ -28,11 +29,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "4",
             "room": "Z_3",
@@ -44,11 +45,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "9",
             "room": "Z_3",
@@ -60,11 +61,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "10",
             "room": "5",
@@ -76,11 +77,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "13",
             "room": "24",
@@ -92,11 +93,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "14",
             "room": "5",
@@ -108,11 +109,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "17",
             "room": "14",
@@ -124,11 +125,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "18",
             "room": "14",
@@ -140,11 +141,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "20",
             "room": "14",
@@ -156,11 +157,11 @@ var data_offline = {
             "day": "1",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "21",
             "room": "T3",
@@ -172,11 +173,11 @@ var data_offline = {
             "day": "1",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "22",
             "room": "T3",
@@ -188,11 +189,11 @@ var data_offline = {
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "24",
             "room": "1",
@@ -204,11 +205,11 @@ var data_offline = {
             "day": "3",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "26",
             "room": "5",
@@ -220,11 +221,11 @@ var data_offline = {
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "28",
             "room": "24",
@@ -232,15 +233,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Digit\u00e1lis Kult\u00fara",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "29",
             "room": "5",
@@ -252,11 +253,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "31",
             "room": "Z_3",
@@ -268,11 +269,11 @@ var data_offline = {
             "day": "1",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "35",
             "room": "27",
@@ -280,15 +281,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Angol nyelv",
-            "teacher": "Papp M\u00f3nika Adrien",
+            "teacher": "Papp M\u00f3nika",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/2 PaM,Angol e\/2 PaM,Angol e\/2 PaM",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "36",
             "room": "27",
@@ -296,15 +297,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Angol nyelv",
-            "teacher": "Papp M\u00f3nika Adrien",
+            "teacher": "Papp M\u00f3nika",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/2 PaM,Angol e\/2 PaM,Angol e\/2 PaM",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "37",
             "room": "25",
@@ -316,11 +317,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "N\u00e9met EVGy",
+            "student_group": "N,\u00e9,m,e,t, ,E,V,G,y",
             "level": "alap",
             "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "41",
             "room": "Z_3",
@@ -332,11 +333,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "44",
             "room": "Z_1",
@@ -348,11 +349,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "45",
             "room": "Z_1",
@@ -364,11 +365,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "49",
             "room": "Z_5",
@@ -380,11 +381,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "59",
             "room": "Z_3",
@@ -396,11 +397,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "60",
             "room": "Z_3",
@@ -412,11 +413,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "62",
             "room": "K1",
@@ -428,11 +429,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Ref",
+            "student_group": "R,e,f",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "63",
             "room": "Z_3",
@@ -444,11 +445,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Ref",
+            "student_group": "R,e,f",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "64",
             "room": "1",
@@ -460,11 +461,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "65",
             "room": "6",
@@ -476,11 +477,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "66",
             "room": "K1",
@@ -492,11 +493,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "67",
             "room": "26",
@@ -508,11 +509,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "68",
             "room": "15",
@@ -520,15 +521,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Angol nyelv",
-            "teacher": "Hartmann Erika Andrea",
+            "teacher": "Hartmann Erika",
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Angol 1.HE",
+            "student_group": "A,n,g,o,l, ,1,.,H,E",
             "level": "alap",
             "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "72",
             "room": "Eml",
@@ -540,11 +541,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Bapt.",
+            "student_group": "B,a,p,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "73",
             "room": "8",
@@ -556,11 +557,11 @@ var data_offline = {
             "day": "1",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "75",
             "room": "Z_1",
@@ -572,11 +573,11 @@ var data_offline = {
             "day": "1",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "76",
             "room": "Z_1",
@@ -588,11 +589,11 @@ var data_offline = {
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "77",
             "room": "8",
@@ -604,11 +605,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Kat",
+            "student_group": "K,a,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "78",
             "room": "25",
@@ -620,11 +621,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Kat",
+            "student_group": "K,a,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "79",
             "room": "26",
@@ -636,11 +637,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "80",
             "room": "25",
@@ -652,11 +653,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "81",
             "room": "Z_2",
@@ -668,11 +669,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "82",
             "room": "Z_1",
@@ -684,11 +685,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "83",
             "room": "7",
@@ -700,11 +701,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "88",
             "room": "26",
@@ -716,11 +717,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "89",
             "room": "17",
@@ -732,11 +733,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "90",
             "room": "25",
@@ -748,11 +749,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "93",
             "room": "21",
@@ -764,11 +765,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A",
             "grade": "12",
-            "student_group": "T\u00f6rt\u00e9nelem alap",
+            "student_group": "T,\u00f6,r,t,\u00e9,n,e,l,e,m, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "94",
             "room": "8",
@@ -780,11 +781,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "T\u00f6rt\u00e9nelem e\/1 ND,T\u00f6rt\u00e9nelem e\/1 ND,T\u00f6rt\u00e9nelem e\/1 ND",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "95",
             "room": "8",
@@ -796,11 +797,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "T\u00f6rt\u00e9nelem e\/1 ND,T\u00f6rt\u00e9nelem e\/1 ND,T\u00f6rt\u00e9nelem e\/1 ND",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "96",
             "room": "6",
@@ -812,11 +813,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "T\u00f6rt\u00e9nelem e\/1 ND,T\u00f6rt\u00e9nelem e\/1 ND,T\u00f6rt\u00e9nelem e\/1 ND",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "98",
             "room": "21",
@@ -828,11 +829,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "100",
             "room": "15",
@@ -844,11 +845,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "101",
             "room": "15",
@@ -860,11 +861,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "103",
             "room": "14",
@@ -876,11 +877,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "105",
             "room": "21",
@@ -892,11 +893,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "106",
             "room": "Z_2",
@@ -908,11 +909,11 @@ var data_offline = {
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "107",
             "room": "Z_2",
@@ -924,11 +925,11 @@ var data_offline = {
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "109",
             "room": "26",
@@ -940,11 +941,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "110",
             "room": "7",
@@ -956,11 +957,11 @@ var data_offline = {
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "111",
             "room": "7",
@@ -972,11 +973,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "113",
             "room": "Z_1",
@@ -988,11 +989,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "115",
             "room": "17",
@@ -1000,15 +1001,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "T\u00f6rt\u00e9nelem",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "3",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "116",
             "room": "17",
@@ -1016,15 +1017,15 @@ var data_offline = {
             "start_time": "14:00",
             "end_time": "14:45",
             "subject": "T\u00f6rt\u00e9nelem",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "1",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "119",
             "room": "1",
@@ -1036,11 +1037,11 @@ var data_offline = {
             "day": "3",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "120",
             "room": "T3",
@@ -1052,11 +1053,11 @@ var data_offline = {
             "day": "1",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "121",
             "room": "T3",
@@ -1068,11 +1069,11 @@ var data_offline = {
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "127",
             "room": "8",
@@ -1084,11 +1085,11 @@ var data_offline = {
             "day": "1",
             "class": "12.C",
             "grade": "12",
-            "student_group": "T\u00f6rt\u00e9nelem alap",
+            "student_group": "T,\u00f6,r,t,\u00e9,n,e,l,e,m, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "128",
             "room": "25",
@@ -1100,11 +1101,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "130",
             "room": "21",
@@ -1116,11 +1117,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "132",
             "room": "15",
@@ -1132,11 +1133,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "136",
             "room": "Z_2",
@@ -1148,11 +1149,11 @@ var data_offline = {
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "138",
             "room": "26",
@@ -1164,11 +1165,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "140",
             "room": "26",
@@ -1180,11 +1181,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "142",
             "room": "7",
@@ -1196,11 +1197,11 @@ var data_offline = {
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "143",
             "room": "7",
@@ -1212,11 +1213,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "144",
             "room": "Z_1",
@@ -1228,11 +1229,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "149",
             "room": "17",
@@ -1244,11 +1245,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "151",
             "room": "1",
@@ -1260,11 +1261,11 @@ var data_offline = {
             "day": "1",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "154",
             "room": "T3",
@@ -1276,11 +1277,11 @@ var data_offline = {
             "day": "1",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "156",
             "room": "17",
@@ -1292,11 +1293,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar e\/2 MM,Magyar e\/2 MM,Magyar e\/2 MM",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "157",
             "room": "17",
@@ -1308,11 +1309,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar e\/2 MM,Magyar e\/2 MM,Magyar e\/2 MM",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "160",
             "room": "6",
@@ -1324,11 +1325,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar emelt,Magyar emelt,Magyar emelt",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "162",
             "room": "6",
@@ -1340,11 +1341,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "163",
             "room": "6",
@@ -1356,11 +1357,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "164",
             "room": "16",
@@ -1372,11 +1373,11 @@ var data_offline = {
             "day": "3",
             "class": "12.B",
             "grade": "12",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "165",
             "room": "16",
@@ -1388,11 +1389,11 @@ var data_offline = {
             "day": "1",
             "class": "12.B",
             "grade": "12",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "169",
             "room": "8",
@@ -1404,11 +1405,11 @@ var data_offline = {
             "day": "1",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "172",
             "room": "17",
@@ -1420,11 +1421,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar emelt,Magyar emelt,Magyar emelt",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "174",
             "room": "7",
@@ -1436,11 +1437,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "175",
             "room": "K1",
@@ -1452,11 +1453,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "178",
             "room": "15",
@@ -1468,11 +1469,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "182",
             "room": "14",
@@ -1484,11 +1485,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "185",
             "room": "26",
@@ -1500,11 +1501,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "186",
             "room": "6",
@@ -1516,11 +1517,11 @@ var data_offline = {
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "195",
             "room": "8",
@@ -1532,11 +1533,11 @@ var data_offline = {
             "day": "3",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Magyar alap",
+            "student_group": "M,a,g,y,a,r, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "197",
             "room": "7",
@@ -1548,11 +1549,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar emelt,Magyar emelt,Magyar emelt",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "199",
             "room": "21",
@@ -1560,15 +1561,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Oszt\u00e1lyf\u0151n\u00f6ki",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "200",
             "room": "15",
@@ -1580,11 +1581,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "201",
             "room": "14",
@@ -1596,11 +1597,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "206",
             "room": "17",
@@ -1608,15 +1609,15 @@ var data_offline = {
             "start_time": "14:00",
             "end_time": "14:45",
             "subject": "Oszt\u00e1lyf\u0151n\u00f6ki",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "3",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "209",
             "room": "T3",
@@ -1628,11 +1629,11 @@ var data_offline = {
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "211",
             "room": "8",
@@ -1644,11 +1645,11 @@ var data_offline = {
             "day": "3",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "212",
             "room": "T1",
@@ -1660,11 +1661,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "214",
             "room": "T2",
@@ -1676,11 +1677,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "216",
             "room": "T1",
@@ -1692,11 +1693,11 @@ var data_offline = {
             "day": "3",
             "class": "12.B",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "218",
             "room": "T1",
@@ -1708,11 +1709,11 @@ var data_offline = {
             "day": "1",
             "class": "12.B",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "222",
             "room": "T2",
@@ -1720,15 +1721,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "3",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "224",
             "room": "T1",
@@ -1736,15 +1737,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "1",
             "class": "11.A",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "227",
             "room": "T1",
@@ -1756,11 +1757,11 @@ var data_offline = {
             "day": "1",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "228",
             "room": "T1",
@@ -1772,11 +1773,11 @@ var data_offline = {
             "day": "3",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "232",
             "room": "T2",
@@ -1784,15 +1785,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "233",
             "room": "T1",
@@ -1800,15 +1801,15 @@ var data_offline = {
             "start_time": "14:50",
             "end_time": "15:35",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "237",
             "room": "T2",
@@ -1816,15 +1817,15 @@ var data_offline = {
             "start_time": "14:00",
             "end_time": "14:45",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "240",
             "room": "T1",
@@ -1832,15 +1833,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "241",
             "room": "T2",
@@ -1852,11 +1853,11 @@ var data_offline = {
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "242",
             "room": "T2",
@@ -1868,11 +1869,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "247",
             "room": "T1",
@@ -1884,11 +1885,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "249",
             "room": "T2",
@@ -1900,11 +1901,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "250",
             "room": "T1",
@@ -1916,11 +1917,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "252",
             "room": "T1",
@@ -1932,11 +1933,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "257",
             "room": "T2",
@@ -1944,15 +1945,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "258",
             "room": "T1",
@@ -1960,15 +1961,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "262",
             "room": "T2",
@@ -1980,11 +1981,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "264",
             "room": "T1",
@@ -1996,11 +1997,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "265",
             "room": "21",
@@ -2012,11 +2013,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "268",
             "room": "14",
@@ -2028,11 +2029,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "270",
             "room": "Z_3",
@@ -2044,11 +2045,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "271",
             "room": "Z_3",
@@ -2060,11 +2061,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "272",
             "room": "Z_2",
@@ -2072,15 +2073,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "F\u00f6ldrajz",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "273",
             "room": "Z_2",
@@ -2088,15 +2089,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "F\u00f6ldrajz",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "274",
             "room": "26",
@@ -2108,11 +2109,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "276",
             "room": "Z_1",
@@ -2124,11 +2125,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "280",
             "room": "15",
@@ -2140,11 +2141,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "281",
             "room": "15",
@@ -2156,11 +2157,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "283",
             "room": "Z_5",
@@ -2172,11 +2173,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "284",
             "room": "K1",
@@ -2188,11 +2189,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "287",
             "room": "Z_5",
@@ -2204,11 +2205,11 @@ var data_offline = {
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "288",
             "room": "Z_5",
@@ -2216,15 +2217,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "K\u00e9mia",
-            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet \u00c9va",
+            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet",
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "297",
             "room": "14",
@@ -2236,11 +2237,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "300",
             "room": "Z_5",
@@ -2252,11 +2253,11 @@ var data_offline = {
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "301",
             "room": "Z_2",
@@ -2268,11 +2269,11 @@ var data_offline = {
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "303",
             "room": "Z_1",
@@ -2280,15 +2281,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Biol\u00f3gia",
-            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet \u00c9va",
+            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet",
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "304",
             "room": "Z_5",
@@ -2296,15 +2297,15 @@ var data_offline = {
             "start_time": "14:00",
             "end_time": "14:45",
             "subject": "Biol\u00f3gia",
-            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet \u00c9va",
+            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet",
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "305",
             "room": "26",
@@ -2316,11 +2317,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "307",
             "room": "Z_5",
@@ -2332,11 +2333,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "309",
             "room": "Z_1",
@@ -2344,15 +2345,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Biol\u00f3gia",
-            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet \u00c9va",
+            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet",
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "311",
             "room": "Z_5",
@@ -2364,11 +2365,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/2 HRA,Biol\u00f3gia e\/2 HRA,Biol\u00f3gia e\/2 HRA",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "312",
             "room": "Z_5",
@@ -2380,11 +2381,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/2 HRA,Biol\u00f3gia e\/2 HRA,Biol\u00f3gia e\/2 HRA",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "317",
             "room": "Z_1",
@@ -2396,11 +2397,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "325",
             "room": "Z_5",
@@ -2412,11 +2413,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "329",
             "room": "6",
@@ -2428,11 +2429,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Fizika e\/1 ID_VB\u00c9,Fizika e\/1 ID_VB\u00c9,Fizika e\/1 ID_VB\u00c9",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "330",
             "room": "6",
@@ -2444,11 +2445,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Fizika e\/1 ID_VB\u00c9,Fizika e\/1 ID_VB\u00c9,Fizika e\/1 ID_VB\u00c9",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "331",
             "room": "Z_2",
@@ -2460,11 +2461,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Fizika e\/1 ID_VB\u00c9,Fizika e\/1 ID_VB\u00c9,Fizika e\/1 ID_VB\u00c9",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "335",
             "room": "5",
@@ -2472,15 +2473,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Informatika ",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Informatika e\/1 K\u00f6I,Informatika e\/1 K\u00f6I,Informatika e\/1 K\u00f6I",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "336",
             "room": "5",
@@ -2488,15 +2489,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "Informatika ",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Informatika e\/1 K\u00f6I,Informatika e\/1 K\u00f6I,Informatika e\/1 K\u00f6I",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "337",
             "room": "5",
@@ -2504,15 +2505,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Informatika ",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Informatika e\/1 K\u00f6I,Informatika e\/1 K\u00f6I,Informatika e\/1 K\u00f6I",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "341",
             "room": "5",
@@ -2520,15 +2521,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Digit\u00e1lis Kult\u00fara",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "11.A",
             "grade": "11",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "342",
             "room": "24",
@@ -2540,11 +2541,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A",
             "grade": "11",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "344",
             "room": "24",
@@ -2556,11 +2557,11 @@ var data_offline = {
             "day": "3",
             "class": "11.B",
             "grade": "11",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "345",
             "room": "24",
@@ -2572,11 +2573,11 @@ var data_offline = {
             "day": "1",
             "class": "11.B",
             "grade": "11",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "346",
             "room": "5",
@@ -2588,11 +2589,11 @@ var data_offline = {
             "day": "1",
             "class": "11.B",
             "grade": "11",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "347",
             "room": "5",
@@ -2604,11 +2605,11 @@ var data_offline = {
             "day": "3",
             "class": "11.B",
             "grade": "11",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "350",
             "room": "5",
@@ -2620,11 +2621,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "351",
             "room": "5",
@@ -2636,11 +2637,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "360",
             "room": "24",
@@ -2652,11 +2653,11 @@ var data_offline = {
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "362",
             "room": "21",
@@ -2664,15 +2665,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "369",
             "room": "21",
@@ -2684,11 +2685,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "375",
             "room": "15",
@@ -2700,11 +2701,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "381",
             "room": "14",
@@ -2712,15 +2713,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Matematika",
-            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria Magdolna",
+            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria",
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "382",
             "room": "14",
@@ -2728,15 +2729,15 @@ var data_offline = {
             "start_time": "14:50",
             "end_time": "15:35",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "384",
             "room": "16",
@@ -2744,15 +2745,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "386",
             "room": "Z_3",
@@ -2764,11 +2765,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "390",
             "room": "Z_3",
@@ -2780,11 +2781,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "393",
             "room": "Z_2",
@@ -2792,15 +2793,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "Matematika",
-            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria Magdolna",
+            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria",
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "399",
             "room": "15",
@@ -2812,11 +2813,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "1. csoport",
+            "student_group": "1,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "400",
             "room": "7",
@@ -2828,11 +2829,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "402",
             "room": "7",
@@ -2844,11 +2845,11 @@ var data_offline = {
             "day": "1",
             "class": "10.B",
             "grade": "10",
-            "student_group": "2. csoport",
+            "student_group": "2,., ,c,s,o,p,o,r,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "405",
             "room": "1",
@@ -2856,15 +2857,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Matematika",
-            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria Magdolna",
+            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria",
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/A SzPM,Matematika e\/2\/A SzPM,Matematika e\/2\/A SzPM",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "406",
             "room": "1",
@@ -2872,15 +2873,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Matematika",
-            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria Magdolna",
+            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria",
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/A SzPM,Matematika e\/2\/A SzPM,Matematika e\/2\/A SzPM",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "407",
             "room": "T3",
@@ -2888,15 +2889,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/B NK,Matematika e\/2\/B NK,Matematika e\/2\/B NK",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "408",
             "room": "T3",
@@ -2904,15 +2905,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/B NK,Matematika e\/2\/B NK,Matematika e\/2\/B NK",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "411",
             "room": "16",
@@ -2920,15 +2921,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Matematika",
-            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria Magdolna",
+            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt A,Matematika emelt A,Matematika emelt A",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "412",
             "room": "16",
@@ -2936,15 +2937,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Matematika",
-            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria Magdolna",
+            "teacher": "Szerticsn\u00e9 Pincz\u00e9s M\u00e1ria",
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt A,Matematika emelt A,Matematika emelt A",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "413",
             "room": "6",
@@ -2952,15 +2953,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt B,Matematika emelt B,Matematika emelt B",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "414",
             "room": "15",
@@ -2968,15 +2969,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Matematika",
-            "teacher": "N\u00e9meth Krisztina J\u00falia",
+            "teacher": "N\u00e9meth Krisztina",
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt B,Matematika emelt B,Matematika emelt B",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "417",
             "room": "8",
@@ -2984,15 +2985,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Matematika",
-            "teacher": "Koros G\u00e1bor K\u00e1lm\u00e1n",
+            "teacher": "Koros G\u00e1bor",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/A KoG,Matematika e\/2\/A KoG,Matematika e\/2\/A KoG",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "418",
             "room": "8",
@@ -3000,15 +3001,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Matematika",
-            "teacher": "Koros G\u00e1bor K\u00e1lm\u00e1n",
+            "teacher": "Koros G\u00e1bor",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/A KoG,Matematika e\/2\/A KoG,Matematika e\/2\/A KoG",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "421",
             "room": "24",
@@ -3016,15 +3017,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Matematika",
-            "teacher": "Koros G\u00e1bor K\u00e1lm\u00e1n",
+            "teacher": "Koros G\u00e1bor",
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt A,Matematika emelt A,Matematika emelt A",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "422",
             "room": "24",
@@ -3032,15 +3033,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Matematika",
-            "teacher": "Koros G\u00e1bor K\u00e1lm\u00e1n",
+            "teacher": "Koros G\u00e1bor",
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt A,Matematika emelt A,Matematika emelt A",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "424",
             "room": "K2",
@@ -3048,15 +3049,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Matematika",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/B K\u00f6I,Matematika e\/2\/B K\u00f6I,Matematika e\/2\/B K\u00f6I",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "425",
             "room": "K2",
@@ -3064,15 +3065,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Matematika",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika e\/2\/B K\u00f6I,Matematika e\/2\/B K\u00f6I,Matematika e\/2\/B K\u00f6I",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "426",
             "room": "7",
@@ -3080,15 +3081,15 @@ var data_offline = {
             "start_time": "8:10",
             "end_time": "8:55",
             "subject": "Matematika",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt B,Matematika emelt B,Matematika emelt B",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "427",
             "room": "7",
@@ -3096,15 +3097,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Matematika",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Matematika emelt B,Matematika emelt B,Matematika emelt B",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "432",
             "room": "Z_2",
@@ -3116,11 +3117,11 @@ var data_offline = {
             "day": "3",
             "class": "11.B",
             "grade": "11",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "434",
             "room": "8",
@@ -3132,11 +3133,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Kat.,Kat.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "435",
             "room": "1",
@@ -3148,11 +3149,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Kat.,Kat.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "436",
             "room": "Eml",
@@ -3164,11 +3165,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Bapt.",
+            "student_group": "B,a,p,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "437",
             "room": "Eml",
@@ -3180,11 +3181,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A",
             "grade": "9",
-            "student_group": "Bapt.",
+            "student_group": "B,a,p,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "439",
             "room": "21",
@@ -3196,11 +3197,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "440",
             "room": "7",
@@ -3212,11 +3213,11 @@ var data_offline = {
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "441",
             "room": "Z_2",
@@ -3228,11 +3229,11 @@ var data_offline = {
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "442",
             "room": "K2",
@@ -3244,11 +3245,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "444",
             "room": "25",
@@ -3260,11 +3261,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "448",
             "room": "6",
@@ -3276,11 +3277,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "449",
             "room": "6",
@@ -3292,11 +3293,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "452",
             "room": "1",
@@ -3308,11 +3309,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Angol 1.RGF",
+            "student_group": "A,n,g,o,l, ,1,.,R,G,F",
             "level": "alap",
             "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "454",
             "room": "26",
@@ -3324,11 +3325,11 @@ var data_offline = {
             "day": "3",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Angol 2.KeG",
+            "student_group": "A,n,g,o,l, ,2,.,K,e,G",
             "level": "alap",
             "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "456",
             "room": "15",
@@ -3340,11 +3341,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Angol 2.BKE",
+            "student_group": "A,n,g,o,l, ,2,.,B,K,E",
             "level": "alap",
             "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "457",
             "room": "24",
@@ -3356,11 +3357,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Angol 2.BKE",
+            "student_group": "A,n,g,o,l, ,2,.,B,K,E",
             "level": "alap",
             "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "461",
             "room": "Z_2",
@@ -3368,15 +3369,15 @@ var data_offline = {
             "start_time": "14:00",
             "end_time": "14:45",
             "subject": "Angol nyelv",
-            "teacher": "Hartmann Erika Andrea",
+            "teacher": "Hartmann Erika",
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/1 HE,Angol 1\/1 HE,Angol 1\/1 HE",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "462",
             "room": "Z_3",
@@ -3388,11 +3389,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/2 ABJ,Angol 1\/2 ABJ,Angol 1\/2 ABJ",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "463",
             "room": "27",
@@ -3404,11 +3405,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/2 ABJ,Angol 1\/2 ABJ,Angol 1\/2 ABJ",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "466",
             "room": "K1",
@@ -3420,11 +3421,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/3 BKE,Angol 1\/3 BKE,Angol 1\/3 BKE",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "470",
             "room": "27",
@@ -3432,15 +3433,15 @@ var data_offline = {
             "start_time": "14:00",
             "end_time": "14:45",
             "subject": "Angol nyelv",
-            "teacher": "Papp M\u00f3nika Adrien",
+            "teacher": "Papp M\u00f3nika",
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/4 PM,Angol 1\/4 PM,Angol 1\/4 PM",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "471",
             "room": "Z_4",
@@ -3452,11 +3453,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/5 KeG,Angol 1\/5 KeG,Angol 1\/5 KeG",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "472",
             "room": "26",
@@ -3468,11 +3469,11 @@ var data_offline = {
             "day": "3",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/5 KeG,Angol 1\/5 KeG,Angol 1\/5 KeG",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "474",
             "room": "17",
@@ -3484,11 +3485,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/1 BKE,Angol 2\/1 BKE,Angol 2\/1 BKE",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "477",
             "room": "K1",
@@ -3500,11 +3501,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/2 RG,Angol 2\/2 RG,Angol 2\/2 RG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "481",
             "room": "21",
@@ -3516,11 +3517,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/1 BKE,Angol 2\/1 BKE,Angol 2\/1 BKE",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "482",
             "room": "7",
@@ -3532,11 +3533,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/1 BKE,Angol 2\/1 BKE,Angol 2\/1 BKE",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "483",
             "room": "14",
@@ -3548,11 +3549,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/2 RGF,Angol 2\/2 RGF,Angol 2\/2 RGF",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "488",
             "room": "27",
@@ -3560,15 +3561,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Angol nyelv",
-            "teacher": "Papp M\u00f3nika Adrien",
+            "teacher": "Papp M\u00f3nika",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/1 PaM,Angol 2\/1 PaM,Angol 2\/1 PaM",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "491",
             "room": "17",
@@ -3580,11 +3581,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/2 RGF,Angol 2\/2 RGF,Angol 2\/2 RGF",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "493",
             "room": "T3",
@@ -3592,15 +3593,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Angol nyelv",
-            "teacher": "Hartmann Erika Andrea",
+            "teacher": "Hartmann Erika",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 2\/3 HE,Angol 2\/3 HE,Angol 2\/3 HE",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "501",
             "room": "27",
@@ -3612,11 +3613,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/2 RGF,Angol e\/2 RGF,Angol e\/2 RGF",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "502",
             "room": "27",
@@ -3628,11 +3629,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/2 RGF,Angol e\/2 RGF,Angol e\/2 RGF",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "511",
             "room": "14",
@@ -3644,11 +3645,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/1 ABJ,Angol e\/1 ABJ,Angol e\/1 ABJ",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "512",
             "room": "27",
@@ -3660,11 +3661,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/1 ABJ,Angol e\/1 ABJ,Angol e\/1 ABJ",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "513",
             "room": "27",
@@ -3676,11 +3677,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Angol e\/1 ABJ,Angol e\/1 ABJ,Angol e\/1 ABJ",
+            "level": "emelt",
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "516",
             "room": "25",
@@ -3692,11 +3693,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "N\u00e9met F\u00c9V",
+            "student_group": "N,\u00e9,m,e,t, ,F,\u00c9,V",
             "level": "alap",
             "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "519",
             "room": "21",
@@ -3708,11 +3709,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/1 GZs,N\u00e9met 1\/1 GZs,N\u00e9met 1\/1 GZs",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "522",
             "room": "14",
@@ -3724,11 +3725,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/2 THB,N\u00e9met 1\/2 THB,N\u00e9met 1\/2 THB",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "525",
             "room": "21",
@@ -3740,11 +3741,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/1 THB,N\u00e9met 2\/1 THB,N\u00e9met 2\/1 THB",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "527",
             "room": "25",
@@ -3756,11 +3757,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/2 LG,N\u00e9met 2\/2 LG,N\u00e9met 2\/2 LG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "530",
             "room": "14",
@@ -3772,11 +3773,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/3 GZs,N\u00e9met 2\/3 GZs,N\u00e9met 2\/3 GZs",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "532",
             "room": "25",
@@ -3788,11 +3789,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/1 EVGy,N\u00e9met 2\/1 EVGy,N\u00e9met 2\/1 EVGy",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "535",
             "room": "7",
@@ -3804,11 +3805,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/2 LG,N\u00e9met 2\/2 LG,N\u00e9met 2\/2 LG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "538",
             "room": "26",
@@ -3820,11 +3821,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/3 THB,N\u00e9met 2\/3 THB,N\u00e9met 2\/3 THB",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "540",
             "room": "25",
@@ -3836,11 +3837,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/3 THB,N\u00e9met 2\/3 THB,N\u00e9met 2\/3 THB",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "543",
             "room": "K2",
@@ -3852,11 +3853,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/1 THB,N\u00e9met 2\/1 THB,N\u00e9met 2\/1 THB",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "544",
             "room": "15",
@@ -3868,11 +3869,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/2 LG,N\u00e9met 2\/2 LG,N\u00e9met 2\/2 LG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "548",
             "room": "25",
@@ -3884,11 +3885,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 2\/3 F\u00c9V,N\u00e9met 2\/3 F\u00c9V,N\u00e9met 2\/3 F\u00c9V",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "567",
             "room": "24",
@@ -3896,15 +3897,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Francia nyelv",
-            "teacher": "Temesi T\u00edmea Katalin",
+            "teacher": "Temesi T\u00edmea",
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Francia 2\/F TT,Francia 2\/F TT,Francia 2\/F TT",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "568",
             "room": "Z_1",
@@ -3912,15 +3913,15 @@ var data_offline = {
             "start_time": "14:50",
             "end_time": "15:35",
             "subject": "Francia nyelv",
-            "teacher": "Temesi T\u00edmea Katalin",
+            "teacher": "Temesi T\u00edmea",
             "day": "3",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Francia 2\/F TT,Francia 2\/F TT,Francia 2\/F TT",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "569",
             "room": "Z_1",
@@ -3928,15 +3929,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Francia nyelv",
-            "teacher": "Temesi T\u00edmea Katalin",
+            "teacher": "Temesi T\u00edmea",
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Francia 2\/F TT,Francia 2\/F TT,Francia 2\/F TT",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "573",
             "room": "16",
@@ -3944,15 +3945,15 @@ var data_offline = {
             "start_time": "11:55",
             "end_time": "12:40",
             "subject": "Francia nyelv",
-            "teacher": "Temesi T\u00edmea Katalin",
+            "teacher": "Temesi T\u00edmea",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Francia 2\/F TT,Francia 2\/F TT,Francia 2\/F TT",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "578",
             "room": "Z_5",
@@ -3960,15 +3961,15 @@ var data_offline = {
             "start_time": "9:05",
             "end_time": "9:50",
             "subject": "Biol\u00f3gia",
-            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet \u00c9va",
+            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/2 NKE,Biol\u00f3gia e\/2 NKE,Biol\u00f3gia e\/2 NKE",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "579",
             "room": "Z_5",
@@ -3976,15 +3977,15 @@ var data_offline = {
             "start_time": "10:05",
             "end_time": "10:50",
             "subject": "Biol\u00f3gia",
-            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet \u00c9va",
+            "teacher": "Nagyn\u00e9 Krist\u00f3 Erzs\u00e9bet",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/2 NKE,Biol\u00f3gia e\/2 NKE,Biol\u00f3gia e\/2 NKE",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "580",
             "room": "Z_5",
@@ -3996,11 +3997,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/1 HRA,Biol\u00f3gia e\/1 HRA,Biol\u00f3gia e\/1 HRA",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "581",
             "room": "Z_5",
@@ -4012,11 +4013,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/1 HRA,Biol\u00f3gia e\/1 HRA,Biol\u00f3gia e\/1 HRA",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "582",
             "room": "1",
@@ -4028,11 +4029,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/1 HRA,Biol\u00f3gia e\/1 HRA,Biol\u00f3gia e\/1 HRA",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "588",
             "room": "15",
@@ -4044,11 +4045,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "K\u00e9mia e\/3 PTI,K\u00e9mia e\/3 PTI,K\u00e9mia e\/3 PTI",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "597",
             "room": "1",
@@ -4060,11 +4061,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "AC\/1,AC\/1",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "601",
             "room": "16",
@@ -4076,11 +4077,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "AC\/2,AC\/2",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "605",
             "room": "14",
@@ -4092,11 +4093,11 @@ var data_offline = {
             "day": "3",
             "class": "10.A,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "AC\/3,AC\/3",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "608",
             "room": "Z_4",
@@ -4108,11 +4109,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Orosz 2\/O KeG,Orosz 2\/O KeG,Orosz 2\/O KeG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "612",
             "room": "Z_4",
@@ -4124,11 +4125,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Orosz 2\/O KeG,Orosz 2\/O KeG,Orosz 2\/O KeG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "618",
             "room": "Z_4",
@@ -4140,11 +4141,11 @@ var data_offline = {
             "day": "1",
             "class": "9.A,9.B,9.C",
             "grade": "9",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Orosz 2\/O KeG,Orosz 2\/O KeG,Orosz 2\/O KeG",
             "level": "alap",
-            "language": null,
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "619",
             "room": "22",
@@ -4156,11 +4157,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "620",
             "room": "22",
@@ -4172,11 +4173,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "621",
             "room": "22",
@@ -4188,11 +4189,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "622",
             "room": "22",
@@ -4204,11 +4205,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A",
             "grade": "12",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "623",
             "room": "22",
@@ -4220,11 +4221,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Ev",
+            "student_group": "E,v",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "624",
             "room": "22",
@@ -4236,11 +4237,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Ev",
+            "student_group": "E,v",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "625",
             "room": "Eml",
@@ -4252,11 +4253,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Bapt",
+            "student_group": "B,a,p,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "626",
             "room": "Eml",
@@ -4268,11 +4269,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Bapt",
+            "student_group": "B,a,p,t",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "627",
             "room": "Eml",
@@ -4284,11 +4285,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Bapt.",
+            "student_group": "B,a,p,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "628",
             "room": "Eml",
@@ -4300,11 +4301,11 @@ var data_offline = {
             "day": "3",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Bapt.",
+            "student_group": "B,a,p,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "629",
             "room": "Eml",
@@ -4316,11 +4317,11 @@ var data_offline = {
             "day": "3",
             "class": "10.B",
             "grade": "10",
-            "student_group": "Bapt.",
+            "student_group": "B,a,p,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "631",
             "room": "Z_4",
@@ -4332,11 +4333,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Bapt.,Bapt.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "632",
             "room": "Z_4",
@@ -4348,11 +4349,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Bapt.,Bapt.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "636",
             "room": "27",
@@ -4360,15 +4361,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Angol nyelv",
-            "teacher": "Katona Gabriella M\u00e1ria",
+            "teacher": "Katona Gabriella",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/5 KaG,Angol 1\/5 KaG,Angol 1\/5 KaG",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "639",
             "room": "17",
@@ -4380,11 +4381,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/4 RGF,Angol 1\/4 RGF,Angol 1\/4 RGF",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "643",
             "room": "8",
@@ -4392,15 +4393,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Angol nyelv",
-            "teacher": "Papp M\u00f3nika Adrien",
+            "teacher": "Papp M\u00f3nika",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/3 PaM,Angol 1\/3 PaM,Angol 1\/3 PaM",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "647",
             "room": "7",
@@ -4408,15 +4409,15 @@ var data_offline = {
             "start_time": "12:50",
             "end_time": "13:35",
             "subject": "Angol nyelv",
-            "teacher": "Hartmann Erika Andrea",
+            "teacher": "Hartmann Erika",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/2 HE,Angol 1\/2 HE,Angol 1\/2 HE",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "651",
             "room": "T3",
@@ -4428,11 +4429,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/1 ABJ,Angol 1\/1 ABJ,Angol 1\/1 ABJ",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "656",
             "room": "24",
@@ -4444,11 +4445,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/2 THB,N\u00e9met 1\/2 THB,N\u00e9met 1\/2 THB",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "659",
             "room": "25",
@@ -4460,11 +4461,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/3 F\u00c9V,N\u00e9met 1\/3 F\u00c9V,N\u00e9met 1\/3 F\u00c9V",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "663",
             "room": "15",
@@ -4476,11 +4477,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/1 GBE,N\u00e9met 1\/1 GBE,N\u00e9met 1\/1 GBE",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "665",
             "room": "Z_1",
@@ -4488,15 +4489,15 @@ var data_offline = {
             "start_time": "14:50",
             "end_time": "15:35",
             "subject": "Francia nyelv",
-            "teacher": "Temesi T\u00edmea Katalin",
+            "teacher": "Temesi T\u00edmea",
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
-            "language": null,
+            "student_group": "Francia e\/3 TT,Francia e\/3 TT,Francia e\/3 TT",
+            "level": "emelt",
+            "language": "masodik",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "669",
             "room": "Z_2",
@@ -4508,11 +4509,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/4 RGF,Angol 1\/4 RGF,Angol 1\/4 RGF",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "673",
             "room": "26",
@@ -4524,11 +4525,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/4 BKE,Angol 1\/4 BKE,Angol 1\/4 BKE",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "677",
             "room": "16",
@@ -4540,11 +4541,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/5 PiM,Angol 1\/5 PiM,Angol 1\/5 PiM",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "681",
             "room": "8",
@@ -4556,11 +4557,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/3 ABJ,Angol 1\/3 ABJ,Angol 1\/3 ABJ",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "685",
             "room": "25",
@@ -4572,11 +4573,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/2 F\u00c9V,N\u00e9met 1\/2 F\u00c9V,N\u00e9met 1\/2 F\u00c9V",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "693",
             "room": "T3",
@@ -4588,11 +4589,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/2 ABJ,Angol 1\/2 ABJ,Angol 1\/2 ABJ",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "697",
             "room": "Z_1",
@@ -4604,11 +4605,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/1 PiM,Angol 1\/1 PiM,Angol 1\/1 PiM",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "702",
             "room": "7",
@@ -4620,11 +4621,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/5 KeG,Angol 1\/5 KeG,Angol 1\/5 KeG",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "705",
             "room": "27",
@@ -4632,15 +4633,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "Angol nyelv",
-            "teacher": "Papp M\u00f3nika Adrien",
+            "teacher": "Papp M\u00f3nika",
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Angol 1\/3 PaM,Angol 1\/3 PaM,Angol 1\/3 PaM",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "707",
             "room": "25",
@@ -4652,11 +4653,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/1 EVGy,N\u00e9met 1\/1 EVGy,N\u00e9met 1\/1 EVGy",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "712",
             "room": "26",
@@ -4668,11 +4669,11 @@ var data_offline = {
             "day": "1",
             "class": "10.A,10.B,10.C",
             "grade": "10",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "N\u00e9met 1\/2 LG,N\u00e9met 1\/2 LG,N\u00e9met 1\/2 LG",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "719",
             "room": "T2",
@@ -4680,15 +4681,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "1",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "722",
             "room": "T2",
@@ -4696,15 +4697,15 @@ var data_offline = {
             "start_time": "14:50",
             "end_time": "15:35",
             "subject": "Testnevel\u00e9s",
-            "teacher": "Pal\u00e1sti Bence Endre",
+            "teacher": "Pal\u00e1sti Bence",
             "day": "3",
             "class": "11.C",
             "grade": "11",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "724",
             "room": "T1",
@@ -4716,11 +4717,11 @@ var data_offline = {
             "day": "1",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "725",
             "room": "T1",
@@ -4732,11 +4733,11 @@ var data_offline = {
             "day": "3",
             "class": "12.C",
             "grade": "12",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "731",
             "room": "T2",
@@ -4748,11 +4749,11 @@ var data_offline = {
             "day": "3",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "732",
             "room": "T2",
@@ -4764,11 +4765,11 @@ var data_offline = {
             "day": "1",
             "class": "8.A",
             "grade": "8",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "735",
             "room": "6",
@@ -4780,11 +4781,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "n\u00e9met szk EVGy,n\u00e9met szk EVGy,n\u00e9met szk EVGy",
             "level": "alap",
-            "language": null,
+            "language": "elso",
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "736",
             "room": "16",
@@ -4796,11 +4797,11 @@ var data_offline = {
             "day": "1",
             "class": "12.B",
             "grade": "12",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "737",
             "room": "17",
@@ -4812,11 +4813,11 @@ var data_offline = {
             "day": "3",
             "class": "12.B",
             "grade": "12",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "738",
             "room": "1",
@@ -4828,11 +4829,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "739",
             "room": "1",
@@ -4844,11 +4845,11 @@ var data_offline = {
             "day": "1",
             "class": "7.A",
             "grade": "7",
-            "student_group": "Eg\u00e9sz oszt\u00e1ly",
+            "student_group": "E,g,\u00e9,s,z, ,o,s,z,t,\u00e1,l,y",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "740",
             "room": "Z_1",
@@ -4860,11 +4861,11 @@ var data_offline = {
             "day": "1",
             "class": "10.C",
             "grade": "10",
-            "student_group": "Ref.",
+            "student_group": "R,e,f,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "748",
             "room": "16",
@@ -4876,11 +4877,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar e\/2 PiM,Magyar e\/2 PiM,Magyar e\/2 PiM",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "749",
             "room": "16",
@@ -4892,11 +4893,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Magyar e\/2 PiM,Magyar e\/2 PiM,Magyar e\/2 PiM",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "754",
             "room": "Z_5",
@@ -4908,11 +4909,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "Biol\u00f3gia e\/2 HRA,Biol\u00f3gia e\/2 HRA,Biol\u00f3gia e\/2 HRA",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "761",
             "room": "6",
@@ -4924,11 +4925,11 @@ var data_offline = {
             "day": "1",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "T\u00f6rt\u00e9nelem emelt,T\u00f6rt\u00e9nelem emelt,T\u00f6rt\u00e9nelem emelt",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "763",
             "room": "16",
@@ -4936,15 +4937,15 @@ var data_offline = {
             "start_time": "11:00",
             "end_time": "11:45",
             "subject": "T\u00f6rt\u00e9nelem",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "1",
             "class": "12.B",
             "grade": "12",
-            "student_group": "T\u00f6rt\u00e9nelem alap",
+            "student_group": "T,\u00f6,r,t,\u00e9,n,e,l,e,m, ,a,l,a,p",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "767",
             "room": "6",
@@ -4952,15 +4953,15 @@ var data_offline = {
             "start_time": "14:50",
             "end_time": "15:35",
             "subject": "F\u00f6ldrajz",
-            "teacher": "Szak\u00e1l Ferenc Csaba",
+            "teacher": "Szak\u00e1l Ferenc",
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
-            "level": "alap",
+            "student_group": "f\u00f6ldrajz e\/3 SzF,f\u00f6ldrajz e\/3 SzF,f\u00f6ldrajz e\/3 SzF",
+            "level": "emelt",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "771",
             "room": "Eb",
@@ -4976,7 +4977,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "772",
             "room": "Z_4",
@@ -4992,7 +4993,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "774",
             "room": "",
@@ -5008,7 +5009,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "776",
             "room": "22",
@@ -5024,7 +5025,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "777",
             "room": "Z_3",
@@ -5040,7 +5041,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "778",
             "room": "",
@@ -5056,7 +5057,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "779",
             "room": "Eml",
@@ -5072,7 +5073,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "782",
             "room": "22",
@@ -5084,11 +5085,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "783",
             "room": "22",
@@ -5100,11 +5101,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "784",
             "room": "22",
@@ -5116,11 +5117,11 @@ var data_offline = {
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "785",
             "room": "22",
@@ -5132,11 +5133,11 @@ var data_offline = {
             "day": "3",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Ev.",
+            "student_group": "E,v,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "786",
             "room": "Z_3",
@@ -5148,11 +5149,11 @@ var data_offline = {
             "day": "1",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "787",
             "room": "25",
@@ -5164,11 +5165,11 @@ var data_offline = {
             "day": "3",
             "class": "9.B",
             "grade": "9",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "789",
             "room": "26",
@@ -5180,11 +5181,11 @@ var data_offline = {
             "day": "1",
             "class": "9.C",
             "grade": "9",
-            "student_group": "Kat.",
+            "student_group": "K,a,t,.",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "792",
             "room": "6",
@@ -5196,11 +5197,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 1,Matematika alap 1,Matematika alap 1",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "793",
             "room": "6",
@@ -5212,11 +5213,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 1,Matematika alap 1,Matematika alap 1",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "796",
             "room": "16",
@@ -5228,11 +5229,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 2,Matematika alap 2,Matematika alap2",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "797",
             "room": "16",
@@ -5244,11 +5245,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 2,Matematika alap 2,Matematika alap2",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "800",
             "room": "8",
@@ -5260,11 +5261,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 3,Matematika alap 3,Matematika alap 3",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "801",
             "room": "8",
@@ -5276,11 +5277,11 @@ var data_offline = {
             "day": "3",
             "class": "12.A,12.B,12.C",
             "grade": "12",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 3,Matematika alap 3,Matematika alap 3",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "803",
             "room": "17",
@@ -5292,11 +5293,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 1,Matematika alap 1,Matematika alap 1",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "804",
             "room": "17",
@@ -5308,11 +5309,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 1,Matematika alap 1,Matematika alap 1",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "806",
             "room": "1",
@@ -5324,11 +5325,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 2,Matematika alap 2,Matematika alap 2",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "807",
             "room": "1",
@@ -5340,11 +5341,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 2,Matematika alap 2,Matematika alap 2",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "810",
             "room": "T3",
@@ -5356,11 +5357,11 @@ var data_offline = {
             "day": "3",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 3,Matematika alap 3,Matematika alap 3",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "811",
             "room": "T3",
@@ -5372,11 +5373,11 @@ var data_offline = {
             "day": "1",
             "class": "11.A,11.B,11.C",
             "grade": "11",
-            "student_group": "T\u00f6bb csoport",
+            "student_group": "Matematika alap 3,Matematika alap 3,Matematika alap 3",
             "level": "alap",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "814",
             "room": "Z_4",
@@ -5392,7 +5393,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "819",
             "room": "5",
@@ -5400,7 +5401,7 @@ var data_offline = {
             "start_time": "7:10",
             "end_time": "7:55",
             "subject": "Szakk\u00f6r",
-            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n Endre",
+            "teacher": "K\u00f6bl\u00f6s Istv\u00e1n",
             "day": "3",
             "class": "",
             "grade": "0",
@@ -5408,7 +5409,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "820",
             "room": "8",
@@ -5424,7 +5425,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }, {
             "id": "824",
             "room": "Z_4",
@@ -5440,7 +5441,7 @@ var data_offline = {
             "level": "",
             "language": null,
             "valid": "1",
-            "last_upd": "2024-10-12 18:59:05"
+            "last_upd": "2024-10-13 16:04:05"
         }
     ]
 }
