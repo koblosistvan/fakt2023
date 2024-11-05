@@ -1,3 +1,5 @@
+/* 3000 -->> 30000 (!!!!!!!!!!!!!!!!!)*/
+
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
 var sid = ''
 
@@ -43,6 +45,7 @@ $(document).ready(function() {
         cache:false,
         success: (response)=> {
             console.log("onready ajax sikeres");
+            console.log(response)
             data=JSON.parse(response);
             data = data.lessons;
             ts= new Date(data.update_time); // timestamp
