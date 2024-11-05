@@ -45,11 +45,14 @@ $(document).ready(function() {
         cache:false,
         success: (response)=> {
             console.log("onready ajax sikeres");
-            console.log(response)
-            data=JSON.parse(response);
-            data = data.lessons;
+            //console.log(response)
+            data=response;//data=JSON.parse(response);
+            sid=data.sid;
             ts= new Date(data.update_time); // timestamp
+            console.log("READY TIMESTAMP: ",ts.toISOString());
+
             // ajax hivas utan loadCards()
+            data = data.lessons;
             loadCards(3,1);
             loadCards(1,2);
         }, 
@@ -82,16 +85,19 @@ function periodicAjaxCall() {
         type: "GET",
         url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
         crossDomain: true,
-        dataType: 'jsonp',
+        dataType: 'json',
         data: "time=0",
         cache:false,
         success: (response)=>{
             console.log("ajax hivas sikeres");
-            data=JSON.parse(response);
+            data=response;//data=JSON.parse(response);
+
             if (new Date(data.update_time) <= ts) {console.log("nem valtozott az adatbazis");return;}
-            else {ts = new Date(data.update_time)};
+            else {console.log("valtozott az adatbazis");ts = new Date(data.update_time)};
+            sid=data.sid;
             data = data.lessons;
             // ajax hivas utan loadCardsAjax()
+            console.log("adatok frissitese...");
             loadCardsAjax(3,1);
             loadCardsAjax(1,2);
         },
@@ -119,14 +125,9 @@ function debugAjaxTest() {
 
 function loadCards(dayid, cardlistid) {
 
-    dayid = dayid.toString();
-    //json parse
+    dayid = dayid.toString(); //json parse
 
     let l = data.length;
-    //console.log(document.querySelectorAll("#cardList div"))
-    //
-    //l = 10;
-    //
     let cardlist = cardContainers[cardlistid-1];
     var append;
     for (let i=0; i<l; i++) {
@@ -137,13 +138,7 @@ function loadCards(dayid, cardlistid) {
         let currentId = temp.id.toString();
         let currentPeriod = Number(temp.period);
         if (currentPeriod > 4 || !currentPeriod) {continue;} // elsotol negyedik oraig kell csak (0. sem)
-
-        /* if (valid) { // elso append sorban oda fog tenni egy 'invalid' classt ha invalid
-            valid = "";
-        } else {
-            valid = " invalid";
-        } */
-
+        
         append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
         append += 'id="card-' + currentId + '">'; // kell card id
 
@@ -181,9 +176,50 @@ function loadCards(dayid, cardlistid) {
 };
 
 // ajax hivas utan vegigfut a kartyakon, a timestamp es a valid alapjan kiszedi az elavultakat
-function loadCardsAjax() {
+function loadCardsAjax(dayid, cardlistid) {
+    dayid = dayid.toString();
+    let l = data.length;
+    var new_text;
+    
+    for (let i=0; i<l; i++) {
+        let temp = data[i];
+        if (new Date(temp.last_upd) < ts) {continue;};
+        if (!Boolean(Number(temp.valid))) {continue;};
+        if (temp.day != dayid) {continue;};
 
+        let currentId = temp.id.toString();
+        let currentPeriod = Number(temp.period);
+        console.log("valtozott id: ",currentId);
+        if (currentPeriod > 4 || !currentPeriod) {continue;}
 
+        //new_text = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
+        //new_text += 'id="card-' + currentId + '">'; // kell card id
+
+        new_text = '<div class="p-class">' + temp.class + '</div>'; //getClassString(temp.class)
+        new_text += '<div class="p-subject">' + temp.subject + '</div>';
+		new_text += '<div class="p-teacher">' + temp.teacher + '</div>';
+        new_text += '<div class="p-room">' + temp.room + '. terem</div>';
+
+        if (temp.level == "emelt") {
+            new_text += '<div class="emelt">' + temp.level + '</div>';
+        } else {
+            new_text += '<div class="alap">' + temp.level + '</div>';
+        };
+
+        if (window.location.href.includes("admin")) {
+            if (temp.valid == 1) {
+                new_text += '<div class="admin-hide"></div>';
+            } else {
+                new_text += '<div class="admin-show"></div>';
+            };
+        };
+
+        new_text += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
+        //new_text += '</div>';
+
+        document.getElementById("card-"+currentId).innerHTML = new_text;
+    };
+    /*
     for (let i=0;i<data.length;i++) {
         if (!Boolean(Number(data[i].valid))) {
             let temp = document.getElementById("card-" + data[i].id);
@@ -192,7 +228,7 @@ function loadCardsAjax() {
             if (temp) { temp.classList.add("hidden");console.log(data[i].id + ". card eltuntetve"); };
         };
     };
-    
+    */
 };
 
 
