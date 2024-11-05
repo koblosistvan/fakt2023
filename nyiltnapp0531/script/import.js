@@ -246,44 +246,5 @@ function lessonSelector(irany) {
     hideAllLessons();
     document.getElementsByClassName("outerCardContainer")[currentLesson + irany].classList.remove("hidden");
     currentLesson += irany;
-<<<<<<< HEAD
 };
 // REDUNDÁNS NYILAK SCRIPT
-=======
-}
-// REDUNDÁNS NYILAK SCRIPT
-
-function showPane(pane) {
-    if(pane == 'napValaszto') {
-        document.getElementById('napValaszto').classList.remove('hidden');
-        document.getElementById('subjectSearch').classList.add('hidden');
-        document.getElementById('cardList-1').classList.add('hidden');
-        document.getElementById('cardList-1').classList.remove('row');
-        document.getElementById('cardList-2').classList.add('hidden');
-        document.getElementById('cardList-2').classList.remove('row');
-    } else {
-        document.getElementById('napValaszto').classList.add('hidden');
-        if(pane == 'cardList-1') {
-
-            document.getElementById('aktiv-nap').innerHTML = '11.21';
-            logEvent("day=11.21");
-        } else {
-            document.getElementById('aktiv-nap').innerHTML = '11.26'
-            logEvent("day=11.26");
-        }
-        document.getElementById('subjectSearch').classList.remove('hidden');
-        document.getElementById(pane).classList.remove('hidden');
-        document.getElementById(pane).classList.add('row');
-    }
-}
-
-function logEvent(event) {
-    $.ajax({   
-    type: "POST",  
-    url: "https://tata-refi.hu/nyilt-napp/api/log.php",
-    crossDomain: true,
-    data: "sid=" + sid + "&" + event,
-    cache: false
-    });
-}
->>>>>>> 6e79e307c7741cd8a3b26eaa833125d459d8090f
