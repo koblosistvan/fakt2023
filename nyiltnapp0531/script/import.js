@@ -94,7 +94,7 @@ function periodicAjaxCall() {
 
             if (new Date(data.update_time) <= ts) {console.log("nem valtozott az adatbazis");return;}
             else {console.log("valtozott az adatbazis");ts = new Date(data.update_time)};
-            sid=data.sid;
+            
             data = data.lessons;
             // ajax hivas utan loadCardsAjax()
             console.log("adatok frissitese...");
