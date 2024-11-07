@@ -3,7 +3,7 @@
     --color-background: #acfcd9ff;
     --color-main: #7d5ba6ff;
     --color-card: #ddddddff;
-    --color-2: #fc6471ff;
+    --color-hidden: #fc6471ff;
 }
 
 .cardContainer{
@@ -23,6 +23,11 @@
     display: block;
 }
 
+.lesson-card invalid{
+    display: hidden;
+    background-color: var(--color-hidden);
+}
+
 .emelt{
     background-color: var(--color-main);
     border-radius: 3px;
@@ -33,6 +38,10 @@
 
 .outerCardContainer{
     padding: 10px;
+}
+
+.dayContainer{
+    display: flex;
 }
 
 body{
@@ -53,6 +62,34 @@ span.napp {
     padding: 5px;;
 }
 
+#napValaszto {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nagy-nap {
+    color: var(--color-main);
+    font-size: 2.5rem;
+    border: 2px solid var(--color-main);
+    padding: 5px;
+    border-radius: 15px;
+	width: fit-content;
+	display: inline-grid;
+}
+
+#aktiv-nap {
+    background-color: var(--color-main);
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+span.aktiv_nap {
+    border: 2px solid var(--color-main);
+    border-radius: 20%;
+}
+
 #subjectSelect {
     border: 2px solid var(--color-main);
     color: var(--color-main) !important;
@@ -65,7 +102,12 @@ span.napp {
     padding: 0px 3px;
 } 
 
-.p-room{
+.p-class, .p-subject {
+	color: var(--color-main);
+	font-weight: 600;
+}
+
+.p-room, .p-teacher {
     clear: left;
 }
 
@@ -73,7 +115,7 @@ span.napp {
     display: none;
 }
 
-.p-period, .p-time, .p-subject{
+.p-period, .p-time{
     display: none;
 }
 
@@ -106,3 +148,4 @@ div.header {
     font-size: large;
     
 }
+
