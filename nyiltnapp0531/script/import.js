@@ -48,7 +48,7 @@ $(document).ready(function() {
             //console.log(response)
             data=response;//data=JSON.parse(response);
             sid=data.sid;
-            ts= new Date(data.update_time); // timestamp
+            ts= data.update_time; // timestamp
             console.log("READY TIMESTAMP: ",ts.toISOString());
 
             // ajax hivas utan loadCards()
@@ -59,7 +59,7 @@ $(document).ready(function() {
         error: (response,error)=> {
             console.log("onready ajax sikertelen");
             console.log(error);
-            ts = new Date(data_offline.update_time);
+            ts = data_offline.update_time;
             data = data_offline.lessons;
             loadCards(3,1);
             loadCards(1,2);
@@ -86,12 +86,12 @@ function periodicAjaxCall() {
         url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
         crossDomain: true,
         dataType: 'json',
-        data: "time=0",
+        data: "time="+ts,
         cache:false,
         success: (response)=>{
             console.log("ajax hivas sikeres");
             data=response;//data=JSON.parse(response);
-
+		// NEMJOOOOOOO
             if (new Date(data.update_time) <= ts) {console.log("nem valtozott az adatbazis");return;}
             else {console.log("valtozott az adatbazis");ts = new Date(data.update_time)};
             
