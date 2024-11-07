@@ -18,7 +18,7 @@ for sor in forras:
 forras.close()
 
 #3. feladat
-print(f'3. feladat: {len(evek)}')
+print(f'3. feladat:{len(evek)}')
 
 #4. feladat
 legtobb_index = evek[0]
@@ -41,7 +41,7 @@ for i in range(len(evek)):
 
 print(f'5. feladat \n\t 60-as évek: {hatvanas} \n\t 70-es évek: {hetvenes}')
 
-#6. feladat
+# 6. feladat
 
 
 

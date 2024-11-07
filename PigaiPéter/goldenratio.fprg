@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="goldenratio"/>
+        <attribute name="authors" value="merkur13"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-05 12:27:09 du."/>
+        <attribute name="created" value="bWVya3VyMTM7U1pUMDQ7MjAyNC0xMS0wNTsxMTo1Njo1NiBkZS47MjQ5Mg=="/>
+        <attribute name="edited" value="bWVya3VyMTM7U1pUMDQ7MjAyNC0xMS0wNTsxMjoyNzowOSBkdS47MTsyNjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, vegertek" type="Integer" array="False" size=""/>
+            <declare name="approx" type="Real" array="False" size=""/>
+            <assign variable="approx" expression="1 + (1 / 2)"/>
+            <input variable="vegertek"/>
+            <for variable="i" start="0" end="vegertek" direction="inc" step="1">
+                <assign variable="approx" expression="1 + (1 /approx)"/>
+            </for>
+            <output expression="approx" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
