@@ -18,5 +18,5 @@ while len(sor) > 0:
             megvolt[csucs] = True
             szulo[csucs] = start
             sor.append(csucs)
-    print(f'szülő: {szulo[start]}, csúcs: {start}')
+    print(f'szulo: {szulo[start]}, csucs: {start}')
     sor.remove(start)
