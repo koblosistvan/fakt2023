@@ -49,7 +49,7 @@ $(document).ready(function() {
             data=response;//data=JSON.parse(response);
             sid=data.sid;
             ts= data.update_time; // timestamp
-            console.log("READY TIMESTAMP: ",ts.toISOString());
+            console.log("READY TIMESTAMP: ",ts);
 
             // ajax hivas utan loadCards()
             data = data.lessons;
