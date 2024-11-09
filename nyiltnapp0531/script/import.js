@@ -244,7 +244,31 @@ function logEvent(event) {
     data: "sid=" + sid + "&" + event,
     cache: false,
     });
-}
+    console.log("naplozasi keres elkuldve.");
+    console.log("sid: ",sid);
+    console.log("log data: ",event);
+};
+
+function showPane(pane) {
+    if(pane == 'napValaszto') {
+        document.getElementById('napValaszto').classList.remove('hidden');
+        document.getElementById('subjectSearch').classList.add('hidden');
+        document.getElementById('cardList-1').classList.add('hidden');
+        document.getElementById('cardList-1').classList.remove('row');
+        document.getElementById('cardList-2').classList.add('hidden');
+        document.getElementById('cardList-2').classList.remove('row');
+    } else {
+        document.getElementById('napValaszto').classList.add('hidden');
+        if(pane == 'cardList-1') {
+            document.getElementById('aktiv-nap').innerHTML = '11.21.'
+        } else {
+            document.getElementById('aktiv-nap').innerHTML = '11.26.'
+        }
+        document.getElementById('subjectSearch').classList.remove('hidden');
+        document.getElementById(pane).classList.remove('hidden');
+        document.getElementById(pane).classList.add('row');
+    }
+};
 
 // REDUNDÁNS SCRIPT
 function hideAllLessons() {
