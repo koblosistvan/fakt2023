@@ -37,5 +37,6 @@
 		//var_dump($res);
 
 	};
+	//echo $res;
 	echo( json_encode($res));
 ?>
