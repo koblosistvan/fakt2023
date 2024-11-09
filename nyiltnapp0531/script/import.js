@@ -1,7 +1,12 @@
 /* 3000 -->> 30000 (!!!!!!!!!!!!!!!!!)*/
 
+const DAYS_STRING = [
+    "11.21.",
+    "11.26.",
+]
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
 var sid = ''
+
 
 
 function getClassString(group) {
@@ -116,7 +121,6 @@ function periodicAjaxCall() {
 
 
 function loadCards(dayid, cardlistid) {
-
     dayid = dayid.toString(); //json parse
 
     let l = data.length;
@@ -260,14 +264,16 @@ function showPane(pane) {
     } else {
         document.getElementById('napValaszto').classList.add('hidden');
         if(pane == 'cardList-1') {
-            document.getElementById('aktiv-nap').innerHTML = '11.21.'
+            document.getElementById('aktiv-nap').innerHTML = DAYS_STRING[0];
+            logEvent("day="+DAYS_STRING[0]);
         } else {
-            document.getElementById('aktiv-nap').innerHTML = '11.26.'
+            document.getElementById('aktiv-nap').innerHTML = DAYS_STRING[1];
+            logEvent("day="+DAYS_STRING[1]);
         }
         document.getElementById('subjectSearch').classList.remove('hidden');
         document.getElementById(pane).classList.remove('hidden');
         document.getElementById(pane).classList.add('row');
-    }
+    };
 };
 
 // REDUNDÁNS SCRIPT
