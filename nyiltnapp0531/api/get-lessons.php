@@ -5,6 +5,8 @@
 	// session
 	if(isset($_GET['sid'])) {
 		$sid = $_GET["sid"];
+		$sql = "update log set session_end = CURRENT_TIMESTAMP() where sid = '{$sid}'";
+		$result = mysqli_query($conn, $sql);
 	} else {
 		$ip = $_SERVER["REMOTE_ADDR"];
 		$agent = $_SERVER["HTTP_USER_AGENT"];

@@ -12,7 +12,7 @@
 		$subject = $_POST["subject"];
 		$sql = "update log set events = concat(events, '{$subject}', ';'), event_count = event_count + 1, session_end = CURRENT_TIMESTAMP() where sid = '{$sid}'";
 	} else {
-		$sql = "update log set 	session_end = CURRENT_TIMESTAMP() where sid = '{$sid}'";
+		$sql = "update log set session_end = CURRENT_TIMESTAMP() where sid = '{$sid}'";
 	}
 	$result = mysqli_query($conn, $sql);
  ?>

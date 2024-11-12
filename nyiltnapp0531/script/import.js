@@ -49,29 +49,22 @@ $(document).ready(function() {
         data: "time=0",
         cache:false,
         success: (response)=> {
-            console.log("onready ajax sikeres");
-            //console.log(response)
-            data=response;//data=JSON.parse(response);
+            data=response;
             sid=data.sid;
-            ts= data.update_time; // timestamp
-            console.log("READY TIMESTAMP: ",ts);
-
-            // ajax hivas utan loadCards()
+            ts= data.update_time;
             data = data.lessons;
             loadCards(3,1);
             loadCards(1,2);
         }, 
         error: (response,error)=> {
-            console.log("onready ajax sikertelen");
-            console.log(error);
             ts = data_offline.update_time;
             data = data_offline.lessons;
             loadCards(3,1);
             loadCards(1,2);
         },
         complete: ()=>{
-            setInterval(()=>{periodicAjaxCall();},3000); // ajax hivas 30 masodpercenkent
-        },
+            setInterval(()=>{periodicAjaxCall();},30000); // ajax hivas 30 masodpercenkent
+        }
     });
 });
 
@@ -91,33 +84,18 @@ function periodicAjaxCall() {
         url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
         crossDomain: true,
         dataType: 'json',
-        data: "time=0",
+        data: "sid=" + sid + "&time=0",
         cache:false,
         success: (response)=>{
-            console.log("periodikus ajax hivas sikeres");
             data=response;
             if (data.status != "ok") {
-                console.log("adatbazis hiba");
-            } else {
-
-            if (new Date(data.update_time) <= new Date(ts)) {console.log("nem valtozott az adatbazis");return;}
-            else {console.log("valtozott az adatbazis");ts = data.update_time};
-            
-            data = data.lessons;
-            // ajax hivas utan loadCardsAjax()
-            console.log("adatok frissitese...");
-            loadCardsAjax(3,1);
-            loadCardsAjax(1,2);
-            };
-        },
-        error: (error)=>{
-            console.log("periodikus ajax hivas sikertelen");
-            console.log(error);
-        },
+                data = data.lessons;
+                loadCardsAjax(3,1);
+                loadCardsAjax(1,2);
+            } ;
+        }
     });
 };
-
-
 
 
 function loadCards(dayid, cardlistid) {
@@ -158,15 +136,8 @@ function loadCards(dayid, cardlistid) {
             };
         };
 
-        //innentől elrejtve
-        //append += '<div class="p-period">' + temp.period + '.</div>';
-        append += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
-
-        //append += '<p>id: ' + currentId + '</p>';  // id sneak peek
-
         append += '</div>';
             
-        //document.getElementById('cardList').innerHTML += append;
         cardlist[Number(temp.period)-1].innerHTML += append;
     };
 };
@@ -184,7 +155,6 @@ function loadCardsAjax(dayid, cardlistid) {
 
         let currentId = temp.id.toString();
         let currentPeriod = Number(temp.period);
-        console.log("valtozott id: ",currentId);
         if (currentPeriod > 4 || !currentPeriod) {continue;}
 
         //new_text = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
@@ -227,7 +197,6 @@ function filterSubjects() { //tantárgy dropdown select keresés
     };
     var filter;
     var cards = document.getElementsByClassName("lesson-card");
-    //console.log(cards)
 
     for (i=0;i<cards.length;i++) {
         filter = cards[i].outerHTML.toUpperCase();
@@ -248,9 +217,6 @@ function logEvent(event) {
     data: "sid=" + sid + "&" + event,
     cache: false,
     });
-    console.log("naplozasi keres elkuldve.");
-    console.log("sid: ",sid);
-    console.log("log data: ",event);
 };
 
 function showPane(pane) {
