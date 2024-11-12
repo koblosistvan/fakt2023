@@ -26,5 +26,6 @@ for i in range(len(kerubina)-1):
     while j < len(triton) and kerubina[i] != triton[j]:
         j += 1
     if j < len(triton):
-        metszet[sorszam] = kerubina[i]
-        sorszam += 1
+        metszet.append(kerubina[i])
+
+print(metszet)
