@@ -84,19 +84,43 @@ function periodicAjaxCall() {
         url: "https://tata-refi.hu/nyilt-napp/api/get-lessons.php",
         crossDomain: true,
         dataType: 'json',
-        data: "sid=" + sid + "&time=0",
+        data: "sid=" + sid + "&time=" + ts,
         cache:false,
-        success: (response)=>{
+        success: (response) => {
             data=response;
-            if (data.status != "ok") {
-                data = data.lessons;
-                loadCardsAjax(3,1);
-                loadCardsAjax(1,2);
+            if (data.status == "ok" && data.lessons.length > 0) {
+                ts = data.update_time;
+                updateCards(data.lessons);
             } ;
         }
     });
 };
 
+function createCardHTML(cardData) {
+    let cardHTML = '';
+    cardHTML += '<div class="p-class">' + cardData.class + '</div>'; 
+    cardHTML += '<div class="p-subject">' + cardData.subject + '</div>';
+    cardHTML += '<div class="p-teacher">' + cardData.teacher + '</div>';
+    cardHTML += '<div class="p-room">' + cardData.room + '. terem</div>';
+
+    if (cardData.level == "emelt") {
+        cardHTML += '<div class="emelt">' + cardData.level + '</div>';
+    } else {
+        cardHTML += '<div class="alap">' + cardData.level + '</div>';
+    };
+
+    if (window.location.href.includes("admin")) {
+        if (cardData.valid == 1) {
+            cardHTML += '<div class="admin-hide"></div>';
+        } else {
+            cardHTML += '<div class="admin-show"></div>';
+        };
+    };
+
+    cardHTML += '<div class="p-time">' + cardData.start_time + ' - ' + cardData.end_time + '</div>';
+
+    return cardHTML;
+}
 
 function loadCards(dayid, cardlistid) {
     dayid = dayid.toString(); //json parse
@@ -105,93 +129,49 @@ function loadCards(dayid, cardlistid) {
     let cardlist = cardContainers[cardlistid-1];
     var append;
     for (let i=0; i<l; i++) {
-        let temp = data[i];
-        if (!Boolean(Number(temp.valid))) {continue;};
-        if (temp.day != dayid) {continue;};
+        let cardData = data[i];
+        if (cardData.day != dayid) {continue;};
 
-        let currentId = temp.id.toString();
-        let currentPeriod = Number(temp.period);
+        let currentId = cardData.id.toString();
+        let currentPeriod = Number(cardData.period);
         if (currentPeriod > 4 || !currentPeriod) {continue;} // elsotol negyedik oraig kell csak (0. sem)
         
-        append = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
-        append += 'id="card-' + currentId + '">'; // kell card id
-
-        // ez a három lesz mutatva
-        append += '<div class="p-class">' + temp.class + '</div>'; //getClassString(temp.class)
-        append += '<div class="p-subject">' + temp.subject + '</div>';
-		append += '<div class="p-teacher">' + temp.teacher + '</div>';
-        append += '<div class="p-room">' + temp.room + '. terem</div>';
-
-        if (temp.level == "emelt") {
-            append += '<div class="emelt">' + temp.level + '</div>';
-        } else {
-            append += '<div class="alap">' + temp.level + '</div>';
-        };
-
-        if (window.location.href.includes("admin")) {
-            if (temp.valid == 1) {
-                append += '<div class="admin-hide"></div>';
-            } else {
-                append += '<div class="admin-show"></div>';
-            };
-        };
-
-        append += '</div>';
+        let cardClass = 'lesson-card';
+        if (cardData.valid == '0') { cardClass += ' hidden';}
+        
+        let cardHTML = '<div class="' + cardClass + '" data-period="' + cardData.period + '" '; //data-period attribute a kereséshez kell
+        cardHTML += 'id="card-' + currentId + '">'; // kell card id
+        cardHTML += createCardHTML(cardData);
+        cardHTML += '</div>';
             
-        cardlist[Number(temp.period)-1].innerHTML += append;
+        cardlist[Number(cardData.period)-1].innerHTML += cardHTML;
     };
 };
 
 // ajax hivas utan vegigfut a kartyakon, a timestamp es a valid alapjan kiszedi az elavultakat
-function loadCardsAjax(dayid, cardlistid) {
-    dayid = dayid.toString();
-    let l = data.length;
-    var new_text;
-    
-    for (let i=0; i<l; i++) {
-        let temp = data[i];
-        if (!Boolean(Number(temp.valid))) {continue;};
-        if (temp.day != dayid) {continue;};
+function updateCards(lessons) {    
+    for (let i=0; i<lessons.length; i++) {
+        let cardData = lessons[i];
+        let cardDIV = document.getElementById("card-" + cardData.id);
 
-        let currentId = temp.id.toString();
-        let currentPeriod = Number(temp.period);
-        if (currentPeriod > 4 || !currentPeriod) {continue;}
-
-        //new_text = '<div class="lesson-card" data-period="' + temp.period + '" '; //data-period attribute a kereséshez kell
-        //new_text += 'id="card-' + currentId + '">'; // kell card id
-
-        new_text = '<div class="p-class">' + temp.class + '</div>'; //getClassString(temp.class)
-        new_text += '<div class="p-subject">' + temp.subject + '</div>';
-		new_text += '<div class="p-teacher">' + temp.teacher + '</div>';
-        new_text += '<div class="p-room">' + temp.room + '. terem</div>';
-
-        if (temp.level == "emelt") {
-            new_text += '<div class="emelt">' + temp.level + '</div>';
-        } else {
-            new_text += '<div class="alap">' + temp.level + '</div>';
+        // láthatóság
+        if (cardData.valid == '1' && cardDIV.classList.contains('hidden')) {
+            cardDIV.classList.remove('hidden');
+        } else if (cardData.valid == '0' && !cardDIV.classList.contains('hidden')) {
+            cardDIV.classList.add('hidden');
         };
-
-        if (window.location.href.includes("admin")) {
-            if (temp.valid == 1) {
-                new_text += '<div class="admin-hide"></div>';
-            } else {
-                new_text += '<div class="admin-show"></div>';
-            };
-        };
-
-        new_text += '<div class="p-time">' + temp.start_time + ' - ' + temp.end_time + '</div>';
-        //new_text += '</div>';
-
-        document.getElementById("card-"+currentId).innerHTML = new_text;
+       
+        // tartalom
+        document.getElementById("card-"+currentId).innerHTML = createCardHTML(cardData);
     };
 };
-
 
 
 function filterSubjects() { //tantárgy dropdown select keresés
     var searchSubjectMenu = document.getElementById("subjectSelect");
     var subjectSearchFor = searchSubjectMenu.options[searchSubjectMenu.selectedIndex].value;
     logEvent("subject=" + subjectSearchFor);
+
     if (subjectSearchFor == document.querySelectorAll("#subjectSelect option")[0].value) { // ha visszamegy az alap opciora
         return;
     };
