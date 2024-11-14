@@ -21,7 +21,7 @@ számlista.sort(reverse=True)
 print(f'{számlista=}')
 
 # Szöveg rendezése:
-szöveglista = [sor.strip() for sor in open('_Megoldások/Összetett algoritmusok/Kerubina.txt', mode='r', encoding='utf-8')]
+szöveglista = [sor.strip() for sor in open('Kerubina.txt', mode='r', encoding='utf-8')]
 print('-'*50, '\nNyers szöveg')
 print('\n'.join(szöveglista))
 
