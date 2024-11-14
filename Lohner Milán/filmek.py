@@ -15,6 +15,8 @@ for sor in t:
 
 sorszam=0
 
-for i in range(0,len(kerubina)-1):
+for i in range(len(kerubina)-1):
     j=0
-    while j<len(triton)
+    while j<len(triton) and kerubina[i] != triton[j]:
+        j=j+1
+    
