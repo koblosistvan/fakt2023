@@ -1,5 +1,5 @@
-kerubina = [sor.strip() for sor in open('_Megoldások/Összetett algoritmusok/Kerubina.txt', mode='r', encoding='utf-8')]
-triton = [sor.strip() for sor in open('_Megoldások/Összetett algoritmusok/Triton.txt', mode='r', encoding='utf-8')]
+kerubina = [sor.strip() for sor in open('Kerubina.txt', mode='r', encoding='utf-8')]
+triton = [sor.strip() for sor in open('Triton.txt', mode='r', encoding='utf-8')]
 
 # Metszet
 metszet = []
@@ -18,7 +18,7 @@ print('\n'.join(metszet))
 # Únió
 únió = kerubina.copy()
 for film in triton:
-    if not film in únió:
+    if film not in únió:
         únió.append(film)
 print('-'*50, '\nNyers szöveg')
 print('\n'.join(únió))
@@ -31,7 +31,7 @@ for film in triton:
         únió.append(film)
 print(len(kerubina))
 # akkor csináljuk vissza...
-kerubina = [sor.strip() for sor in open('_Megoldások/Összetett algoritmusok/Kerubina.txt', mode='r', encoding='utf-8')]
+kerubina = [sor.strip() for sor in open('Kerubina.txt', mode='r', encoding='utf-8')]
 
 '''
 # hogy lehet elfontani II?
@@ -45,3 +45,6 @@ for film in triton:
 únió = set(kerubina).union(set(triton))
 únió = set(kerubina + triton)
 print('Vége.')
+
+
+print(sorted('anna') == sorted('na'))

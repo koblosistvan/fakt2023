@@ -22,6 +22,8 @@ for sor in forrás2:
 
 forrás2.close()
 
-for i in range(len(noi_nevek)):
-    if 'magyar' in eredet_n[i] and noi_nevek[i][0] == 'M' and len(noi_nevek[i]) <= 6:
-        print(noi_nevek[i])
+
+def NevKivalaszt(nevlista, kezdobetu, maxhossz, nem, eredet):
+    for i in range(len(nevlista)):
+        if eredet in eredet_n[i] and noi_nevek[i][0] == 'M' and len(noi_nevek[i]) <= 6:
+            print(noi_nevek[i])
