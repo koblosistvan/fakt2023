@@ -21,7 +21,23 @@ for sor in noinev:
 ferfinev.close()
 noinev.close()
 
-jok=[]
 
-for i in range(len(ferfilist)):
-    if 'magyar' or 'hun' in ferfieredet and ferfilist[i][0]=='M'
+
+def NevKivalaszt(nevlista, kezdőbetű, maxhossz, eredete):
+    jok=[]
+    for i in range(len(nevlista)):
+        if eredete in nevlista and nevlista[i][0]==kezdőbetű and len(nevlista[i])==maxhossz:
+            jok.append(nevlista[i])
+            return jok
+
+
+
+
+
+
+
+
+
+
+
+

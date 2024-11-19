@@ -15,10 +15,23 @@ for sor in forras2:
     f_eredet.append(i[1])
 forras2.close()
 
-nevlista = []
-kezdobetu = input('Kezdőbetű: ').upper()
-maxhossz = int(input('Maximális hossz: '))
-nem = input('Nem: ')
-eredet = input('Eredet: ')
+lista = []
+kbetu = input('Kezdőbetű: ').upper()
+maxh = int(input('Maximális hossz: '))
+neme = input('Nem: ')
+eredete = input('Eredet: ')
 
 
+def NevKivalaszt(nevlista, kezdobetu, maxhossz, nem, eredet):
+    if nem in ('férfi', 'Férfi', 'ferfi', 'Ferfi'):
+        for i in range(len(ferfinevek)):
+            if ferfinevek[i][0] == kezdobetu and len(ferfinevek[i]) <= maxhossz and eredet in f_eredet[i].split('-'):
+                nevlista.append(ferfinevek[i])
+    elif nem in ('nő', 'Nő', 'no', 'No'):
+        for i in range(len(noinevek)):
+            if noinevek[i][0] == kezdobetu and len(noinevek[i]) <= maxhossz and eredet in n_eredet[i].split('-'):
+                nevlista.append(noinevek[i])
+    return nevlista
+
+
+print(', '.join(NevKivalaszt(lista, kbetu, maxh, neme, eredete)))
