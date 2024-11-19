@@ -1,24 +1,18 @@
 forrás = open('ferfi_nevek_eredete.txt', mode='r', encoding='utf-8')
 
 ferfi_nevek = []
-eredet_f = []
 
 for sor in forrás:
-    adat = sor.strip().split(',')
-    ferfi_nevek.append(adat[0])
-    eredet_f.append(adat[1])
+    ferfi_nevek.append(sor.strip().split(','))
 
 forrás.close()
 
 forrás2 = open('noi_nevek_eredete.txt', mode='r', encoding='utf-8')
 
 noi_nevek = []
-eredet_n = []
 
 for sor in forrás2:
-    adat = sor.strip().split(',')
-    noi_nevek.append(adat[0])
-    eredet_n.append(adat[1])
+    noi_nevek.append(sor.strip().split(','))
 
 forrás2.close()
 
