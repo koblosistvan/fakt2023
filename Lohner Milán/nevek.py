@@ -1,34 +1,46 @@
-ferfinev = open('ferfi_nevek_eredete.txt', encoding='utf-8')
-noinev = open('noi_nevek_eredete.txt', encoding='utf-8')
+forras1 =open('top100utonev_2011.txt', encoding='utf-8')
+forras2 =open('top100utonev_2021.txt', encoding='utf-8')
 
-
-ferfilist = []
-noilist = []
-ferfieredet=[]
-noieredet=[]
-
-for sor in ferfinev:
-    adat=sor.strip().split(',')
-    ferfilist.append(adat[0])
-    ferfieredet.append(adat[1])
-
-for sor in noinev:
-    adat=sor.strip().split(',')
-    noilist.append(adat[0])
-    noieredet.append(adat[1])
-
-
-ferfinev.close()
-noinev.close()
+top2011nevek=[]
+top2021nevek=[]
 
 
 
-def NevKivalaszt(nevlista, kezdőbetű, maxhossz, eredete):
-    jok=[]
-    for i in range(len(nevlista)):
-        if eredete in nevlista and nevlista[i][0]==kezdőbetű and len(nevlista[i])==maxhossz:
-            jok.append(nevlista[i])
-            return jok
+for sor in forras1:
+    adat=sor.strip().split('\t')
+    top2011nevek.append(adat[0])
+    top2011nevek.append(adat[1])
+    top2011nevek.append(adat[2])
+    top2011nevek.append(adat[3])
+
+for sor in forras2:
+    adat=sor.strip().split('\t')
+    top2021nevek.append(adat[0])
+    top2021nevek.append(adat[1])
+    top2021nevek.append(adat[2])
+    top2021nevek.append(adat[3])
+
+
+forras1.close()
+forras2.close()
+
+
+
+
+
+
+both=[]
+sorszám = 0
+for i in range(len(top2011nevek)-1):
+    max = i
+    for j in range(i+1, len(top2021nevek)):
+        if int(top2021nevek)
+
+
+
+print(both)
+
+
 
 
 
