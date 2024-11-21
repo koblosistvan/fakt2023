@@ -1,3 +1,5 @@
+import random
+
 forras = open('csapatnevek.txt', mode = 'r', encoding='utf-8')
 
 csapatok = []
@@ -10,16 +12,36 @@ forras.close()
 csapatnevek = input('Add meg a két csapat nevét! ')
 eredmeny = input('Adja meg az eredményt! ')
 
-for i in eredmeny:
-    eredmenyek = i.strip().split(':')
-    gol1 = eredmenyek[0]
-    gol2 = eredmenyek[1]
+
+eredmenyek = eredmeny.strip().split(':')
+gol1 = int(eredmenyek[0])
+gol2 = int(eredmenyek[1])
 
 def x12(gol1, gol2):
     if gol1 > gol2:
-        return 1
+        return '1'
     elif gol2 > gol1:
-        return 2
+        return '2'
     else:
-        return x
+        return 'x'
+
+csapatok_masolat = csapatok.copy()
+meccsek = []
+
+for i in range(7):
+    hazai = random.choice(csapatok_masolat)
+    csapatok_masolat.remove(hazai)
+    hazai_gol = random.randint(0, 5)
+
+    vendeg = random.choice(csapatok_masolat)
+    csapatok_masolat.remove(vendeg)
+    vendeg_gol = random.randint(0, 5)
+
+    meccsek.append([hazai, hazai_gol, vendeg, vendeg_gol])
+
+print('Gergelyiugornyai totó, 53. hét, telitalálatos szelvény:')
+for meccs in meccsek:
+    print(f'{meccs[0]} - {meccs[2]} {meccs[1]}:{meccs[3]} {x12(meccs[1], meccs[3])} ')
+
+
 
