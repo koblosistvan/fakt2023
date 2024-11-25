@@ -52,7 +52,7 @@ szelvenyek = open('szelvenyek.txt', 'w', encoding='utf-8')
 print(f'Gergelyiugornyai totó, 53. hét, telitalálatos szelvény:', file=szelvenyek)
 for i in range(len(meccsek)):
     print(kimenet(meccsek[i], eredmenyek[i]), file=szelvenyek)
-'''print(kimenet(csapatok, pontok), file=szelvenyek)'''
+print(kimenet(csapatok, pontok), file=szelvenyek)
 szelvenyek.close()
 
 legnagyobb = []
