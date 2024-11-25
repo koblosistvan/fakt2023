@@ -42,7 +42,7 @@ CREATE TABLE `lessons` (
   `level` varchar(255) NOT NULL,
   `language` varchar(255) DEFAULT NULL,
   `valid` bit(1) NOT NULL DEFAULT b'1',
-  `last_upd` timestamp NOT NULL DEFAULT current_timestamp()
+  `last_upd` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 --
@@ -238,5 +238,5 @@ CREATE TABLE `log` (
   `events` text NOT NULL DEFAULT '',
   `event_count` int NOT NULL DEFAULT 1,
   `session_start` timestamp NOT NULL DEFAULT current_timestamp(),
-  `session_end` timestamp NOT NULL DEFAULT current_timestamp()
+  `session_end` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;

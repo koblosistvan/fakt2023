@@ -5,6 +5,8 @@
 	// session
 	if(isset($_GET['sid'])) {
 		$sid = $_GET["sid"];
+		$sql = "update log set session_end = CURRENT_TIMESTAMP() where sid = '{$sid}'";
+		$result = mysqli_query($conn, $sql);
 	} else {
 		$ip = $_SERVER["REMOTE_ADDR"];
 		$agent = $_SERVER["HTTP_USER_AGENT"];
@@ -17,7 +19,6 @@
 	$sql = "select * from lessons";
 	if($_GET['time']) {
 		$sql = $sql." where last_upd > '".urldecode($_GET['time'])."'";
-		var_dump($sql);
 	};
 	$result = mysqli_query($conn, $sql); 
 
@@ -34,7 +35,6 @@
 		$result = mysqli_query($conn, $sql); 
 		$update_time = mysqli_fetch_assoc($result);
 		$res = array("status" => "ok", "sid" => $sid, "update_time" => $update_time["update_time"], "lessons" => $rows);
-		//var_dump($res);
 
 	};
 	//echo $res;
