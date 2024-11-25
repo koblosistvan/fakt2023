@@ -68,3 +68,15 @@ for i in range(len(noidarab)):
 noi.close()
 ferfi.close()
 
+noinevekmozgasa = open("PigaiPéter\\noinevekforrasa.txt", mode='r', encoding='utf-8')
+
+kiirando = []
+for i in range(len(név2011)):
+    helyezések = []
+    if név2011[i] in noinevek:
+        helyezések.append(név2011[i])
+        helyezések.append(névmennyiség2011[i])
+        helyezések.append(névmennyiség2021[i])
+        helyezések.append(névmennyiség2011[i]-névmennyiség2021[i])
+        kiirando.append('\t'.join(helyezések))
+        kiirando.append('\n')
