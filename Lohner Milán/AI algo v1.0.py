@@ -1,6 +1,8 @@
 from binance.client import Client
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
-import numpy as np
 import pandas as pd
 
 # Input your Binance API credentials here
@@ -20,8 +22,9 @@ def fetch_historical_data(symbol, interval='1h', limit=500):
                                            'taker_buy_quote_asset_vol', 'ignore'])
         # Ensure that the 'close' column is a float and 'timestamp' is a datetime
         df['close'] = df['close'].astype(float)
+        df['volume'] = df['volume'].astype(float)
         df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
-        return df[['timestamp', 'close']]
+        return df[['timestamp', 'close', 'volume']]
     except Exception as e:
         print(f"Error fetching historical data: {e}")
         return pd.DataFrame()
@@ -54,18 +57,64 @@ def train_predict_price(symbol):
 
     # Prepare data for training
     df['timestamp'] = df['timestamp'].apply(lambda x: x.timestamp())  # Convert datetime to UNIX timestamp (float)
-    X = np.array(df['timestamp']).reshape(-1, 1)
-    y = np.array(df['close'])
+    df['moving_avg_10'] = df['close'].rolling(window=10).mean().fillna(0)
+    df['moving_avg_50'] = df['close'].rolling(window=50).mean().fillna(0)
+    X = df[['timestamp', 'moving_avg_10', 'moving_avg_50']].values
+    y = df['close'].values
+
+    # Scale the features
+    scaler = MinMaxScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    # Train-test split
+    X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
     # Train a linear regression model
     model = LinearRegression()
-    model.fit(X, y)
+    model.fit(X_train, y_train)
 
-    # Predict next price (1 hour later)
-    future_timestamp = pd.to_datetime('now') + pd.Timedelta(hours=1)  # Get current time and add 1 hour
-    future_timestamp_numeric = np.array(future_timestamp.timestamp()).reshape(-1, 1)  # Convert to UNIX timestamp
-    predicted_price = model.predict(future_timestamp_numeric)
-    print(f"Predicted price for next hour: {predicted_price[0]}")
+    # Validate the model
+    predictions = model.predict(X_test)
+    mse = mean_squared_error(y_test, predictions)
+    print(f"Model Mean Squared Error: {mse}")
+
+    # Predict next hour's price
+    future_timestamp = pd.to_datetime('now') + pd.Timedelta(hours=1)
+    future_row = [[future_timestamp.timestamp(), df['moving_avg_10'].iloc[-1], df['moving_avg_50'].iloc[-1]]]
+    future_row_scaled = scaler.transform(future_row)
+    predicted_price = model.predict(future_row_scaled)
+    print(f"Predicted price for the next hour: {predicted_price[0]}")
+
+# Grid Trading function
+def grid_trading(symbol, usdc_amount, grid_size=0.01, grid_levels=5):
+    try:
+        ticker = client.get_symbol_ticker(symbol=symbol)
+        current_price = float(ticker['price'])
+        print(f"Current price of {symbol}: {current_price} USDC")
+
+        for i in range(1, grid_levels + 1):
+            # Calculate grid buy and sell prices
+            buy_price = current_price * (1 - grid_size * i)
+            sell_price = current_price * (1 + grid_size * i)
+
+            # Adjust quantities based on USDC amount
+            buy_quantity = usdc_amount / buy_price
+            sell_quantity = usdc_amount / sell_price
+
+            # Round quantities to conform with the LOT_SIZE filter
+            buy_quantity = round_quantity(symbol, buy_quantity)
+            sell_quantity = round_quantity(symbol, sell_quantity)
+
+            # Place limit buy and sell orders
+            try:
+                client.order_limit_buy(symbol=symbol, quantity=round(buy_quantity, 3), price=str(round(buy_price, 2)))
+                client.order_limit_sell(symbol=symbol, quantity=round(sell_quantity, 3), price=str(round(sell_price, 2)))
+                print(f"Placed buy order at {buy_price} and sell order at {sell_price}")
+            except Exception as e:
+                print(f"Error placing order: {e}")
+
+    except Exception as e:
+        print(f"Error in grid trading: {e}")
 
 # Function to display available cryptos in the wallet
 def view_wallet():
@@ -80,34 +129,6 @@ def display_wallet_balances():
     available_balances = view_wallet()
     for crypto, balance in available_balances.items():
         print(f"{crypto}: {balance} available")
-
-# Grid Trading function
-def grid_trading(symbol, usdc_amount, grid_size=0.01, quantity=0.001):
-    # Get current price of the symbol
-    ticker = client.get_symbol_ticker(symbol=symbol)
-    current_price = float(ticker['price'])
-    print(f"Current price of {symbol}: {current_price} USDC")
-
-    # Set up buy and sell orders for grid
-    for i in range(1, 6):
-        buy_price = current_price * (1 - grid_size * i)
-        sell_price = current_price * (1 + grid_size * i)
-
-        # Define buy and sell quantities (adjust depending on USDC amount)
-        buy_quantity = usdc_amount / buy_price
-        sell_quantity = usdc_amount / sell_price
-
-        # Round quantities to conform with the LOT_SIZE filter
-        buy_quantity = round_quantity(symbol, buy_quantity)
-        sell_quantity = round_quantity(symbol, sell_quantity)
-
-        # Place limit buy and sell orders
-        try:
-            client.order_limit_buy(symbol=symbol, quantity=round(buy_quantity, 3), price=str(round(buy_price, 2)))
-            client.order_limit_sell(symbol=symbol, quantity=round(sell_quantity, 3), price=str(round(sell_price, 2)))
-            print(f"Placed buy order at {buy_price} and sell order at {sell_price}")
-        except Exception as e:
-            print(f"Error placing orders: {e}")
 
 # Main function to run the bot
 def main():
