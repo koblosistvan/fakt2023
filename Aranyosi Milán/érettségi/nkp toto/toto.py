@@ -13,9 +13,12 @@ csapatnevek = input('Add meg a két csapat nevét! ')
 eredmeny = input('Adja meg az eredményt! ')
 
 
-eredmenyek = eredmeny.strip().split(':')
-gol1 = int(eredmenyek[0])
-gol2 = int(eredmenyek[1])
+eredmenylista = []
+
+for sor in eredmeny:
+    adat = eredmeny.split(':')
+    eredmenylista.append(int(adat[1]))
+    eredmenylista.append(int(adat[0]))
 
 def x12(gol1, gol2):
     if gol1 > gol2:
@@ -39,9 +42,38 @@ for i in range(7):
 
     meccsek.append([hazai, hazai_gol, vendeg, vendeg_gol])
 
+seged = 1
 print('Gergelyiugornyai totó, 53. hét, telitalálatos szelvény:')
 for meccs in meccsek:
-    print(f'{meccs[0]} - {meccs[2]} {meccs[1]}:{meccs[3]} {x12(meccs[1], meccs[3])} ')
+    print(f'{seged}. {meccs[0]} - {meccs[2]} {meccs[1]}:{meccs[3]} {x12(meccs[1], meccs[3])} ')
+    seged += 1
+print(f'+1. {csapatnevek} {eredmeny}')
 
+uj_fajl = open('szelveny.txt', mode='w', encoding='utf-8')
 
+seged2 = 1
+
+print('Gergelyiugornyai totó, 53. hét, telitalálatos szelvény:', file=uj_fajl)
+for meccs in meccsek:
+    print(f'{seged2}. {meccs[0]} - {meccs[2]} {meccs[1]}:{meccs[3]} {x12(meccs[1], meccs[3])} ', file=uj_fajl)
+    seged2 += 1
+print(f'+1. {csapatnevek} {eredmeny}', file=uj_fajl)
+
+golkulonbsegek = []
+for meccs in meccsek:
+    golkulonbseg = abs(meccs[1] - meccs[3])
+    golkulonbsegek.append(golkulonbseg)
+
+seged3 = 1
+
+legn_golk_meccsek = []
+
+for meccs in meccsek:
+    if abs(meccs[1] - meccs[3]) == max(golkulonbsegek):
+        legn_golk_meccsek.append(seged3)
+    seged += 1
+    if abs(eredmenylista[0] - eredmenylista[1]) == max(golkulonbsegek):
+        legn_golk_meccsek.append('+1')
+
+print(f'Legnagyobb golkünbségű meccsek: {legn_golk_meccsek}')
 
