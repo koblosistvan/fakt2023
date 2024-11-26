@@ -28,10 +28,10 @@ for i in range(len(dobozonkentijatekok)):
     if dobozonkentijatekok[i] == max(dobozonkentijatekok):
         legtöbbjatek.append(str(i + 1))
 
-legnepszerubb = 0
-for ajandektipus in range(15):
-    for i in range(len(ajandekok)):
-        if ajandekok[i].count(ajandektipus) > legnepszerubb
+legnepszerubbjatek = ajandekok[0][0]
+legnepszerubbszam = 0
+####for ajandektipus in range(15):
+    
 
 
 
