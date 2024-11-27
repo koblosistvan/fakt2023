@@ -1,3 +1,10 @@
+def kiiras(lista):
+    lista2 = lista.copy()
+    for index in range(len(lista2)):
+        lista2[index] = str(lista2[index])
+    return ' '.join(lista2)
+
+
 # 1
 forras = open('dobozok.txt', 'r', encoding='utf-8')
 szamok = forras.readline()
@@ -18,7 +25,7 @@ if sum(darabszamok) % len(dobozok):
    lehete = 'nem lehet egyenletesen elosztani'
 else:
     lehete = 'el lehet osztani egyenletesen'
-print(f'A játékokat {lehete} a dobozokban.'
+print(f'A játékokat {lehete} a dobozokban.\n'
       f'Játékok dobozonkénti átlagos száma: {atlag}')
 
 # 3
@@ -26,7 +33,7 @@ legtobb = max(darabszamok)
 print(f'Legtöbb játék egy dobozban {legtobb} a következő dobozokban volt:')
 for i in range(len(darabszamok)):
     if darabszamok[i] == legtobb:
-        print(dobozok[i], sep=' ')
+        print(kiiras(dobozok[i]))
 
 # 4
 jatekdarab = [0] * int(szamok.split(' ')[1])
@@ -38,22 +45,27 @@ legnepszerubbek = []
 for i in range(len(jatekdarab)):
     if jatekdarab[i] == legnepszerubb:
         legnepszerubbek.append(i+1)
-print(f'Legnépszerűbb játék(ok): {legnepszerubbek}')
+print(f'Legnépszerűbb játék(ok): {kiiras(legnepszerubbek)}')
 
 # 5
+hianyos6 = []
 print('Melyik dobozokból kell elvenni:')
 for i in range(len(darabszamok)):
     tobblet = darabszamok[i]-7
     if tobblet > 0:
         print(f'{i+1}. dobozból {tobblet} db játékot')
+    else:
+        hianyos6.append(i)
+
 
 # 6
 print('A hiányos dobozokba melyik játék rakható:')
 for i in range(len(dobozok)):
-    megnincs = []
-    for k in range(int(szamok.split(' ')[1])):
-        if (k+1) not in dobozok[i]:
-            megnincs.append(k+1)
-    print(f'{i+1}. doboz: {megnincs}')
+    if i in hianyos6:
+        megnincs = []
+        for k in range(int(szamok.split(' ')[1])):
+            if (k+1) not in dobozok[i]:
+                megnincs.append(k+1)
+        print(f'{i+1}. doboz: {kiiras(megnincs)}')
 
 
