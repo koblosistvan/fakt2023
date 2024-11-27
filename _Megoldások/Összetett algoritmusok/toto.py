@@ -1,0 +1,1 @@
+csapatok = [sor.strip() in list(open('.'))]

@@ -92,4 +92,4 @@ szelveny.write(f'{bekértnevek[0]} - {bekértnevek[1]} {bekérteredmény[0]}:{be
 szelveny.write(f'Legnagyobb gólkülönbségű mérkőzések: {" ".join(gólkülönblista)}')
 if len(dontetlen) > 0:
    szelveny.write(f'0:0-ás mérkőzések: {" ".join(dontetlen)}')
-szelveny.write(f'Legalább két góllal nyertek: {" ,".join(kétgól)}')as
+szelveny.write(f'Legalább két góllal nyertek: {" ,".join(kétgól)}')
