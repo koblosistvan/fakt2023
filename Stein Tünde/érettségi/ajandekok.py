@@ -67,5 +67,3 @@ for i in range(len(dobozok)):
             if (k+1) not in dobozok[i]:
                 megnincs.append(k+1)
         print(f'{i+1}. doboz: {kiiras(megnincs)}')
-
-
