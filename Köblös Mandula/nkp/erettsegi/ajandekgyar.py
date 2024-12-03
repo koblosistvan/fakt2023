@@ -28,3 +28,6 @@ for i in range(len(ajandekok_száma)):
     if legtobb == ajandekok_száma[i]:
         print(i+1, end=' ')
 
+for i in range(len(ajandekok_az)):
+    for j in range(len(ajandekok_az)-1):
+        if ajandekok_az[j] in ajandekok_az[i+1]:
