@@ -30,8 +30,14 @@ for i in range(len(nap)):
         szamlalo += darab[i]
 print(f'A rendelések száma az adott napon: {szamlalo}')
 
-print('4. feladat')
 
+print('4. feladat')
+nem_volt =  []
+volt = [nap[i] for i in range(len(nap)) if varos[i] == 'NR']
+for dátum in range(1, 31):
+    if dátum not in volt:
+        nem_volt.append(dátum)
+print(f'{len(nem_volt)} nap nem volt rendelés.')
 
 print('5. feladat')
 legnagyobb = darab[0]
@@ -46,4 +52,4 @@ for i in range(len(darab)):
 print(f'A legnagyobb darabszám: {legnagyobb}, a rendelés napja: {nap[index_legn]}')
 
 print('7.feladat')
-print(f'A rendelt termékek száma a 21. napon: PL: {osszes(PL,21)} TV: {osszes(TV, 21)} NR: {osszes(NR, 21)}')
+print(f'A rendelt termékek száma a 21. napon: PL: {osszes("PL",21)} TV: {osszes("TV", 21)} NR: {osszes("NR", 21)}')
