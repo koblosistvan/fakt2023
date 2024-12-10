@@ -1,5 +1,5 @@
 forras = open('okolabnyom.txt', 'r', encoding='utf-8')
-lnevek = forras.readline()
+forras.readline()
 kod = []
 orszag = []
 regio = []
@@ -19,7 +19,7 @@ for sor in forras:
     lakossag.append(int(i[6]))
     gdp.append(i[7])
 for i in range(len(gdp)):
-    if gdp[i]:
+    if gdp[i] != 'None':
         gdp[i] = float(gdp[i])
 forras.close()
 
@@ -50,10 +50,11 @@ legk_gdp = -1
 legk_gdp_orszag = ''
 legk_ev = 0
 for i in range(len(gdp)):
-    if gdp and gdp[i] > legk_gdp:
-        legk_gdp = gdp[i]
-        legk_gdp_orszag = orszag[i]
-        legk_ev = ev[i]
+    if gdp[i] != 'None':
+        if gdp[i] > legk_gdp:
+            legk_gdp = gdp[i]
+            legk_gdp_orszag = orszag[i]
+            legk_ev = ev[i]
 print(f'A legkisebb egy főre jutó GDP-je {legk_gdp_orszag}-nak volt {legk_ev} évben: {legk_gdp} USD/fő.')
 
 # 6
@@ -109,7 +110,10 @@ for i in range(len(felhasznalas)):
 # 11
 counter = 0
 for i in range(len(orszag)):
-    if i and orszag[i] != orszag[i-1]:
+    if i:
+        if orszag[i] != orszag[i-1]:
+            counter += 1
+    else:
         counter += 1
 print(f'Az adatok {counter} ország adatait tartalmazzák.')
 
@@ -127,32 +131,87 @@ for i in range(len(felhasznalas)-1):
             legn_nov = felhasznalas[i+1] - felhasznalas[i]
             legn_nov_orszag = orszag[i+1]
             legn_nov_ev = ev[i+1]
-        if seged < 0:
+        elif seged < 0:
             csokkent_13_ev.append(ev[i+1])
             csokkent_13_orszag.append(orszag[i+1])
 print(f'A legnagyobb növekedés a felhasználás értékében {legn_nov_orszag}-ban {legn_nov_ev}-ben történt:\n'
       f'{elozo} => {legn_nov}.')
 
-# 13
+# 14
+for i in range(len(csokkent_13_ev)):
+    print(f'{csokkent_13_orszag[i]} felhasználása csökkent {csokkent_13_ev[i]-1} évről {csokkent_13_ev[i]} évre.')
 
-print(f'Aruba felhasználása csökkent 1991 évről 1992 évre.')
-'''
+# 15
+top10felh_orszag = []
+felhasznalas_15 = felhasznalas.copy()
+orszag_15 = orszag.copy()
+while len(top10felh_orszag) != 10:
+    seged = max(felhasznalas_15)
+    segedindex = felhasznalas_15.index(seged)
+    segedorszag = orszag_15[segedindex]
+    if orszag_15[segedindex] not in top10felh_orszag:
+        top10felh_orszag.append(segedorszag)
+        felhasznalas_15.remove(seged)
+        orszag_15.remove(segedorszag)
+        while segedorszag in orszag_15:
+            if segedorszag in orszag_15:
+                felhasznalas_15.remove(felhasznalas_15[orszag_15.index(segedorszag)])
+                orszag_15.remove(segedorszag)
+print(f'A legnagyobb felhasználók:\n{", ".join(sorted(top10felh_orszag))}')
 
-A legnagyobb felhasználók:
-Brazil, China, Germany, India, Indonesia, Japan, Russian Federation, USSR, United 
-Kingdom, United States of America
-A legnagyobb kapacitás:
-Argentina, Australia, Brazil, Canada, China, India, Indonesia, Russian Federation, 
-USSR, United States of America
-A két csoport úniója:
-Argentina, Australia, Brazil, Canada, China, Germany, India, Indonesia, Japan, 
-Russian Federation, USSR, United Kingdom, United States of America
-A két csoport metszete:
-Brazil, China, India, Indonesia, Russian Federation, USSR, United States of America
-A 2014-es adatok statisztikai mutatói:
-átlag: 3.349 hektár
-mimimum: 0.503 hektár
-maximum: 15.654 hektár
-terjedelem: 15.152 hektár
-medián: 2.872 hektár
-szórás: 2.29'''
+# 16
+top10k_orszag = []
+kapacitas_16 = kapacitas.copy()
+orszag_16 = orszag.copy()
+while len(top10k_orszag) != 10:
+    seged = max(kapacitas_16)
+    segedindex = kapacitas_16.index(seged)
+    segedorszag = orszag_16[segedindex]
+    if orszag_16[segedindex] not in top10k_orszag:
+        top10k_orszag.append(segedorszag)
+        kapacitas_16.remove(seged)
+        orszag_16.remove(segedorszag)
+        while segedorszag in orszag_16:
+            if segedorszag in orszag_16:
+                kapacitas_16.remove(kapacitas_16[orszag_16.index(segedorszag)])
+                orszag_16.remove(segedorszag)
+print(f'A legnagyobb kapacitás:\n{", ".join(sorted(top10k_orszag))}')
+
+# 17
+metszet = []
+unio = []
+for i in top10felh_orszag:
+    if i in top10k_orszag:
+        metszet.append(i)
+    if i not in unio:
+        unio.append(i)
+print(f'A két csoport úniója:\n{", ".join(sorted(unio))}\n'
+      f'A két csoport metszete:\n{", ".join(sorted(metszet))}')
+
+# 18
+egyfore2014 = []
+for i in range(len(felhasznalas)):
+    if ev[i] == 2014:
+        egyfore2014.append(felhasznalas[i]/lakossag[i])
+segedlen = len(egyfore2014)
+segedatl = sum(egyfore2014)/segedlen
+segedmin = min(egyfore2014)
+segedmax = max(egyfore2014)
+egyfore2014.sort()
+if segedlen % 2:
+    med = egyfore2014[ int(segedlen/2) +1]
+else:
+    med = (egyfore2014[int(segedlen/2)] + egyfore2014[int((segedlen/2) + 1)]) / 2
+szoras = 0
+for i in egyfore2014:
+    szoras += (i-segedatl) ** 2
+szoras /= segedlen
+szoras = szoras ** (1/2)
+print(f'A 2014-es adatok statisztikai mutatói:\n'
+      f'átlag: {segedatl} hektár\n'
+      f'mimimum: {segedmin} hektár\n'
+      f'maximum: {segedmax} hektár\n'
+      f'terjedelem: {segedmax-segedmin} hektár\n'
+      f'medián: {med} hektár\n'
+      f'szórás: {szoras}')
+
