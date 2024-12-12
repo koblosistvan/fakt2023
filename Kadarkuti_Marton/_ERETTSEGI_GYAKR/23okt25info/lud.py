@@ -32,13 +32,13 @@ print(f"Az egyik leghosszabb a(z) {legh_osveny_index+1}. ösvény, hossza: {len(
 
 # 4
 feladat()
-jatek_osveny:int = 8#int(input("Adja meg egy ösvény sorszámát! ")) -1 # indexeles korrekcio
+jatek_osveny:int = int(input("Adja meg egy ösvény sorszámát! ")) -1 # indexeles korrekcio
 if jatek_osveny < 0 or jatek_osveny > len(osvenyek)-1: # ellenorzes
     while jatek_osveny < 0 or jatek_osveny > len(osvenyek)-1:
         print(f"A sorszám 1 és {len(osvenyek)} között legyen!")
         jatek_osveny:int = int(input("Adja meg egy ösvény sorszámát! ")) -1
 
-jatekosok:int = 5#int(input("Adja meg a játékosok számát! "))
+jatekosok:int = int(input("Adja meg a játékosok számát! "))
 if jatekosok > 5 or jatekosok < 2: # ellenorzes
     while jatekosok > 5 or jatekosok < 2:
         print("A játékosok száma minimum 2, maximum 5 lehet!")
