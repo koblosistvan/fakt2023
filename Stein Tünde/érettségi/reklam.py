@@ -11,8 +11,8 @@ for sor in forras:
 forras.close()
 
 # 2
-print(f'2. feladat:'
-      f'A rendelések száma: {sum(darabszam)}')
+print(f'2. feladat:\n'
+      f'A rendelések száma: {len(darabszam)}')
 
 # 3
 print('3. feladat:')
@@ -25,60 +25,65 @@ print(f'A rendelések száma az adott napon: {rendelesek_3}')
 
 # 4
 nr_rendeles = 0
-for i in varos:
-    if i == 'NR':
-        nr_rendeles += 1
-print(f'4. feladat:'
+for i in range(len(varos)):
+    if varos[i] == 'NR':
+        if not nap[i]:
+            nr_rendeles += 1
+        elif nap[i] != nap[i-1]:
+            nr_rendeles += 1
+print(f'4. feladat:\n'
       f'{nr_rendeles} nap nem volt a reklámban nem érintett városból rendelés')
 
 # 5
 dbmax = max(darabszam)
-print(f'5. feladat:'
+print(f'5. feladat:\n'
       f'A legnagyobb darabszám: {dbmax}, a rendelés napja: {nap[darabszam.index(dbmax)]}')
 
 # 6
+def osszes(n, v):
+    kimenet = 0
+    for index in range(len(nap)):
+        if nap[index] == n:
+            if varos[index] == v:
+               kimenet += darabszam[index]
+    return kimenet
 
 # 7
-pl_7 = 0
-tv_7 = 0
-nr_7 = 0
-for i in range(len(nap)):
-    if nap[i] == 21:
-        if varos[i] == 'PL':
-            pl_7 += darabszam[i]
-        elif varos[i] == 'TV':
-            tv_7 += darabszam[i]
-        elif varos[i] == 'NR':
-            tv_7 += darabszam[i]
-print(f'7. feladat:'
-      f'A rendelt termékek darabszáma a 21. napon PL: {pl_7} TV: {tv_7} NR: {nr_7}')
+print(f'7. feladat:\n'
+      f'A rendelt termékek darabszáma a 21. napon'
+      f'PL: {osszes(21, "PL")} TV: {osszes(21, "TV")} NR: {osszes(21, "NR")}')
 
 # 8
-osszlista = []
-pl_l = []*4
+lista = []
+pl_l = [0]*4
 pl_l[0] = 'PL'
-osszlista.append(pl_l)
-tv_l = []*4
+lista.append(pl_l)
+tv_l = [0]*4
 tv_l[0] = 'TV'
-osszlista.append(tv_l)
-nr_l = []*4
+lista.append(tv_l)
+nr_l = [0]*4
 nr_l[0] = 'NR'
-osszlista.append(nr_l)
+lista.append(nr_l)
 for i in range(len(nap)):
-    for k in range(len(osszlista)):
-        if varos == osszlista[k][0]:
-            if nap[i] >= 10:
-                pl_l[1] += darabszam[i]
-            elif 10 > nap[i] >= 20:
-                pl_l[2] += darabszam[i]
-            else:
-                pl_l[3] += darabszam[i]
-print(f'8. feladat:'
-      f'Napok 1..10 11..20 21..30'
-      f'{osszlista[0]}'
-      f'{osszlista[1]}'
-      f'{osszlista[2]}')
+    if nap[i] <= 10:
+        for k in lista:
+            if varos[i] == k[0]:
+                k[1] += 1
+    elif 10 < nap[i] <= 20:
+        for k in lista:
+            if varos[i] == k[0]:
+                k[2] += 1
+    else:
+        for k in lista:
+            if varos[i] == k[0]:
+                k[3] += 1
 
+
+print('8. feladat:\n'
+      'Napok 1..10 11..20 21..30')
+print(*pl_l, sep='\t')
+print(*tv_l, sep='\t')
+print(*nr_l, sep='\t')
 """
 8. feladat:
 Napok 1..10 11..20 21..30
