@@ -85,6 +85,7 @@ print(*pl_l, sep='\t')
 print(*tv_l, sep='\t')
 print(*nr_l, sep='\t')
 
+print('\t1..10\t11..20\t21..30', file=kimenet)
 print(*pl_l, sep='\t', file=kimenet)
 print(*tv_l, sep='\t', file=kimenet)
 print(*nr_l, sep='\t', file=kimenet)
