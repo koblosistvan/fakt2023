@@ -68,13 +68,12 @@ feladat()
 temp = [0,0,0] # PL, TV, NR
 for rendel in rendelesek:
     if rendel.nap == 21:
-        match rendel.varos:
-            case "PL":
-                temp[0] += 1
-            case "TV":
-                temp[1] += 1
-            case "NR":
-                temp[2] += 1
+        if rendel.varos == "PL":
+            temp[0] += 1
+        elif rendel.varos == "TV":
+            temp[0] += 1
+        else:
+            temp[2] += 1
 
 print(f"A rendelt termékek darabszáma a 21. napon PL: {temp[0]} TV: {temp[1]} NR: {temp[2]} ")
 
@@ -89,7 +88,7 @@ for varos in ["PL","TV","NR"]:
     matrix.append(temp)
     temp = []
 
-kampany_txt = open("Kadarkuti_Marton\\_ERETTSEGI_GYAKR\\23okt25\\Forras\\3_Reklam\\kampany.txt",'w',encoding="utf-8")
+kampany_txt = open("Kadarkuti_Marton\\_ERETTSEGI_GYAKR\\23okt25\\kampany.txt",'w',encoding="utf-8")
 temp = [
     "Napok\t1..10\t11..20\t21..30",
     f"PL\t{matrix[0][0]}\t{matrix[0][1]}\t{matrix[0][2]}",
