@@ -82,11 +82,11 @@ seged_nr3 = 0
 for i in range(len(napszam)):
     if napszam[i] in range(1, 11):
         if varos[i] == "PL":
-            seged_pl += rendeles_db[i]
+            seged_pl += 1
         elif varos[i] == "TV":
-            seged_tv += rendeles_db[i]
+            seged_tv += 1
         else:
-            seged_nr += rendeles_db[i]
+            seged_nr += 1
     if napszam[i] > 10:
         pl.append(seged_pl)
         tv.append(seged_tv)
@@ -96,11 +96,11 @@ for i in range(len(napszam)):
 for i in range(len(napszam)):
     if napszam[i] in range(11, 21):
         if varos[i] == "PL":
-            seged_pl2 += rendeles_db[i]
+            seged_pl2 += 1
         elif varos[i] == "TV":
-            seged_tv2 += rendeles_db[i]
+            seged_tv2 += 1
         else:
-            seged_nr2 += rendeles_db[i]
+            seged_nr2 += 1
     if napszam[i] > 20:
         pl.append(seged_pl2)
         tv.append(seged_tv2)
@@ -111,24 +111,26 @@ for i in range(len(napszam)):
 for i in range(len(napszam)):
     if napszam[i] in range(21, 31):
         if varos[i] == "PL":
-            seged_pl2 += rendeles_db[i]
+            seged_pl3 += 1
         elif varos[i] == "TV":
-            seged_tv2 += rendeles_db[i]
+            seged_tv3 += 1
         else:
-            seged_nr2 += rendeles_db[i]
-    if napszam[i] > 20:
-        pl.append(seged_pl3)
-        tv.append(seged_tv3)
-        nr.append(seged_nr3)
-        break
+            seged_nr3 += 1
 
-
+pl.append(seged_pl3)
+tv.append(seged_tv3)
+nr.append(seged_nr3)
 
 print('Napok\t1..10\t11..20\t21..30')
-print(f'PL\t{pl[0]}\t{pl[1]}\t{pl[2]}')
+print(f'PL\t\t{pl[0]}\t\t{pl[1]}\t\t{pl[2]}')
+print(f'TV\t\t{tv[0]}\t\t{tv[1]}\t\t{tv[2]}')
+print(f'NR\t\t{nr[0]}\t\t{nr[1]}\t\t{nr[2]}')
 
 
 
-#PL 98 159 106
-#TV 97 143 100
-#NR 91 86 91
+kimenet = open('kampany.txt', mode='w', encoding='utf-8')
+
+print('Napok\t1..10\t11..20\t21..30', file=kimenet)
+print(f'PL\t\t{pl[0]}\t\t{pl[1]}\t\t{pl[2]}', file=kimenet)
+print(f'TV\t\t{tv[0]}\t\t{tv[1]}\t\t{tv[2]}', file=kimenet)
+print(f'NR\t\t{nr[0]}\t\t{nr[1]}\t\t{nr[2]}', file=kimenet)
