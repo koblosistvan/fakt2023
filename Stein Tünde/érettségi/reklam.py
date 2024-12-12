@@ -78,15 +78,13 @@ for i in range(len(nap)):
             if varos[i] == k[0]:
                 k[3] += 1
 
-
+kimenet = open('kampany.txt', 'w', encoding='utf-8')
 print('8. feladat:\n'
       'Napok 1..10 11..20 21..30')
 print(*pl_l, sep='\t')
 print(*tv_l, sep='\t')
 print(*nr_l, sep='\t')
-"""
-8. feladat:
-Napok 1..10 11..20 21..30
-PL 98 159 106
-TV 97 143 100
-NR 91 86 91"""
+
+print(*pl_l, sep='\t', file=kimenet)
+print(*tv_l, sep='\t', file=kimenet)
+print(*nr_l, sep='\t', file=kimenet)
