@@ -1,0 +1,14 @@
+8 12
+Be Er Rn Nh Ha Ar Rd Db
+Be > Er
+Er > Rn
+Rn > Nh
+Rn > Ha
+Rn > Ar
+Rn > Rd
+Rn > Db
+Nh > Ar
+Ha > Ar
+Ar > Rd
+Ar > Db
+Db < Rd

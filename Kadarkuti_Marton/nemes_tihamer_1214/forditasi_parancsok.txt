@@ -1,0 +1,25 @@
+C# / Mono:
+/usr/bin/mcs -out:<FÁJLNÉV>.exe -optimize+ <FÁJLNÉV>.cs
+
+C++20 / g++:
+/usr/bin/g++ -DEVAL -std=c++20 -xc++ -O2 -pipe -static -s -o <FÁJLNÉV> <FÁJLNÉV>.cpp -lm
+
+C11 / gc:
+/usr/bin/gcc -DEVAL -std=c11 -xc -O2 -pipe -static -s -o <FÁJLNÉV> <FÁJLNÉV>.c -lm
+
+Java / JDK:
+/usr/bin/javac <FÁJLNÉV>.java
+/bin/sh -c jar cf <FÁJLNÉV>.jar *.class
+
+Pascal / fpc:
+/usr/bin/fpc -dEVAL -O2 -XSs -o<FÁJLNÉV> <FÁJLNÉV>.pas
+
+Python 3 / CPython:
+/usr/bin/python3 -m compileall -b .
+/bin/mv <FÁJLNÉV>.pyc __main__.pyc
+/usr/bin/zip <FÁJLNÉV>.pyz __main__.pyc
+
+Python 3 / PyPy3:
+/usr/bin/pypy3 -m compileall -b .
+/bin/mv <FÁJLNÉV>.pyc __main__.pyc
+/usr/bin/zip <FÁJLNÉV>.pyz __main__.pyc
