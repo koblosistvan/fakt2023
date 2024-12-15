@@ -3,7 +3,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 DROP DATABASE IF EXISTS `szakkorok`;
-CREATE TABLE `szakkorok`;
+CREATE DATABASE `szakkorok`;
 USE `szakkorok`;
 
 
