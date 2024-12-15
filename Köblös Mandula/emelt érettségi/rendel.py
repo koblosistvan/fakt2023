@@ -19,6 +19,8 @@ def osszes(varos_betu, nap_szam):
             rendelesek += darab[i]
     return rendelesek
 
+
+
 print('2. feladat')
 print(f'A rendelések száma: {len(nap)}')
 
