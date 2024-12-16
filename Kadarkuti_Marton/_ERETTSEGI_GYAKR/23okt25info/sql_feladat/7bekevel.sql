@@ -7,8 +7,8 @@ szakazon IN (
 ) 
 AND
 -- ugyanaz az evfolyam
-diak.evfolyam IN (
-	SELECT evfolyam FROM jelentkezes INNER JOIN diak ON diak.azon = jelentkezes.diakazon
+diak.evfolyam = (
+	SELECT evfolyam from diak
     WHERE diak.nev = "Beke Fanni"
 )
 AND
