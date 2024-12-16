@@ -1,20 +1,15 @@
 # Nemes Tihamér Online 2. forduló - 4. feladat - Puska
 # Kadarkuti Márton
 
-DEBUG_ELSO = "4 1"
-DEBUG_SOROK = [
-    "1 2",
-    "1 5",
-    "1 3",
-    "1 7",
-]
+# ROSSZ
 
-class Keplet:
-    def __init__(self,data)->None:
-        self.sorok = int(data[0])
-        self.fontos = int(data[1])
-    def __str__(self)->str:
-        return str(self.sorok) + ' ' + str(self.fontos)
+DEBUG_ELSO = "4 7"
+DEBUG_SOROK = [
+    "5 2",
+    "4 2",
+    "2 2",
+    "1 2",
+]
 
 tmp = "" # seged
 tmp = DEBUG_ELSO#input()
@@ -22,11 +17,27 @@ tmp = tmp.strip().split(' ')
 
 kepletek_szama:int = int(tmp[0])
 sorok_szama:int = int(tmp[1])
-kepletek:list[Keplet] = []
+
+kepletek:list[list[int]] = [[i] for i in range(kepletek_szama)]
 
 for sor in range(kepletek_szama):
     tmp = DEBUG_SOROK[sor]#input()
-    kepletek.append(Keplet(tmp.strip().split(' ')))
+    kepletek[sor] += [int(i) for i in tmp.strip().split(' ') ]
 
-for i in kepletek:
-    print(i)
+#print(kepletek)
+kepletek = sorted(kepletek, key=lambda i: i[2])
+kepletek = sorted(kepletek, key=lambda i: i[1])
+#print(kepletek)
+
+kimenet = []
+kimenet_fontos_osszeg:int = 0
+i:int = 0
+for keplet in reversed(kepletek):
+    i += keplet[1]
+    if i <= sorok_szama:
+        kimenet.append(keplet)
+        kimenet_fontos_osszeg += keplet[2]
+
+# kimenet
+print(len(kimenet), kimenet_fontos_osszeg)
+print(' '.join([str(1+i[0]) for i in kimenet]))
