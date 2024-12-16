@@ -17,13 +17,18 @@ for i in range(m):
         k.append(harmadik.split('<')[0].strip())
         t.append(harmadik.split('<')[1].strip())
 sorrend = tagok.copy()
-for i in range(len(sorrend)):
-    for z in range(len(sorrend)):
-        for j in range(len(k)):
-            if sorrend[i] == t[j] and sorrend[z] == k[j]:
-                sorrend[i], sorrend[z] = sorrend[z], sorrend[i]
+for _ in range(len(sorrend)):
+    for i in range(len(sorrend)):
+        for z in range(i+1, len(sorrend)):
+            a = sorrend[i]
+            b = sorrend[z]
+            for j in range(len(k)):
+                c = k[j]
+                d = t[j]
+                if sorrend[i] == t[j] and sorrend[z] == k[j]:
+                    sorrend[i], sorrend[z] = sorrend[z], sorrend[i]
 
-print(sorrend)
+print(*sorrend)
 
 
 """for i in range(len(tagokmasolat)-1):
