@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[diak]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)
