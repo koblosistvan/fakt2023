@@ -36,8 +36,8 @@ with open(PATH,'r',encoding="utf-8") as f:
 # 2.
 print("2. feladat:")
 print("Kérem egy képpont adatait:")
-prompt_sor:int = 179#int( input("Sor: ").strip() ) -1
-prompt_oszlop:int = 319#int( input("Oszlop: ").strip() ) -1
+prompt_sor:int = int( input("Sor: ").strip() ) -1
+prompt_oszlop:int = int( input("Oszlop: ").strip() ) -1
 print("A képpont színe:",pixelek[prompt_sor][prompt_oszlop])
 
 # 3.
