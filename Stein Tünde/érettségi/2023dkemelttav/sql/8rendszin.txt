@@ -1,0 +1,6 @@
+SELECT film.rendezo AS "Színész-rendező"
+FROM film
+WHERE film.rendezo in (
+    SELECT szinkron.szerep
+    FROM szinkron
+);
