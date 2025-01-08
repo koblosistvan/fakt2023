@@ -1,0 +1,42 @@
+﻿Grace  Murray  Hopper
+1906. december 9. – 1992. január 1.
+
+
+„Az emberek allergiásak a változásokra. Szeretik azt mondani: »Mindig így csináltuk.« Megpróbálok harcolni ezzel. Ezért van egy óra a falamon, ami az óramutató járásával ellentétes irányban halad.”
+Ellentengernagy, az Amerikai Egyesült Államok Haditengerészetének tisztje.
+Matematikus, a számítógép-tudomány egyik úttörője.
+Egyike volt a Harvard Mark I számítógép első programozóinak.
+Ő írta az első fordítóprogramot (compiler {A szoftverek az ember számára könnyen kezelhető forráskódjából a célplatformon közvetlenül futtatható tárgykódot készítő program.}).
+Felvázolta a számítógéptől független programnyelv ötletét, ami a COBOL, az egyik első modern programozási nyelv, megalkotásához vezetett.
+Neki tulajdonítják a „debugging” kifejezés elterjesztését.
+
+Fiatalkora
+
+Grace Hopper New Yorkban született 1906-ban Grace Brewster Murray néven. A család három gyermeke közül ő volt a legidősebb. Kíváncsi gyerek volt és ezt a tulajdonságát egész életében megőrizte. Hétéves korában elhatározta, hogy kideríti az ébresztőóra működését. Hét ébresztőórát szétszerelt, mielőtt édesanyja rájött volna mi a terve. Ezek után már csak egy órája lehetett. A középiskolát a Hartridge iskolában (Hartridge School) végezte Plainfieldben (New Jersey állam). 16 éves korában a nem megfelelő latin nyelv tesztje miatt elutasították korengedményes felvételét a Vassar College-ba, de a következő évben már felvették. 1928-ban BSc (Bachelor) fokozatot szerzett matematika és fizika szakon. Eredményei alapján felvételt nyert a Phi Beta Kappa egyesület tagjai közé is. 1930-ban megkezdte MSc (Master) fokozatú tanulmányait a Yale Egyetemen. 1934-ben PhD fokozatot szerzett matematikából. Már 1931-ben elkezdett matematikát tanítani a volt iskolájában, a Vassar College-ban, ahol 1941-ben docensnek nevezték ki. 1930-ban férjhez ment a New York-i egyetem professzorához Vincent Foster Hopperhez. 1945-ben elváltak. Ezután nem ment többé férjhez, de volt férje nevét megtartotta. 
+
+Karrierje
+
+Hopper 1943-ban távolléti engedélyt kapott a Vassar Főiskolától és belépett az Amerikai Egyesült Államok Haditengerészetének tartalékosai közé. Sok nőhöz hasonlóan önkéntesként szolgált a WAVES („Women Accepted for Volunteer Emergency Service” - hivatalos nevén: U.S. Naval Reserve (Women's Reserve) kötelékében. A sorozáson különleges engedéllyel ment át, mert a súlya 6,8 kg-mal kevesebb volt a Haditengerészetnél előírt 54 kg (120 font) minimális testsúlynál. Kiképzése 1943-ban kezdődött meg a Flottatartalék Kadétiskolájában (Naval Reserve Midshipmen's School) a Smith College-ban, a Massachusetts Államban levő Northamptonban. Hopper az osztályból elsőként végzett 1944-ben és a Bureau of Ships Computation Project-hez került a Harvard Egyetemre, mint alhadnagy. A Howard H. Aiken irányításával dolgozó, a Mark I számítógépet programozó csoportba került be. Hopper és Aiken közösen három publikációt írtak a Mark I számítógépről. Hopper tényleges szolgálatba történő áthelyezéséről írt kérvényét a háború végén a kora (38) miatt elutasították, így folytatta szolgálatát a Flottatartaléknál. 1949-ig a Harvard számítógép laborban maradt. 1949-ben professzorként visszatért a Vassar Főiskolára, de a Haditengerészet megbízott munkatársaként tovább folytatta a munkát a Harvard Egyetemen.     {Grace Hopper Howard Aikennel és a MARK-I számítógép csapatával (1944).}
+1949-ben Eckert-Mauchly Computer Corporation vállalat alkalmazottja lett mint matematikus és csatlakozott az UNIVAC I számítógép fejlesztő csoportjához. Az 1950-es évek elején a cég beolvadt a Remington Rand vállalatba. 1952-ben sikerült elkészítenie az első fordítóprogramot is, ez volt az A-0 fordítóprogram. „Senki nem hitt benne. Volt egy működő fordítóprogramom és senkit sem érdekelt. Azt mondták, hogy a számítógép csak aritmetikai műveletek elvégzésére képes.” - mesélte Hopper.
+1954-ben Hoppert a vállalat programozási igazgatójává nevezték ki. Részlege fejlesztette az első fordítóprogramra épülő programozási nyelveket például a MATH-MATIC és FLOW-MATIC programnyelvet is. Ez lett később az alapja a COBOL programozási nyelvnek. Ezért is hívják Hoppert a COBOL anyjának. 
+
+{COBOL
+A COBOL magas szintű programozási nyelv, a COmmon Business Oriented Language elnevezés rövidítése.
+Harmadik generációs programozási nyelv. Bár általános célú, mégis elsősorban az üzleti, pénzügyi élet rendszereiben használatos. Megjelentek benne a strukturált programozás bizonyos vezérlő szerkezetei is. 
+A nyelv hosszú fejlődésen ment keresztül, de alapvető felépítését, struktúráját mindvégig megőrizte. Az első változatát, a COBOL 60-at 1959-ben deklarálták.
+}
+
+1967 és 1977 között Hopper volt az igazgatója a Haditengerészet Informatikai Tervező Hivatalához (Navy's Office of Information Systems Planning) tartozó Programozási Nyelv (Navy Programming Languages Group) csoportjának. 1973-ban kapitánnyá léptették elő.
+Hopper 1966-ban, a nyugalmazási szabályoknak megfelelően, 60 éves korában vonult nyugállományba a Haditengerészet Flottatartalékától fregattkapitány rangban. 1967-ben visszahívták a szolgálatba egy hat hónapos időszakra, amit határozatlan időre meghosszabbítottak. 1971-ben ismét nyugdíjba vonult, de 1972-ben ismét felkérték a szolgálatra. 1973-ban Elmo R. Zumwalt, Jr. admirális kapitánnyá nevezte ki. 
+1983-ban elnöki kinevezéssel sorhajókapitánnyá léptették elő. Kongresszusi engedéllyel jóval a nyugdíjkorhatáron túl is szolgálatban maradhatott. 1985-ben a sorhajókapitány rangot átnevezték ellentengernagyi rangra. A Haditengerészettől 1986. augusztus 14-én vonult végleg nyugdíjba. Hopper megkapta a Defense Distinguished Service Medal kitüntetést, ami az Amerikai Egyesült Államok legmagasabb nem harctéri érdemeket elismerő tengerészeti kitüntetése. A végleges nyugdíjba vonulásakor ő volt a haditengerészet legidősebb aktív szolgálatban levő tisztje (79 év 8 hónap és 5 nap). Tanácsadóként tovább dolgozott a Digital Equipment Corporation vállalatnál egészen 85 éves korában 1992-ben bekövetkezett haláláig. Katonai tiszteletadással temették el az Arlingtoni Nemzeti Temetőben. 
+Kitüntetései
+	Defense Distinguished Service Medal
+	Legion of Merit
+	Meritorious Service Medal
+	American Campaign Medal
+	World War II Victory Medal
+	National Defense Service Medal
+	Armed Forces Reserve Medal with two Hourglass Devices
+	Naval Reserve Medal
+	Presidential Medal of Freedom (posthumous)
+

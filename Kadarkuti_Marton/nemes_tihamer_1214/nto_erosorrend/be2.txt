@@ -1,0 +1,7 @@
+6 5
+Andrea Bea Csilla Hanna Lilla Viki
+Csilla > Lilla
+Hanna < Lilla
+Bea > Viki
+Andrea > Bea
+Andrea < Hanna
