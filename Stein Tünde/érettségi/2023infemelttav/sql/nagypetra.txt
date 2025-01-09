@@ -1,0 +1,11 @@
+SELECT * FROM diak WHERE nev != "Nagy Petra" AND id NOT IN(
+select DISTINCT mas.diakid
+FROM
+	alvas AS mas
+    JOIN alvas AS np
+    	ON mas.datum = np.datum
+        AND np.diakid = (SELECT id FROM diak WHERE nev = "Nagy Petra")
+        AND mas.diakid != (SELECT id FROM diak WHERE nev = "Nagy Petra")
+WHERE
+	mas.felkeles > np.felkeles
+);
