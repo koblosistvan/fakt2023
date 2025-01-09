@@ -1,4 +1,4 @@
-PATH:str = "C:\\xampp\\htdocs\\fakt2023\\fakt2023\\Kadarkuti_Marton\\_ERETTSEGI_GYAKR\\23maj22info\\Forras\\4_RGBszinek\\kep.txt"
+PATH:str = "Kadarkuti_Marton\\_ERETTSEGI_GYAKR\\23maj22info\\Forras\\4_RGBszinek\\kep.txt"
 
 class Pixel:
     VILAGOSAK_SZAMA:int = 0
