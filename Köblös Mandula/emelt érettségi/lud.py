@@ -15,8 +15,7 @@ for sor in forrás2:
 forrás2.close()
 
 print('2. feladat')
-szamlalo = 0
-for i in dobasok:
-    szamlalo += 1
-print(f'A dobások száma: {szamlalo}')
+print(f'A dobások száma: {len(dobasok)}')
 print(f'Az ösvények száma: {len(osveny)}')
+
+print('3.feladat')
