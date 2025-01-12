@@ -7,12 +7,19 @@ oszlop4=[]
 
 forras.readline()
 
+
+elso_sor = forras.readline().strip().split(' ')
+szalaghossz = int(elso_sor[0])
+egyseg_ido = int(elso_sor[1])
+
+
 for sor in forras:
     adat=sor.strip().split(' ')
     oszlop1.append(int(adat[0]))
     oszlop2.append(int(adat[1]))
     oszlop3.append(int(adat[2]))
     oszlop4.append(int(adat[3]))
+
 
 forras.close()
 
@@ -29,7 +36,6 @@ def tav(szalaghossz, indulashelye, erkezeshelye):
     else:
         return szalaghossz - indulashelye + erkezeshelye
 
-szalaghossz = 200
 max_tav = 0
 max_sorszamok = []
 
