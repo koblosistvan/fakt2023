@@ -42,7 +42,7 @@ with open(IMPORT_PATH, 'r',encoding="utf-8") as f:
         rekeszek.append(Rekesz( sor.strip().split(' ') ))
 
 # 2. feladat
-prompt = 3#int(input("\n2. feladat:\nAdja meg, melyik adatsorra kíváncsi! ")) -1
+prompt = int(input("\n2. feladat:\nAdja meg a halak számát! ")) -1
 
 print(f"Honnan: {rekeszek[prompt].honnan} Hova: {rekeszek[prompt].hova}")
 
@@ -80,13 +80,16 @@ print("A kezdőpont előtt elhaladó rekeszek össztömege:",ossz_tomeg)
 # 6. feladat
 
 sorszamok:list[int] = []
-prompt = 300#int(input("\n6. feladat:\nAdja meg a kívánt időpontot! "))
+prompt = int(input("\n6. feladat:\nAdja meg a kívánt időpontot! "))
 
 for i in range(len(rekeszek)):
     if rekeszek[i].elhaladt_ekkor(prompt):
         sorszamok.append(str(i+1))
 
-print("A szállított rekeszek halmaza:",' '.join(sorszamok))
+if sorszamok:
+    print("A szállított rekeszek halmaza:",' '.join(sorszamok))
+else:
+    print("üres")
 
 # 7. feladat
 with open(EXPORT_PATH,'w',encoding="utf-8") as x:
