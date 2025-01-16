@@ -55,3 +55,6 @@ print(f'A legnagyobb darabszám: {legnagyobb}, a rendelés napja: {nap[index_leg
 
 print('7.feladat')
 print(f'A rendelt termékek száma a 21. napon: PL: {osszes("PL",21)} TV: {osszes("TV", 21)} NR: {osszes("NR", 21)}')
+
+print('8. feladat')
+nap_szam = 1

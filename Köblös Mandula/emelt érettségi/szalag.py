@@ -52,8 +52,8 @@ celbaeres = []
 for i in range(len(idoegyseg)):
     celbaeres.append((idoegyseg[i]+tav(szalag_hossz, felkerul[i], lekerul[i]))*idotartam)
 
-print(f'A szállított rekeszek halmaza: ', end=' ')
 bekert_idopont = int(input('Adja meg a kívánt időpontot! '))
+print(f'A szállított rekeszek halmaza:', end=' ')
 volt_csomag_ekkor = False
 for i in range(len(idoegyseg)):
     if idoegyseg[i] <= bekert_idopont < celbaeres[i]:
@@ -67,7 +67,6 @@ print('\n')
 kiiras = open('tomeg.txt', mode='w', encoding='utf-8')
 
 helyek = sorted(set(felkerul.copy()))
-print(helyek)
 
 for hely in helyek:
     ossztomeg = 0
