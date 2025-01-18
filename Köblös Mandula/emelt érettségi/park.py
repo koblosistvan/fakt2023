@@ -66,3 +66,4 @@ elif sum(beultetett_agyasok) >= agyasok:
     print('Átszervezéssel megoldható a beültetés.')
 elif sum(beultetett_agyasok) < agyasok:
     print('A beültetés nem oldható meg.')
+
