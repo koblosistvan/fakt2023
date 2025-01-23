@@ -31,8 +31,7 @@ for i in range(len(mettol)):
     if mettol[i] < meddig[i] and mettol[i] <= agyas_sorszama <= meddig[i]:
         felajanlasok += 1
         agyasok_szine.append(szin[i])
-    elif mettol[i] >= meddig[i]:
-        if mettol[i] <= agyas_sorszama or agyas_sorszama <= meddig[i]:
+    elif mettol[i] >= meddig[i] and (mettol[i] <= agyas_sorszama or agyas_sorszama <= meddig[i]):
             felajanlasok += 1
             agyasok_szine.append(szin[i])
 print(f'Felajánlók száma: {felajanlasok}')
