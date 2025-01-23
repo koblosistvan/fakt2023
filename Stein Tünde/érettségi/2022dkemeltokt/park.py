@@ -1,6 +1,6 @@
 # 1
 forras = open('felajanlas.txt', 'r', encoding='utf-8')
-elemszam = int(forras.readline().strip()) #[0]
+elemszam = int(forras.readline().strip())
 kezdo = []
 utolso = []
 szin = []
@@ -21,19 +21,28 @@ for i in range(len(kezdo)):
         ketoldal.append(str(i+1))
 print(f'3. feladat\nA bejárat mindkét oldalán ültetők: {" ".join(ketoldal)}')
 
+
+def feltetel(k, ertek, v):
+    if (k <= ertek <= v) or (k > v and k >= ertek): #<= v
+        return True
+    else:
+        return False
+
+
 # 4
 bemenet = int(input('4. feladat\nAdja meg az ágyás sorszámát! '))
 counter = 0
 szinek = []
 for i in range(len(kezdo)):
-    if (kezdo[i] <= bemenet <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= bemenet <= utolso[i]):
+    if feltetel(kezdo[i], bemenet, utolso[i]):
         counter += 1
         if szin[i] not in szinek:
             szinek.append(szin[i])
 print(f'A felajánlók száma: {counter}')
 vegso_szin = None
 for i in range(len(kezdo)):
-    if (kezdo[i] <= bemenet <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= bemenet <= utolso[i]):
+    if feltetel(kezdo[i], bemenet, utolso[i]):
+        #(kezdo[i] <= bemenet <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= bemenet <= utolso[i]):
         vegso_szin = szin[i]
         print(f'A virágágyás színe, ha csak az első ültet: {vegso_szin}')
         break
@@ -53,7 +62,8 @@ jelentkezo_lista = [0]*elemszam
 elem = 1
 while elem <= elemszam:
     for i in range(len(kezdo)):
-        if (kezdo[i] <= elem <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= elem<= utolso[i]):
+        if feltetel(kezdo[i], elem, utolso[i]):
+            #(kezdo[i] <= elem <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= elem<= utolso[i]):
             jelentkezo_lista[elem-1] = 1
             elem += 1
     else:
@@ -69,7 +79,8 @@ kimenet = open('szinek.txt', 'w', encoding='utf-8')
 for elem in range(1, elemszam+1):
     felajanlasindex = 0
     for i in range(len(kezdo)):
-        if (kezdo[i] <= elem <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= elem <= utolso[i]):
+        if feltetel(kezdo[i], elem, utolso[i]):
+            #(kezdo[i] <= elem <= utolso[i]) or (kezdo[i]>utolso[i] and kezdo[i] >= elem <= utolso[i]):
             felajanlasindex = i
     if felajanlasindex:
         print(f'{elem} {szin[felajanlasindex]} {felajanlasindex+1}', file=kimenet)
