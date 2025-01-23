@@ -49,7 +49,7 @@ print("A bejárat mindkét oldalán ültetők:",', '.join(atlog_indexek))
 
 # 4. feladat
 print("\n4. feladat") # 1:több, 269:senki
-prompt:int = 100#int(input("Adja meg az ágyás sorszámát! ").strip())
+prompt:int = int(input("Adja meg az ágyás sorszámát! ").strip())
 felajanlok_szama:int = 0
 szinek_ha_tobbet_ultet = []
 
