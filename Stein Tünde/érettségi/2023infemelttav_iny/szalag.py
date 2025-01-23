@@ -48,7 +48,7 @@ for i in range(len(suly)):
     if honnan[i] != 0 and hova[i] != 0 and honnan[i] > hova[i]:
         ossztomeg += suly[i]
 print(f'5. feladat'
-      f'A kezdőpont előtt elhaladó rekeszek össztömege: 957')
+      f'A kezdőpont előtt elhaladó rekeszek össztömege: {ossztomeg}')
 
 # 6
 bekert_idopont = int(input('6. feladat\nAdja meg a kívánt időpontot! '))
