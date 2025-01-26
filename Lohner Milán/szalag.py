@@ -58,7 +58,7 @@ for i in range(len(oszlop1)):
 
 print(f"A kezdőpont előtt elhaladó rekeszek össztömege: {ossztomeg}")
 
-egyseg_ido = 3  # Ezt szintén az első sorból olvasod
+egyseg_ido = 3
 idopont = int(input("Adja meg a kívánt időpontot: "))
 aktiv_rekeszek = []
 

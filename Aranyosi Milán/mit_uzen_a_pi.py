@@ -32,7 +32,7 @@ text_pi = '''
 222106611863067442786220391949450471237137869609563643719172874
 677646575739624138908658326459958133904780275901
 '''
-
+'''
 nulla = 0
 egy = 0
 ketto = 0
@@ -66,9 +66,6 @@ for i in text_pi:
     if i == '9':
         kilenc += 1
 
-szamok = [] #előfurdulások számának listája
-
-szamok_index = []
 
 szamok.append(nulla)
 szamok_index.append('0')
@@ -90,8 +87,21 @@ szamok.append(nyolc)
 szamok_index.append('8')
 szamok.append(kilenc)
 szamok_index.append('9')
+'''
 
-rendezettszamok = []
+szamok = [] #előfurdulások számának listája
+
+szamok_index = [] #melyik szájegyhez tartozik az előfordulási érték
+
+for i in range(0, 10): #ciklussal 0-tól 9-ig számok
+    szamok_index.append(str(i))
+
+for j in range(len(szamok_index)):
+    i_szaml = 0
+    for i in text_pi:
+        if i == szamok_index[j]:
+            i_szaml += 1
+    szamok.append(i_szaml)
 
 for i in range(len(szamok)-1):
     legnagyobb = i
@@ -106,11 +116,8 @@ for i in range(len(szamok)-1):
     szamok_index[i] = szamok_index[legnagyobb]
     szamok_index[legnagyobb] = seged_ketto
 
-#print(szamok)
-#print(szamok_index)
-
 for i in range(len(szamok)):
-    print(f'A(z) {i+1:2} leggyakoribb számjegy a "{int(szamok_index[i])}" volt {szamok[i]} előfordulással.')
+    print(f'A(z) {i+1:2}. leggyakoribb számjegy a "{int(szamok_index[i])}" volt {szamok[i]} előfordulással.')
 
 szamkod = ''
 
