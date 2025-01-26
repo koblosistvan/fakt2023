@@ -16,6 +16,7 @@ for sor in forras:
     x_koordinata.append(int(adat[3]))
     y_koordinata.append(int(adat[4]))
 
+forras.close()
 
 print('2. feladat')
 adott_sorszam = int(input('Adja meg a jel sorszámát! '))-1
