@@ -73,12 +73,13 @@ kimenet = open('kimaradt.txt', 'w', encoding='utf-8')
 for i in range(len(x_koordinata)-1):
     xvaltozas = x_koordinata[i] - x_koordinata[i + 1]
     yvaltozas = y_koordinata[i] - y_koordinata[i + 1]
+
     if eltelt(i, i+1) > 5*60:
-        print(f'{ora[i]} {perc[i]} {mp[i]} {"irőeltérés"} {int(eltelt(i, i+1)/(5*60))}', file=kimenet)
+        print(f'{ora[i+1]} {perc[i+1]} {mp[i+1]} {"időeltérés"} {int((eltelt(i, i+1)-1)/(5*60))}', file=kimenet)
     elif abs(xvaltozas) > 10:
-        print(f'{ora[i]} {perc[i]} {mp[i]} {"koordináta-eltérés"} {int(xvaltozas/10)}', file=kimenet)
+        print(f'{ora[i+1]} {perc[i+1]} {mp[i+1]} {"koordináta-eltérés"} {int((xvaltozas-1)/10)}', file=kimenet)
     elif abs(yvaltozas) > 10:
-        print(f'{ora[i]} {perc[i]} {mp[i]} {"koordináta-eltérés"} {int(yvaltozas/10)}', file=kimenet)
+        print(f'{ora[i+1]} {perc[i+1]} {mp[i+1]} {"koordináta-eltérés"} {int((yvaltozas-1)/10)}', file=kimenet)
 
 forras.close()
 
