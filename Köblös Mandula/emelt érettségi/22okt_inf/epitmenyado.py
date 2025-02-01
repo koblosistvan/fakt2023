@@ -74,10 +74,10 @@ print(set(utcak))
 
 kimenet = open('fizetendo.txt', mode='w', encoding='utf-8')
 
-szemelyek = set(tulajdonos.copy())
-for i in range(len(szemelyek)):
+
+for i in range(len(tulajdonos)):
     fizetendo_ado = 0
     for j in range(len(tulajdonos)):
-        if szemelyek[i] == tulajdonos[j] and ado(adosav[j], alapterulet[j]) >= 10000:
+        if tulajdonos[i] == tulajdonos[j] and ado(adosav[j], alapterulet[j]) >= 10000:
             fizetendo_ado += ado(adosav[j], alapterulet[j])
-    print(f'{tulajdonos[j]} {fizetendo_ado}', file=kimenet)
+    print(f'{tulajdonos[i]} {fizetendo_ado}', file=kimenet)
