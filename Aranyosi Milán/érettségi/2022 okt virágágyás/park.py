@@ -125,7 +125,6 @@ for i in range(len(kesz_agyasok)-1):
     kesz_ajanlszam[legkisebb] = seged_harom
 
 
-
 for i in range(len(kesz_szinek)):
     print(f'{kesz_szinek[i]} {kesz_ajanlszam[i]}', file=kimenet)
 

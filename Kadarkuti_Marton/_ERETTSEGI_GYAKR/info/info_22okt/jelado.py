@@ -33,7 +33,7 @@ with open(INPUT_PATH, 'r', encoding="utf-8") as f:
 
 # 2.
 print("2. feladat")
-prompt:int = 3#int(input("Adja meg a jel sorszámát! ").strip())
+prompt:int = int(input("Adja meg a jel sorszámát! ").strip())
 prompt -= 1
 print(f"x={jelek[prompt].x} y={jelek[prompt].y}")
 

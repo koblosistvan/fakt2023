@@ -1,0 +1,46 @@
+3kulfold
+select nev, orszag
+from allomas
+where orszag != ""
+order by nev asc
+
+480
+select allomas.nev, allomas.tipus, hely.tav
+from hely join allomas on hely.allomasid = allomas.id
+where hely.vonalid = "80"
+
+5vonalhossz
+select vonalid, MAX(tav)
+from hely
+group by vonalid
+
+6vegallomas
+SELECT indulasi.vonalid, indulasi.nev, veg.nev 
+FROM (SELECT nev, vonalid  
+   FROM allomas, hely  
+   WHERE allomas.id=allomasid  
+   AND  hely.tav = 0) AS indulasi, 
+(SELECT nev, vonalid, tav  
+   FROM allomas, hely  
+   WHERE allomas.id=allomasid) AS veg, 
+(SELECT vonalid, Max(tav) as maxtav
+   FROM hely  
+   GROUP BY vonalid) AS tulso 
+WHERE indulasi.vonalid=veg.vonalid AND veg.vonalid=tulso.vonalid AND veg.tav =tulso.maxtav
+
+7Hatvan
+SELECT allomas.nev
+from allomas join hely on allomas.id = hely.allomasid
+where allomas.nev != "Hatvan" and hely.vonalid in (select hely.vonalid from hely where hely.allomasid = 1976) 
+
+8legalabb5
+select allomas.nev, count(hely.allomasid)
+from hely join allomas on hely.allomasid = allomas.id
+group by hely.allomasid
+having count(hely.allomasid) >4
+order by count(hely.allomasid) desc
+
+9140
+select allomas.nev, hely.tav
+from allomas join hely on allomas.id = hely.allomasid
+where hely.vonalid = 140 and hely.tav > 90 and hely.tav < 101

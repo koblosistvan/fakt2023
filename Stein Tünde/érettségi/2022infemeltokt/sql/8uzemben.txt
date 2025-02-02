@@ -1,0 +1,5 @@
+SELECT palya.ut as Autópáya, palya.kesz as Üzemhossz_km, telepules.nev as Érintett_települések
+FROM palya JOIN telepules ON telepules.ut = palya.ut
+WHERE palya.kesz > 0
+GROUP BY palya.ut, palya.kesz
+ORDER BY palya.ut, telepules.nev;

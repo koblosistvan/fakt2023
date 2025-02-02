@@ -8,7 +8,7 @@ class Starcraft:
         self.legiseb = legiseb
 
 starcraft = []
-forras = open('Starcraft.txt', encoding='utf-8', mode='r')
+forras = open('StarCraft.txt', encoding='utf-8', mode='r')
 forras.readline()
 for sor in forras:
     adat = sor.strip().split('\t')

@@ -9,7 +9,7 @@
 
 # --------------------------------------------------------------------------------------------------------
 # 1. feladat: adatok beolvasása és tárolása
-forras = open('cooper.txt', mode = 'r', encoding='utf-8')
+forras = open('cooper.txt', mode ='r', encoding='utf-8')
 iden = []
 tavaly = []
 for sor in range(forras):
