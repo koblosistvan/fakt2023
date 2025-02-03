@@ -73,9 +73,10 @@ for i in range(len(tulajok)):
     for j in range(len(adoszam)):
         if tulajok[i] == adoszam[j]:
             if adosav[j] == "A":
-                fizetendoado += ado(A, alapterulet[i])
+                fizetendoado += ado(A, alapterulet[j])
             elif adosav[j] == "B":
-                fizetendoado += ado(B, alapterulet[i])
+                fizetendoado += ado(B, alapterulet[j])
             else:
-                fizetendoado += ado(C, alapterulet[i])
+                fizetendoado += ado(C, alapterulet[j])
     fizetendo.write(f"{tulajok[i]} {fizetendoado}\n")
+fizetendo.close()
