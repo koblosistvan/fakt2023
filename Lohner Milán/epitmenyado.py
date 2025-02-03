@@ -91,3 +91,5 @@ for i in range(len(oszlop1)):
 with open('fizetendo.txt', 'w', encoding='utf-8') as kimenet:
     for adoszam, osszeg in tulajdonos_ado.items():
         kimenet.write(f"{adoszam} {osszeg}\n")
+
+######
