@@ -34,11 +34,15 @@ if not vanbekert:
 # 4
 def ado(adosav, alapterulet):
     if adosav == 'A':
-        return a_sav * alapterulet
+        vissza = a_sav * alapterulet
     elif adosav == 'B':
-        return b_sav * alapterulet
+        vissza = b_sav * alapterulet
     elif adosav == 'C':
-        return c_sav * alapterulet
+        vissza = c_sav * alapterulet
+    if vissza >= 10000:
+        return vissza
+    else:
+        return 0
 
 
 # 5
@@ -64,6 +68,7 @@ for i in range(len(adoszam)):
         if utcanev[i] == utcanev[k]:
             if sav[i] != sav[k] and utcanev[i] not in utcanevek:
                 utcanevek.append(utcanev[i])
+print('6. feladat. A több sávba sorolt utcák:')
 for i in utcanevek:
     print(i)
 
