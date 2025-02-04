@@ -1,0 +1,14 @@
+2morotva
+select alloviz.nev, alloviz.terulet
+from alloviz
+where alloviz.tipus like "%morotva%"
+order by alloviz.terulet desc
+
+3vizarany
+select sum(alloviz.terulet)/93036 as vizarany
+from alloviz
+
+4kozepes
+select alloviz.nev, alloviz.tipus, alloviz.terulet
+from alloviz
+where alloviz.terulet BETWEEN 3 and 10 and alloviz.vizgyujto > alloviz.terulet*10
