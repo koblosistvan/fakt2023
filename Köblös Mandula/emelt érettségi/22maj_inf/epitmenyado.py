@@ -70,7 +70,7 @@ utcak = []
 for i in range(len(tulajdonos)-1):
     if utca[i] == utca[i+1] and adosav[i] != adosav[i+1]:
         utcak.append(utca[i])
-print(set(utcak))
+print('\n'.join(set(utcak)))
 
 kimenet = open('fizetendo.txt', mode='w', encoding='utf-8')
 
