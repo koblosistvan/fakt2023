@@ -1,9 +1,9 @@
 3 27 55 koordináta-eltérés 1
 3 31 50 koordináta-eltérés 1
-4 25 33 időeltérés 2
-5 5 33 időeltérés 2
-6 22 42 időeltérés 3
-6 32 42 időeltérés 2
+4 25 33 időeltérés 1
+5 5 33 időeltérés 1
+6 22 42 időeltérés 2
+6 32 42 időeltérés 1
 8 37 26 koordináta-eltérés 1
 9 10 1 koordináta-eltérés 1
 9 30 27 koordináta-eltérés 1
