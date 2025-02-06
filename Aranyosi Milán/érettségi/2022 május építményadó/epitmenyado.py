@@ -18,9 +18,6 @@ for sor in forras:
 
 forras.close()
 
-print(tulajok, utcanev, hazszamok, adosavok, alapterulet)
-print(A,B,C)
-
 print(f'2. feladat. A mintában {len(hazszamok)} telek szerepel.')
 
 adott_adoszam = int(input(f'3. feladat. Egy tulajdonos adószáma: '))
@@ -41,7 +38,6 @@ def ado(adosav, alapterulet):
     else:
         osszeg_ado = alapterulet * int(C)
     return osszeg_ado if osszeg_ado >= 10000 else 0
-
 
 a_szaml = 0
 b_szaml = 0

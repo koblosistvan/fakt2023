@@ -47,7 +47,7 @@ for i in range(len(szallitasok)):
     if szallitasok[i] == legnagyobbtav:
         legnagyobbtav_indexek += f' {i+1}'
 
-print('A legnagyobb távolság: 195')
+print(f'A legnagyobb távolság: {legnagyobbtav}')
 print(f'A maximális távolságú szállítások sorszáma:{legnagyobbtav_indexek}')
 
 
@@ -69,6 +69,9 @@ bekert_idopont = int(input('Adja meg a kívánt időpontot!'))
 for i in range(len(mikor_tettek)):
     if mikor_tettek[i] <= bekert_idopont <= mikor_tettek[i] + tav(maxtav, honnan[i], hova[i]) * elmozdulashoz_ido:
         szallitott_rekeszek += f' {i+1}'
+
+if szallitott_rekeszek == '':
+    szallitott_rekeszek += ' üres'
 
 print(f'A szállított rekeszek halmaza:{szallitott_rekeszek}')
 
