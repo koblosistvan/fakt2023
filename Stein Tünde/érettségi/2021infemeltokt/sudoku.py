@@ -5,10 +5,13 @@ bekertoszlop = int(input('Adja meg egy oszlop számát! '))
 
 # 2
 forras = open(fajl_neve, 'r', encoding='utf-8')
-tabla = [[0]*9]*9
+tabla = [[0]*9 for _ in range(9)]
+
 for i in range(9):
     sor = forras.readline().strip().split(' ')
-    for k in range(len(sor)):
+    for k in range(9):
+        a = tabla[i]
+        b = tabla[i][k]
         tabla[i][k] = int(sor[k])
 lepes = []
 tsor = []
@@ -21,10 +24,69 @@ for i in forras:
 forras.close()
 
 # 3
-adottszam = tabla[bekertoszlop-1][bekertsor-1]
-rasztabla = bekertsor % 9 in (1, 2, 3)
+
+def resztabla(s, o):
+    if s % 9 < 4:
+        resz = 1
+        if o % 9 > 3:
+            resz += 3
+        if o % 9 > 6:
+            resz += 3
+    elif s % 9 <= 6:
+        resz = 2
+        if o % 9 > 3:
+            resz += 3
+        if o % 9 > 6:
+            resz += 3
+    else:
+        resz = 3
+        if o % 9 > 3:
+            resz += 3
+        if o % 9 > 6:
+            resz += 3
+    return resz
 
 
+adottszam = tabla[bekertsor-1][bekertoszlop-1]
+print('3. feladat')
+if adottszam:
+    print(f'Az adott helyen szereplő szám: {adottszam}')
+else:
+    print('Az adott helyet még nem töltötték ki.')
+print(f'A hely a(z) {resztabla(bekertsor, bekertoszlop)} résztáblázathoz tartozik. ')
+
+# 4
+ures = 0
+for i in tabla:
+    for k in i:
+        if not k:
+            ures += 1
+print(f'4. feladat\n'
+      f'Az üres helyek aránya: {round(ures/81*100, 1)}%')
+
+# 5
+print('5. feladat')
+for i in range(len(lepes)):
+    #print(resztabla(tsor[i], oszlop[i]))
+    oszloplista = []
+    reszlista = []
+    for k in range(9):
+        oszloplista.append(tabla[k][oszlop[i]-1])
+    for k in range(9):
+        for j in range(9):
+            if resztabla(k+1, j+1) == resztabla(tsor[i], oszlop[i]):
+                reszlista.append(tabla[i][k])
+    print(f'A kiválasztott sor: {tsor[i]} oszlop: {oszlop[i]} a szám: {lepes[i]}')
+    if tabla[tsor[i]-1][oszlop[i]-1]:
+        print('A helyet már kitöltötték. ')
+    elif lepes[i] in tabla[tsor[i]-1]:
+        print('Az adott sorban már szerepel a szám.')
+    elif lepes[i] in oszloplista:
+        print('Az adott oszlopban már szerepel a szám.')
+    elif lepes[i] in reszlista:
+        print('A résztáblázatban már szerepel a szám.')
+    else:
+        print('A lépés megtehető. ')
 
 """1. feladat 
 Adja meg a bemeneti fájl nevét! konnyu.txt 
