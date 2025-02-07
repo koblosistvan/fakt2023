@@ -7,7 +7,6 @@ class Lepes:
         self.y = int(data[2]) -1
     def __str__(self) -> str:
         return f"{self.ertek} {self.x} {self.y}"
-
 lepesek:list[Lepes] = []
 𒐫:list[list[int]] = [ [0]*9 for _ in range(9) ]
 
@@ -71,3 +70,20 @@ print(f"A hely a(z) {resztabla(x,y)} résztáblázathoz tartozik. ")
 print(f"Az üres helyek aránya: {(negyes_fela_nullasok/81):.1%}")
 
 # 5.
+
+def get_oszlop(y)->list[int]:
+    arr = []
+    for i in range(9):
+        arr.append(𒐫[i][y])
+    return arr
+
+def get_sor(x)->list[int]:
+    arr = []
+    for i in range(9):
+        arr.append(𒐫[x][i])
+    return arr
+
+print(get_sor(0))
+
+if 𒐫[x][y] != 0:
+    print("A helyet már kitöltötték")
