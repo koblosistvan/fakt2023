@@ -1,5 +1,5 @@
 print('1. feladat')
-fajlnev = 'konnyu.txt'   #input('Adja meg a bemeneti fájl nevét!')
+fajlnev = input('Adja meg a bemeneti fájl nevét!')
 adott_sor = int(input('Adja meg egy sor számát!'))
 adott_oszlop = int(input('Adja meg egy oszlop számát!'))
 
@@ -65,6 +65,16 @@ print(f'Az üres helyek aránya: {ures_szaml / osszes:0.1%}')
 
 print('5. feladat')
 
+for i in range(len(sorok)):
+    valtozas_reszhalmaza = []
+    valtozas_oszlopa = []
+    valtozas_sora = []
+    for j in range(len(valtoztatasok)):
+        valtozas_oszlop = valtoztatasok[j][3]
+        valtozas_sor = valtoztatasok[j][2]
+        valtozas_szam = valtoztatasok[j][1]
+        if sorok[i] == valtozas_sor:
+            valtozas_sora
 
 
 
