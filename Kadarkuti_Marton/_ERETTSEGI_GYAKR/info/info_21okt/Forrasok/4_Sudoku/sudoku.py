@@ -1,12 +1,14 @@
-# 𒐫
-
 class Lepes:
     def __init__(self,data) -> None:
         self.ertek = int(data[0])
         self.x = int(data[1]) -1
         self.y = int(data[2]) -1
     def __str__(self) -> str:
-        return f"{self.ertek} {self.x} {self.y}"
+        return f"A kiválasztott sor: {1+self.x} oszlop: {1+self.y} a szám: {self.ertek} "
+    
+    def resztabla(self):
+        return resztabla(self.y, self.x) # felcsereltem az xy-t
+    
 lepesek:list[Lepes] = []
 𒐫:list[list[int]] = [ [0]*9 for _ in range(9) ]
 
@@ -16,8 +18,7 @@ print("1. feladat")
 # 2.
 negyes_fela_nullasok = 0
 
-#with open("Kadarkuti_Marton/_ERETTSEGI_GYAKR/info/info_21okt/Forrasok/4_Sudoku/" + input("Adja meg a bemeneti fájl nevét! ").strip(),'r',encoding="utf-8") as f:
-with open("Kadarkuti_Marton/_ERETTSEGI_GYAKR/info/info_21okt/Forrasok/4_Sudoku/konnyu.txt",'r',encoding="utf-8") as f:
+with open("Kadarkuti_Marton/_ERETTSEGI_GYAKR/info/info_21okt/Forrasok/4_Sudoku/" + input("Adja meg a bemeneti fájl nevét! ").strip(),'r',encoding="utf-8") as f:
     sor = ""
     for x in range(9):
         sor = f.readline().strip().split(' ')
@@ -55,11 +56,12 @@ def resztabla(x,y): # nagyon rossz megoldas
         else:
             return 9
             
-x=0#x = int(input("Adja meg egy sor számát! ").strip()) -1
-y=0#y = int(input("Adja meg egy oszlop számát! ").strip()) -1
+x = int(input("Adja meg egy sor számát! ").strip()) -1
+y = int(input("Adja meg egy oszlop számát! ").strip()) -1
+cella = 𒐫[x][y]
 
-if 𒐫[x][y]:
-    print("Az adott helyen szereplő szám: ",𒐫[x][y])
+if cella:
+    print("Az adott helyen szereplő szám: ",cella)
 else:
     print("Az adott helyet még nem töltötték ki.")
 
@@ -83,7 +85,28 @@ def get_sor(x)->list[int]:
         arr.append(𒐫[x][i])
     return arr
 
-print(get_sor(0))
+def get_resztabla(n)->list[int]:
+    n = [(0,0),(0,3),(0,6),(3,0),(3,3),(3,6),(6,0),(6,3),(6,6)][n-1] # ez is
+    arr = []
+    for i in range(9):
+        arr.append( 𒐫[n[0] + i//3][n[1] + i%3] )
+    return arr
 
-if 𒐫[x][y] != 0:
-    print("A helyet már kitöltötték")
+
+for lepes in lepesek:
+    print(lepes)
+    cella = 𒐫[lepes.x][lepes.y]
+
+    if cella:
+        print("A helyet már kitöltötték")
+    elif get_sor(lepes.x).count(lepes.ertek):
+        print("Az adott sorban már szerepel a szám")
+    elif get_oszlop(lepes.y).count(lepes.ertek):
+        print("Az adott oszlopban már szerepel a szám")
+    elif get_resztabla( lepes.resztabla() ).count(lepes.ertek):
+        print("Az adott résztáblázatban már szerepel a szám")
+    else:
+        print("A lépés megtehető")
+    print("")
+
+
