@@ -1,7 +1,7 @@
 
 forras=open('utca.txt', mode='r', encoding='utf-8')
 
-forras.readline()
+
 
 
 oszlop1 = []  # Adószámok
@@ -18,6 +18,8 @@ for sor in forras:
     oszlop3.append(adat[2])
     oszlop4.append(adat[3])
     oszlop5.append(int(adat[4]))
+
+forras.readline()
 
 # 2. feladat
 print(f"2. feladat. A mintában {len(oszlop1)} telek szerepel.")
