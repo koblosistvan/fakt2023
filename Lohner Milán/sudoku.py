@@ -50,7 +50,6 @@ def ervenyes_lepes(tabla, szam, sor, oszlop):
 
     return "A lépés megtehető"
 
-# Kiválasztott fájl betöltése
 fajlnev = valaszt + ".txt"
 sor = int(input("Adja meg egy sor számát! ")) - 1
 oszlop = int(input("Adja meg egy oszlop számát! ")) - 1
