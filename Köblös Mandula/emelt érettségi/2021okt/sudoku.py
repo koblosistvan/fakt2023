@@ -37,6 +37,9 @@ print(f'A hely a(z) {cella[sorszam-1][oszlop-1]} résztáblához tartozik.')
 
 ures = 0
 for i in range(len(sorok)):
-    if sorok[i][i] == '0':
-        ures += 1
-print(ures)
+    for j in range(len(sorok[i])):
+        if sorok[i][j] == '0':
+            ures += 1
+print(f'Az üres helyek aránya: {ures / 81 :0.1%}')
+
+
