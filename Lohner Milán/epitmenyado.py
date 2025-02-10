@@ -12,7 +12,7 @@ oszlop5 = []  # Alapterületek
 
 
 for sor in forras:
-    adat = sor.strip().split()
+    adat = sor.strip().split(' ')
     oszlop1.append(adat[0])
     oszlop2.append(adat[1])
     oszlop3.append(adat[2])
