@@ -27,10 +27,18 @@ print(f'A képpont színe RGB({kep[line-1][oszlop-1][0]},{kep[line-1][oszlop-1][
 print('3. feladat:')
 vilagos = 0
 for a in range(len(kep)):
-    for b in range(a):
-        if sum(kep[a][b]) > 600:
+    for b in kep[a]:
+        seged = 0
+        for c in kep[a][b]:
+            seged += kep[a][b][c]
+        if seged > 600:
             vilagos += 1
 print(vilagos)
+
+
+print('4.feladat')
+
+
 
 """
 

@@ -1,0 +1,30 @@
+2morotva
+select alloviz.nev, alloviz.terulet
+from alloviz
+where alloviz.tipus like "%morotva%"
+order by alloviz.terulet desc
+
+3vizarany
+select sum(alloviz.terulet)/93036 as vizarany
+from alloviz
+
+4kozepes
+select alloviz.nev, alloviz.tipus, alloviz.terulet
+from alloviz
+where alloviz.terulet BETWEEN 3 and 10 and alloviz.vizgyujto > alloviz.terulet*10
+
+5sok
+select alloviz.nev, count(*) as "telepules szam"
+from alloviz join helykapcs on alloviz.id = helykapcs.allovizid
+GROUP by helykapcs.allovizid
+having count(helykapcs.gpsid) >= 3
+
+6keletnyugat
+SELECT alloviz.nev
+from alloviz join helykapcs on alloviz.id = helykapcs.allovizid join telepulesgps on helykapcs.gpsid = telepulesgps.id
+order by telepulesgps.hosszusag DESC
+limit 1
+
+7egyegy
+SELECT alloviz.nev, terulet, telepulesgps.nev FROM alloviz, helykapcs, telepulesgps WHERE alloviz.id=allovizid And telepulesgps.id=gpsid And allovizid in (SELECT alloviz.id from alloviz join helykapcs on alloviz.id = helykapcs.allovizid GROUP by helykapcs.allovizid having count(helykapcs.allovizid) = 1 ) And gpsid in (SELECT telepulesgps.id from telepulesgps join helykapcs on telepulesgps.id = helykapcs.gpsid GROUP by helykapcs.gpsid having count(helykapcs.allovizid) = 1);
+
