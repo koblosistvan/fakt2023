@@ -6,4 +6,7 @@ or
 lcase(cim) like "% love %" -- kozben
 or
 lcase(cim) like "% love" -- vegen
+or 
+lcase(cim) like "love" -- cim
+
 order by megjelenes desc
