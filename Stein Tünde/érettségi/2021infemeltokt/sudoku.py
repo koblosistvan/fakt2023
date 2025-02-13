@@ -26,23 +26,23 @@ forras.close()
 # 3
 
 def resztabla(s, o):
-    if s % 9 < 4:
+    if s < 4:
         resz = 1
-        if o % 9 > 3:
+        if o > 3:
             resz += 3
-        if o % 9 > 6:
+        if o > 6:
             resz += 3
-    elif s % 9 <= 6:
+    elif s <= 6:
         resz = 2
-        if o % 9 > 3:
+        if o > 3:
             resz += 3
-        if o % 9 > 6:
+        if o > 6:
             resz += 3
     else:
         resz = 3
-        if o % 9 > 3:
+        if o > 3:
             resz += 3
-        if o % 9 > 6:
+        if o > 6:
             resz += 3
     return resz
 
@@ -67,7 +67,6 @@ print(f'4. feladat\n'
 # 5
 print('5. feladat')
 for i in range(len(lepes)):
-    #print(resztabla(tsor[i], oszlop[i]))
     oszloplista = []
     reszlista = []
     for k in range(9):
