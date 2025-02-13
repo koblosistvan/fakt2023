@@ -25,6 +25,7 @@ forras.close()
 
 # 3
 
+
 def resztabla(s, o):
     if s < 4:
         resz = 1
