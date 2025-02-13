@@ -21,34 +21,36 @@ adottszam = sorok[adott_sor-1][adott_oszlop-1]
 if adottszam == '0':
     adottszam = 'Az adott helyet még nem töltötték ki.'
 
-resztabla = 0
+def resztabla(adott_sor, adott_oszlop):
+    resztabla = 0
+    if adott_sor <= 3:
+        if adott_oszlop <= 3:
+            resztabla = 1
+        elif 4 <= adott_oszlop <= 6:
+            resztabla = 2
+        elif 7 <= adott_oszlop <= 9:
+            resztabla = 3
 
-if adott_sor <= 3:
-    if adott_oszlop <= 3:
-        resztabla = 1
-    elif 4 <= adott_oszlop <= 6:
-        resztabla = 2
-    elif 7 <= adott_oszlop <= 9:
-        resztabla = 3
+    if 4 <= adott_sor <= 6:
+        if adott_oszlop >= 3:
+            resztabla = 4
+        elif 4 <= adott_oszlop <= 6:
+            resztabla = 5
+        elif 7 <= adott_oszlop <= 9:
+            resztabla = 6
 
-if 4 <= adott_sor <= 6:
-    if adott_oszlop >= 3:
-        resztabla = 4
-    elif 4 <= adott_oszlop <= 6:
-        resztabla = 5
-    elif 7 <= adott_oszlop <= 9:
-        resztabla = 6
+    if 7 <= adott_sor <= 9:
+        if adott_oszlop <= 3:
+            resztabla = 7
+        elif 4 <= adott_oszlop <= 6:
+            resztabla = 8
+        elif 7 <= adott_oszlop <= 9:
+            resztabla = 9
+    return resztabla
 
-if 7 <= adott_sor <= 9:
-    if adott_oszlop <= 3:
-        resztabla = 7
-    elif 4 <= adott_oszlop <= 6:
-        resztabla = 8
-    elif 7 <= adott_oszlop <= 9:
-        resztabla = 9
 
 print(f'Az adott helyen szereplő szám: {adottszam}')
-print(f'A hely a(z) {resztabla} résztáblázathoz tartozik.')
+print(f'A hely a(z) {resztabla(adott_sor,adott_oszlop)} résztáblázathoz tartozik.')
 
 print('4. feladat')
 
