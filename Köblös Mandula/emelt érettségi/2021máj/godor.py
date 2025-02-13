@@ -11,7 +11,7 @@ print('1. feladat')
 print(f'A féjl adatainak száma: {len(melyseg)}')
 
 print('\n2. feladat')
-tavolsag = int(input('Adjon meg egy távolságértéket! '))
+tavolsag = int(input('Adjon meg egy távolságértéket! '))-1
 print(f'Ezen a helyen a felszín {melyseg[tavolsag]} méter mélyen van.')
 
 print('\n3. feladat')
@@ -36,6 +36,8 @@ for i in range(len(godrok)):
         print(godrok[i] ,end=" " ,file=kiiras)
     else:
         print('', file=kiiras)
+
+kiiras.close()
 
 print('\n5.feladat')
 godrok_szama = 0
