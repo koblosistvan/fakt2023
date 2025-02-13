@@ -1,0 +1,310 @@
+SEPARATOR	1.) Ókor	
+-8000c	az újkőkor kezdete	
+-3000c	az Egyiptomi Birodalom egyesítése, az első államok kialakulása	
+-3000c	az ókor kezdete	
+476	az ókor vége	
+-10sz	a zsidó állam fénykora - Dávid, Salamon uralkodása	
+-960	Salamon temploma Jeruzsálemben	
+-776	az első feljegyzett olimpiai játékok	
+-753	Róma hagyomány szerinti alapítása	
+-597:-538	A zsidók babiloni fogsága	
+-515	A jeruzsálemi templom újraépítése	
+-510	a köztársaság létrejötte Rómában	
+-508	Kleiszthenész reformjai	
+-5sz	Athén fénykora	
+-461:-429	Periklész kora	
+-490	a marathóni csata	
+-44	Caesar halála	
+-31	Az actiumi csata	
+-27:14	Augustus principátusa	
+-9	Heródes újjáépíti a jeruzsálemi templomot	
+-6:29/31	Jézus élete, valószínű adatok	
+70	Jeruzsálem lerombolása	
+94	Domitianus-féle keresztényüldözés	
+313	a milánói ediktum	
+325	a niceai zsinat	
+395	a Római Birodalom felosztása	
+476	a Nyugatrómai Birodalom bukása, az ókor vége	
+SEPARATOR	2. A) A középkori Európa világa	
+476	a középkor kezdete	
+1492	a középkor vége	
+476:1492	a középkor	
+529	Bencés rend alapítása - Szent Benedek, Monte Cassino	
+622	Mohamed futása, a muszlim időszámítás kezdete	
+732	a frankok győzelme az arabok felett - Poitiers	
+800	Nagy Károly császárrá koronázása	
+843	a verduni szerződés	
+1054	az egyházszakadás	
+1088	Bolognai egyetem alapítása	
+1209	A ferences rend alapítása - Szent Ferenc, Assisi	
+1215	a Magna Charta kiadása	
+1347	a nagy pestisjárvány	
+15sz	könyvnyomtatás - Gutenberg	
+1453	Konstantinápoly török elfoglalása	
+SEPARATOR	2. B) Magyar középkor	
+9sz	magyarok történelme - Etelköz	
+895:902	a honfoglalás	
+907	a pozsonyi csata	
+955	az augsburgi csata	
+972:997	Géza fejedelemsége	
+997:1000	I. (Szent) István, mint magyar FEJEDELEM	
+1000:1038	I. (Szent) István, mint magyar KIRÁLY	
+1077:1095	I. (Szent) László uralkodása	
+1205:1235	II. András uralkodása	
+1222	Az Aranybulla kiadása	
+1235:1270	IV. Béla uralkodása	
+1241:1242	a tatárjárás	
+1301	az Árpád-ház kihalása	
+1308:1342	I. Károly (Róbert) uralkodása	
+1335	a visegrádi királytalálkozó	
+1351	I. (Nagy) Lajos törvényei	
+1387:1437	Luxemburgi Zsigmond uralkodása	
+1396	a nikápolyi csata	
+1443:1444	Hunyadi János hosszú hadjárat	
+1444	a várnai csata	
+1456	a nándorfehérvári diadal	
+1458:1490	I. (Hunyadi) Mátyás uralkodása	
+1485	I. Mátyás elfoglalja Bécset	
+SEPARATOR	3. A) Egyetemes koraújkor	
+1492	Újkor kezdete. Amerika felfedezése - Kolombusz	
+1517	A reformáció kezdete - Luther Márton	
+1555	Augsburgi vallásbéke	
+1518	Hernán Cortés meghódítja Mexikót	
+1545:1563	Tridenti zsinat	
+1618:1648	a harmincéves háború	
+1648	a vesztfáliai békék	
+1643:1715	XIV. Lajos uralkodása	
+1689	az angol Jognyilatkozat kiadása	
+1701:1714	spanyol örökösödési háború	
+1721	Perzsa levelek - Montesquieu	
+1751:1780	francia Enciklopédia kiadása, 35 kötetben	
+1740:1748	osztrák örökösödési háború	
+1756:1763	a hétéves háború	
+1769	James Watt gőzgép	
+1776.7.4	az amerikai Függetlenségi nyilatkozat kiadása, az USA létrejötte	
+1787	USA alkotmány	
+SEPARATOR	3. B) Magyar koraújkor	
+1526	mohácsi csatavesztés, kettős királyválasztás	
+1541	Buda török elfoglalása, az ország tényleges három részre szakadása	
+1552	a nagy várháborúk éve, Eger védelme	
+1566	Szigetvár eleste	
+1568	Drinápolyi béke	
+1568	Tordai határozat - vallásbéke	
+1570	Speyeri szerződés, Erdélyi Fejedelemség	
+1590	Vizsolyi Biblia - Károli Gáspár	
+1591:1606	a tizenöt éves háború	
+1597	Tata visszafoglalása, patara	
+1604:1606	Bocskai István szabadságharca	
+1613:1629	Bethlen Gábor erdélyi fejedelem	
+1616:1637	Pázmány Péter esztergomi érsek	
+1664	Zrínyi Miklós téli hadjárata, a vasvári béke	
+1683	Bécs török ostroma	
+1686	Buda visszafoglalása	
+1699	a karlócai béke, a török kiűzése	
+1703:1711	a Rákóczi-szabadságharc	
+1707	az ónódi országgyűlés	
+1711	a szatmári béke	
+1723	Pragmatica Sanctio elfogadása a magyar országgyűlésen	
+1727	Tata az Esterházyak birtoka lett	
+1740:1780	Mária Terézia uralkodása	
+1767	Úrbéri rendelet	
+1777	Ratio Educationis	
+1780:1790	II. József (kalapos király) uralkodása	
+1781	Türelmi rendelet	
+1784	Magyarországi népszámlálás	
+SEPARATOR	4. A) Egyetemes újkor - 1789 - 1914	
+1789.7.14	a Bastille ostroma, a francia forradalom kezdete	
+1789.8.26	Emberi és polgári jogok nyilatkozata	
+1793:1794	jakobinus diktatúra Franciaországban	
+1804:1814/1815	Napóleon császársága	
+1815	a waterlooi csata	
+1825	Stephenson gőzmozdony	
+1848	a népek tavasza, forradalmak európában	
+1848	Marx kommunista kiáltvány	
+1853:1856	a krími háború	
+1859	szárd-piemonti-osztrák háború, a solferinoi ütközet	
+1861:1865	az USA polgárháborúja	
+1866	porosz-osztrák háború	
+1868	a Meidzsi-restauráció	
+1871	Németország egyesítése, a Német Császárság létrejötte	
+1876	Benz, benzinüzemű autó	
+1882	a hármas szövetség megalakulása	
+1904	angol-francia szívélyes megegyezés	
+1907	a hármas antant létrejötte	
+1908	Ford, T-modell	
+SEPARATOR	4. B) Magyarország, újkor 1790-1914	
+1830	Széchenyi István - Hitel című művének megjelenése	
+1830	a reformkor kezdete	
+1830:1848	a reformkor	
+1832:1836	a rendi országgyűlés	
+1844	törvény a magyar nyelv államnyelvről	
+1848.3.15	magyar forradalom és szabadságharc, Pesten	
+1848.4.11	az áprilisi törvények	
+1848.9.29	a pákozdi csata	
+1848/1867:1916	Ferenc József uralkodása	
+1849.4:1849.5	a tavaszi hadjárat	
+1849.4.6	az isaszegi csata	
+1849.4.14	a Függetlenségi nyilatkozat, Debrecen	
+1849.5.21	Buda visszavétele	
+1849.8.13	a világosi fegyverletétel	
+1849.10.6	az aradi vértanúk és Batthyány Lajos kivégzése	
+1867	a kiegyezés, Ferenc József megkoronázása	
+1868	a nemzetiségi és népiskolai törvény, a horvát-magyar kiegyezés, a népiskolai törvény	
+1873	Budapest egyesítése	
+1875:1890	Tisza Kálmán miniszterelnöksége	
+1896	a Millenium (honfoglalás)	
+1905	a koalíciós válság	
+SEPARATOR	5. A) A világháborúk kora 1914-1945	
+1914.6.28	a szarajevói merénylet	
+1914.7.28	az I. vh kezdete	
+1918.11.11	az I. vh vége	
+1914.7.28:1918.11.11	az I. világháború	
+1916	Románia hadba lép az antant oldalán	
+1917	oroszországi forradalmak	
+1917	a februári forradalom	
+1917	bolsevik hatalomátvétel Oroszországban	
+1919	a versailles-i béke, a békekonferencia kezdete	
+1919.6.28	a versailles-i béke aláírásának dátuma	
+1922	fasiszta hatalomátvétel olaszországban	
+1922.12.30	a Szovjetúnió létrejötte	
+1922.12.30:1991.12.26	a Szovjetúnió időtartama	
+1924	a Dawes-terv	
+1925	a locarnói egyezmény	
+1929:1933	a világgazdasági válság	
+1933	Hitler hatalomra kerülése, náci hatalomátvétel	
+1933:1945	F. D. Roosevelt USA-elnöksége	
+1936	Berlin-Róma tengely	
+1938	Anschluss	
+1938	a müncheni konferencia	
+1939.9.1:1945.9.2	a II. világháború	
+1939.9.1	a II. vh kezdete	
+1945.9.2	a II. vh vége	
+1939.8.23	a szovjet-német megnemtámadási egyezmény (Molotov-Ribbentrop paktum)	
+1939.9.1	Németország lerohanja Lengyelországot	
+1940	angliai csata	
+1941.6.22	Németország megtámadja a Szovjetúniót	
+1941.12.7	Pearl Harbor japán bombázása, az USA belép a II. vh-ba	
+1941	a Midway-szigeteknél lezajlott ütközet	
+1941	az első el-alameini csata	
+1942	a második el-alameini csata	
+1943.2	a sztálingrádi csata vége	
+1943	a kurszki csata	
+1944.6.6	a normandiai partraszállás kezdete (D-nap)	
+1945.8.6	atomtámadás Hirosima ellen	
+1945.8.9	atomtámadás Nagaszaki ellen	
+1945.9.2	Japán kapituláció/fegyverletétel	
+SEPARATOR	5. B) Magyarország, világháborúk kora 1914-1915	
+1914.7.28	az Osztrák-Magyar Monarchia hadat üzen Szerbiának	
+1915	gorlicei csata	
+1915:1917	isonzói csaták	
+1918.10.31	az őszirózsás forradalom győzelme	
+1919.3.21:1919.8.1	a Magyarországi Tanácsköztársaság (proletárdiktatúra, Kun Béla)	
+1920:1944	A Horthy-rendszer	
+1920.3	Horthy kormányzóvá választása	
+1920.6.4	a trianoni békediktátum aláírása	
+1920	a numerus clausus	
+1920	földreform (Nagyatádi Szabó István)	
+1921:1931	Bethlen István miniszterelnöksége	
+1922:1931	Klebelsberg Kuno vallás- és közoktatásügyi miniszter	
+1927	a pengő bevezetése	
+1938	az első zsidótörvény	
+1938	az első bécsi döntés	
+1939	Kárpátalja visszacsatolása	
+1939	a második zsidótörvény	
+1940	a második bécsi döntés	
+1941	a harmadik zsidótörvény	
+1941.4	a magyar támadás Jugoszlávia/Szerbia ellen	
+1941.6.26	Kassa bombázása	
+1941.6.27	Magyarország deklarálja a hadiállapot beálltát a Szovjetúnióval	
+1941.6	Magyarország belép a II. világháborúba	
+1942:1944	Kállay Miklós miniszterelnöksége	
+1943.1	magyar vereség a Don-kanyarnál, a doni katasztrófa	
+1944.3.19	Magyarország német megszállása	
+1944.10.15:1944.10.16	Horthy sikertelen kiugrási kísérlete	
+1944.10.16	nyilas hatalomátvétel, Szálasi Ferenc	
+1944.10.16:1945.3.28	Szálasi-kormány	
+1944.11:1945.2	Budapest ostroma	
+1944.12.21	Debrecenben összeül az Ideiglenes Nemzetgyűlés	
+1945.4	Magyarország felszabadítása a náci uralom alól	
+1945.4	a nyilas megszállás vége	
+1945.4	a szovjet megszállás	
+SEPARATOR	6. A) A hidegháború kora (Egyetemes történelem 1945-1991)	
+1945	az ENSZ létrejötte	
+1947	a Marshall-segély	
+1947	a párizsi békék	
+1947	India függetlensége	
+1947	a hidegháború kezdete	
+1948	Izrael állam megalapítása	
+1948	ENSZ emberi jogok egyetemes nyilatkozata	
+1949	az NSZK létrejötte	
+1949	az NDK létrejötte	
+1949	a NATO létrejötte	
+1949	a KGST létrejötte	
+1949	a szovjetek is rendelkeznek atomfegyverrel	
+1949	a Kínai Népköztársaság létrejötte	
+1950:1953	a koreai háború	
+1953	Sztálin halála	
+1955	a Varsói Szerződés	
+1955:1975	a vietnami háború teljes ideje	
+1956	az SZKP XX. kongresszusa	
+1956	a szuezi válság	
+1957	a római szerződések	
+1961	a berlini fal építése	
+1961	az első ember a világűrben (Jurij Gagarin)	
+1962	a kubai rakétaválság	
+1962:1965	a második vatikáni zsinat	
+1964:1973	a vietnami háborúban az USA katonai beavatkozás ideje	
+1968	a prágai tavasz	
+1968	a Brezsnyev-doktrína	
+1968	párizsi (nyugati) diáklázadások	
+1969	az első Holdra szállás	
+1975	a helsinki értekezlet	
+1989	a kelet-közép-európai rendszerváltások	
+1989	a berlini fal lebontása	
+1991	a Varsói Szerződés és a KGST felszámolása	
+1991	az Öböl-háború kirobbanása	
+1991.12.26	a Szovjetúnió felbomlása	
+1991:1995	a délszláv háború	
+SEPARATOR	6. B) A hidegháború kora (Magyar történelem 1945-1991)	
+1944:1945	magyarellenes atrocitások (Délvidék, Erdély, Csehszlovákia, Kárpátalja)	
+1945	szovjet megszállás	
+1945	Nagy Imre-féle földreform (földosztás)	
+1945	első nemzetgyűlési választások Magyarországon (a Szovjetúnió ideje alatt)	
+1946	a második Magyar köztársaság kikiáltásának éve	
+1946	az új forint bevezetése	
+1946	szlovák-magyar lakosságcsere	
+1946	a svábok kitelepítése Magyarországról	
+1947.2.10	a párizsi béke	
+1947.8	kékcédulás választások Magyarországon	
+1948	a Magyar Dolgozók Pártjának (MDP) megalakulása	
+1948	a nyílt kommunista diktatúra kezdete Magyarországon	
+1948	az iskolák államosítása Magyarországon	
+1948:1956	a Rákosi-diktatúra	
+1949	a kommunista alkotmány Magyarországon	
+1949	a Mindszenty- és a Rajk- per	
+1956.10.23	az 56-os forradalom kirobbanásának dátuma	
+1956.10.23	a Kossuth téri sortűz	
+1956.11.4	szovjet támadás indul Magyarország ellen, a forradalom leverésének kezdete	
+1956:1989	a Kádár-rendszer	
+1958	Nagy Imre és vádlott társainak kivégzése	
+1963	részleges amnesztia (az 56-os forradalom bebörtönözöttjeire vonatkozóan)	
+1968	az új gazdasági mechanizmus bevezetése Magyarországon	
+1978	az USA visszadja a Szent Koronát	
+1987	a lakiteleki találkozó	
+1989:1990	a magyar rendszerváltoztatás	
+1989.6.16	Nagy Imre és mártírtársainak újratemetése	
+1989.10.23	a harmadik Magyar Köztársaság kikiáltása	
+1990	fekete március (marosvásárhelyi pogrom)	
+1990:1994	Antall József kormánya (MDF-FKGP)	
+1991	a szovjet csapatok kivonulása Magyarországról	
+SEPARATOR	7.) Jelenkor	
+1992	a maastrichti szerződés aláírása (EU megalakulása)	
+1995	a schengeni egyezmény életbe lépése	
+1999	Magyarország belép a NATO-ba	
+1999	a NATO bombázza Jugoszláviát/Szerbiát	
+2001.9.11	terrortámadások az USA-ban (World Trade Center)	
+2002	az euró bevezetése	
+2004	Magyarország csatlakozása az EU-hoz (és kilenc másik tagállamé)	
+2010	törvény a nemzeti összetartozásról	
+2010	Fidesz-KDNP és Orbán Viktor kormányainak kezdetének éve	
+2012	Magyarország Alaptörvényének bevezetése (jelenkor)	

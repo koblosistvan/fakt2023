@@ -1,0 +1,13 @@
+
+merkur14@szt02 MINGW64 ~
+$ git config --global user.name "SteinTunde"
+
+merkur14@szt02 MINGW64 ~
+$ git config --global user.email "tundes909@gmail.com"
+
+merkur14@szt02 MINGW64 ~
+$ ^C
+
+merkur14@szt02 MINGW64 ~
+$
+

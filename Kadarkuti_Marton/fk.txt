@@ -1,0 +1,4 @@
+ALTER TABLE table_1_name
+    ADD CONSTRAINT fk_foreign_key_name
+    FOREIGN KEY (table_1_column_name)
+    REFERENCES target_table(target_table_column_name);

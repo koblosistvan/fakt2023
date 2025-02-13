@@ -1,0 +1,29 @@
+2zenekar
+select eloadok.nev
+from eloadok
+where eloadok.zenekar
+order by eloadok.nev asc
+
+3love
+SELECT eloadok.nev, dalok.cim, dalok.megjelenes
+from eloadok join dalok on eloadok.eloadoid = dalok.eloadoid
+where dalok.cim like "Love %" or dalok.cim like "% love %" or dalok.cim like "% love"
+order by dalok.megjelenes desc
+
+4szilveszter
+SELECT lista.helyezes, eloadok.nev, dalok.cim 
+from (eloadok join dalok on eloadok.eloadoid = dalok.eloadoid) join lista on dalok.dalid = lista.dalid 
+where lista.ev = 2019 and lista.helyezes <= 285 order by lista.helyezes;
+
+5mindig
+select eloadok.nev, dalok.cim
+from (eloadok join dalok on eloadok.eloadoid = dalok.eloadoid) join lista on dalok.dalid = lista.dalid 
+group by lista.dalid
+having count(lista.ev) = 21
+
+6ujak ROSSZZ!!!!%!%!!!!!!!
+SELECT lista.helyezes, eloadok.nev, dalok.cim
+from (eloadok join dalok on eloadok.eloadoid = dalok.eloadoid) join lista on dalok.dalid = lista.dalid 
+GROUP by lista.dalid lista.ev
+having lista.ev = 2019 and count(lista.dalid) = 1
+order by lista.helyezes

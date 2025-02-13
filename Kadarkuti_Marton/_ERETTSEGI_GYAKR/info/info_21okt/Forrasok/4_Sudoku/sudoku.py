@@ -6,7 +6,7 @@ class Lepes:
     def __str__(self) -> str:
         return f"A kiválasztott sor: {1+self.x} oszlop: {1+self.y} a szám: {self.ertek} "
     
-    def resztabla(self):
+    def get_resztabla(self):
         return resztabla(self.y, self.x) # felcsereltem az xy-t
     
 lepesek:list[Lepes] = []
@@ -103,7 +103,7 @@ for lepes in lepesek:
         print("Az adott sorban már szerepel a szám")
     elif get_oszlop(lepes.y).count(lepes.ertek):
         print("Az adott oszlopban már szerepel a szám")
-    elif get_resztabla( lepes.resztabla() ).count(lepes.ertek):
+    elif get_resztabla( lepes.get_resztabla() ).count(lepes.ertek):
         print("Az adott résztáblázatban már szerepel a szám")
     else:
         print("A lépés megtehető")
