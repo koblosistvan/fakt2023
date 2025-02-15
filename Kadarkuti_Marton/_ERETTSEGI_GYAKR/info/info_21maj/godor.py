@@ -4,7 +4,7 @@ print("1. feladat\nA fájl adatainak száma:",len(melyseg))
 
 # 2. 
 print("\n2. feladat")
-prompt = 8#int(input("Adjon meg egy távolságértéket! ").strip()) -1
+prompt = int(input("Adjon meg egy távolságértéket! ").strip()) -1
 print(f"Ezen a helyen a felszín {melyseg[prompt]} méter mélyen van. ")
 
 # 3. 
@@ -36,37 +36,45 @@ with open("Kadarkuti_Marton/_ERETTSEGI_GYAKR/info/info_21maj/godrok.txt",'w',enc
         x.write(' '.join(map(str,sor)) + '\n')
 
 # 5. 
-print(godrok)
-print(godrok_indexek)
 print("\n5. feladat\nA gödrök száma:",len(godrok))
 
 # 6. 
 
-def get_godor(prompt:int)->list[int]:
-    ki = []
-    if not melyseg[prompt]:
-        return ki
+def get_godor(p:int)->int: # godor indexet adja vissza
+    if not melyseg[p]:
+        return None
     else:
-        pass
+        for i in range(len(godrok)):
+            if godrok_indexek[i] <= p <= godrok_indexek[i] + len(godrok[i]):
+                return i
+        return None
+            
 
 print("\n6. feladat")
+def menet()->bool:
+    godor = godrok[prompt]
+    irany_le = True # igaz, ha lefele tesztel, hamis ha felfele
+    for i in range(len(godor)-1):
+        if irany_le:
+            if godor[i] < godor[i+1]: # nem volt irva hogy szigoruan monoton
+                return False
+        else:
+            if godor[i] > godor[i+1]:
+                return False
+    return True
+
 prompt = get_godor(prompt)
-if not prompt:
+
+if None == prompt:
     print("Az adott helyen nincs gödör.")
 else:
     # a)
-    pass
-
-"""""""""""""""""""""""""""
-6. feladat
-a)
-A gödör kezdete: 7 méter, a gödör vége: 22 méter.
-b)
-Nem mélyül folyamatosan.
-c)
-A legnagyobb mélysége 4 méter.
-d)
-A térfogata 440 m^3.
-e)
-A vízmennyiség 280 m^3. 
-"""""""""""""""""""""""""""
+    print(f"a)\nA gödör kezdete: {godrok_indexek[prompt]+1} méter, a gödör vége: {godrok_indexek[prompt]+len(godrok[prompt])} méter.")
+    # b)
+    print("b)\n" + ("Folyamatosan mélyül." if menet() else "Nem mélyül folyamatosan."))
+    # c)
+    print(f"c)\nA legnagyobb mélysége {max(godrok[prompt])} méter.")
+    # d)
+    print("d)\nA térfogata",sum([10*i for i in godrok[prompt]]),"m^3.")
+    # e)
+    print("e)\nA vízmennyiség",sum([10*(i-1) for i in godrok[prompt]]),"m^3.")
