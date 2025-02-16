@@ -1,5 +1,6 @@
 # 1
 forras = open('Stein Tünde/érettségi/info/2021infemelttav/melyseg.txt', 'r', encoding='utf-8')
+#forras = open('melyseg.txt', 'r', encoding='utf-8')
 melysegek = []
 for i in forras:
     sor = i.strip()
@@ -10,7 +11,7 @@ print(f'1. feladat\nA fájl adatainak száma: {l}')
 
 # 2
 tavolsagertek = int(input(f'2. feladat\nAdjon meg egy távolságértéket! '))
-melysegertek = melysegertek
+melysegertek = melysegek[tavolsagertek]
 print(f'Ezen a helyen a felszín {melysegertek} méter mélyen van. ')
 
 # 3
@@ -22,6 +23,7 @@ print(f'3. feladat\nAz érintetlen terület aránya {round(counter/l*100, 2)}%')
 
 # 4
 kimenet = open('Stein Tünde/érettségi/info/2021infemelttav/godrok.txt', 'w', encoding='utf-8')
+#kimenet = open('godrok.txt', 'w', encoding='utf-8')
 kimenetlista = []
 indexlista = []
 for i in range(len(melysegek)):
@@ -36,6 +38,9 @@ for i in range(len(melysegek)):
 for i in kimenetlista:
     print(' '.join(i), file=kimenet)
 kimenet.close()
+for i in range(len(kimenetlista)):
+    for k in range(len(kimenetlista[i])):
+        kimenetlista[i][k] = int(kimenetlista[i][k])
 
 # 5
 print(f'5. feladat\nA gödrök száma: {len(kimenetlista)}')
@@ -56,7 +61,9 @@ else:
             veg = i
             break
     print(f'a)\nA gödör kezdete: {kezdet[-1]+1} méter, a gödör vége: {veg+1} méter.')
+
     # b
+    print('b)')
     folyamatosan = True
     for i in range(len(indexlista)):
         if tavolsagertek in indexlista[i]:
@@ -75,7 +82,32 @@ else:
                         folyamatosan = False
                     if segedki < melysegertek:
                         folyamatosan = False
-    
+            break
+    if folyamatosan:
+        print('Folyamatosan mélyül.')
+    else:
+        print('Nem mélyül folyamatosan.')
+
+    # c
+    print(f'c)\nA legnagyobb mélysége {maximum} méter.')
+
+    # d
+    terfogat = 0
+    for i in range(len(indexlista)):
+        if tavolsagertek in indexlista[i]:
+            for k in kimenetlista[i]:
+                terfogat += k*10
+    print(f'd)\nA térfogata {terfogat} m^3. ')
+
+    # e
+    vizterfogat = 0
+    for i in range(len(indexlista)):
+        if tavolsagertek in indexlista[i]:
+            for k in kimenetlista[i]:
+                if (kimenetlista[i][0]+1) <= k and (kimenetlista[i][-1]+1) <= k:
+                    vizterfogat += k*10
+            break
+    print(f'e)\nA vízmennyiség {vizterfogat} m^3.')
 
 
 
