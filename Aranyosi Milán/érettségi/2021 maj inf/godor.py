@@ -58,15 +58,12 @@ else:
             folyamatos = True
             legnagyobb = max(godrok[i])
             legnagyobb_index = godrok[i].index(max(godrok[i]))
-            if godrok[i].count(legnagyobb) > 1:
-                for m in range(len(godrok[i])):
-                    if godrok[legnagyobb_index] == godrok[legnagyobb_index-1] or godrok[legnagyobb_index] == godrok[legnagyobb_index+1]:
-                        folyamatosan = False
             for j in range(kezdetek[i], legnagyobb_index-1):
                 if melysegek[j] >= melysegek[j+1]:
                     folyamatos = True
                 else:
                     folyamatos = False
+                    break
             for e in range(legnagyobb_index, vegek[i]-1):
                 if melysegek[i] >= melysegek[i+1]:
                     folyamatos = True
