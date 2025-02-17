@@ -12,12 +12,9 @@ lepes = []
 for sor in forras:
     adat = sor.strip().split(" ")
     if len(adat) == 3:
-        break
-    sorok.append(adat)
-for sor in forras:
-    adat = sor.strip().split(" ")
-    lepes.append(adat)
-forras.close()
+        lepes.append(adat)
+    else:
+        sorok.append(adat)
 
 #3
 print("3. feladat ")
@@ -40,25 +37,25 @@ print(f"Az üres helyek aránya: {round(kitoltetlen/ossz * 100, 1)}%")
 
 #5
 for i in range(len(lepes)):
-    print(f"A kiválasztott sor: {lepes[1]} oszlop: {lepes[2]} a szám: {lepes[0]}")
-    if sorok[lepes[1]][lepes[2]] != 0:
+    print(f"A kiválasztott sor: {lepes[i][1]} oszlop: {lepes[i][2]} a szám: {lepes[i][0]}")
+    if sorok[int(lepes[i][1])][int(lepes[i][2])] != 0:
         print("A helyet már kitöltötték")
     else:
         for j in range(len(resztabla)):
-            if lepes[1] in resztabla[j][0] and lepes[2] in resztabla[j][1]:
+            if int(lepes[i][1]) in resztabla[j][0] and int(lepes[i][2]) in resztabla[j][1]:
                 for k in range(len(resztabla[j][0])):
                     for l in range(len(resztabla[j][0])):
-                        if lepes[0] == sorok[resztabla[j][k]][resztabla[j][l]]:
+                        if lepes[i][0] == sorok[resztabla[j][k]][resztabla[j][l]]:
                             print("Az adott résztáblázatban már szerepel a szám")
                             break
                         break
                     break
             else:
-                if lepes[0] in sorok[lepes[1]]:
+                if lepes[i][0] in sorok[int(lepes[i][1])]:
                     print("Az adott sorban már szerepel a szám")
                 else:
                     for o in range(len(sorok)):
-                        if lepes[0] == sorok[o][lepes[2]]:
+                        if lepes[i][0] == sorok[o][int(lepes[i][2])]:
                             print("Az adott oszlopban már szerepel a szám")
                         else:
                             print("A lépés megtehető")

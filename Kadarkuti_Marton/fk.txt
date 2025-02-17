@@ -1,0 +1,4 @@
+ALTER TABLE jelentkezes
+    ADD CONSTRAINT fk_jelentkezes_munkaid
+    FOREIGN KEY (munkaid)
+    REFERENCES munka(id);

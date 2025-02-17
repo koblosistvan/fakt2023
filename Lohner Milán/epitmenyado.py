@@ -1,7 +1,7 @@
 
 forras=open('utca.txt', mode='r', encoding='utf-8')
 
-forras.readline()
+
 
 
 oszlop1 = []  # Adószámok
@@ -12,12 +12,14 @@ oszlop5 = []  # Alapterületek
 
 
 for sor in forras:
-    adat = sor.strip().split()
+    adat = sor.strip().split(' ')
     oszlop1.append(adat[0])
     oszlop2.append(adat[1])
     oszlop3.append(adat[2])
     oszlop4.append(adat[3])
     oszlop5.append(int(adat[4]))
+
+forras.readline()
 
 # 2. feladat
 print(f"2. feladat. A mintában {len(oszlop1)} telek szerepel.")
