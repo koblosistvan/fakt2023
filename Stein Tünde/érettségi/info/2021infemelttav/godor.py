@@ -11,7 +11,7 @@ print(f'1. feladat\nA fájl adatainak száma: {l}')
 
 # 2
 tavolsagertek = int(input(f'2. feladat\nAdjon meg egy távolságértéket! '))
-melysegertek = melysegek[tavolsagertek]
+melysegertek = melysegek[tavolsagertek-1]
 print(f'Ezen a helyen a felszín {melysegertek} méter mélyen van. ')
 
 # 3
