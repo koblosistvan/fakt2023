@@ -57,21 +57,22 @@ else:
             print(f'a)\nA gödör kezdete: {kezdetek[i]} méter, a gödör vége: {vegek[i]} méter.')
             folyamatos = True
             legnagyobb = max(godrok[i])
-            legnagyobb_index = godrok[i].index(max(godrok[i]))
-            for j in range(kezdetek[i], legnagyobb_index-1):
-                if melysegek[j] >= melysegek[j+1]:
-                    folyamatos = True
+            legnagyobb_index = godrok[i].index(legnagyobb)
+            for j in range(kezdetek[i]-1, kezdetek[i]+legnagyobb_index-1):
+                if melysegek[j] <= melysegek[j+1]:
+                    pass
                 else:
                     folyamatos = False
                     break
-            for e in range(legnagyobb_index, vegek[i]-1):
-                if melysegek[i] >= melysegek[i+1]:
-                    folyamatos = True
+            for e in range(kezdetek[i]+legnagyobb_index-1, vegek[i]):
+                if melysegek[e] >= melysegek[e+1]:
+                    pass
                 else:
                     folyamatos = False
-            if folyamatos ==  True:
+                    break
+            if folyamatos:
                 print('b)\nFolyamatsoan mélyül.')
-            if folyamatos == False:
+            else:
                 print('b)\nNem mélyül folyamatosan.')
             print(f'c)\nA legnagyobb mélysége {legnagyobb} méter.')
             terfogat = 0
