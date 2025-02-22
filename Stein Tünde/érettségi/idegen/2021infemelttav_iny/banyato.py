@@ -24,8 +24,7 @@ for i in range(len(to)):
         if to[i][k]:
             felszincounter += 1
             osszmelyseg += to[i][k]
-print('3. feladat 
-A tó felszíne: 646 m2, átlagos mélysége: 4,28 m')
+print('3. feladat\nA tó felszíne: 646 m2, átlagos mélysége: 4,28 m')
 
 
 
