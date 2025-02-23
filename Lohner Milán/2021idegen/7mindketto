@@ -1,0 +1,9 @@
+SELECT nev
+FROM keverek
+WHERE id in (SELECT keverekid
+                   FROM osszetevo, kapcsolat
+                   WHERE osszetevoid = id AND nev ="paradicsom")
+AND
+id in (SELECT keverekid
+                    FROM osszetevo, kapcsolat
+                    WHERE osszetevoid = id AND nev="chili");

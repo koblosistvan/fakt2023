@@ -1,0 +1,5 @@
+SELECT TOP 1 nev, Count(osszetevoid) AS [Összetevők száma]
+FROM keverek, kapcsolat
+WHERE id = keverekid
+GROUP BY nev
+ORDER BY 2 DESC;
