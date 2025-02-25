@@ -20,7 +20,22 @@ for sor in forras:
     if i%5 == 4:
         megnezte.append(int(adat))
     i += 1
+
 forras.close()
+
+eve = []
+honapja = []
+napja = []
+for a in adasba_kerules:
+    if a != 'NI':
+        x = a.strip().split('.')
+        eve.append(int(x[0]))
+        honapja.append(int(x[1]))
+        napja.append(int(x[2]))
+    else:
+        eve.append(a)
+        honapja.append(a)
+        napja.append(a)
 
 print('2.feladat')
 print(f'A listában {len(adasba_kerules)} db vetítési dátummal rendelkező epizód van.')
@@ -49,3 +64,36 @@ for i in range(len(adasba_kerules)):
         print(f'{evad_es_epizod[i]}\t{cim[i]}')
 
 def Hetnapja(ev, ho, nap):
+    napok = ['v', 'h', 'k', 'sze', 'cs', 'p', 'szo']
+    honapok = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
+    if ho < 3:
+        ev = ev-1
+    hetnapja = napok[(ev + ev//4 - ev//100 + ev//400 + honapok[ho-1] + nap)%7]
+    return hetnapja
+
+print('\n7.feladat')
+napi_filmek = []
+adott_nap = input('Adja meg a hét egy napját (például cs)! Nap=')
+for i in range(len(adasba_kerules)):
+    if eve[i] != 'NI' and adott_nap == Hetnapja(eve[i], honapja[i], napja[i]):
+        napi_filmek.append(cim[i])
+
+if len(napi_filmek) == 0:
+    print('Az adott napon nem kerül sor adásba sorozat.')
+else:
+    print('\n'.join(set(napi_filmek)))
+
+kiiras = open('summ.txt', mode='w', encoding='utf-8')
+
+cim_kiiras = cim[0]
+szamlalo_perc = 0
+szamlalo_resz = 0
+for i in range(len(adasba_kerules)-1):
+    if cim[i] == cim[i+1]:
+        szamlalo_resz += 1
+        szamlalo_perc += hossz[i]
+        cim_kiiras = cim[i]
+    print()
+    szamlalo_perc = 0
+    szamlalo_resz = 0
+
