@@ -23,6 +23,8 @@ print(f'Az érintetlen terület aránya {erintetlen/len(melyseg):0.2%}')
 
 kiiras = open('godrok.txt', mode='w', encoding='utf-8')
 
+
+
 godrok = []
 for i in range(len(melyseg)):
     if melyseg[i] != 0:
@@ -45,6 +47,15 @@ for i in range(len(godrok)):
     if godrok[i] == 0:
         godrok_szama += 1
 print(f'A gördök száma: {godrok_szama}')
+
+godrok_index = []
+for i in range(len(melyseg)):
+    godrok_index_seged = []
+    if melyseg[i] > 0:
+        godrok_index_seged.append(melyseg[i])
+    else:
+        godrok_index.append(godrok_index_seged)
+print(godrok_index)
 
 print('\n6.feladat')
 if melyseg[tavolsag] == 0:
