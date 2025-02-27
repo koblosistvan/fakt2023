@@ -5,7 +5,7 @@ oszlopok_szama = int(forras.readline().strip())
 melysegek = [list(map(int, forras.readline().split())) for _ in range(sorok_szama)]
 forras.close()
 
-sor = int(input("A meres soranak azonositoja="))
+sor = int(input("A meres soranak azonositoja: "))
 oszlop = int(input("A meres oszlopanak azonositoja="))
 print(f"A mért mélység az adott helyen {melysegek[sor - 1][oszlop - 1]} dm")
 
