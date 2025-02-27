@@ -65,7 +65,7 @@ for i in range(len(megnezte)):
 osszesnezettperc=sum(nezettpercek)
 print(osszesnezettperc)
 napok=osszesnezettperc/1440
-print(f'{round(napok:.1f}')
+print(f'{round(napok):.1f}')
 
 
 
