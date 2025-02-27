@@ -1,3 +1,4 @@
+import math
 forras=open('lista.txt', mode='r', encoding='utf-8')
 
 cim=[]
@@ -65,10 +66,15 @@ for i in range(len(megnezte)):
 osszesnezettperc=sum(nezettpercek)
 print(osszesnezettperc)
 napok=osszesnezettperc/1440
-print(f'{round(napok):.1f}')
+napvissza=(int(napok))*1440
+oravissza=int(napok)*24
+orak=(osszesnezettperc/60)-oravissza
+percek=osszesnezettperc-napvissza-int(orak)*60
+print(f'{(math.floor(napok))} nap, {(math.floor(orak))} óra,  {(math.floor(percek))} percet')
 
 
 
+#4
 
 
 
