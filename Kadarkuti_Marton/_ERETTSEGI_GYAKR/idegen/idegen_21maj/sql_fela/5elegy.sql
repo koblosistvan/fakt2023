@@ -1,4 +1,4 @@
-select nev
+select nev, count(*) as osszetevok_szama
 from kapcsolat inner join keverek on kapcsolat.keverekid = keverek.id
 group by keverekid
-order by count(*) desc
+order by osszetevok_szama desc
