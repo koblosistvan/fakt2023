@@ -57,7 +57,7 @@ print(f"Sorozatnézéssel {Sor.IDO//(60*24)} napot {(Sor.IDO//60)%24} órát és
 
 # 5. 
 print("5. feladat")
-prompt = "2017.10.18"#input("Adjon meg egy dátumot! Dátum= ").strip()
+prompt = input("Adjon meg egy dátumot! Dátum= ").strip()
 prompt = prompt.split('.')
 prompt = dt.datetime(int(prompt[0]), int(prompt[1]), int(prompt[2]))
 
@@ -77,7 +77,7 @@ def Hetnapja(ev:int, ho:int, nap:int) -> str:
 
 # 7. 
 print("\n7. feladat")
-prompt = "cs"#input("Adja meg a hét egy napját (például cs)! Nap= ").strip().lower()
+prompt = input("Adja meg a hét egy napját (például cs)! Nap= ").strip().lower()
 
 hetes_fela = []
 for s in sorok:
