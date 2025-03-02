@@ -1,17 +1,33 @@
-body {
-	margin: 0px;
-	padding: 0px;
+:root {
+	--sotetbarna: #503B35;
+	--vilagosbarna: #F4C69A;
+	--sotetnarancs: #F26600;
 }
-hr {
+
+html {
+	background-color: black;
+	color: var(--vilagosbarna);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	
 }
 
+body {
+	margin: 0px;
+	padding: 0px;
+
+	background-color: var(--sotetbarna);
+}
+hr {
+	width: 60%;
+}
+
 h1, h2{
-	
+	color: var(--sotetnarancs);
 }
 
 .tartalom {
 	margin: 0 auto 0 auto;
+	width: 800px;
 
 }
 
@@ -29,14 +45,21 @@ h1, h2{
 }
 
 .lablec {
-	clear: both;
+	
 }
 
 .kep {
-	
+	margin: 0 auto 0 auto;
 }
 
-a:link {
-	
+a, a:link, a:active, a:hover, a:visited {
+	color: var(--sotetnarancs);
 }
 
+td {
+	padding: 10px;
+}
+
+.lablec ul {
+	margin: 0 auto 0 auto;
+}
