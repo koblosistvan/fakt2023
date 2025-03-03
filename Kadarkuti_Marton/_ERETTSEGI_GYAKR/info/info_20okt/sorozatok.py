@@ -42,7 +42,7 @@ f.close()
 
 # 2.
 print("2. feladat")
-print(f"A listában {len([1 for i in sorok if i.datum != "NI"])} db vetítési dátummal rendelkező epizód van.\n")
+print(f"A listában {len([1 for i in sorok if i.datum != 'NI'])} db vetítési dátummal rendelkező epizód van.\n")
 
 # 3. 
 arany = 100*len([1 for i in sorok if i.latta])/len(sorok)
