@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "info/info.sqlproj",
+        "PigaiPéter/sql/sql.sqlproj"
+    ]
+}

@@ -1,0 +1,5 @@
+SELECT nev
+FROM keverek
+WHERE id not in (SELECT keverekid
+    FROM osszetevo, kapcsolat
+    WHERE id = osszetevoid AND nev Like "*bors");

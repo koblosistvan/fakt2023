@@ -86,8 +86,13 @@ from bs4 import BeautifulSoup
 import json
 
 
+<<<<<<< HEAD
 filename = 'nyiltnapp0531\\xml2json\\orarend_2022_23_2.xml'
 filename = 'orarend_2022_23_2.xml'
+=======
+#filename = 'nyiltnapp0531\\xml2json\\orarend_2024_25_2008_.xml'
+filename = 'orarend_2024_25_2008_.xml' # PyCharm formátum
+>>>>>>> 3356838d96954cc1eae1aaf1139b14bfe676e933
 
 if not(USE_DEFAULT_FILENAME):
     try:
@@ -129,7 +134,8 @@ else:
 
 
 with open(filename,'r', encoding="utf-8") as f:  #encoding dolog
-    xample = BeautifulSoup(f.read(), 'xml')
+    content = f.read()
+    xample = BeautifulSoup(content, 'xml')
 
 cards = xample.find_all('card')
 #teachers = xample.find_all('teacher')
@@ -152,8 +158,13 @@ for i in range(l):
 print("Osztálytermek...")
 for i in range(l):
     temp = cards[i]
-    kinyert[i]["room"] = xample.find("classroom", {"id": temp["classroomids"]})["short"]
-    kinyert[i]["roomFull"] = xample.find("classroom", {"id": cards[i]["classroomids"]})["name"]
+    if temp["classroomids"]:
+        kinyert[i]["room"] = xample.find("classroom", {"id": temp["classroomids"]})["short"]
+        kinyert[i]["roomFull"] = xample.find("classroom", {"id": cards[i]["classroomids"]})["name"]
+    else:
+        kinyert[i]["room"] = ''
+        kinyert[i]["roomFull"] = ''
+
 
 print("Óraszámok...")
 for i in range(l):
@@ -191,7 +202,7 @@ for i in kinyert:
 print("Napok...")
 for i in range(l):
     temp = cards[i]["day"]
-    kinyert[i]["day"] = xample.find("day", {"day": temp})["name"]
+    kinyert[i]["day"] = xample.find("day", {"day": temp})["day"]
 
 print("Osztályok...")
 for i in kinyert:
@@ -201,7 +212,8 @@ for i in kinyert:
         i["class"] = i["class"].split(",")
         for j in range(len(i["class"])):
             i["class"][j] = xample.find("class", {"id": i["class"][j]})["name"]
-    else:
+        i["class"] = ','.join(sorted(i["class"])).replace('*','')
+    elif i["class"]:
         i["class"] = xample.find("class", {"id": i["class"]})["name"]
         
 print("Évfolyamok...")
@@ -217,35 +229,38 @@ if doHanyadikNyelv:
 
 for i in kinyert:
     temp = i["lessonid"]
-    i["group"] = xample.find("lesson", {"id": temp})["groupids"]
-    if bool(i["group"].count(",")):
-        i["group"] = i["group"].split(",")
-        for j in range(len(i["group"])):
-            i["group"][j] = xample.find("group", {"id": i["group"][j]})["name"]
-        
-        tempindex = i["group"][0]
+    i["level"] = ''
+    i["language"] = None
+    i["studentgroup"] = xample.find("lesson", {"id": temp})["groupids"]
+    if bool(i["studentgroup"].count(",")):
+        i["studentgroup"] = i["studentgroup"].split(",")
+        for j in range(len(i["studentgroup"])):
+            i["studentgroup"][j] = xample.find("group", {"id": i["studentgroup"][j]})["name"]
+        i["studentgroup"] = 'Több csoport'
+
+        tempindex = i["studentgroup"][0]
         i["level"] = testForLevel(tempindex)
 
         if not doHanyadikNyelv: # skip mert ez egy work in progress feature
             continue
 
         if testForNyelv(tempindex):
-            i["hanyadikNyelv"] = findNyelvLevel(tempindex)
+            i["language"] = findNyelvLevel(tempindex)
         else:
-            i["hanyadikNyelv"] = None
+            i["language"] = None
 
-    else:
-        i["group"] = xample.find("group", {"id": i["group"]})["name"]
-        i["level"] = testForLevel(i["group"])
+    elif i["studentgroup"]:
+        i["studentgroup"] = xample.find("group", {"id": i["studentgroup"]})["name"]
+        i["level"] = testForLevel(i["studentgroup"])
 
         if not doHanyadikNyelv:
             continue
 
-        tempindex = i["group"]
+        tempindex = i["studentgroup"]
         if testForNyelv(tempindex):
-            i["hanyadikNyelv"] = findNyelvLevel(tempindex)
+            i["language"] = findNyelvLevel(tempindex)
         else:
-            i["hanyadikNyelv"] = None
+            i["language"] = None
 
 
         
@@ -273,9 +288,14 @@ print("JSON fájl enkódolása...")
 export = json.dumps(kinyert, ensure_ascii=False, indent=4).encode('utf8')
 
 # NINCS TRYCATCH
+<<<<<<< HEAD
 exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
 exportFileName = 'orarend_export.json'
 
+=======
+#exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
+exportFileName = 'orarend_export.json'
+>>>>>>> 3356838d96954cc1eae1aaf1139b14bfe676e933
 if EXPORT_AS_JAVASCRIPT:
     exportFileName = 'orarend_export.js'
 

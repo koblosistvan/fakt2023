@@ -1,14 +1,19 @@
 from random import random
 import tkinter as tk
 
+andor = 0
+
 def on_closing(r):
-    r.destroy()
+    #r.destroy()
 
     for i in range(2):
         window()
 
 
 def window():
+    global andor
+    andor += 1
+
     root = tk.Toplevel()
     root.title("Hydra")
 
@@ -22,7 +27,7 @@ def window():
     root.geometry('%dx%d+%d+%d' % (w, h, x, y))
     
     path = "h.png"
-    message = "Cut off one head and two more grow in its place..."
+    message = "gelbi "*andor
     tk.Label(root, text=message, width=120, height=20).pack()
 
     root.protocol("WM_DELETE_WINDOW", lambda arg=root: on_closing(arg))
@@ -30,7 +35,7 @@ def window():
 
 root = tk.Tk()
 root.title("Hydra")
-message = "Cut off one head and two more take its place..."
+message = "Gelbi"
 tk.Label(root, text=message).pack()
 root.geometry("450x250")
 root.protocol("WM_DELETE_WINDOW", lambda arg=root: on_closing(arg))
