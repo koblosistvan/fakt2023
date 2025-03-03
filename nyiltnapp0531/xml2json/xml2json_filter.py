@@ -8,9 +8,11 @@ napok = [True, True, True, False, True] # True filterez, False nem (hetfotol pen
 CONST_NAPOK = ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "? (y/n): "]
 CONST_VALIDATE = [("y","n","igen","nem"), ("y","igen")]
 EXPORT_AS_DATA_VAR = True
-GUI_PROMPT = False # deprekált konzol interface
+
 # az exportált fájl egy js, amiben egy 'data' nevű array van, abban minden elem json object
 # mivel a js nem nyithat meg fájlokat, ezért egy html dokumentum head tagjébe kell belinkelni egy 'link' taggel
+
+GUI_PROMPT = False # deprekált konzol interface
 
 
 import json
@@ -66,7 +68,6 @@ pentek = napok[4]
 # szűrés
 l = len(data)
 noneCounter = 0   # a filterezendo elemeket none-re irja at, vegen ki lesznek torolve
-
 
 if hetfo:  
     print("HÉTFŐ...")

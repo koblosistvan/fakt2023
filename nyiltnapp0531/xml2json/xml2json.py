@@ -3,6 +3,8 @@
 EXPORT_AS_JAVASCRIPT = False  # kiterjesztés beállítása:
 # false => .json , true => .js
 
+EXPORT_SQL_TXT = True # csinal egy txt fajlt benne insert into parancsokkal
+
 USE_DEFAULT_FILENAME = True
 
 
@@ -85,6 +87,7 @@ import json
 
 
 filename = 'nyiltnapp0531\\xml2json\\orarend_2022_23_2.xml'
+filename = 'orarend_2022_23_2.xml'
 
 if not(USE_DEFAULT_FILENAME):
     try:
@@ -112,6 +115,9 @@ if doUnicodeCheck:
                     quit()
     except (UnicodeDecodeError, UnicodeEncodeError, UnicodeError):
         print("KARAKTERKÓDOLÁSI HIBA")
+        quit()
+    except (FileNotFoundError):
+        print("A FÁJL NEM TALÁLHATÓ")
         quit()
     except:
         print("ISMERETLEN HIBA TÖRTÉNT")
@@ -244,7 +250,7 @@ for i in kinyert:
 
         
 # felesleg törlése
-print("Adatfeldolgozás befejezése...")
+print("Rendrakás...")
 for i in kinyert:
     del i["lessonid"]
     del i["teacherid"]
@@ -252,6 +258,11 @@ for i in kinyert:
 if not doFullRooms:
     for i in kinyert:
         del i["roomFull"]
+
+for i in kinyert:
+    temp = i["group"]
+    if isinstance(temp, list) and len(set(temp))==1:
+        i["group"] = i["group"][0]
 
 print("Azonosítók...")
 for i in range(len(kinyert)):
@@ -263,12 +274,50 @@ export = json.dumps(kinyert, ensure_ascii=False, indent=4).encode('utf8')
 
 # NINCS TRYCATCH
 exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
+exportFileName = 'orarend_export.json'
+
 if EXPORT_AS_JAVASCRIPT:
     exportFileName = 'orarend_export.js'
 
 with open(exportFileName,'w',encoding='utf-8') as f:
     f.write(export.decode())
     print("JSON fájl sikeresen exportálva.")
+
+if EXPORT_SQL_TXT:
+    print("SQL text fájl elkészítése...")
+    with open("sql_insert_into.txt",'w',encoding="utf-8") as q:
+        for i in range(len(kinyert)):
+            temp = "INSERT INTO lessons VALUES ("
+
+            temp += "'" + str(kinyert[i]["id"]) + "', "
+            temp += "'" + kinyert[i]["room"] + "', "
+            temp += "'" + str(kinyert[i]["period"]) + "', "
+            temp += "'" + kinyert[i]["starttime"] + "', "
+            temp += "'" + kinyert[i]["endtime"] + "', "
+            temp += "'" + kinyert[i]["subject"] + "', "
+            temp += "'" + kinyert[i]["teacher"] + "', "
+            temp += "'" + kinyert[i]["day"] + "', "
+
+            if isinstance(kinyert[i]["class"], list):
+                temp += "'" + ", ".join(kinyert[i]["class"]) + "', "
+            else:
+                temp += "'" + kinyert[i]["class"] + "', "
+
+            temp += "'" + kinyert[i]["grade"] + "', "
+
+            if isinstance(kinyert[i]["group"],list):
+                temp += "'" + ", ".join(kinyert[i]["group"]) + "', "
+            else:
+                temp += "'" + kinyert[i]["class"] + "', "
+
+            temp += "'" + kinyert[i]["level"] + "', "
+            if kinyert[i]["hanyadikNyelv"]==None:
+                temp += "NULL"
+            else:
+                temp += "'" + kinyert[i]["hanyadikNyelv"] + "'"
+
+            temp += ");\n"
+            q.write(temp)
 
 print("END")
 
@@ -279,3 +328,4 @@ print("END")
 
 
 vonal()
+
