@@ -1,8 +1,24 @@
-﻿body {
+﻿:root {
+	--vilagoskek: #f0f8ff;
+	--sotetkek: #00008b;
+	--sotetpiros: #dc143c;
+}
+
+html {
+	background-image: url(bg.png);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: var(--sotetkek);
+}
+
+body {
 	font-size: 11pt;
 	
 	margin: 0px;
 	padding: 0px;
+
+	width: 930px;
+	
+
 }
 
 p{
@@ -44,8 +60,8 @@ h2 {
 	
 }
 
-a:link {
-	
+a, a:link, a:hover, a:active, a:visited {
+	color: var(--sotetpiros)
 }
 
 #lablec {
