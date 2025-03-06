@@ -35,7 +35,8 @@ for i in range(len(latta)):
     if latta[i]:
         hanyatlatott += 1
         perc += ido[i]
-print(f'3. feladat\nA listában lévő epizódok {round(hanyatlatott/len(latta)*100, 2)}%-át látta.')
+tort = round(hanyatlatott/len(latta)*100, 2)
+print(f'3. feladat\nA listában lévő epizódok {int(tort)},{int(round(100*(tort-int(tort)), 0))}%-át látta.')
 
 # 4
 napokszama = int(perc/60/24)
