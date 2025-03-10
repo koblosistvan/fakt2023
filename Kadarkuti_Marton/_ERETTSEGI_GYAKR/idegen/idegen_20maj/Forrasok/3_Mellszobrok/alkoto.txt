@@ -1,0 +1,981 @@
+id	nev	nem	szulev	szulhely
+1	Kurucz Imre	F	1946	Berettyóújfalu
+2	Farkas Aladár	F	1909	Újpest
+3	Poós László	F	1971	
+4	Lakatos Pál Sándor	F	1960	Kispeleske
+5	Kocsis András Sándor	F	1954	Budapest
+6	Csák Attila	F		
+7	Vadász György	F	1933	Budapest
+8	Návai (Návay) Sándor	F	1955	Hódmezővásárhely
+9	Tóth Béla ifj.	F		
+10	Somogyi Soma és fia	F		
+11	Jaap Hartman	F	1950	Woudrichem
+12	Örkényi Strasszer István	F	1911	Szentes
+13	Andreas Papachristos	F	1937	Lítia
+14	Bakó László	F	1949	Báta
+15	Kalmár Katalin	N	1970	Szeged
+16	Petik Ferenc	F	1888	Budapest
+17	Nyikolaj Kuznyecov-Muromszkij	F	1963	
+18	Vörös János	F	1897	Csabrendek
+19	Rigasz Hondromatidisz	F	1943	Ptolemais
+20	Varga Pál	F		
+21	Égerházi László	F	1965	Debrecen
+22	Bocskai Vince	F	1949	Szováta
+23	Szentgyörgyi István	F	1881	Bégaszentgyörgy
+24	Szabó Áron	F		
+25	Kelemen Kristóf	F	1922	Máriafölde
+26	Árvai Ferenc	F	1935	Kalocsa
+27	Baróti Ádám	F		
+28	Kozsuharov Ognjan	F	1952	Szófia
+29	Lovász Zoltán	F	1965	Győr
+30	Bálint Árpád	F	1932	Győrasszonyfa
+31	Somogyi Tamás	F	1958	Budapest
+32	Kövér József	F	1958	Nagykálló
+33	Kugler Pál Ferenc	F	1836	Sopron
+34	Metky Ödön	F	1906	Budapest
+35	Nagy Lajos Imre	F	1949	Gulács
+36	Pomsár András	F		
+37	Béres János (2)	F		
+38	Shri Gautam Pal	F	1949	
+39	Monori Sebestyén	F	1970	Budapest
+40	Novográdecz Antal	F		
+41	Herczeg Klára	N	1906	Budapest
+42	Barth Károly	F	1939	
+43	Segesdi György	F	1931	Budapest
+44	Osváth Imre	F	1912	Nyíregyháza
+45	Fáskerti Zsófia	N	1979	Budapest
+46	Tar István	F	1910	Újpest
+47	Jámbor Lajos	F	1869	Pest
+48	Szabolcs Péter	F	1942	Diósgyőr
+49	Csíky László	F	1942	Szeged
+50	Varga Gábor	F	1952	Mezőtúr
+51	B. Szabó Edit	N	1938	Debrecen
+52	Bolgár Judit	N	1924	Kisvárda
+53	Bogdán Csilla	N	1970	Budapest
+54	Strausz Katalin	N		
+55	Szpisják Pál	F	1961	Palotás
+56	Pavle Radovanović	F	1923	Zrenjanin
+57	Csontos László	F	1925	Újszász
+58	Demeter István	F	1958	Csekefalva
+59	Siklódy Lőrinc	F	1876	Ditró
+60	Drinka Radovanović	F	1943	Kragujevac
+61	Weeber Klára	N	1938	Budapest
+62	Kallós Ede	F	1866	Hódmezővásárhely
+63	Gera Katalin	N	1943	Újkígyós
+64	Lev Kerbel	F	1917	Szemjonovka
+65	Holló Barnabás	F	1865	Alsóhangony
+66	Colengelo Ottimo	F		
+67	Tóth András	F	1858	Pusztasimánd
+68	Oláh Katalin	N	1974	Budapest
+69	Prisztavok Tibor	F	1969	Békéscsaba
+70	Békésy Miklós	F	1903	München
+71	Bujtás László	F		
+72	Pásztor János	F	1881	Gyoma
+73	Kincses Mária	N	1926	Hódmezővásárhely
+74	Fábos György	F	1950	Pécs
+75	Szikszay Antal	F		
+76	Mack Lajos	F	1876	
+77	Bakos Ildikó	N	1948	Gyöngyös
+78	Trapli István	F		
+79	Nyírő Gyula	F	1924	Szeged
+80	Tőzsér Erzsébet	N	1915	Rév
+81	Láncz Pál	F	1919	Budapest
+82	Mákos Ferenc	F		
+83	Kiss László (1)	F		
+84	Farkas Pál	F	1947	Szeged
+85	Kalmár Márton	F	1946	Szeged
+86	Szederkényi Attila	F	1946	Kiskunhalas
+87	Szabó Tamás	F	1952	Budapest
+88	Horváth Olivér	F	1915	Légrád
+89	Gáti Gábor	F	1937	Budapest
+90	Ősz Nemes György	F	1885	Temesvár
+91	Bukta Imre	F	1952	Mezőszemere
+92	Ziegler István	F		
+93	Windecker Zoltán	F		
+94	Bálint Zoltán	F	1871	
+95	Tóth Sándor	F	1933	Miskolc
+96	Ács József	F	1931	Drezda
+97	Gáspár Géza	F	1965	Margitta
+98	Németh Mihály	F	1926	Sárvár
+99	Sirpa Ihanus	F	1959	Tuupovaara
+100	Till Aranka	N	1909	Hódmezővásárhely
+101	Szabó Mihály	F		
+102	Horvay János	F	1874	Pécs
+103	Bajnok Béla	F	1937	Gyula
+104	Raáb Ferenc	F		
+105	Iván Gregorjevics Belokur	F		
+106	Hans Gasser	F	1817	Eisentratten
+107	Matyi József	F		
+108	Ioan Tolan	F	1927	Arad
+109	Hantos Károly	F	1955	Baja
+110	Gál András	F	1936	Gyergyóditró
+111	Bende Róbert	F	1971	Gyula
+112	Borics Pál	F	1908	Sirok
+113	Jungfer Gyula	F	1841	Pest
+114	Kóthay Nándor	F	1921	Tamásfalva
+115	Pataki Miklós	F	1942	Budapest
+116	Gádor Magda	N	1924	Budapest
+117	Gulyás Gyula	F	1944	Miskolc
+118	Módy Péter	F		
+119	Csíkszentmihályi Róbert	F	1940	Budapest
+120	Bory Jenő	F	1879	Székesfehérvár
+121	Vágó Gábor	F	1894	Belényes
+122	Horváth Géza	F	1879	Marosvásárhely
+123	Németh Erika	N	1974	Kiskunmajsa
+124	Torma János	F		
+125	Zsuppán István	F		Pápa
+126	Lugosi György	F		
+127	Matos Sándor	F	1961	Szeged
+128	Morell Mihály	F	1911	Zombor
+129	Jankovits Gyula	F	1865	Pest
+130	Antal A. József	F	1908	Budapest
+131	Tamás Ákos	F	1954	Szentgál
+132	Kárpáti Anna	N	1923	Budafok
+133	Veszely Jelena	N	1917	Ljaskovica
+134	Dienes Gyula	F		
+135	Majoros Áron Zsolt	F	1982	Budapest
+136	Taiszer János	F	1878	Törökbálint
+137	Vastagh György ifj.	F	1868	Kolozsvár
+138	Szák Kocsis Pál	F		
+139	Szmrecsányi Boldizsár	F	1970	Budapest
+140	Meszlényi András	F		
+141	Horváth Adorján	F	1874	Győr
+142	Péter Zsuzsa	N	1937	Újpest
+143	Kaffka Péter	F		
+144	Vincze Ottó	F		
+145	Szilágyi Bernadett	N	1951	Pápa
+146	Gárdos Endre	F		
+147	Somló Sári	N	1886	Arad
+148	Borbás Márton	F	1970	Budapest
+149	Tóth Lili	N		
+150	Csikós János	F		
+151	Pózner Gábor	F	1963	Hatvan
+152	Erna Viitol	N	1920	Ala
+153	Györfi Sándor	F	1951	Karcag
+154	Mihály Bernadett	F		
+155	Varga László	F	1960	Budapest
+156	Kapás Sándor	F	1867	Vác
+157	Likhanecz Sándor	F		
+158	Mayer (Meyer) Sándor	F		
+159	Farkas Zoltán	F	1900	Cinkota
+160	Ócsai Károly	F	1938	Újpest
+161	Orisek Ferenc	F	1937	Pázmánd
+162	Kiss Sándor	F	1925	Sáros
+163	Estók Sándor	F		
+164	Deér Zoltán	F		
+165	Czakó János	F	1949	
+166	Leonid Vatnik	F		
+167	Szalay Péter	F		
+168	Csepregi Zoltán	F	1931	Pankota
+169	Bibó János	F		
+170	Pál Mihály ifj.	F	1936	Gyömrő
+171	Kovács Béla	F	1926	Legenye
+172	Wieland Förster	F	1930	
+173	Domonkos Béla	F	1934	Kispest
+174	Grantner Jenő	F	1907	Budapest
+175	Barabás Edit	N		
+176	Gáspár Pál Szilveszter	F	1957	Szentgotthárd
+177	Kékesi Gábor	F	1982	Körmend
+178	Petrovits István	F	1945	Sepsiszentgyörgy
+179	Varga Éva	N	1949	Hajdúböszörmény
+180	Feil József	F	1958	Budapest
+181	Zagyva László	F	1945	Bayerisch Eisenstein
+182	Ewa Fleszar	N	1966	Szczecinek
+183	Világhy Árpád	F	1960	Budapest
+184	Nagy András	F	1940	
+185	Gálhidy Péter	F	1974	Budapest
+186	Kaponya Kitti	N		
+187	Balázs István	F	1908	Kolozsvár
+188	Kőszeghy Gabriella	N	1968	Miskolc
+189	Kálmán Ede	F	1869	
+190	Balvin Nándor	F		
+191	Szabó István ifj.	F	1927	Dorogháza
+192	Kubászova Tamara	N		
+193	Borsos Miklós	F	1906	Nagyszeben
+194	Kőfalvy Gyula	F	1920	Pestszenterzsébet
+195	Rajki József	F	1894	Orosháza
+196	Rácz Edit	N	1936	Budapest
+197	Győrfi Ádám	F	1990	Karcag
+198	Füves Béla	F		
+199	Enrico Licari	F	1894	Taormina
+200	Szécsi Antal	F	1856	Pécs
+201	Laborcz Monika	N	1941	Budapest
+202	Sörös Rita	N	1977	
+203	Mészáros Ferenc	F		
+204	Kuszajnov Bolat	F		
+205	Kamotsay István	F	1923	Hódmezővásárhely
+206	Gách István	F	1880	Budapest
+207	Mikus Sándor	F	1903	Sződ
+208	Kolozsy Sándor	F	1938	Kolozsvár
+209	Kiss József	F	1875	Budapest
+210	Tokár András	F		
+211	Lukács István	F	1963	Budapest
+212	Farkas Ferenc	F	1958	Zalaegerszeg
+213	Pálffy Katalin	N	1949	Mezőhegyes
+214	Palkovics Lajos	F	1920	Sásd
+215	Kulcsár Írisz	N	1978	Nyíregyháza
+216	Sallai Géza	F	1967	Budapest
+217	Pálfy Gusztáv	F	1942	Kiskunfélegyháza
+218	Némethy Balázs	F		
+219	Mezőfi Zsuzsa	N		
+220	Balogh Zsófia	N	1977	Miskolc
+221	Felek Gyula	F	1879	Doboz
+222	Babusa János	F	1964	Gyula
+223	Ohmann Béla	F	1890	Budapest
+224	Jablonszky Vince	F		
+225	Balatoni Klára	N	1953	Tatabánya
+226	Nyári Zsolt	F	1969	Kaposvár
+227	Hadházy Gergely	F	1977	Debrecen
+228	Ungvári Lajos	F	1902	Perecseny
+229	Sajgó Attila	F		
+230	Szabó György	F	1947	Nagykőrös
+231	Telcs Ede	F	1872	Baja
+232	Boldogfai Farkas Sándor	F	1907	Törökudvar
+233	Hajas József	F	1936	Nagytétény
+234	Horváth Tibor	F	1958	Hajdúböszörmény
+235	Temesi László	F		
+236	Szandai Sándor	F	1903	Szandaszőlős
+237	Stremeny Géza	F	1937	Budapest
+238	Csemniczky Zoltán	F	1953	Budapest
+239	Sigmond Olivér	F	1917	Budapest
+240	Bálint Károly	F	1935	Lőrincfalva
+241	Domin Károly	F	1943	Újpest
+242	Francesco Messina	F	1900	Linguaglossa
+243	Mosoni King	F		
+244	Farkas János	F	1920	Somogysávoly
+245	Koczogh András	F	1942	Nagykőrös
+246	Moldován György	F		
+247	Szilágyi Nagy István	F	1900	
+248	Győri Dezső	F	1908	Törökszentmiklós–Pusztatenyő
+249	Bálits Kálmán	F	1935	Diszel
+250	Illyés Antal	F	1953	Fertőendréd
+251	Turi Jobbágy Miklós	F	1882	Budapest
+252	Baksa Soós György	F	1908	Budapest
+253	Lapis András	F	1942	Kecskemét
+254	Lantos Györgyi	N	1953	Hódmezővásárhely
+255	Szanyi Péter	F	1947	Rákosszentmihály
+256	Illa Gyula	F	1949	Szombathely
+257	Czélkuti Züllich Rudolf	F	1813	Gyulafehérvár
+258	Horváth Ágnes	N		
+259	Papp Zoltán	F		
+260	Anka Margit	N	1977	Budapest
+261	Giampietro Cudin	F	1948	Gorozia
+262	Schwalm László	F	1927	Székesfehérvár
+263	Babos Pálma	N	1961	Nagykanizsa
+264	Vay Miklós	F	1828	Golop
+265	Borsodi Bindász Dezső	F	1903	Gálospetri
+266	Sze-tu Cseo-kuang	F		
+267	Chromy László	F		
+268	Reményi József	F	1887	Kassa
+269	Horváth Attila	F	1940	Ungvár
+270	Záhorzik Nándor	F	1935	Pécs
+271	Pikler István	F	1938	Sajószentpéter
+272	Sarkadi Szabó Lajos	F		
+273	Margó Ede	F	1872	Pest
+274	Deák István	F		
+275	Ficzek Károly	F	1890	Budapest
+276	Kisfaludi Strobl Zsigmond	F	1884	Alsórajk
+277	Rieger Tibor	F	1940	Gyálliget
+278	Damkó József	F	1872	Németpróna
+279	Palotai Gyula	F	1911	Budapest
+280	Jószay Zsolt	F	1951	Szolnok
+281	Várady Lajos	F	1911	Nádudvar
+282	Wiesław Bielak	F	1943	Dębina
+283	Baráth Gabriella	N		
+284	Gerenday Antal	F	1818	Dömsöd
+285	Barta András	F	1967	Szeged
+286	Schaár Erzsébet	N	1908	Budafok
+287	Kissunyi István	F	1936	Domaháza
+288	Hermann Andrea	N		
+289	Czobor Sándor	F	1954	
+290	Kutas László	F	1936	Budapest
+291	Szárnovszky Ferenc	F	1863	Pest
+292	Kőszeghy Gyula	F		
+293	Englert Judit	N	1949	Budapest
+294	Szöllőssy Enikő	N	1939	Budapest
+295	Csien Sao-vu	F		
+296	Oláh Gyula	F		
+297	Orbán Bianka	N		
+298	Oláh Szilveszter	F	1947	Békéssámson
+299	Varga Tamás	F	1953	Budapest
+300	Székely János Jenő	F	1956	Kolozsvár
+301	Vigh Tamás	F	1926	Csillaghegy
+302	Szőke József	F	1960	Szászrégen
+303	Veres Kálmán	F	1964	Mezőtúr
+304	Sebestyén Benedek	F	1937	Budapest
+305	Strausz György	F		
+306	Kucs Béla	F	1925	Ózd
+307	Laczik Csaba	F		
+308	Bíró Lajos	F	1959	Csenger
+309	Széri-Varga Géza	F	1951	Budapest
+310	Csikász Imre	F	1884	Veszprém
+311	Mihály Gábor	F	1942	Székelyhíd
+312	Orosz András	F		
+313	Stamler Lajos	F	1957	Kaposvár
+314	Kerényi Jenő	F	1908	Budapest
+315	Zászlós István	F	1895	Győr
+316	Laborcz Ferenc	F	1908	Újpest
+317	Paulikovics Iván	F	1953	Budapest
+318	Fáskerti István	F		
+319	Máté István	F	1952	Csongrád
+320	Miholcsa József	F	1953	Marosvásárhely
+321	Nagy Géza	F	1921	Budapest
+322	Mihály Árpád	F	1937	Csanádapáca
+323	Beck András	F	1911	
+324	Józsa Gábor	F	1956	Szeged
+325	Tóth Zsuzsa	N		
+326	Jecza Péter	F	1939	Sepsiszentgyörgy
+327	Koplár Katalin	N	1955	Zalaegerszeg
+328	Illés Erika	N		
+329	Deák László	F	1926	Debrecen
+330	Orosz Gergely	F	1960	Budapest
+331	Fusz György	F	1955	Szekszárd
+332	Mogyoróssy Sándor	F	1881	Gyula
+333	Kovács Ferenc	F	1926	Kiskunfélegyháza
+334	Fetter Károly	F	1889	
+335	Fodor Sándor	F	1954	Dunaújváros
+336	Liszkai Kováts Zoltán	F	1898	Budapest
+337	Varkoly László	F	1960	Olaszliszka
+338	Szabó Imrefia Béla	F	1952	Jászberény
+339	Sebestyén Sándor	F	1949	Lónya
+340	Erdős Csaba	F		
+341	Takács Ferenc	F		
+342	Nagy Róbert	F	1980	Berettyóújfalu
+343	Diósi Árpád	F		
+344	Tatár Dezső	F	1900	
+345	Dániel Ferenc	F		
+346	Szabó Sándor	F		
+347	Czigler Endre	F		
+348	Barba Péter	F	1914	Budapest
+349	Vollmuth Krisztián	F		
+350	Mészáros Dezső	F	1923	Szeged
+351	Oskar Košecký	F	1954	Pozsony
+352	Ferenczy István	F	1792	Rimaszombat
+353	Csikász László	F	1904	Orsova
+354	Pásztor Pál	F		
+355	Marschalkó János	F	1818	Lőcse
+356	Szunyogh László	F	1956	Budapest
+357	Trischler Ferenc	F	1945	Németbóly
+358	Füredi Richárd	F	1873	Budapest
+359	Borbás Tibor	F	1942	Budapest
+360	Várhelyi György	F	1942	Szeged
+361	Szókontor Pál	F	1929	
+362	Perényiné Dombóvári Judit	N		
+363	Török József	F		
+364	Zsemlye Ildikó	N	1969	Budapest
+365	Gémes Katalin	N	1954	Szeged
+366	Péterfy László	F	1936	Nyárádselye
+367	Markolt György	F	1951	Kiskunfélegyháza
+368	Kovács Margit	N	1902	Győr
+369	Laborc Éva	N	1985	Tata
+370	Gaál Tamás	F	1962	Szombathely
+371	Glatz Sándor	F		
+372	Sziklai Gyula	F		
+373	Kis György János	F	1951	Miskolc
+374	Kopits János	F	1872	Kaposvár
+375	Ligeti Erika	N	1934	Budapest
+376	R. Kiss Lenke	N	1926	Illye
+377	Csernák Máté	F		
+378	Veszprémi Imre	F	1932	Balatonszabadi
+379	Böszörményi István	F	1964	Szentes
+380	Istók János	F	1873	Bácsfalu
+381	Márkus Ferenc	F		
+382	Vass Viktor	F	1873	Szombathely
+383	Máger Ágnes	N	1944	Szombathely
+384	Diénes Csaba	F		
+385	Seenger Béla	F		
+386	Nagy Edit	N	1978	Mór
+387	Mihai Pacurariu	F		
+388	Patzó Pál	F	1886	Budapest
+389	Párkányi Raab Péter	F	1967	Balassagyarmat
+390	Venelin Antonov	F		
+391	Traian Țamuris	F		
+392	Serban Bonaventura	F		
+393	Szász Gyula	F	1850	Székesfehérvár
+394	Gyurcsek Ferenc	F	1942	Budapest
+395	Péterfy Gizella	N	1943	Marosvásárhely
+396	Béres János	F	1954	Budapest
+397	R. Kaisler Károly	F		
+398	Surányi Imre	F	1927	Budapest
+399	Orr Lajos	F	1952	Várvölgy
+400	Zimányi Ernő	F		
+401	Tornay Endre András	F	1949	Zetelaka
+402	Bianco del Ciprian	F		
+403	Diósi Pál	F		
+404	Rumi Rajki István	F	1881	Rum
+405	Pető Hunor	F	1968	Barót
+406	Huber József	F	1943	Budapest
+407	Bátki Lajos	F		
+408	Radnai Béla	F	1873	Pozsony
+409	Orbán Antal	F	1887	Pusztakalán
+410	Eőry Emil	F	1939	Rábacsécsény
+411	Varga Imre	F	1923	Siófok
+412	Cs. Kovács László	F	1929	Gyöngyösszőlős
+413	Tislér Zoltán	F		
+414	Bondor István	F	1917	Tatabánya
+415	Boda Gábor	F	1908	Lubotény
+416	Melocco Miklós	F	1935	Róma
+417	Bolesław Syrewicz	F	1835	Varsó
+418	Havasi Béla	F		
+419	Várady Sándor	F	1920	Miskolc
+420	Pátzay Pál	F	1896	Kapuvár
+421	Paál István	F	1935	Nagyszénás
+422	Lengyel Géza	F		
+423	Konkoly György	F		
+424	Mészáros Mihály	F	1930	Rákospalota
+425	Göntér Ildikó	N		
+426	Csőke Péter	F		
+427	Fadrusz János	F	1858	Pozsony
+428	Tóth Julianna	N	1951	Hódmezővásárhely
+429	Stróbl Alajos	F	1856	Liptóújvár
+430	Nagy Sándor	F	1923	Buj
+431	Schwartzer	F		
+432	Humenyánszky Jolán	N	1942	Ózd
+433	Kiss Imre	F		
+434	Raffay Béla	F	1944	Sopron
+435	Beretvás Csanád	F	1973	
+436	Antalicz János	F		
+437	Szabó Gábor	F	1940	Budapest
+438	Bíró János	F	1961	Szentendre
+439	Csorba Géza	F	1892	Liptóújvár
+440	Tóth Valéria	N	1943	Pestszenterzsébet
+441	Turza Ferenc	F	1945	Újszász
+442	Meszárek János	F		
+443	Fromann Richárd	F	1975	Budapest
+444	Garami László	F	1921	Rinyaújlak
+445	Ekker Róbert	F	1961	Szerencs
+446	Freund Éva	N	1985	Budapest
+447	Sidló Ferenc	F	1882	Budapest
+448	Sárossy Tibor	F	1965	Gyöngyös
+449	Farkas Tibor	F	1927	Budapest
+450	Cseh István	F	1909	Pestszentlőrinc
+451	Brzózka Marek	F	1983	Szeged
+452	Orova Balázs	F		
+453	Pándi Kiss János	F	1905	Pánd
+454	Hugo Daini	F	1919	Róma
+455	Szabó László	F	1927	Eger
+456	Tamáska János	F	1970	Budapest
+457	Lestyán Goda János	F	1972	Szarvas
+458	Miskolczy Ferenc	F	1899	Vác
+459	R. Törley Mária	N	1950	Budapest
+460	Flach János	F		
+461	Antal Károly	F	1909	Budapest
+462	Fekete Géza Dezső	F	1939	Budapest
+463	Mile Ibolya	N		
+464	Paukert Károly	F		
+465	Varga Attila	F	1981	
+466	Gergely Zoltán	F	1973	Csíkkozmás
+467	Makk József	F		
+468	Györfi Sándor ifj.	F	1976	Karcag
+469	Kampfl József	F	1939	Monor
+470	Andrejka József	F	1859	Pest-Buda
+471	Marton László	F	1925	Tapolca
+472	Boncsér Árpád	F	1945	Borszék
+473	Apáti Abt Sándor	F	1870	Torda
+474	Czinder Antal	F	1937	Budapest
+475	Simor Márton	F	1975	Szeged
+476	Osztrogonácz Péter	F		
+477	Bobály Dávid	F	1990	Salgótarján
+478	Dinyés László	F	1948	Székesfehérvár
+479	Zoltánfy István	F	1944	Deszk
+480	Ambrus Sándor	F	1959	Székelyudvarhely
+481	Deák Gábor	F		
+482	Fűz Veronika	N	1951	Szeged
+483	Gréber Sándor	F		
+484	Horváth István id.	F		
+485	Dabóczi Mihály	F	1905	Marosszentkirály
+486	Csejdy László	F		
+487	Huszár Adolf	F	1842	Szentjakabfalva
+488	Csányi Katalin	F		
+489	Kiss György	F	1943	Budapest
+490	Tóth István	F	1861	Szombathely
+491	Árvai János	F		
+492	Parlag István	F		
+493	Galambos Sándor	F		
+494	Pócsik István	F	1933	Debrecen
+495	Soós Zoltán	F		
+496	Stöckert Károly	F	1910	Sopron
+497	Szathmáry Gyöngyi	N	1940	Szatmárnémeti
+498	Máhr Ferenc	F	1957	Budapest
+499	Meszes Tóth Gyula	F	1931	Rákosszentmihály
+500	Sződy Szilárd	F	1878	Nagykáta
+501	Czinege István	F	1947	Sződ
+502	Sütő József	F		
+503	Majthényi Károly	F	1914	Edelény
+504	Ambrózy Sándor	F	1903	Budapest
+505	Lux Elek	F	1884	Szepesváralja
+506	Marosits József	F	1950	Szombathely
+507	Eskulits Tamás	F	1947	Sóskút
+508	Vilt Tibor	F	1905	Budapest
+509	Csebi Pogány Alajos	F		
+510	Gömbös László	F	1926	Csörötnek
+511	Berecz Károly	F	1885	
+512	Menasági Péter	F	1973	Budapest
+513	Mayer Ede	F	1857	Bécs
+514	Lajos József	F	1936	Újpest
+515	Dušan Koštial	F		
+516	Erdei Tamás	F		
+517	Hock Bertalan	F		
+518	Erdey Dezső	F	1902	Istvánfölde
+519	Jordan Kracsmarov	F		
+520	Szász György	F	1971	Budapest
+521	Fritz Mihály	F	1947	Marosvásárhely
+522	Pozsgai Róbert	F		
+523	Róna József	F	1861	Lovasberény
+524	Kertész Sándor	F		
+525	Orosz Péter	F	1951	Nyíregyháza
+526	Fossati	F		
+527	Somogyi Sándor	F	1881	Gyulaháza
+528	Győrfi Lajos	F	1960	Karcag
+529	Soltra E. Tamás	F	1955	Pécs
+530	Kiss Dániel	F	1913	Tiszalök
+531	Kovács Tibor	F	1967	Zorány
+532	Simon Ferenc	F	1922	Budapest
+533	Vincze József	F		
+534	Jovánovics György	F	1939	Budapest
+535	Zielinski Tibor	F	1968	Budapest
+536	Madarassy Walter	F	1909	Budapest
+537	Szlávics László ifj.	F	1959	Budapest
+538	Szabó Iván	F	1913	Budapest
+539	Váró Márton	F	1943	Székelyudvarhely
+540	Ágoston Zoltán	F	1975	
+541	Borsi Antal	F	1942	Hajdúnánás
+542	Kilár István	F	1935	Földeák
+543	Nagy János	F		
+544	Ugray György id.	F	1908	Dicsőszentmárton
+545	Anatolij Bringin	F		
+546	Bányai Ödön	F	1909	
+547	Bögös Lóránd	F		
+548	Vaszary László	F	1876	Hencse
+549	Hűvös László	F	1883	Budapest
+550	Szabó Virág	N	1976	Budapest
+551	Miklya Gábor	F	1971	Békéscsaba
+552	Gerő Katalin	N	1947	Budapest
+553	Veress Enéh Erzsébet	N	1969	Uzon
+554	Rigó István	F	1956	Székesfehérvár
+555	Köhler Péter	F		
+556	Horváth Elemér	F		
+557	Firnigel Tibor	F		
+558	Kiss János	F		
+559	Búzás Mihály	F		
+560	Csepregi Sándor	F	1950	Budapest
+561	Vígh Ferenc	F		
+562	Bártfay Tibor	F	1922	Nyitra
+563	Jálics Ernő	F	1895	Kadarkút
+564	Czigándi Varga Sándor	F	1985	Sátoraljaújhely
+565	Páljános Ervin	F	1959	Budapest
+566	Balogh Imre	F		
+567	Petri Lajos	F	1884	Szeged
+568	Borbereki Kovács Zoltán	F	1907	Rónaszék
+569	Sternberg Adolf	F		
+570	Merencsics Tibor	F		
+571	Molnár Jenő	F	1921	Budapest
+572	Pál Mihály id.	F	1911	Budapest
+573	Matl Péter	F	1960	Munkács
+574	Tezi Asatiani	F		
+575	Meth Ödön	F		
+576	Latorcai Csaba	F		
+577	Marosits István	F	1953	Szombathely
+578	Kiss Jenő Ferenc	F	1959	Makó
+579	Kaszás Miklós	F	1907	Mór
+580	Rajcsók Attila	F	1983	Budapest
+581	Kopriva Attila	F		
+582	Csúcs Ferenc	F	1905	Szentes
+583	Horváth Balázs	F		
+584	Bodó Levente	F	1949	Szentegyháza
+585	Medgyessy Ferenc	F	1881	Debrecen
+586	Máté György	F	1946	Budapest
+587	Zeke Szabolcs	F		
+588	Tordai Mária	N		
+589	Kónya István	F	1962	Ózd
+590	Turáni Kovács Imre	F	1910	Budapest
+591	Hanzély Jenő	F	1919	Szarvas
+592	Keller Jenő	F		
+593	Farsang György	F	1901	Babócsa
+594	Tősér János	F	1913	
+595	Faragó János	F		
+596	Kozma Péter	F		
+597	Donáth Gyula	F	1850	Pécs
+598	Kelemen Márton	F	1854	Győr
+599	Alexovics László	F	1913	Pestszenterzsébet
+600	Nagy Benedek	F	1941	Illésháza
+601	Farkas Ádám	F	1944	Budapest
+602	Józsa Bálint	F	1937	Debrecen
+603	Tóth Emőke	N	1942	Budapest
+604	Óra Sándor	F	1910	Fütelekimajor
+605	Konyorcsik János	F	1926	Pesterzsébet
+606	Ligeti Miklós	F	1871	Buda
+607	Rákosi Péter	F		
+608	Nagy Gyula	F	1907	Makó
+609	Seres János	F	1952	Medgyesbodzás
+610	Rétfalvi Sándor	F	1941	Aknaszlatina
+611	Szabó István id.	F	1903	Cered
+612	Csikai Márta	N	1939	Nagykőrös
+613	Osváth Mária	N	1921	Misztótfalu
+614	Aradi Zsigmond	F	1830	Arad
+615	Péter Vladimir	F	1947	Budapest
+616	Lengyel Péter	F	1975	Békéscsaba
+617	Fekete Géza id.	F	1906	Budapest
+618	Kiss István (2)	F		
+619	Szemerey-Kiss Balázs	F	1978	Szeged
+620	Baksa Soós Krisztina	N	1944	Budapest
+621	Benedek György	F	1934	
+622	E. Lakatos Aranka	N	1952	Debrecen
+623	Lontay Antal	F		
+624	Gulácsy-Horváth Zsolt	F	1952	Budapest
+625	Szabados Béla	F	1894	Budapest
+626	Janzer Frigyes	F	1939	Budapest
+627	Kiss Kovács Gyula	F	1922	Budapest
+628	Engler András	F		
+629	Kristóf Lajos	F	1947	Kispest
+630	Lóránt Zsuzsa	N	1946	Budapest
+631	Rajki László	F	1939	Orosháza
+632	Szamosi Soós Vilmos	F	1885	Kolozsvár
+633	Pirók József	F		
+634	Dávid Tamás	F		
+635	Doszpot Ferenc	F		
+636	Gecső Sándor	F	1890	
+637	Gaál Ferenc	F		
+638	Krisztiáni Sándor	F	1975	Budapest
+639	Zsákodi Csiszér János	F	1883	Héjjasfalva
+640	Müller Zoltán	F		
+641	Csikós Nagy Márton	F	1946	Abádszalók
+642	Gerster Kálmán	F	1850	Pest
+643	Párzsa János	F		
+644	Radó Károly	F	1925	Somogyszabadi
+645	Ecsedi Zsolt	F		
+646	Balogh Géza	F	1946	Nyíregyháza
+647	Kunvári Lilla	N	1897	Budapest
+648	Konrád Sándor	F	1909	Szekszárd
+649	Tőry Emil	F	1863	Pest
+650	Julier Ferenc	F	1940	
+651	Mitter Imre	F		
+652	Schall József	F	1913	Budapest
+653	Nádor Edina	N	1964	Pécs
+654	Gabay Sándor	F	1867	
+655	Sós András	F	1943	Sztána
+656	Rudolf Mihály	F	1955	Szekszárd
+657	Kis József	F		
+658	Imre Gábor	F	1890	Külsővat
+659	Hadik Magda	N	1914	Ópécska
+660	Bánfi Gábor	F	1978	Orosháza
+661	Papp György Zoltán	F		
+662	Szentesy Hiesz Géza	F	1896	Budapest
+663	Kovács Jenő	F		
+664	Gerenday Béla	F	1863	
+665	Szomor László	F	1908	Budapest
+666	Makoldi Sándor Gyula	F	1973	Miskolc
+667	Túri Török Tibor	F	1954	Budapest
+668	Pelcz Balázs	F	1985	Gyöngyös
+669	Pavlicsek Attila	F		
+670	S. Hegyi Béla	F	1952	Pázmánd
+671	Petrovics József	F		
+672	Marton József	F		
+673	Halmágyi István	F	1897	Marosbogát
+674	Szabó Elek	F		
+675	Tokody Gyula	F	1890	Budapest
+676	Kiss István (1)	F	1927	Biharillye
+677	Kerekes Ferenc	F	1948	Kecskemét
+678	Ram Vanji Sutar	F	1925	Gondur
+679	Beck Ö. Fülöp	F	1873	Pápa
+680	Lőkös Béla	F		
+681	Roman Vaszil	F		
+682	Krasznai János	F	1930	
+683	Vecsei János	F		
+684	Medve András	F	1941	Szászrégen
+685	Kollátor János	F	1949	Tapolca
+686	Kuzmik Lívia	N	1898	Budapest
+687	Krupiczer Antal	F	1944	Kapnikbánya
+688	Szanyi Borbála	N	1979	Miskolc
+689	H. Varga Ilona	N	1927	Szabadszállás
+690	Gyenes Tamás	F	1920	Pécsvárad
+691	Petró György	F		
+692	Horváth János	F	1940	Budapest
+693	Nyulasi József	F	1946	Nyárád
+694	Mészáros Attila	F	1964	
+695	Somogyi József	F	1916	Félszerfalva
+696	Kocsis András	F	1905	Kolozsvár
+697	Páli Lajos	F		
+698	Mátrai Lajos György	F	1850	Pest
+699	Ámmer Gergő	F		
+700	Vasas Károly	F	1930	Salgótarján
+701	Vargha Mihály	F	1961	Kézdivásárhely
+702	Csoma Gergely	F	1954	Budapest
+703	Babos László	F	1947	Budapest
+704	Negrete Mireros	F		
+705	Kolop József	F	1963	Tapolca
+706	Boros Péter	F	1957	Békéscsaba
+707	Monostori Ferenc	F		
+708	Németh Árpád	F	1957	Budapest
+709	Szanics Mihály	F	1943	Daróc
+710	Dunaiszky László	F	1822	Pest
+711	Lovas Dániel ifj.	F	1978	
+712	Horváth László	F	1941	Debrecen
+713	Ferenczy Imre	F		
+714	Dessewffy-Horváth Marietta	N	1930	Sopron
+715	Makrisz Agamemnon	F	1913	Patrasz
+716	Takács Győző	F	1938	Szeged
+717	Hlavács Viktor	F	1975	Kisvárda
+718	Stanzel Antal	F	1938	Szeged
+719	Juha Richárd Attila	F	1971	Debrecen
+720	Balás Eszter	N	1947	Budapest
+721	Gustav Heinrich Eberlein	F	1847	Spiekershausen Kassel
+722	Adorjáni Endre	F	1950	Kolozsvár
+723	Paál Dezső	F	1941	Budapest
+724	Gábor Emese Anna	N	1973	
+725	Tavasz László	F		
+726	Turi György	F	1952	Kóny
+727	Meszlényi János	F	1939	Németbóly
+728	Bolla Vilmos	F		
+729	Hermann Hahn	F	1868	Kloster Veilsdorf
+730	Agárdi Fanni	N		
+731	Lipovics János	F	1962	Pápa
+732	Borbás István	F	1894	Csongrád
+733	Papp József	F	1894	
+734	Szörényi Tibor	F		
+735	Pataky Béla	F	1932	Szolnok
+736	Meszlényi Molnár János	F	1969	Budapest
+737	Dudás Sándor	F	1948	Topolya
+738	Vámos László	F		
+739	Richter Ferenc	F		
+740	Fischer György	F	1956	Siklós
+741	Manhertz István	F		
+742	Kákonyi István	F	1917	Kalocsa
+743	Hartmut Zech	F		
+744	Csirpák Viktória	N	1967	Beregszász
+745	Nemes Sándor	F	1951	Biharnagybajom
+746	Nagy Attila	F	1966	Hódmezővásárhely
+747	Kalló Viktor id.	F	1931	Babócsa
+748	Molnár Péter	F	1965	Salgótarján
+749	Kiss László (2)	F	1949	Putnok
+750	Izsó Miklós	F	1831	Disznóshorvát
+751	Lugossy László	F	1944	Zilah
+752	Lindner László	F		
+753	Küzdi András	F	1953	Budapest
+754	Tápai Antal	F	1902	Kistelek
+755	Sebestyén Endre	F	1888	
+756	Pototsky Gregory	F		
+757	Ungor Csaba	F	1949	Temesvár
+758	Ratkay Lajos	F	1931	Túrkeve
+759	Németh Kálmán	F	1903	Podolin
+760	Dimitrijević Dragan	F		
+761	Meixner Etelka	N	1978	Siófok
+762	Nagy István	F	1920	Albertirsa
+763	Lelkes Márk	F	1972	Budapest
+764	Nagy István János	F	1938	Nagykanizsa
+765	Kelemen Anna	N		
+766	Vida Szilárd	F		
+767	Blaskó János ifj.	F	1945	Budapest
+768	Fritz János	F	1947	Nagykanizsa
+769	Megyeri Barna	F	1920	Nagyvárad
+770	Harmath István	F	1974	Székelyudvarhely
+771	Elek Imre	F	1977	Szeghalom
+772	Kása Veronika Zsófia	N		
+773	Rózsa Péter	F	1926	Budapest
+774	Éles-Varga Erika	N		
+775	Engel József	F	1815	Sátoraljaújhely
+776	Schrotta János	F	1898	Kispest
+777	Somogyi Pál	F		
+778	Kovács György	F	1948	Budafok
+779	Dévényi Sándor	F	1948	Pécs
+780	Bertalan Sándor	F	1932	Gyula
+781	Iván Sándor	F	1933	Mezőtúr
+782	Cséri Lajos	F	1928	Hajdúböszörmény
+783	Vida Dezső	F		
+784	Szokolayné Szesztay Sára	N	1927	Budapest
+785	Szőnyi Endre	F	1956	Hódmezővásárhely
+786	Kirchmayer Károly	F	1923	Máramarossziget
+787	Enes Nagy Sándor	F	1959	Budapest
+788	Bánvölgyi László	F	1962	Hódmezővásárhely
+789	Csillag István	F	1881	Budapest
+790	Sóváry János	F	1895	Papolc
+791	Naszvadi István	F		
+792	Aleksandar Zarin	F	1923	Srpska Crnja
+793	Kerpács János	F		
+794	Ivitz László	F	1942	Losonc
+795	Veress Miklós	F	1929	Mezőtúr
+796	Sütő Ferenc	F	1959	Mezőhegyes
+797	Török Richárd	F	1954	Budapest
+798	Barthné Mezőfi Mózer Ilona	N	1938	Kiskunhalas
+799	Varga Luigi István	F	1951	Vinga
+800	Megyeri László	F		
+801	Szkok Iván	F	1944	Szombathely
+802	Kocsis Előd	F	1948	Abafája
+803	Lányi Dezső	F	1879	Baán
+804	Vándor Béla	F	1901	
+805	Varga Zoltán Zsolt	F	1962	Szombathely
+806	Veres Gyula Alpár	F		Uzon
+807	Stefanovics Elemér	F	1932	Budapest
+808	Nagy Miklós	F	1942	Hajdúböszörmény
+809	Ferenczy Béni	F	1890	Szentendre
+810	Fekete Tamás	F	1931	Budapest
+811	Técsy László	F	1892	Gyula
+812	Simon Dániel	F		
+813	Medgyesi László	F		
+814	Árkosi-Nagy Judit	N	1954	Budapest
+815	Lengyelfi László	F		
+816	Bakos Endre	F		
+817	Kocsis Balázs	F	1954	Tata
+818	Belatinyné Hadzsi Flóra	N	1882	Budapest
+819	Erdei Sándor	F	1942	Salgótarján
+820	Bocz Gyula	F	1937	Pécs
+821	Csasznyi István	F	1930	Péterrév
+822	F. Csapó Irén	N	1943	Bezi
+823	Cyránski Mária	N	1940	Budapest
+824	Hunyadi László	F	1933	Küküllődombó
+825	Farkas Zsófia	N	1972	Szentendre
+826	Kocsis László	F		
+827	Hermann Zsolt	F		
+828	Kovács Norbert	F	1983	Kalocsa
+829	Tóth Dávid	F	1974	Budapest
+830	Seregi József	F	1939	Budaörs
+831	Dobándi Károly	F	1914	Abaújszántó
+832	Lavotha Géza	F	1926	Erdőbénye
+833	Szabó Zoltán	F		
+834	Vanyúr István	F	1961	Siklós
+835	Borsi Sándor	F		
+836	Boa Endre	F	1956	Nagykanizsa
+837	Boros Zoltán	F		
+838	Markup Béla	F	1873	Diósgyőr
+839	Zala György	F	1858	Alsólendva
+840	Nagy Kálmán	F	1872	Kiskunhalas
+841	Ahba Cira Fjodorovna	F		
+842	Pártos Gyula	F	1847	Apatin
+843	Kárpáti Éva	N	1936	Budapest
+844	Koltai László	F	1951	Budapest
+845	Mladonyiczky Béla	F	1936	Békésszentandrás
+846	Götz Johanna	N	1969	Budapest
+847	Juhász Zoltán Nándor	F		
+848	E. Tóth Ila	N	1918	Nagybátony
+849	Ivan Meštrović	F	1887	Split
+850	Bencsik István	F	1931	Marcali
+851	Kaubek Péter	F	1942	Budapest
+852	László Péter	F	1918	Budapest
+853	Cserenyei-Kaltenbach István	F	1903	Verebély
+854	Raffay Dávid	F	1973	Budapest
+855	Richard Kauffungen	F	1854	
+856	Marjay György	F		
+857	Keresztfalvi Imre	F		
+858	Török Ibolya	N	1956	Hódmezővásárhely
+859	Fésűs Károly	F	1943	
+860	Máthé Krisztián	F		
+861	Gelencsér Ferenc	F		
+862	Szabó Imre	F	1947	Szob
+863	Jonathan Wylder	F	1957	Salisbury
+864	Varga Miklós	F	1928	Mezőtúr
+865	Németh József	F		
+866	Kalmár János	F	1952	Budapest
+867	Plank Antal	F		
+868	Várdiák Ferenc	F		
+869	Bobály Attila	F	1948	Varsány
+870	Katona Zsuzsa	N	1951	Budapest
+871	Vastagh László	F	1902	Budapest
+872	Andrássy Kurta János	F	1911	Kiskóh
+873	Kő Pál	F	1941	Perespuszta
+874	Sz. Nagy Mária	N	1929	Hatvan
+875	Berek Lajos dr.	F	1949	Kaba
+876	Márkus Botond	F		
+877	Kaszab Károly	F	1889	Szolnok
+878	Hadas László	F		
+879	Ispánki József	F	1906	Budapest
+880	Kolozsi Tibor	F	1965	Ditró
+881	Tóta Gyula	F	1912	
+882	Halassy Csilla	N	1969	Budapest
+883	Papp Edina	N	1970	Kunhegyes
+884	Udvardy Anikó	N	1952	Mezőberény
+885	Somogyi Árpád	F	1926	Karcag
+886	Józsa Lajos	F	1944	Debrecen
+887	Anna Mahler	N	1904	Bécs
+888	Keviczky Hugó	F	1879	Nagyhalom
+889	Farkas Béla	F	1885	
+890	Kaspar von Zumbusch	F	1830	
+891	Senyei Károly	F	1854	Pest
+892	Berky Nándor	F	1911	
+893	Buda István	F	1952	Győr
+894	Márkus Péter	F	1956	Budapest
+895	Zsin Judit	N	1957	Budapest
+896	Kenéz László	F	1942	Pestszentimre
+897	Kepenyes Pál	F	1926	Kondoros
+898	Tóbiás Klára	N	1945	Szeged
+899	Voinea Ilarion	F	1948	Băileşti
+900	Hanna Danilewicz	N		
+901	Angelo Minuti	F	1947	Romano di Lombardia
+902	Michał Wiśnios	F		
+903	Victor Tilgner	F	1844	Pressburg
+904	August Sommer	F	1839	Coburg
+905	Metz Rezső	F		
+906	Gábor Éva Mária	N	1953	Mohács
+907	Szilágyi Zoltán	F		
+908	Váraljai László	F		
+909	Bodó Csaba	F	1962	Nagykőrös
+910	Borsos István	F	1935	Püspökladány
+911	Koncz Antal	F	1884	Orosháza
+912	Szomolányi Péter	F	1946	Budapest
+913	Kligl Sándor	F	1945	Mosonmagyaróvár
+914	Lebó Ferenc	F	1960	Szarvas
+915	Cserneczky Attila	F		
+916	Diénes Attila	F	1942	Marosvásárhely
+917	Szórádi Zsigmond	F	1962	Orosháza
+918	Kiss Nagy András	F	1930	Pusztaföldvár
+919	Balogh Jenő	F		
+920	Gyulavári Pál	F	1949	Bicske
+921	Kontur András	F	1973	Budapest
+922	Dombrádi István	F	1945	Ófehértó
+923	Tóth Tamás	F		
+924	Kiss László György	F	1947	Gyula
+925	Hargitai Ottó	F		
+926	Majoros István	F	1962	Budapest
+927	Tóth Béla	F	1941	Budapest
+928	Rafael Monti	F	1818	Milánó
+929	Ágh Fábián Sándor	F	1954	Opoka
+930	Pogány Gábor Benő	F	1962	Szolnok
+931	Ratki László	F		
+932	Lesenyei Márta	N	1930	Budapest
+933	Szentirmai Zoltán	F	1941	Budapest
+934	Rátonyi József	F	1942	Budapest
+935	Böjte Horváth István	F	1972	Budapest
+936	Koroncz Ila	N		
+937	Nebojša Mitrić	F	1931	Belgrád
+938	Corvus-Kora Róbert	F	1969	Lökösháza
+939	Papi Lajos	F	1921	Kisújszállás
+940	Solymári Walkó László	F	1909	Solymár
+941	Szabó Ilona	N		
+942	Szőke Sándor	F	1962	Gyula
+943	Simorka Sándor	F	1961	Kemecse
+944	Maugsch Gyula	F	1882	Besztercebánya
+945	Szatmári Juhos László	F	1947	Szatmárnémeti
+946	Rizmajer Róbert	F	1986	Budapest
+947	Turcsányi Árpád	F	1921	Budapest
+948	Bányai József	F	1933	Mezőhegyes
+949	Martsa István	F	1912	Pozsony
+950	Beliczay Mária	N	1956	Békés
+951	Demjén Attila	F		
+952	Bartha János	F		
+953	Bakos Géza	F	1949	Dorog
+954	Molnár Gyula	F	1882	
+955	Rohonczi István	F	1957	Törökkoppány
+956	Csávás Csaba	F	1956	Budapest
+957	Hajdu Sándor	F	1911	Bénye
+958	Hadik Gyula	F	1925	Nagykikinda
+959	Demjén László	F	1935	Budapest
+960	Pató Róza	N	1934	Törökszentmiklós
+961	Veres Attila	F	1934	Villány
+962	Tölgyesi Poós Anna	N	1981	Hódmezővásárhely
+963	Asztalos Árpád	F		
+964	Szonda István Attila	F	1970	Mezőtúr
+965	Petschacher Gusztáv	F	1884	Bécs
+966	Bácsi Lajos	F		
+967	Búza Barna	F	1910	Vésztő
+968	Minya Gábor	F		
+969	Deli Sándor Péter	F		
+970	Benke Zoltán	F	1947	Felsőméra
+971	Berecz Péter	F		
+972	Kovács Imre	F	1936	Karcag
+973	Takács Viktória	N		
+974	Tóth Gyula	F		
+975	Gyöngyössy Berta	N		
+976	Wäinö Aaltonen	F	1894	Marttila
+977	Veres Gábor	F	1955	Békés
+978	Király Róbert	F	1930	Eger
+979	Palotás József	F	1947	Pécs
+980	Szászvári Kiss György	F	1852	Szászvár

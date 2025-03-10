@@ -1,0 +1,54 @@
+﻿1. dia
+A személyazonosító igazolvány
+A személyazonosító igazolvány olyan hatósági igazolvány, amely a polgár személyazonosságát és a Nyilvántartási törvényben meghatározott adatait közhitelűen igazolja.
+
+2. dia
+Az új eSzemélyi
+Vizuálisan tartalmazza a jelenlegi személyazonosító igazolvány adattartalmát.
+Rendelkezik egy beépített, magas biztonságú chippel. A chip tárolja
+a személyazonosító adatokat,
+az ujjnyomatot (az állampolgár döntésétől függően),
+az elektronikus aláírás létrehozásához szükséges adatokat (az állampolgár döntésétől függően),
+a társadalombiztosítási- és adóazonosító jelet.
+
+3. dia
+Az új eSzemélyi funkciói
+Elektronikus úti okmány funkció
+Elektronikus azonosítás funkció
+Elektronikus aláírás funkció
+Közösségi közlekedés funkció
+
+4. dia
+Elektronikus úti okmány
+Az eSzemélyi elektronikus úti okmány funkciója lehetőséget biztosít határátlépésre az európai országokba.
+
+A reptéri határátlépések során a zsilipkapus beléptető rendszerek is használhatók, amelyek kiolvassák a chipből az adatokat és elvégzik az ellenőrzést.
+
+A chip olvasása a CAN-szám vagy az MRZ-kód leolvasása/megadása után lehetséges.
+
+5. dia
+Elektronikus azonosítás
+Lehetővé teszi az elektronikus kormányzati és e-közigazgatási rendszerek igénybe vételéhez szükséges elektronikus azonosítás/hitelesítés funkciókat.
+Ha a polgár az eSzemélyihez tartozó PIN-kód megadásával ehhez hozzájárulását adja a chipből az arra jogosult szerv képes kiolvasni azokat a személyes adatokat amelyekre jogosult és az adott ügyintézéshez szükségesek.
+
+Az eAzonosítás PIN-kódunkat az aktiváló PIN-kód megadása után állíthatjuk be.
+A PIN-kód 6 számjegyű.
+
+6. dia
+Elektronikus aláírás
+Az e-aláírás magán- és közigazgatási ügyekben is használható. Az Európai Unióban a minősített elektronikus aláírás a saját kezű aláírással azonos joghatású.
+Használatához szükséges:
+Érvényes e-mail cím
+Érvényes eSzemélyi, e-aláírás funkcióval
+e-aláíró PIN-kód az aláírás létrehozásához
+Kártyaolvasó
+eSzemélyi Kliens alkalmazás
+Aláíró alkalmazás
+
+Az eAláírás PIN-kódunkat az aktiváló PIN-kód megadása után állíthatjuk be.
+A PIN-kód 7 számjegyű.
+
+7. dia
+Közösségi közlekedés
+A személyazonosító igazolvány technológiai kialakításának köszönhetően kompatibilis a közösségi közlekedési rendszerekkel, amelyek a szolgáltatásaikat a Nemzeti Egységes Kártyarendszer keretein belül nyújtják.
+Az eSzemélyi közösségi közlekedési funkciója jelenleg pilot jelleggel működik. (MÁV, DKV Debreceni Közlekedési Zrt.)
