@@ -1,4 +1,4 @@
-PATH = ""
+PATH = "Kadarkuti_Marton\\_ERETTSEGI_GYAKR\\probaerettsegi0310\\"
 
 class Sor:
     def __init__(self, data)->None:
@@ -20,7 +20,7 @@ class Sor:
 
 sorok:list[Sor] = []
 
-with open(PATH+"bedat.txt",'r',encoding="utf-8") as f:
+with open(PATH+"3_Belepteto_rendszer\\bedat.txt",'r',encoding="utf-8") as f:
     for i in f:
         sorok.append( Sor( i.strip().split(' ') ) )
 
