@@ -1,0 +1,71 @@
+Név;Osztályterem;Bejárat;Folyosók;Osztályok;Díszterem;Rendezés;Takarítás;Felelősként
+Kiss Judit;6;3;7;5;2;1;4;
+Benedek Andras;3;1;2;6;7;4;5;
+Varga Bence;6;1;3;4;7;5;2;
+Molnar Judit;4;1;3;6;7;5;2;
+Buzas Peter;3;4;1;5;7;2;6;Rendezés, Folyosók
+Bene Tamas;5;4;6;2;7;3;1;
+Bordas Dorottya;6;4;2;3;5;1;7;
+Merse Botond;2;5;4;3;6;7;1;Osztályterem, Takarítás
+Kiss Istvan;6;2;5;3;7;4;1;
+Kelemen Anna;5;1;2;6;7;4;3;Bejárat, Folyosók
+Repas Tamas;4;1;2;5;7;3;6;
+Forian Zoltan;6;4;5;2;1;3;7;Díszterem, Osztályok
+Erdei Katalin;4;5;7;3;1;6;2;
+Kovacs Zsolt;6;5;4;1;3;7;2;Osztályok
+Boros Dezso;1;6;7;2;4;3;5;
+Szabo Elek;2;1;5;4;7;3;6;Bejárat
+Molnar Istvan;2;6;7;3;5;4;1;
+Bence Eva;5;7;4;3;6;2;1;Takarítás
+Andras Istvan;4;7;2;6;1;3;5;Díszterem, Folyosók
+Molnar Kovacs;1;6;7;2;5;3;4;
+Nagy Zsolt;2;4;6;3;7;5;1;Takarítás, Osztályterem
+Budai Imre;1;3;7;4;5;2;6;Osztályterem
+Kiss Kelemen;5;6;7;4;1;2;3;Díszterem
+Varga Ferenc;6;2;1;5;3;4;7;Folyosók
+Pecsi Tamas;3;1;5;6;7;4;2;Bejárat, Takarítás
+Kiss Benedek;4;5;3;6;7;1;2;
+Sovari Anna;3;2;7;6;4;5;1;Takarítás, Bejárat
+Somogyi Julia;1;6;4;2;7;3;5;Osztályterem
+Berci Ferenc;1;2;6;4;7;5;3;
+Pallo Istvan;5;6;7;3;1;4;2;
+Fekete Gyorgy;5;2;6;3;7;4;1;Takarítás
+Nagy Janos;4;5;7;3;1;6;2;Díszterem
+Koszorus Izabella;5;4;7;1;6;2;3;Osztályok
+Lovasz Ilona;1;2;4;3;7;6;5;
+Keleti Eva;3;2;7;6;1;5;4;
+Borus Hanna;5;7;3;2;6;4;1;
+Horvath Emilia;2;5;7;4;1;3;6;
+Kovacs Gabor;4;3;2;5;1;6;7;
+Berdi Zsuzsanna;5;7;1;6;3;2;4;Folyosók, Rendezés
+Nemeth Zsuzsa;3;7;6;5;1;2;4;Díszterem, Rendezés
+Baranyi Andras;4;3;7;1;6;5;2;Osztályok
+Esti Cecilia;5;6;7;3;1;4;2;
+Marosi Gyongyver;4;5;1;3;7;2;6;Folyosók
+Vaci Eva;2;5;1;4;6;3;7;
+Nagy Robert;3;4;7;5;6;1;2;Rendezés
+Lakatos Jozsef;4;3;5;7;2;6;1;Takarítás
+Bereczky Alajos;5;1;4;3;7;2;6;
+Poros Tamas;6;4;7;3;1;5;2;
+Dunai Ferenc;3;4;1;5;7;2;6;Folyosók
+Galambos Kristof;2;6;7;3;1;4;5;
+Szabo Kis;5;3;2;1;7;4;6;Osztályok
+Tovari Rudolf;4;5;3;6;1;7;2;Díszterem
+Bognar Salamon;5;4;3;6;1;7;2;
+Elekes Pal;7;6;4;3;1;5;2;Díszterem
+Hegyi Evelin;3;6;7;2;1;4;5;
+Miskolci Peter;5;2;6;1;7;4;3;
+Furedi Zsolt;4;5;6;2;1;7;3;
+Bekesi Dezso;5;1;6;2;7;4;3;
+Ajtai Janos;3;7;6;1;2;5;4;Osztályok
+Faludi Nagy;2;3;6;1;4;5;7;Osztályok, Osztályterem
+Lajtos Attila;3;4;6;2;7;5;1;
+Ovari Elemer;5;4;7;1;6;2;3;
+Szigeti Bence;5;4;7;3;6;1;2;
+Berces Panna;7;6;4;5;1;3;2;Díszterem, Takarítás
+Nagy Kereki;1;2;4;6;7;5;3;
+Balogh Reka;3;4;7;6;2;5;1;
+Szemeredi Andrea;2;7;4;5;6;1;3;
+Buzasi Lorinc;4;6;7;1;3;5;2;
+Hegyi Tamas;1;3;6;5;4;7;2;Osztályterem, Takarítás
+Kutasi Nora;3;6;4;1;2;5;7;Osztályok, Díszterem
