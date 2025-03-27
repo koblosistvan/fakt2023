@@ -85,6 +85,7 @@ if azonosito in tanulo:
         if esemeny[i] == 1 and tanulo[i] == azonosito:
             belepes_ora = ora[i]
             belepes_perc = perc[i]
+            break
 
     for i in range(len(tanulo)):
         if esemeny[i] == 2 and tanulo[i] == azonosito:
