@@ -1,5 +1,8 @@
 -- adatbázis létrehozása
 
+drop database if exists `kiralyok`;
+
+
 CREATE DATABASE `kiralyok`
 DEFAULT CHARACTER SET utf8
 COLLATE utf8_hungarian_ci;
