@@ -1,0 +1,12 @@
+INSERT INTO lessons VALUES ('0', 'Z_3', '2', '9:05', '9:50', 'Ének', 'Györkéné Gulyás Orsolya', 'Kedd', '7.A', '7', '7.A', 'alap', NULL);
+INSERT INTO lessons VALUES ('1', 'Z_3', '3', '10:05', '10:50', 'Ének', 'Györkéné Gulyás Orsolya', 'Péntek', '8.A', '8', '8.A', 'alap', NULL);
+INSERT INTO lessons VALUES ('2', 'Z_3', '5', '11:55', '12:40', 'Ének', 'Györkéné Gulyás Orsolya', 'Szerda', '9.B', '9', '9.B', 'alap', NULL);
+INSERT INTO lessons VALUES ('3', 'Z_3', '4', '11:00', '11:45', 'Ének', 'Györkéné Gulyás Orsolya', 'Kedd', '9.A', '9', '9.A', 'alap', NULL);
+INSERT INTO lessons VALUES ('4', 'Z_3', '5', '11:55', '12:40', 'Ének', 'Györkéné Gulyás Orsolya', 'Péntek', '12.A', '12', '12.A', 'alap', NULL);
+INSERT INTO lessons VALUES ('5', 'Z_3', '6', '12:50', '13:35', 'Ének', 'Györkéné Gulyás Orsolya', 'Csütörtök', '12.B', '12', '12.B', 'alap', NULL);
+INSERT INTO lessons VALUES ('6', 'Z_1', '6', '12:50', '13:35', 'Vizuális kultúra', 'Aladzsits Szilvia', 'Csütörtök', '11.A', '11', '11.A', 'alap', NULL);
+INSERT INTO lessons VALUES ('7', 'Z_1', '1', '8:10', '8:55', 'Vizuális kultúra', 'Aladzsits Szilvia', 'Kedd', '10.B', '10', '10.B', 'alap', NULL);
+INSERT INTO lessons VALUES ('8', 'Z_1', '2', '9:05', '9:50', 'Vizuális kultúra', 'Aladzsits Szilvia', 'Kedd', '10.B', '10', '10.B', 'alap', NULL);
+INSERT INTO lessons VALUES ('9', 'Z_3', '4', '11:00', '11:45', 'Ének', 'Györkéné Gulyás Orsolya', 'Szerda', '9.C', '9', '9.C', 'alap', NULL);
+INSERT INTO lessons VALUES ('10', 'Z_3', '4', '11:00', '11:45', 'Ének', 'Györkéné Gulyás Orsolya', 'Csütörtök', '10.C', '10', '10.C', 'alap', NULL);
+INSERT INTO lessons VALUES ('11', 'Z_3', '5', '11:55', '12:40', 'Ének', 'Györkéné Gulyás Orsolya', 'Kedd', '10.A', '10', '10.A', 'alap', NULL);

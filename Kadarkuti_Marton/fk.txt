@@ -2,3 +2,8 @@ ALTER TABLE jelentkezes
     ADD CONSTRAINT fk_jelentkezes_munkaid
     FOREIGN KEY (munkaid)
     REFERENCES munka(id);
+
+
+DROP DATABASE IF EXISTS `album`;
+CREATE DATABASE `album`;
+USE `album`;
