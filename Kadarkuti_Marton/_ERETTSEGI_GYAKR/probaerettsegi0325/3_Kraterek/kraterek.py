@@ -33,7 +33,7 @@ print("A kráterek száma:",l)
 
 # 3.
 print("3. feladat")
-prompt = "Thomas Gold" #####prompt = input("Kérem egy kráter nevét: ").strip()
+prompt = input("Kérem egy kráter nevét: ").strip()
 
 if prompt in [i.nev for i in kraterek]:
     prompt = [i for i in kraterek if i.nev == prompt][0]
@@ -58,7 +58,7 @@ def tavolsag(x1:float, y1:float, x2:float, y2:float)->float:
 
 # 6. 
 print("6. feladat")
-prompt = "Jacques Cassini" #####prompt = input("Kérem egy kráter nevét: ").strip()
+prompt = input("Kérem egy kráter nevét: ").strip()
 
 if prompt in [i.nev for i in kraterek]:
     prompt = [i for i in kraterek if i.nev == prompt][0]
