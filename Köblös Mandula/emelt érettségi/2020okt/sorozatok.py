@@ -101,4 +101,5 @@ if cim[-1] == cim[-2]:
     print(f'{cim_kiiras} {szamlalo_perc + hossz[-1]} {szamlalo_resz + 1}', file=kiiras)
 else:
     print(f'{cim[-1]} {hossz[-1]} 1', file=kiiras)
+
 kiiras.close()

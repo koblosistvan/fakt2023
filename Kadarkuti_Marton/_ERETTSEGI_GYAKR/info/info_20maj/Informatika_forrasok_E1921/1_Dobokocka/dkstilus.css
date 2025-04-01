@@ -17,31 +17,35 @@ body {
 	padding: 0px;
 
 	width: 930px;
-	
+	background-color: var(--vilagoskek);
+	margin: 0 auto 0 auto;
 
 }
 
 p{
-	
+	padding: 5px;
 }
 
 p.bev{
-	
+	font-size: small;
+	font-style: italic;
 }
 
 
 hr {
-	
+	width: 80%;
 }
 
 h1, h2 {
 	
 	padding: 5px;
+	color: var(--sotetpiros);
 }
 
 h2 {
-	
+	font-size: 17px;
 }
+	
 
 #tartalom {
 	
@@ -54,10 +58,13 @@ h2 {
     float: left;
     padding: 0px;
    	
+	width: 33%;
 }
 
 .kep {
-	
+	width: 240px;
+	border: 0;
+	margin-left: 30px;
 }
 
 a, a:link, a:hover, a:active, a:visited {
@@ -67,4 +74,8 @@ a, a:link, a:hover, a:active, a:visited {
 #lablec {
     clear: both;
     
+}
+
+table, tr, td {
+	border: 0;
 }
