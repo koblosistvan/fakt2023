@@ -18,6 +18,14 @@ forras.close()
 print(f'2. feladat\nA buszra {len(felszallas)} utas akart felszállni.')
 
 # 3
+def ervenyesseg(x):
+    if x <= 10:
+        if x == 0:
+            return 0
+    else:
+        
+
+
 counter = 0
 datumok = []
 for i in ervenyes:
@@ -31,14 +39,20 @@ for i in ervenyes:
 print(f'3. feladat\nA buszra {counter} utas nem szállhatott fel.')
 
 # 4
-legtobb = 0
-for i in range(1,30):
-    a = megallo.count(i)
-    if a > legtobb:
-        legtobb = a
-        legtobbindex = i
-for i in range(len())
+megallok = list(set(megallo))
+felszallok_szama = [0] * len(megallok)
+for i in megallo:
+    for k in range(len(megallok)):
+        if i == megallok[k]:
+            felszallok_szama[k] += 1
+maxfelszallok = felszallok_szama.index(max(felszallok_szama))
+print(f'4. feladat\nA legtöbb utas ({felszallok_szama[maxfelszallok]} fő) a {megallok[maxfelszallok]}. megállóban próbált felszállni.')
 
+# 5
+ingyenes = 0
+kedvezmenyes = 0
+for i in range(len(tipus)):
+    if ervenyes[i] 
 
 """2. feladat 
 A buszra 699 utas akart felszállni. 
