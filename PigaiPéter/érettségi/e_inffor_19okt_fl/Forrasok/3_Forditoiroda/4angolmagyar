@@ -1,0 +1,4 @@
+SELECT doku.terjedelem, doku.szakterulet
+from doku JOIN nyelv on doku.nyelvid = nyelv.id
+WHERE nyelv.fnyelv like "angol" and nyelv.cnyelv like "magyar"
+order by doku.terjedelem desc
