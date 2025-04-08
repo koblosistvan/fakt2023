@@ -39,7 +39,7 @@ for i in range(len(x_koordinata)):
 print(f'A legnagyobb kráter neve és sugara: {nev[legnagyobb_id]} {sugar[legnagyobb_id]}')
 
 def tavolsag(x1, x2, y1, y2):
-    return ((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))*0.5
+    return ((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))**0.5
 
 
 print('6.feladat')
