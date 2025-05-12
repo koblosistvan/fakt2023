@@ -12,8 +12,12 @@ for sor in forras:
     szelirany_es_erosseg.append(adat[2])
     homerseklet.append(int(adat[3]))
 
+
+
 forras.close()
 
+print(ora)
+print(perc)
 varos = input('Adja meg egy település kódját! Település: ')
 for i in reversed(telepules):
     if telepules == varos:
