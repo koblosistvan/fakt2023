@@ -54,7 +54,6 @@ for i in range(len(ora)):
         tarsalgo.remove(azonosito[i])
 
 print('A végén a társalgóban voltak:', end=' ')
-
 for i in range(len(tarsalgo)):
     print(sorted(tarsalgo)[i], end=' ')
 
@@ -62,6 +61,39 @@ print('\n\n5. feladat')
 for i in range(len(ora)):
     if bentlevok[i] == max(bentlevok):
         print(f'Például {ora[i]}:{perc[i]}-kor voltak a legtöbben a társalgóban.')
+        break
 
 print('\n6. feladat')
 azon = int(input('Adja meg a személy azonosítóját! '))
+
+print('\n7.feladat')
+for i in range(len(ora)):
+    if azonosito[i] == azon and irany[i] == 'be':
+        print(f'{ora[i]}:{perc[i]:0>2d}-', end='')
+    elif azonosito[i] == azon and irany[i] == 'ki':
+        print(f'{ora[i]}:{perc[i]:2d}')
+
+print('\n8. feladat')
+
+percek = []
+for i in range(len(ora)):
+    percek.append(ora[i] * 60 + perc[i])
+
+def eltoltott_ido(sor):
+    szemely = azonosito[sor]
+    belepes = percek[sor]
+    while sor < len(ora) and (irany[sor] != 'ki' or azonosito[sor] != szemely):
+        sor += 1
+    if sor == len(ora):
+        return 0
+    else:
+        return percek[sor] - belepes
+
+bent_kint = []
+
+osszesen = 0
+for j in range(len(ora)):
+    if azon == azonosito[j] and irany[j] == 'be':
+        osszesen += eltoltott_ido(j)
+
+print(f'A(z) {azon}. személy összesen {osszesen} percet volt bent', end=', ')

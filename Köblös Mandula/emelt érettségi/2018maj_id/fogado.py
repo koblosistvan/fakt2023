@@ -51,12 +51,19 @@ for i in range(len(nev)):
 
 print('\n6. feladat')
 idopontok = ['16:00', '16:10', '16:20', '16:30', '16:40', '16:50', '17:00', '17:10', '17:20', '17:30', '17:40', '17:50']
+barna = []
 
 for i in range(len(nev)):
     if nev[i] == 'Barna Eszter':
         idopontok.remove(idopont[i])
+        barna.append(idopont[i])
 
 print('\n'.join(idopontok))
 
+utolso = max(barna)
+if utolso[3] == '5':
+    tavozhat = str(int(utolso[:2])+1)+':00'
+else:
+    tavozhat = utolso[:3]+str(int(utolso[3:])+10)
 
-print(f'Barna Eszter legkorábban távozhat: ')
+print(f'Barna Eszter legkorábban távozhat: {tavozhat}')

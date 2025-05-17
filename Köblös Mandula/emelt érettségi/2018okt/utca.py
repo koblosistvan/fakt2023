@@ -85,6 +85,6 @@ for i in range(len(oldal)):
 print('', file=kiiras)
 for i in range(len(oldal)):
     if oldal[i] == PARATLAN:
-        print(f'{hazszam[i]}{" " * szelesseg[i - 1]}', end=' ', file=kiiras)
+        print(f'{hazszam[i]}{" " * (szelesseg[i]-len(str(hazszam[i])))}', end='', file=kiiras)
 
 kiiras.close()
