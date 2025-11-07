@@ -1,8 +1,8 @@
 /* 3000 -->> 30000 (!!!!!!!!!!!!!!!!!)*/
 
 const DAYS_STRING = [
-    "11.21.",
-    "11.26.",
+    "11.11.",
+    "11.20.",
 ]
 var currentLesson = 0 //betöltéskor az első óra box van megjelenítve
 var sid = ''
@@ -53,8 +53,8 @@ $(document).ready(function() {
             sid=data.sid;
             ts= data.update_time;
             data = data.lessons;
-            loadCards(3,1);
-            loadCards(1,2);
+            loadCards(1,1);
+            loadCards(3,2);
         }, 
         error: (response,error)=> {
             ts = data_offline.update_time;

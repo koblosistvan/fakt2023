@@ -16,6 +16,14 @@
 		$result = mysqli_query($conn, $sql);
 	};
 
+    $headers = apache_request_headers();
+    $header = '';
+    foreach ($headers as $key => $value) {
+        $header .= $key.' => '.$value.'\n';
+    }
+    $sql = "insert into log (time, header) values ('".$_GET['time']."', '".$header."');";
+	$result = mysqli_query($conn, $sql);
+
 	$sql = "select * from lessons";
 	if($_GET['time']) {
 		$sql = $sql." where last_upd > '".urldecode($_GET['time'])."'";

@@ -85,7 +85,7 @@ import json
 
 
 #filename = 'nyiltnapp0531\\xml2json\\orarend_2024_25_2008_.xml'
-filename = 'orarend_2024_25_2008_.xml' # PyCharm formátum
+filename = 'nyiltnapp0531\\xml2json\\orarend_2025_26_2012.xml'
 
 if not(USE_DEFAULT_FILENAME):
     try:
@@ -125,7 +125,7 @@ else:
 
 with open(filename,'r', encoding="utf-8") as f:  #encoding dolog
     content = f.read()
-    xample = BeautifulSoup(content, 'xml')
+    xample = BeautifulSoup(content, 'lxml')
 
 cards = xample.find_all('card')
 #teachers = xample.find_all('teacher')
@@ -149,7 +149,7 @@ print("Osztálytermek...")
 for i in range(l):
     temp = cards[i]
     if temp["classroomids"]:
-        kinyert[i]["room"] = xample.find("classroom", {"id": temp["classroomids"]})["short"]
+        kinyert[i]["room"] = xample.find("classroom", {"id": temp["classroomids"]})["short"].replace('_', '')
         kinyert[i]["roomFull"] = xample.find("classroom", {"id": cards[i]["classroomids"]})["name"]
     else:
         kinyert[i]["room"] = ''
@@ -191,8 +191,8 @@ for i in kinyert:
 
 print("Napok...")
 for i in range(l):
-    temp = cards[i]["day"]
-    kinyert[i]["day"] = xample.find("day", {"day": temp})["day"]
+    temp = cards[i]["days"]
+    kinyert[i]["day"] = xample.find("daysdef", {"days": temp})["days"].index("1")
 
 print("Osztályok...")
 for i in kinyert:
@@ -226,7 +226,7 @@ for i in kinyert:
         i["studentgroup"] = i["studentgroup"].split(",")
         for j in range(len(i["studentgroup"])):
             i["studentgroup"][j] = xample.find("group", {"id": i["studentgroup"][j]})["name"]
-        i["studentgroup"] = 'Több csoport'
+#        i["studentgroup"] = 'Több csoport'
 
         tempindex = i["studentgroup"][0]
         i["level"] = testForLevel(tempindex)
@@ -273,8 +273,8 @@ print("JSON fájl enkódolása...")
 export = json.dumps(kinyert, ensure_ascii=False, indent=4).encode('utf8')
 
 # NINCS TRYCATCH
-#exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
-exportFileName = 'orarend_export.json'
+exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
+#exportFileName = 'orarend_export.json'
 if EXPORT_AS_JAVASCRIPT:
     exportFileName = 'orarend_export.js'
 

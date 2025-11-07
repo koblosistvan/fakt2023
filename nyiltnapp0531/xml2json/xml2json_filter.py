@@ -27,8 +27,8 @@ print("log:")
 
 # lokálisan kell lennie ugyanabban a mappában
 # az "xml2json.py" készíti el, alapértelmezett nevén "orarend_export.json"
-#filename = "nyiltnapp0531\\xml2json\\orarend_export.json"
-filename = "orarend_export.json"
+filename = "nyiltnapp0531\\xml2json\\orarend_export.json"
+#filename = "orarend_export.json"
 
 try:
     with open(filename, "r", encoding="utf-8") as f:
@@ -85,8 +85,8 @@ print(f"{l - len(data)}/{l} elem került filterezésre.")
 
 # ugyanaz a kod ami az xml2jsonban van
 export = json.dumps(data, ensure_ascii=False, indent=4).encode('utf8')
-#    exportFileName = 'nyiltnapp0531\\xml2json\\orarend-export-filterezett.js'
-exportFileName = 'orarend-export-filterezett.js'
+exportFileName = 'nyiltnapp0531\\xml2json\\orarend-export-filterezett.js'
+#exportFileName = 'orarend-export-filterezett.js'
 if not EXPORT_AS_DATA_VAR:
     exportFileName += 'on'
 with open(exportFileName, 'w', encoding='utf-8') as f:
@@ -95,7 +95,7 @@ with open(exportFileName, 'w', encoding='utf-8') as f:
     f.write(export.decode())
     print("Szűrt JSON fájl sikeresen létrehozva.")
 
-sqlFileName = 'orarend.sql'
+sqlFileName = 'nyiltnapp0531\\xml2json\\orarend.sql'
 with open(sqlFileName, 'w', encoding='utf-8') as f:
     sql_stmt = "TRUNCATE TABLE `lessons`;"
     print(sql_stmt, file=f)
@@ -103,7 +103,7 @@ with open(sqlFileName, 'w', encoding='utf-8') as f:
     print(sql_stmt, file=f)
     for i in range(len(data)):
         row = data[i]
-        sql_stmt = f" ({row['id']}, '{row['room']}', {row['period']}, '{row['starttime']}', '{row['endtime']}', '{row['subject']}', '{row['teacher']}', '{row['day']}', '{row['class']}', {row['grade'] if len(row['grade']) > 0 else 'null'}, '{row['studentgroup']}', '{row['level']}', '{row['language']}', 1, now())"
+        sql_stmt = f" ({row['id']}, '{row['room']}', {row['period']}, '{row['starttime']}', '{row['endtime']}', '{row['subject']}', '{row['teacher']}', '{row['day']}', '{row['class']}', {row['grade'] if len(row['grade']) > 0 else 'null'}, '{','.join(row['studentgroup'])}', '{row['level']}', '{row['language']}', 1, now())"
         if i < len(data)-1:
             sql_stmt += ', '
         else:
