@@ -9,9 +9,11 @@ napok = [True, False, True, False, True] # True filterez, False nem (hetfotol pe
 CONST_NAPOK = ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "? (y/n): "]
 CONST_VALIDATE = [("y","n","igen","nem"), ("y","igen")]
 EXPORT_AS_DATA_VAR = True
-GUI_PROMPT = False # deprekált konzol interface
+
 # az exportált fájl egy js, amiben egy 'data' nevű array van, abban minden elem json object
 # mivel a js nem nyithat meg fájlokat, ezért egy html dokumentum head tagjébe kell belinkelni egy 'link' taggel
+
+GUI_PROMPT = False # deprekált konzol interface
 
 
 import json
@@ -69,10 +71,60 @@ pentek = napok[4]
 l = len(data)
 noneCounter = 0   # a filterezendo elemeket none-re irja at, vegen ki lesznek torolve
 
+<<<<<<< HEAD
+if hetfo:  
+    print("HÉTFŐ...")
+    for i in range(len(data)):
+        if data[i] == None:
+            continue
+        if data[i]["day"] == "Hétfő":
+            data[i] = None
+            noneCounter+=1
+
+
+if kedd:  
+    print("KEDD...")
+    for i in range(len(data)):
+        if data[i] == None:
+            continue
+        if data[i]["day"] == "Kedd":
+            data[i] = None
+            noneCounter+=1
+
+
+if szerda:  
+    print("SZERDA...")
+    for i in range(len(data)):
+        if data[i] == None:
+            continue
+        if data[i]["day"] == "Szerda":
+            data[i] = None
+            noneCounter+=1
+
+if csutortok:  
+    print("CSÜTÖRTÖK...")
+    for i in range(len(data)):
+        if data[i] == None:
+            continue
+        if data[i]["day"] == "Csütörtök":
+            data[i] = None
+            noneCounter+=1
+
+
+if pentek:  
+    print("PÉNTEK...")
+    for i in range(len(data)):
+        if data[i] == None:
+            continue
+        if data[i]["day"] == "Péntek":
+            data[i] = None
+            noneCounter+=1
+=======
 for i in range(len(data)):
     if napok[int(data[i]["day"])]:
         data[i] = None
         noneCounter += 1
+>>>>>>> 3356838d96954cc1eae1aaf1139b14bfe676e933
 
 vonal()
 

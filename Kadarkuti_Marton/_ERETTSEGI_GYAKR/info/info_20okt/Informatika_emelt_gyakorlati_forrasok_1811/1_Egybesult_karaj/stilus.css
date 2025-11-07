@@ -1,0 +1,65 @@
+:root {
+	--sotetbarna: #503B35;
+	--vilagosbarna: #F4C69A;
+	--sotetnarancs: #F26600;
+}
+
+html {
+	background-color: black;
+	color: var(--vilagosbarna);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+
+	background-color: var(--sotetbarna);
+}
+hr {
+	width: 60%;
+}
+
+h1, h2{
+	color: var(--sotetnarancs);
+}
+
+.tartalom {
+	margin: 0 auto 0 auto;
+	width: 800px;
+
+}
+
+.fejlec{
+
+}
+
+.bal {
+	width: 350px;
+	float: left;
+}
+
+.jobb {
+	margin-left: 380px;
+}
+
+.lablec {
+	
+}
+
+.kep {
+	margin: 0 auto 0 auto;
+}
+
+a, a:link, a:active, a:hover, a:visited {
+	color: var(--sotetnarancs);
+}
+
+td {
+	padding: 10px;
+}
+
+.lablec ul {
+	margin: 0 auto 0 auto;
+}

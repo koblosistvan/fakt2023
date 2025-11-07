@@ -1,0 +1,36 @@
+2hosszak
+select palya.ut, palya.kesz + palya.epul + palya.terv as "teljes hossz"
+from palya
+order by palya.kesz + palya.epul + palya.terv desc
+
+3eszakdel
+select DISTINCT europa.ut
+from europa
+where europa.eurout like "E%5"
+
+4forgalmas
+select telepules.nev, count(telepules.ut) as "autópályák száma"
+from telepules
+GROUP by telepules.nev
+having telepules.nev not like "Budapest"
+order by COUNT(telepules.ut) DESC
+limit 1
+
+5szlovak
+SELECT palya.ut, palya.kesz
+from palya join telepules on palya.ut = telepules.ut
+where telepules.hatar LIKE "%Szlovákia%"
+
+6M6
+SELECT telepules.ut
+FROM telepules
+WHERE nev in (
+SELECT nev from telepules where telepules.ut = "M6"
+) AND
+ut not LIKE "M6";
+
+7rovid
+SELECT vege.ut
+from vege
+GROUP by vege.telepid
+HAVING count(vege.telepid) = 2

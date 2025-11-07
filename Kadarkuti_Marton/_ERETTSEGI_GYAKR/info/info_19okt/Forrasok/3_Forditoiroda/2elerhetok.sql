@@ -1,0 +1,1 @@
+select nev from szemely where elerheto order by nev
