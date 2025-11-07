@@ -86,17 +86,8 @@ from bs4 import BeautifulSoup
 import json
 
 
-<<<<<<< HEAD
-filename = 'nyiltnapp0531\\xml2json\\orarend_2022_23_2.xml'
-filename = 'orarend_2022_23_2.xml'
-=======
 #filename = 'nyiltnapp0531\\xml2json\\orarend_2024_25_2008_.xml'
-<<<<<<< HEAD
 filename = 'nyiltnapp0531\\xml2json\\orarend_2025_26_2012.xml'
-=======
-filename = 'orarend_2024_25_2008_.xml' # PyCharm formátum
->>>>>>> 3356838d96954cc1eae1aaf1139b14bfe676e933
->>>>>>> ee8084634539dcd31a6f49193c4aae625da15664
 
 if not(USE_DEFAULT_FILENAME):
     try:
@@ -292,19 +283,9 @@ print("JSON fájl enkódolása...")
 export = json.dumps(kinyert, ensure_ascii=False, indent=4).encode('utf8')
 
 # NINCS TRYCATCH
-<<<<<<< HEAD
-exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
-#exportFileName = 'orarend_export.json'
-=======
-<<<<<<< HEAD
-exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
-exportFileName = 'orarend_export.json'
-
-=======
 #exportFileName = 'nyiltnapp0531\\xml2json\\orarend_export.json'
 exportFileName = 'orarend_export.json'
->>>>>>> 3356838d96954cc1eae1aaf1139b14bfe676e933
->>>>>>> ee8084634539dcd31a6f49193c4aae625da15664
+
 if EXPORT_AS_JAVASCRIPT:
     exportFileName = 'orarend_export.js'
 
