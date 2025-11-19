@@ -306,12 +306,36 @@ INSERT INTO `lessons` (`id`, `room`, `period`, `start_time`, `end_time`, `subjec
 UPDATE `lessons` set `language` = null WHERE `language` = 'None';
 UPDATE `lessons` set `grade` = null WHERE `grade` = 0;
 
+-- keddi változások
 INSERT INTO `lessons` (`id`, `room`, `period`, `start_time`, `end_time`, `subject`, `teacher`, `day`, `class`, `grade`, `student_group`, `level`, `language`, `valid`, `last_upd`) VALUES 
  (10001, 'Aula', 4, '11:00', '11:45', 'Drón szakkör', 'Kovács Ildikó', '1', '7.A', 7, 'E,g,é,s,z, ,o,s,z,t,á,l,y', 'alap', 'None', 1, now());
 INSERT INTO `lessons` (`id`, `room`, `period`, `start_time`, `end_time`, `subject`, `teacher`, `day`, `class`, `grade`, `student_group`, `level`, `language`, `valid`, `last_upd`) VALUES 
  (10002, 'Aula', 2, '9:05', '9:50', 'Robotika szakkör', 'Kiss István', '1', '7.A', 7, 'Egész osztály', 'alap', 'None', 1, now()), 
+INSERT INTO `lessons` (`id`, `room`, `period`, `start_time`, `end_time`, `subject`, `teacher`, `day`, `class`, `grade`, `student_group`, `level`, `language`, `valid`, `last_upd`) VALUES 
+(10003, 'Z5', 3, '10:05', '10:50', 'Biológia', 'Nagyné Kristó Erzsébet Éva', '1', '9.B', 9, 'Egész osztály,Egész osztály', 'alap', 'None', 1, now());
 
 UPDATE `lessons` set `subject` = 'fizika' WHERE `day` = 1 and `period` = 3 and `teacher` = 'Kovács Ildikó';
+UPDATE `lessons` set `subject` = 'irodalom' WHERE `day` = 1 and `period` = 2 and `teacher` = 'Maller Márta';
+
+UPDATE `lessons` set `room` = '7' WHERE `day` = 1 and `period` = 1 and `teacher` = 'Gálné Bagdán Eszter';
+UPDATE `lessons` set `room` = '26' WHERE `day` = 1 and `period` = 1 and `teacher` = 'Essősyné Vízkeleti Gyöngyi';
+
 UPDATE `lessons` set `room` = 'Z5' WHERE `day` = 1 and `period` = 2 and `teacher` = 'Németh Krisztina Júlia';
 UPDATE `lessons` set `room` = 'Z1' WHERE `day` = 1 and `period` = 2 and `teacher` = 'Hegedűs-Kristóf Kíra';
-UPDATE `lessons` set `subject` = 'irodalom' WHERE `day` = 1 and `period` = 2 and `teacher` = 'Maller Márta';
+UPDATE `lessons` set `room` = 'K2' WHERE `day` = 1 and `period` = 2 and `teacher` = 'Temesi Tímea Katalin';
+UPDATE `lessons` set `room` = 'K1' WHERE `day` = 1 and `period` = 2 and `teacher` = 'Kiss-Izing Borbála Rita';
+
+UPDATE `lessons` set `teacher` = 'Katonáné Timár Mária', `class` =  '9.C' WHERE `day` = 1 and `period` = 3 and `room` = '16';
+UPDATE `lessons` set `room` = 'Z1' WHERE `day` = 1 and `period` = 3 and `teacher` = 'Kiss-Izing Borbála Rita';
+
+-- csütörtöki változások
+INSERT INTO `lessons` (`id`, `room`, `period`, `start_time`, `end_time`, `subject`, `teacher`, `day`, `class`, `grade`, `student_group`, `level`, `language`, `valid`, `last_upd`) VALUES 
+ (10011, 'Aula', 1, '8:10', '8:55', 'Robotika szakkör', 'Köblös István', '3', '7.A, 11.A', 7, 'E,g,é,s,z, ,o,s,z,t,á,l,y', 'alap', 'None', 1, now());
+
+UPDATE `lessons` set `valid` = 0 WHERE `day` = 3 and `period` in (1, 3) and `teacher` = 'Palásti Bence Endre';
+UPDATE `lessons` set `valid` = 0 WHERE `day` = 3 and `period` = 3 and `teacher` = 'Kerényi Gabriella';
+UPDATE `lessons` set `valid` = 0 WHERE `day` = 3 and `period` = 3 and `teacher` = 'Maller Márta';
+UPDATE `lessons` set `subject` = 'Irodalom' WHERE `day` = 3 and `period` = 2 and `teacher` = 'Farkas Diána';
+UPDATE `lessons` set `subject` = 'Kémia', `teacher` = 'Németh Krisztina Júlia' WHERE `day` = 3 and `period` = 3 and `room` = '21';
+UPDATE `lessons` set `room` = '7' WHERE `day` = 3 and `period` = 3 and `teacher` = 'Tóth Zsuzsanna';
+UPDATE `lessons` set `room` = '14' WHERE `day` = 3 and `period` = 3 and `teacher` = 'Dr. Szabó Elődné';
